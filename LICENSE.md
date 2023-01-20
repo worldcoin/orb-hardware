@@ -1,6 +1,6 @@
 **Worldcoin Responsible Use License version 1.0**
 
-https://github.com/worldcoin/orb-hardware/edit/main/LICENSE.md
+https://github.com/worldcoin/orb-hardware/blob/main/LICENSE.md
 Copyright (c) 2023 Worldcoin Foundation
 Licensor: Worldcoin Foundation
 Licensed Materials: Files associated with Licensor’s designs for the Orb hardware, including specifications, CAD files, and documentation.
