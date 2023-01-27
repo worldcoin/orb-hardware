@@ -4,7 +4,7 @@
 
 As we work towards decentralization, we are incrementally open sourcing the Orb. The goal is to provide transparency and, eventually, the ability to verify our claims. Ultimately, we plan to decentralize everything involving the Orb, enabling others to develop, manufacture, and operate similar devices to issue Proof-of-Personhood credentials in a privacy-preserving manner. 
 
-We're excited to share the engineering files of the Orb with you! For more details on how it works in detail check out [our blogpost](https://worldcoin.org/blog/tech/opening-orb-look-inside-worldcoin-biometric-imaging-device/).
+We're excited to share the engineering files of the Orb with you! For more details on how it works in detail check out [our blogpost](https://worldcoin.org/blog/engineering/opening-orb-look-inside-worldcoin-biometric-imaging-device).
 
 If you see any issues with the design, we encourage you to create an issue to help improve future versions. 
 
