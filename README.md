@@ -54,3 +54,6 @@ When designing our product, we have utilized certain proprietary information (IP
 Copyright 2020-2023 The Worldcoin Foundation.
 
 You may use this package under the Worldcoin Responsible Use License, version 1.0, or at your option, any later version. See the file [COPYING](COPYING.md) for more details, and [LICENSE](LICENSE.md) for the terms of the Worldcoin Responsible Use License, version 1.0.
+
+
+The Worldcoin Responsible Use License seeks a balance between fostering transparency and decentralization while preventing capture (inspired by Uniswaps [BSL](https://uniswapfoundation.mirror.xyz/lr8hUW5FFYWmvsm9ZmO6bLdLAaAx5EAnFEbJG_OTd8g) and Electric Coin Co.’s [BOSL](https://electriccoin.co/blog/introducing-tgppl-a-radically-new-type-of-open-source-license/)) and reducing the risk that Worldcoin technology could be used in harmful ways. Under the license, within about two years of publication the Worldcoin Foundation will - consistent with its governance protocols and practices at the time - review and decide whether to remove the use restrictions specified in Section II.1 of the license. Further, no more than two years after that review date, those restrictions will be lifted. As this is an unfamiliar license you may have questions or feedback. Any proposals for improvements, objections or alternative approaches are welcome. 
