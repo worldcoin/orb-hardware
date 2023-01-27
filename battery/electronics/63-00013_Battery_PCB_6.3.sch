@@ -235,2997 +235,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="04_DT_Integrated_Circuits" urn="urn:adsk.eagle:library:24365520">
-<packages>
-<package name="S-PDSO-G8_DGK_VSSOP_TI" urn="urn:adsk.eagle:footprint:24365896/1" library_version="4">
-<description>aus Datenblatt TLV900x</description>
-<circle x="-0.975" y="-0.975" radius="0.3" width="0" layer="21"/>
-<text x="1.725" y="-0.2" size="0.8" layer="27" font="vector" ratio="10" rot="R270" align="bottom-center">&gt;VALUE</text>
-<text x="-1.725" y="0" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
-<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="1.55" y1="-1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
-<wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.127" layer="21"/>
-<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.225" width="0.127" layer="21"/>
-<wire x1="-1.55" y1="-1.25" x2="-1.55" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="-1.625" y1="-1.625" x2="-1.625" y2="1.625" width="0.15" layer="39"/>
-<wire x1="-1.625" y1="1.625" x2="-1.275" y2="1.625" width="0.15" layer="39"/>
-<wire x1="-1.275" y1="1.625" x2="-1.275" y2="3" width="0.15" layer="39"/>
-<wire x1="-1.275" y1="3" x2="1.275" y2="3" width="0.15" layer="39"/>
-<wire x1="1.275" y1="3" x2="1.275" y2="1.625" width="0.15" layer="39"/>
-<wire x1="1.275" y1="1.625" x2="1.625" y2="1.625" width="0.15" layer="39"/>
-<wire x1="1.625" y1="1.625" x2="1.625" y2="-1.625" width="0.15" layer="39"/>
-<wire x1="1.625" y1="-1.625" x2="1.275" y2="-1.625" width="0.15" layer="39"/>
-<wire x1="1.275" y1="-1.625" x2="1.275" y2="-3" width="0.15" layer="39"/>
-<wire x1="1.275" y1="-3" x2="-1.275" y2="-3" width="0.15" layer="39"/>
-<wire x1="-1.275" y1="-3" x2="-1.275" y2="-1.625" width="0.15" layer="39"/>
-<wire x1="-1.275" y1="-1.625" x2="-1.625" y2="-1.625" width="0.15" layer="39"/>
-<rectangle x1="-0.515" y1="-2.525" x2="-0.135" y2="-1.55" layer="51"/>
-<rectangle x1="-1.165" y1="-2.525" x2="-0.785" y2="-1.55" layer="51"/>
-<rectangle x1="0.135" y1="-2.525" x2="0.515" y2="-1.55" layer="51"/>
-<rectangle x1="0.785" y1="-2.525" x2="1.165" y2="-1.55" layer="51"/>
-<rectangle x1="0.135" y1="1.55" x2="0.515" y2="2.525" layer="51" rot="R180"/>
-<rectangle x1="0.785" y1="1.55" x2="1.165" y2="2.525" layer="51" rot="R180"/>
-<rectangle x1="-0.515" y1="1.55" x2="-0.135" y2="2.525" layer="51" rot="R180"/>
-<rectangle x1="-1.165" y1="1.55" x2="-0.785" y2="2.525" layer="51" rot="R180"/>
-<rectangle x1="-0.1" y1="-2.975" x2="0.1" y2="-1.425" layer="41"/>
-<rectangle x1="-0.75" y1="-2.975" x2="-0.55" y2="-1.425" layer="41"/>
-<rectangle x1="0.55" y1="-2.975" x2="0.75" y2="-1.425" layer="41"/>
-<rectangle x1="-0.1" y1="1.425" x2="0.1" y2="2.975" layer="41" rot="R180"/>
-<rectangle x1="0.55" y1="1.425" x2="0.75" y2="2.975" layer="41" rot="R180"/>
-<rectangle x1="-0.75" y1="1.425" x2="-0.55" y2="2.975" layer="41" rot="R180"/>
-<smd name="1" x="-0.975" y="-2.2" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="2" x="-0.325" y="-2.2" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="3" x="0.325" y="-2.2" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="4" x="0.975" y="-2.2" dx="0.45" dy="1.45" layer="1" rot="R180"/>
-<smd name="5" x="0.975" y="2.2" dx="0.45" dy="1.45" layer="1"/>
-<smd name="6" x="0.325" y="2.2" dx="0.45" dy="1.45" layer="1"/>
-<smd name="7" x="-0.325" y="2.2" dx="0.45" dy="1.45" layer="1"/>
-<smd name="8" x="-0.975" y="2.2" dx="0.45" dy="1.45" layer="1"/>
-</package>
-<package name="DRV0006A_TI" urn="urn:adsk.eagle:footprint:24365951/1" library_version="4">
-<description>aus Datenblatt TPS709</description>
-<pad name="7.1" x="0" y="0.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="7.2" x="0" y="-0.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<polygon width="0.15" layer="31">
-<vertex x="-0.425" y="-0.175"/>
-<vertex x="0.425" y="-0.175"/>
-<vertex x="0.425" y="-0.725"/>
-<vertex x="-0.425" y="-0.725"/>
-</polygon>
-<polygon width="0.25" layer="29">
-<vertex x="-0.425" y="0.725"/>
-<vertex x="0.425" y="0.725"/>
-<vertex x="0.425" y="-0.725"/>
-<vertex x="-0.425" y="-0.725"/>
-</polygon>
-<polygon width="0.15" layer="1">
-<vertex x="-0.425" y="0.725"/>
-<vertex x="0.425" y="0.725"/>
-<vertex x="0.425" y="-0.725"/>
-<vertex x="-0.425" y="-0.725"/>
-</polygon>
-<polygon width="0.15" layer="31">
-<vertex x="0.425" y="0.175"/>
-<vertex x="-0.425" y="0.175"/>
-<vertex x="-0.425" y="0.725"/>
-<vertex x="0.425" y="0.725"/>
-</polygon>
-<polygon width="0.127" layer="21">
-<vertex x="0" y="0"/>
-<vertex x="-1" y="0"/>
-<vertex x="-1" y="1"/>
-<vertex x="0" y="1"/>
-</polygon>
-<smd name="1" x="-0.975" y="0.65" dx="0.45" dy="0.3" layer="1" roundness="33"/>
-<smd name="2" x="-0.975" y="0" dx="0.45" dy="0.3" layer="1" roundness="33"/>
-<smd name="3" x="-0.975" y="-0.65" dx="0.45" dy="0.3" layer="1" roundness="33"/>
-<smd name="4" x="0.975" y="-0.65" dx="0.45" dy="0.3" layer="1" roundness="33" rot="R180"/>
-<smd name="5" x="0.975" y="0" dx="0.45" dy="0.3" layer="1" roundness="33" rot="R180"/>
-<smd name="6" x="0.975" y="0.65" dx="0.45" dy="0.3" layer="1" roundness="33" rot="R180"/>
-<wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.127" layer="21"/>
-<wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.127" layer="21"/>
-<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.127" layer="21"/>
-<wire x1="-1.05" y1="-1.05" x2="-1.05" y2="1.05" width="0.127" layer="21"/>
-<wire x1="-1.275" y1="1.125" x2="1.275" y2="1.125" width="0.15" layer="39"/>
-<wire x1="1.275" y1="1.125" x2="1.275" y2="-1.125" width="0.15" layer="39"/>
-<wire x1="1.275" y1="-1.125" x2="-1.275" y2="-1.125" width="0.15" layer="39"/>
-<wire x1="-1.275" y1="-1.125" x2="-1.275" y2="1.125" width="0.15" layer="39"/>
-<text x="0" y="1.225" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.225" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-1.25" y1="0.15" x2="-0.7" y2="0.5" layer="41"/>
-<rectangle x1="-1.25" y1="-0.5" x2="-0.7" y2="-0.15" layer="41"/>
-<rectangle x1="0.7" y1="0.15" x2="1.25" y2="0.5" layer="41"/>
-<rectangle x1="0.7" y1="-0.5" x2="1.25" y2="-0.15" layer="41"/>
-</package>
-<package name="RUY0028A_TI" urn="urn:adsk.eagle:footprint:25538823/1" library_version="46">
-<description>aus Datenblatt bq24780S</description>
-<pad name="E2" x="0" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="E1" x="-1.05" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="E3" x="0" y="1.05" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="E4" x="1.05" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="E5" x="0" y="-1.05" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<polygon width="0.25" layer="29">
-<vertex x="-1.225" y="1.225"/>
-<vertex x="1.225" y="1.225"/>
-<vertex x="1.225" y="-1.225"/>
-<vertex x="-1.225" y="-1.225"/>
-</polygon>
-<polygon width="0.15" layer="1">
-<vertex x="-1.225" y="1.225"/>
-<vertex x="1.225" y="1.225"/>
-<vertex x="1.225" y="-1.225"/>
-<vertex x="-1.225" y="-1.225"/>
-</polygon>
-<polygon width="0.15" layer="31">
-<vertex x="-1.225" y="1.225"/>
-<vertex x="-0.175" y="1.225"/>
-<vertex x="-0.175" y="0.175"/>
-<vertex x="-1.225" y="0.175"/>
-</polygon>
-<polygon width="0.15" layer="31">
-<vertex x="-1.225" y="-1.225"/>
-<vertex x="-1.225" y="-0.175"/>
-<vertex x="-0.175" y="-0.175"/>
-<vertex x="-0.175" y="-1.225"/>
-</polygon>
-<polygon width="0.15" layer="31">
-<vertex x="1.225" y="-1.225"/>
-<vertex x="0.175" y="-1.225"/>
-<vertex x="0.175" y="-0.175"/>
-<vertex x="1.225" y="-0.175"/>
-</polygon>
-<polygon width="0.15" layer="31">
-<vertex x="1.225" y="1.225"/>
-<vertex x="1.225" y="0.175"/>
-<vertex x="0.175" y="0.175"/>
-<vertex x="0.175" y="1.225"/>
-</polygon>
-<polygon width="0.127" layer="51">
-<vertex x="-2.05" y="2.05"/>
-<vertex x="-1.4" y="2.05"/>
-<vertex x="-1.4" y="1.4"/>
-<vertex x="-2.05" y="1.4"/>
-</polygon>
-<smd name="1" x="-1.9" y="1.2" dx="0.6" dy="0.2" layer="1" roundness="50"/>
-<smd name="2" x="-1.9" y="0.8" dx="0.6" dy="0.2" layer="1" roundness="50"/>
-<smd name="3" x="-1.9" y="0.4" dx="0.6" dy="0.2" layer="1" roundness="50"/>
-<smd name="4" x="-1.9" y="0" dx="0.6" dy="0.2" layer="1" roundness="50"/>
-<smd name="5" x="-1.9" y="-0.4" dx="0.6" dy="0.2" layer="1" roundness="50"/>
-<smd name="6" x="-1.9" y="-0.8" dx="0.6" dy="0.2" layer="1" roundness="50"/>
-<smd name="7" x="-1.9" y="-1.2" dx="0.6" dy="0.2" layer="1" roundness="50"/>
-<smd name="8" x="-1.2" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
-<smd name="9" x="-0.8" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
-<smd name="10" x="-0.4" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
-<smd name="11" x="0" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
-<smd name="12" x="0.4" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
-<smd name="13" x="0.8" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
-<smd name="14" x="1.2" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
-<smd name="15" x="1.9" y="-1.2" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
-<smd name="16" x="1.9" y="-0.8" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
-<smd name="17" x="1.9" y="-0.4" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
-<smd name="18" x="1.9" y="0" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
-<smd name="19" x="1.9" y="0.4" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
-<smd name="20" x="1.9" y="0.8" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
-<smd name="21" x="1.9" y="1.2" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
-<smd name="22" x="1.2" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
-<smd name="23" x="0.8" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
-<smd name="24" x="0.4" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
-<smd name="25" x="0" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
-<smd name="26" x="-0.4" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
-<smd name="27" x="-0.8" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
-<smd name="28" x="-1.2" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
-<rectangle x1="-2.25" y1="0.1" x2="-1.55" y2="0.3" layer="41"/>
-<rectangle x1="-2.25" y1="0.5" x2="-1.55" y2="0.7" layer="41"/>
-<rectangle x1="-2.25" y1="0.9" x2="-1.55" y2="1.1" layer="41"/>
-<rectangle x1="-2.25" y1="-1.1" x2="-1.55" y2="-0.9" layer="41"/>
-<rectangle x1="-2.25" y1="-0.7" x2="-1.55" y2="-0.5" layer="41"/>
-<rectangle x1="-2.25" y1="-0.3" x2="-1.55" y2="-0.1" layer="41"/>
-<rectangle x1="-0.55" y1="-2" x2="0.15" y2="-1.8" layer="41" rot="R90"/>
-<rectangle x1="-0.95" y1="-2" x2="-0.25" y2="-1.8" layer="41" rot="R90"/>
-<rectangle x1="-1.35" y1="-2" x2="-0.65" y2="-1.8" layer="41" rot="R90"/>
-<rectangle x1="0.65" y1="-2" x2="1.35" y2="-1.8" layer="41" rot="R90"/>
-<rectangle x1="0.25" y1="-2" x2="0.95" y2="-1.8" layer="41" rot="R90"/>
-<rectangle x1="-0.15" y1="-2" x2="0.55" y2="-1.8" layer="41" rot="R90"/>
-<rectangle x1="1.55" y1="-0.3" x2="2.25" y2="-0.1" layer="41" rot="R180"/>
-<rectangle x1="1.55" y1="-0.7" x2="2.25" y2="-0.5" layer="41" rot="R180"/>
-<rectangle x1="1.55" y1="-1.1" x2="2.25" y2="-0.9" layer="41" rot="R180"/>
-<rectangle x1="1.55" y1="0.9" x2="2.25" y2="1.1" layer="41" rot="R180"/>
-<rectangle x1="1.55" y1="0.5" x2="2.25" y2="0.7" layer="41" rot="R180"/>
-<rectangle x1="1.55" y1="0.1" x2="2.25" y2="0.3" layer="41" rot="R180"/>
-<rectangle x1="-0.15" y1="1.8" x2="0.55" y2="2" layer="41" rot="R270"/>
-<rectangle x1="0.25" y1="1.8" x2="0.95" y2="2" layer="41" rot="R270"/>
-<rectangle x1="0.65" y1="1.8" x2="1.35" y2="2" layer="41" rot="R270"/>
-<rectangle x1="-1.35" y1="1.8" x2="-0.65" y2="2" layer="41" rot="R270"/>
-<rectangle x1="-0.95" y1="1.8" x2="-0.25" y2="2" layer="41" rot="R270"/>
-<rectangle x1="-0.55" y1="1.8" x2="0.15" y2="2" layer="41" rot="R270"/>
-<wire x1="-2.05" y1="2.05" x2="2.05" y2="2.05" width="0.127" layer="21"/>
-<wire x1="2.05" y1="2.05" x2="2.05" y2="-2.05" width="0.127" layer="21"/>
-<wire x1="2.05" y1="-2.05" x2="-2.05" y2="-2.05" width="0.127" layer="21"/>
-<wire x1="-2.05" y1="-2.05" x2="-2.05" y2="2.05" width="0.127" layer="21"/>
-<wire x1="1.375" y1="2.275" x2="1.375" y2="2.125" width="0.15" layer="39"/>
-<wire x1="1.375" y1="2.125" x2="2.125" y2="2.125" width="0.15" layer="39"/>
-<wire x1="2.125" y1="2.125" x2="2.125" y2="1.375" width="0.15" layer="39"/>
-<wire x1="2.125" y1="1.375" x2="2.275" y2="1.375" width="0.15" layer="39"/>
-<wire x1="2.275" y1="1.375" x2="2.275" y2="-1.375" width="0.15" layer="39"/>
-<wire x1="2.275" y1="-1.375" x2="2.125" y2="-1.375" width="0.15" layer="39"/>
-<wire x1="2.125" y1="-1.375" x2="2.125" y2="-2.125" width="0.15" layer="39"/>
-<wire x1="2.125" y1="-2.125" x2="1.375" y2="-2.125" width="0.15" layer="39"/>
-<wire x1="1.375" y1="-2.125" x2="1.375" y2="-2.275" width="0.15" layer="39"/>
-<wire x1="-2.275" y1="1.375" x2="-2.125" y2="1.375" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="1.375" x2="-2.125" y2="2.125" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="2.125" x2="-1.375" y2="2.125" width="0.15" layer="39"/>
-<wire x1="-1.375" y1="2.125" x2="-1.375" y2="2.275" width="0.15" layer="39"/>
-<wire x1="-1.375" y1="2.275" x2="1.375" y2="2.275" width="0.15" layer="39"/>
-<wire x1="1.375" y1="-2.275" x2="-1.375" y2="-2.275" width="0.15" layer="39"/>
-<wire x1="-1.375" y1="-2.275" x2="-1.375" y2="-2.125" width="0.15" layer="39"/>
-<wire x1="-1.375" y1="-2.125" x2="-2.125" y2="-2.125" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="-1.375" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="-1.375" x2="-2.275" y2="-1.375" width="0.15" layer="39"/>
-<wire x1="-2.275" y1="-1.375" x2="-2.275" y2="1.375" width="0.15" layer="39"/>
-<text x="0" y="2.375" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.375" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="S-PQFP-G48_PFB_TI" urn="urn:adsk.eagle:footprint:24365939/1" library_version="25">
-<description>Abmessungen Package aus Datenblatt BQ76942, Footprint nach Library Expert for IPC</description>
-<smd name="1" x="-2.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="2" x="-2.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="3" x="-1.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="4" x="-1.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="5" x="-0.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="6" x="-0.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="7" x="0.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="8" x="0.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="9" x="1.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="10" x="1.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="11" x="2.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="12" x="2.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
-<smd name="13" x="4.13" y="-2.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="14" x="4.13" y="-2.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="15" x="4.13" y="-1.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="16" x="4.13" y="-1.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="17" x="4.13" y="-0.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="18" x="4.13" y="-0.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="19" x="4.13" y="0.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="20" x="4.13" y="0.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="21" x="4.13" y="1.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="22" x="4.13" y="1.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="23" x="4.13" y="2.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="24" x="4.13" y="2.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
-<smd name="25" x="2.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="26" x="2.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="27" x="1.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="28" x="1.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="29" x="0.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="30" x="0.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="31" x="-0.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="32" x="-0.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="33" x="-1.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="34" x="-1.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="35" x="-2.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="36" x="-2.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
-<smd name="37" x="-4.13" y="2.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="38" x="-4.13" y="2.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="39" x="-4.13" y="1.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="40" x="-4.13" y="1.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="41" x="-4.13" y="0.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="42" x="-4.13" y="0.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="43" x="-4.13" y="-0.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="44" x="-4.13" y="-0.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="45" x="-4.13" y="-1.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="46" x="-4.13" y="-1.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="47" x="-4.13" y="-2.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<smd name="48" x="-4.13" y="-2.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
-<wire x1="-3.6" y1="-3.2" x2="-3.2" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="-3.2" y1="-3.6" x2="3.2" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="3.2" y1="-3.6" x2="3.6" y2="-3.2" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-3.2" x2="3.6" y2="3.2" width="0.127" layer="21"/>
-<wire x1="3.6" y1="3.2" x2="3.2" y2="3.6" width="0.127" layer="21"/>
-<wire x1="3.2" y1="3.6" x2="-3.2" y2="3.6" width="0.127" layer="21"/>
-<wire x1="-3.2" y1="3.6" x2="-3.6" y2="3.2" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="3.2" x2="-3.6" y2="-3.2" width="0.127" layer="21"/>
-<wire x1="-4.835" y1="-2.975" x2="-3.675" y2="-2.975" width="0.15" layer="39"/>
-<wire x1="-3.675" y1="-2.975" x2="-3.675" y2="-3.675" width="0.15" layer="39"/>
-<wire x1="-3.675" y1="-3.675" x2="-2.975" y2="-3.675" width="0.15" layer="39"/>
-<wire x1="-2.975" y1="-3.675" x2="-2.975" y2="-4.835" width="0.15" layer="39"/>
-<wire x1="-2.975" y1="-4.835" x2="2.975" y2="-4.835" width="0.15" layer="39"/>
-<wire x1="2.975" y1="-4.835" x2="2.975" y2="-3.675" width="0.15" layer="39"/>
-<wire x1="2.975" y1="-3.675" x2="3.675" y2="-3.675" width="0.15" layer="39"/>
-<wire x1="3.675" y1="-3.675" x2="3.675" y2="-2.975" width="0.15" layer="39"/>
-<wire x1="3.675" y1="-2.975" x2="4.835" y2="-2.975" width="0.15" layer="39"/>
-<wire x1="4.835" y1="-2.975" x2="4.835" y2="2.975" width="0.15" layer="39"/>
-<wire x1="4.835" y1="2.975" x2="3.675" y2="2.975" width="0.15" layer="39"/>
-<wire x1="3.675" y1="2.975" x2="3.675" y2="3.675" width="0.15" layer="39"/>
-<wire x1="3.675" y1="3.675" x2="2.975" y2="3.675" width="0.15" layer="39"/>
-<wire x1="2.975" y1="3.675" x2="2.975" y2="4.835" width="0.15" layer="39"/>
-<wire x1="2.975" y1="4.835" x2="-2.975" y2="4.835" width="0.15" layer="39"/>
-<wire x1="-2.975" y1="4.835" x2="-2.975" y2="3.675" width="0.15" layer="39"/>
-<wire x1="-2.975" y1="3.675" x2="-3.675" y2="3.675" width="0.15" layer="39"/>
-<wire x1="-3.675" y1="3.675" x2="-3.675" y2="2.975" width="0.15" layer="39"/>
-<wire x1="-3.675" y1="2.975" x2="-4.835" y2="2.975" width="0.15" layer="39"/>
-<wire x1="-4.835" y1="2.975" x2="-4.835" y2="-2.975" width="0.15" layer="39"/>
-<circle x="-2.5" y="-2.5" radius="0.5" width="0" layer="21"/>
-<rectangle x1="-0.385" y1="-4.6" x2="-0.115" y2="-3.6" layer="51"/>
-<rectangle x1="-0.885" y1="-4.6" x2="-0.615" y2="-3.6" layer="51"/>
-<rectangle x1="-1.385" y1="-4.6" x2="-1.115" y2="-3.6" layer="51"/>
-<rectangle x1="-1.885" y1="-4.6" x2="-1.615" y2="-3.6" layer="51"/>
-<rectangle x1="-2.885" y1="-4.6" x2="-2.615" y2="-3.6" layer="51"/>
-<rectangle x1="-2.385" y1="-4.6" x2="-2.115" y2="-3.6" layer="51"/>
-<rectangle x1="0.115" y1="-4.6" x2="0.385" y2="-3.6" layer="51"/>
-<rectangle x1="0.615" y1="-4.6" x2="0.885" y2="-3.6" layer="51"/>
-<rectangle x1="1.115" y1="-4.6" x2="1.385" y2="-3.6" layer="51"/>
-<rectangle x1="1.615" y1="-4.6" x2="1.885" y2="-3.6" layer="51"/>
-<rectangle x1="2.615" y1="-4.6" x2="2.885" y2="-3.6" layer="51"/>
-<rectangle x1="2.115" y1="-4.6" x2="2.385" y2="-3.6" layer="51"/>
-<rectangle x1="3.965" y1="-0.75" x2="4.235" y2="0.25" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="-1.25" x2="4.235" y2="-0.25" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="-1.75" x2="4.235" y2="-0.75" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="-2.25" x2="4.235" y2="-1.25" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="-3.25" x2="4.235" y2="-2.25" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="-2.75" x2="4.235" y2="-1.75" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="-0.25" x2="4.235" y2="0.75" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="0.25" x2="4.235" y2="1.25" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="0.75" x2="4.235" y2="1.75" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="1.25" x2="4.235" y2="2.25" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="2.25" x2="4.235" y2="3.25" layer="51" rot="R90"/>
-<rectangle x1="3.965" y1="1.75" x2="4.235" y2="2.75" layer="51" rot="R90"/>
-<rectangle x1="0.115" y1="3.6" x2="0.385" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="0.615" y1="3.6" x2="0.885" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="1.115" y1="3.6" x2="1.385" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="1.615" y1="3.6" x2="1.885" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="2.615" y1="3.6" x2="2.885" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="2.115" y1="3.6" x2="2.385" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="-0.385" y1="3.6" x2="-0.115" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="-0.885" y1="3.6" x2="-0.615" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="-1.385" y1="3.6" x2="-1.115" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="-1.885" y1="3.6" x2="-1.615" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="-2.885" y1="3.6" x2="-2.615" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="-2.385" y1="3.6" x2="-2.115" y2="4.6" layer="51" rot="R180"/>
-<rectangle x1="-4.235" y1="-0.25" x2="-3.965" y2="0.75" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="0.25" x2="-3.965" y2="1.25" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="0.75" x2="-3.965" y2="1.75" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="1.25" x2="-3.965" y2="2.25" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="2.25" x2="-3.965" y2="3.25" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="1.75" x2="-3.965" y2="2.75" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="-0.75" x2="-3.965" y2="0.25" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="-1.25" x2="-3.965" y2="-0.25" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="-1.75" x2="-3.965" y2="-0.75" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="-2.25" x2="-3.965" y2="-1.25" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="-3.25" x2="-3.965" y2="-2.25" layer="51" rot="R270"/>
-<rectangle x1="-4.235" y1="-2.75" x2="-3.965" y2="-1.75" layer="51" rot="R270"/>
-<rectangle x1="-0.1" y1="-4.81" x2="0.1" y2="-3.45" layer="41"/>
-<rectangle x1="-0.6" y1="-4.81" x2="-0.4" y2="-3.45" layer="41"/>
-<rectangle x1="-1.6" y1="-4.81" x2="-1.4" y2="-3.45" layer="41"/>
-<rectangle x1="-2.6" y1="-4.81" x2="-2.4" y2="-3.45" layer="41"/>
-<rectangle x1="-1.1" y1="-4.81" x2="-0.9" y2="-3.45" layer="41"/>
-<rectangle x1="-2.1" y1="-4.81" x2="-1.9" y2="-3.45" layer="41"/>
-<rectangle x1="0.9" y1="-4.81" x2="1.1" y2="-3.45" layer="41"/>
-<rectangle x1="1.9" y1="-4.81" x2="2.1" y2="-3.45" layer="41"/>
-<rectangle x1="0.4" y1="-4.81" x2="0.6" y2="-3.45" layer="41"/>
-<rectangle x1="1.4" y1="-4.81" x2="1.6" y2="-3.45" layer="41"/>
-<rectangle x1="2.4" y1="-4.81" x2="2.6" y2="-3.45" layer="41"/>
-<rectangle x1="4.03" y1="-0.68" x2="4.23" y2="0.68" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="-1.18" x2="4.23" y2="0.18" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="-2.18" x2="4.23" y2="-0.82" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="-3.18" x2="4.23" y2="-1.82" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="-1.68" x2="4.23" y2="-0.32" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="-2.68" x2="4.23" y2="-1.32" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="0.32" x2="4.23" y2="1.68" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="1.32" x2="4.23" y2="2.68" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="-0.18" x2="4.23" y2="1.18" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="0.82" x2="4.23" y2="2.18" layer="41" rot="R90"/>
-<rectangle x1="4.03" y1="1.82" x2="4.23" y2="3.18" layer="41" rot="R90"/>
-<rectangle x1="-0.1" y1="3.45" x2="0.1" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="0.4" y1="3.45" x2="0.6" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="1.4" y1="3.45" x2="1.6" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="2.4" y1="3.45" x2="2.6" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="0.9" y1="3.45" x2="1.1" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="1.9" y1="3.45" x2="2.1" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="-1.1" y1="3.45" x2="-0.9" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="-2.1" y1="3.45" x2="-1.9" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="-0.6" y1="3.45" x2="-0.4" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="-1.6" y1="3.45" x2="-1.4" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="-2.6" y1="3.45" x2="-2.4" y2="4.81" layer="41" rot="R180"/>
-<rectangle x1="-4.23" y1="-0.68" x2="-4.03" y2="0.68" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="-0.18" x2="-4.03" y2="1.18" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="0.82" x2="-4.03" y2="2.18" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="1.82" x2="-4.03" y2="3.18" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="0.32" x2="-4.03" y2="1.68" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="1.32" x2="-4.03" y2="2.68" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="-1.68" x2="-4.03" y2="-0.32" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="-2.68" x2="-4.03" y2="-1.32" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="-1.18" x2="-4.03" y2="0.18" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="-2.18" x2="-4.03" y2="-0.82" layer="41" rot="R270"/>
-<rectangle x1="-4.23" y1="-3.18" x2="-4.03" y2="-1.82" layer="41" rot="R270"/>
-<text x="0" y="4.935" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.935" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="DSG0008A_WSON_TI" urn="urn:adsk.eagle:footprint:24365948/1" library_version="128">
-<description>aus Datenblatt DRV8837/DRV8838</description>
-<pad name="P$1" x="0" y="0.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="P$2" x="0" y="-0.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<smd name="1" x="-0.95" y="0.75" dx="0.5" dy="0.25" layer="1" roundness="40"/>
-<smd name="2" x="-0.95" y="0.25" dx="0.5" dy="0.25" layer="1" roundness="40"/>
-<smd name="3" x="-0.95" y="-0.25" dx="0.5" dy="0.25" layer="1" roundness="40"/>
-<smd name="4" x="-0.95" y="-0.75" dx="0.5" dy="0.25" layer="1" roundness="40"/>
-<smd name="5" x="0.95" y="-0.75" dx="0.5" dy="0.25" layer="1" roundness="40" rot="R180"/>
-<smd name="6" x="0.95" y="-0.25" dx="0.5" dy="0.25" layer="1" roundness="40" rot="R180"/>
-<smd name="7" x="0.95" y="0.25" dx="0.5" dy="0.25" layer="1" roundness="40" rot="R180"/>
-<smd name="8" x="0.95" y="0.75" dx="0.5" dy="0.25" layer="1" roundness="40" rot="R180"/>
-<polygon width="0.15" layer="1">
-<vertex x="-0.375" y="0.725"/>
-<vertex x="0.375" y="0.725"/>
-<vertex x="0.375" y="-0.725"/>
-<vertex x="-0.375" y="-0.725"/>
-</polygon>
-<polygon width="0.15" layer="31">
-<vertex x="-0.375" y="0.725"/>
-<vertex x="0.375" y="0.725"/>
-<vertex x="0.375" y="0.175"/>
-<vertex x="-0.375" y="0.175"/>
-</polygon>
-<polygon width="0.25" layer="29">
-<vertex x="-0.375" y="0.725"/>
-<vertex x="0.375" y="0.725"/>
-<vertex x="0.375" y="-0.725"/>
-<vertex x="-0.375" y="-0.725"/>
-</polygon>
-<polygon width="0.15" layer="31">
-<vertex x="0.375" y="-0.725"/>
-<vertex x="-0.375" y="-0.725"/>
-<vertex x="-0.375" y="-0.175"/>
-<vertex x="0.375" y="-0.175"/>
-</polygon>
-<polygon width="0.127" layer="21">
-<vertex x="-1" y="1"/>
-<vertex x="0" y="1"/>
-<vertex x="0" y="0.5"/>
-<vertex x="-1" y="0.5"/>
-</polygon>
-<rectangle x1="-1.25" y1="-0.125" x2="-0.65" y2="0.125" layer="41"/>
-<rectangle x1="-1.25" y1="0.375" x2="-0.65" y2="0.625" layer="41"/>
-<rectangle x1="-1.25" y1="-0.625" x2="-0.65" y2="-0.375" layer="41"/>
-<rectangle x1="0.65" y1="-0.625" x2="1.25" y2="-0.375" layer="41" rot="R180"/>
-<rectangle x1="0.65" y1="-0.125" x2="1.25" y2="0.125" layer="41" rot="R180"/>
-<rectangle x1="0.65" y1="0.375" x2="1.25" y2="0.625" layer="41" rot="R180"/>
-<wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.127" layer="21"/>
-<wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.127" layer="21"/>
-<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.127" layer="21"/>
-<wire x1="-1.05" y1="-1.05" x2="-1.05" y2="1.05" width="0.127" layer="21"/>
-<wire x1="1.275" y1="1.125" x2="-1.275" y2="1.125" width="0.15" layer="39"/>
-<wire x1="-1.275" y1="1.125" x2="-1.275" y2="-1.125" width="0.15" layer="39"/>
-<wire x1="-1.275" y1="-1.125" x2="1.275" y2="-1.125" width="0.15" layer="39"/>
-<wire x1="1.275" y1="-1.125" x2="1.275" y2="1.125" width="0.15" layer="39"/>
-<text x="0" y="1.225" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.225" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-<circle x="-1.55" y="0.75" radius="0.25" width="0" layer="21"/>
-</package>
-<package name="SOT23-6L_WE" urn="urn:adsk.eagle:footprint:30126117/1" library_version="121">
-<description>aus Datenblatt 824001 von Würth Elektronik</description>
-<smd name="1" x="-0.95" y="-1.25" dx="0.6" dy="1.1" layer="1"/>
-<smd name="2" x="0" y="-1.25" dx="0.6" dy="1.1" layer="1"/>
-<smd name="3" x="0.95" y="-1.25" dx="0.6" dy="1.1" layer="1"/>
-<smd name="4" x="0.95" y="1.25" dx="0.6" dy="1.1" layer="1" rot="R180"/>
-<smd name="5" x="0" y="1.25" dx="0.6" dy="1.1" layer="1" rot="R180"/>
-<smd name="6" x="-0.95" y="1.25" dx="0.6" dy="1.1" layer="1" rot="R180"/>
-<wire x1="-1.5" y1="0.85" x2="1.5" y2="0.85" width="0.127" layer="21"/>
-<wire x1="1.5" y1="0.85" x2="1.5" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.85" x2="-1.5" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-0.85" x2="-1.5" y2="0.85" width="0.127" layer="21"/>
-<wire x1="-1.325" y1="1.875" x2="-1.325" y2="0.925" width="0.15" layer="39"/>
-<wire x1="-1.325" y1="0.925" x2="-1.575" y2="0.925" width="0.15" layer="39"/>
-<wire x1="1.325" y1="-1.875" x2="1.325" y2="-0.925" width="0.15" layer="39"/>
-<wire x1="1.325" y1="-0.925" x2="1.575" y2="-0.925" width="0.15" layer="39"/>
-<wire x1="1.325" y1="-1.875" x2="-1.325" y2="-1.875" width="0.15" layer="39"/>
-<wire x1="-1.325" y1="-1.875" x2="-1.325" y2="-0.925" width="0.15" layer="39"/>
-<wire x1="-1.325" y1="-0.925" x2="-1.575" y2="-0.925" width="0.15" layer="39"/>
-<wire x1="-1.575" y1="-0.925" x2="-1.575" y2="0.925" width="0.15" layer="39"/>
-<wire x1="-1.325" y1="1.875" x2="1.325" y2="1.875" width="0.15" layer="39"/>
-<wire x1="1.325" y1="1.875" x2="1.325" y2="0.925" width="0.15" layer="39"/>
-<wire x1="1.325" y1="0.925" x2="1.575" y2="0.925" width="0.15" layer="39"/>
-<wire x1="1.575" y1="0.925" x2="1.575" y2="-0.925" width="0.15" layer="39"/>
-<circle x="-0.95" y="-0.35" radius="0.3" width="0" layer="21"/>
-<text x="-1.675" y="0" size="0.8" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.675" y="0" size="0.8" layer="27" font="vector" rot="R270" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-0.225" y1="0.85" x2="0.225" y2="1.45" layer="51"/>
-<rectangle x1="-1.175" y1="0.85" x2="-0.725" y2="1.45" layer="51"/>
-<rectangle x1="0.725" y1="0.85" x2="1.175" y2="1.45" layer="51"/>
-<rectangle x1="-0.225" y1="-1.45" x2="0.225" y2="-0.85" layer="51" rot="R180"/>
-<rectangle x1="0.725" y1="-1.45" x2="1.175" y2="-0.85" layer="51" rot="R180"/>
-<rectangle x1="-1.175" y1="-1.45" x2="-0.725" y2="-0.85" layer="51" rot="R180"/>
-</package>
-<package name="UFQFPN48_ST" urn="urn:adsk.eagle:footprint:30595044/1" library_version="131">
-<description>aus Datenblatt STM32G431xx; zusätzliche Vias in Exposed Pad eingefügt</description>
-<smd name="1" x="-3.375" y="2.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="2" x="-3.375" y="2.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="3" x="-3.375" y="1.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="4" x="-3.375" y="1.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="5" x="-3.375" y="0.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="6" x="-3.375" y="0.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="7" x="-3.375" y="-0.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="8" x="-3.375" y="-0.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="9" x="-3.375" y="-1.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="10" x="-3.375" y="-1.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="11" x="-3.375" y="-2.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="12" x="-3.375" y="-2.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
-<smd name="13" x="-2.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="14" x="-2.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="15" x="-1.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="16" x="-1.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="17" x="-0.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="18" x="-0.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="19" x="0.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="20" x="0.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="21" x="1.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="22" x="1.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="23" x="2.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="24" x="2.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
-<smd name="25" x="3.375" y="-2.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="26" x="3.375" y="-2.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="27" x="3.375" y="-1.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="28" x="3.375" y="-1.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="29" x="3.375" y="-0.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="30" x="3.375" y="-0.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="31" x="3.375" y="0.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="32" x="3.375" y="0.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="33" x="3.375" y="1.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="34" x="3.375" y="1.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="35" x="3.375" y="2.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="36" x="3.375" y="2.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
-<smd name="37" x="2.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="38" x="2.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="39" x="1.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="40" x="1.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="41" x="0.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="42" x="0.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="43" x="-0.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="44" x="-0.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="45" x="-1.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="46" x="-1.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="47" x="-2.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<smd name="48" x="-2.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
-<pad name="EP7" x="-2.55" y="-2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="EP1" x="-2.55" y="2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="EP4" x="-2.55" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="EP8" x="0" y="-2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="EP2" x="0" y="2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="EP5" x="0" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="EP9" x="2.55" y="-2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="EP3" x="2.55" y="2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="EP6" x="2.55" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<polygon width="0.25" layer="29">
-<vertex x="-2.725" y="-2.725"/>
-<vertex x="2.725" y="-2.725"/>
-<vertex x="2.725" y="2.725"/>
-<vertex x="-2.725" y="2.725"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.15" y="0.15"/>
-<vertex x="-0.15" y="2.6"/>
-<vertex x="-2.3" y="2.6"/>
-<vertex x="-2.6" y="2.3"/>
-<vertex x="-2.6" y="0.15"/>
-</polygon>
-<polygon width="0.127" layer="51">
-<vertex x="-3.55" y="3.05"/>
-<vertex x="-3.05" y="3.05"/>
-<vertex x="-3.05" y="3.55"/>
-<vertex x="-3.55" y="3.55"/>
-</polygon>
-<polygon width="0.15" layer="1">
-<vertex x="-2.725" y="-2.725"/>
-<vertex x="2.725" y="-2.725"/>
-<vertex x="2.725" y="2.725"/>
-<vertex x="-2.725" y="2.725"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.15" y="-0.15"/>
-<vertex x="-2.6" y="-0.15"/>
-<vertex x="-2.6" y="-2.3"/>
-<vertex x="-2.3" y="-2.6"/>
-<vertex x="-0.15" y="-2.6"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="0.15" y="-0.15"/>
-<vertex x="0.15" y="-2.6"/>
-<vertex x="2.3" y="-2.6"/>
-<vertex x="2.6" y="-2.3"/>
-<vertex x="2.6" y="-0.15"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="0.15" y="0.15"/>
-<vertex x="2.6" y="0.15"/>
-<vertex x="2.6" y="2.3"/>
-<vertex x="2.3" y="2.6"/>
-<vertex x="0.15" y="2.6"/>
-</polygon>
-<wire x1="-3.55" y1="3.55" x2="-3.55" y2="-3.55" width="0.127" layer="21"/>
-<wire x1="-3.55" y1="-3.55" x2="3.55" y2="-3.55" width="0.127" layer="21"/>
-<wire x1="3.55" y1="-3.55" x2="3.55" y2="3.55" width="0.127" layer="21"/>
-<wire x1="3.55" y1="3.55" x2="-3.55" y2="3.55" width="0.127" layer="21"/>
-<wire x1="-3.725" y1="3.725" x2="-3.725" y2="-3.725" width="0.15" layer="39"/>
-<wire x1="-3.725" y1="-3.725" x2="3.725" y2="-3.725" width="0.15" layer="39"/>
-<wire x1="3.725" y1="-3.725" x2="3.725" y2="3.725" width="0.15" layer="39"/>
-<wire x1="3.725" y1="3.725" x2="-3.725" y2="3.725" width="0.15" layer="39"/>
-<circle x="-4.1" y="2.75" radius="0.3" width="0" layer="21"/>
-<text x="0" y="3.825" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.825" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-3.7" y1="2.4" x2="-3.05" y2="2.6" layer="41"/>
-<rectangle x1="-3.7" y1="1.9" x2="-3.05" y2="2.1" layer="41"/>
-<rectangle x1="-3.7" y1="1.4" x2="-3.05" y2="1.6" layer="41"/>
-<rectangle x1="-3.7" y1="0.9" x2="-3.05" y2="1.1" layer="41"/>
-<rectangle x1="-3.7" y1="0.4" x2="-3.05" y2="0.6" layer="41"/>
-<rectangle x1="-3.7" y1="-0.1" x2="-3.05" y2="0.1" layer="41"/>
-<rectangle x1="-3.7" y1="-0.6" x2="-3.05" y2="-0.4" layer="41"/>
-<rectangle x1="-3.7" y1="-1.1" x2="-3.05" y2="-0.9" layer="41"/>
-<rectangle x1="-3.7" y1="-1.6" x2="-3.05" y2="-1.4" layer="41"/>
-<rectangle x1="-3.7" y1="-2.1" x2="-3.05" y2="-1.9" layer="41"/>
-<rectangle x1="-3.7" y1="-2.6" x2="-3.05" y2="-2.4" layer="41"/>
-<rectangle x1="-2.825" y1="-3.475" x2="-2.175" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="-2.325" y1="-3.475" x2="-1.675" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="-1.825" y1="-3.475" x2="-1.175" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="-1.325" y1="-3.475" x2="-0.675" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="-0.825" y1="-3.475" x2="-0.175" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="-0.325" y1="-3.475" x2="0.325" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="0.175" y1="-3.475" x2="0.825" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="0.675" y1="-3.475" x2="1.325" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="1.175" y1="-3.475" x2="1.825" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="1.675" y1="-3.475" x2="2.325" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="2.175" y1="-3.475" x2="2.825" y2="-3.275" layer="41" rot="R90"/>
-<rectangle x1="3.05" y1="-2.6" x2="3.7" y2="-2.4" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="-2.1" x2="3.7" y2="-1.9" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="-1.6" x2="3.7" y2="-1.4" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="-1.1" x2="3.7" y2="-0.9" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="-0.6" x2="3.7" y2="-0.4" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="-0.1" x2="3.7" y2="0.1" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="0.4" x2="3.7" y2="0.6" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="0.9" x2="3.7" y2="1.1" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="1.4" x2="3.7" y2="1.6" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="1.9" x2="3.7" y2="2.1" layer="41" rot="R180"/>
-<rectangle x1="3.05" y1="2.4" x2="3.7" y2="2.6" layer="41" rot="R180"/>
-<rectangle x1="2.175" y1="3.275" x2="2.825" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="1.675" y1="3.275" x2="2.325" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="1.175" y1="3.275" x2="1.825" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="0.675" y1="3.275" x2="1.325" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="0.175" y1="3.275" x2="0.825" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="-0.325" y1="3.275" x2="0.325" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="-0.825" y1="3.275" x2="-0.175" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="-1.325" y1="3.275" x2="-0.675" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="-1.825" y1="3.275" x2="-1.175" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="-2.325" y1="3.275" x2="-1.675" y2="3.475" layer="41" rot="R270"/>
-<rectangle x1="-2.825" y1="3.275" x2="-2.175" y2="3.475" layer="41" rot="R270"/>
-</package>
-<package name="DRL0006A_TI" urn="urn:adsk.eagle:footprint:24365916/1" library_version="145">
-<description>aus Datenblatt TPS61023</description>
-<smd name="2" x="-0.74" y="0" dx="0.67" dy="0.3" layer="1" roundness="33"/>
-<smd name="1" x="-0.74" y="0.5" dx="0.67" dy="0.3" layer="1" roundness="33"/>
-<smd name="3" x="-0.74" y="-0.5" dx="0.67" dy="0.3" layer="1" roundness="33"/>
-<smd name="4" x="0.74" y="-0.5" dx="0.67" dy="0.3" layer="1" roundness="33" rot="R180"/>
-<smd name="5" x="0.74" y="0" dx="0.67" dy="0.3" layer="1" roundness="33" rot="R180"/>
-<smd name="6" x="0.74" y="0.5" dx="0.67" dy="0.3" layer="1" roundness="33" rot="R180"/>
-<wire x1="-0.65" y1="1" x2="0.65" y2="1" width="0.127" layer="21"/>
-<wire x1="0.65" y1="1" x2="0.65" y2="-1" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-1" x2="-0.65" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.65" y1="-1" x2="-0.65" y2="1" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.075" x2="-0.725" y2="-1.075" width="0.15" layer="39"/>
-<wire x1="-0.725" y1="-1.075" x2="-0.725" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="-0.725" y1="-0.725" x2="-1.15" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="-1.15" y1="-0.725" x2="-1.15" y2="0" width="0.15" layer="39"/>
-<wire x1="0" y1="1.075" x2="0.725" y2="1.075" width="0.15" layer="39"/>
-<wire x1="0.725" y1="1.075" x2="0.725" y2="0.725" width="0.15" layer="39"/>
-<wire x1="0.725" y1="0.725" x2="1.15" y2="0.725" width="0.15" layer="39"/>
-<wire x1="1.15" y1="0.725" x2="1.15" y2="0" width="0.15" layer="39"/>
-<wire x1="0" y1="-1.075" x2="0.725" y2="-1.075" width="0.15" layer="39"/>
-<wire x1="0.725" y1="-1.075" x2="0.725" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="0.725" y1="-0.725" x2="1.15" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="1.15" y1="-0.725" x2="1.15" y2="0" width="0.15" layer="39"/>
-<wire x1="0" y1="1.075" x2="-0.725" y2="1.075" width="0.15" layer="39"/>
-<wire x1="-0.725" y1="1.075" x2="-0.725" y2="0.725" width="0.15" layer="39"/>
-<wire x1="-0.725" y1="0.725" x2="-1.15" y2="0.725" width="0.15" layer="39"/>
-<wire x1="-1.15" y1="0.725" x2="-1.15" y2="0" width="0.15" layer="39"/>
-<rectangle x1="-0.85" y1="-0.135" x2="-0.65" y2="0.135" layer="51"/>
-<rectangle x1="-0.85" y1="0.365" x2="-0.65" y2="0.635" layer="51"/>
-<rectangle x1="-0.85" y1="-0.635" x2="-0.65" y2="-0.365" layer="51"/>
-<rectangle x1="0.65" y1="-0.635" x2="0.85" y2="-0.365" layer="51" rot="R180"/>
-<rectangle x1="0.65" y1="-0.135" x2="0.85" y2="0.135" layer="51" rot="R180"/>
-<rectangle x1="0.65" y1="0.365" x2="0.85" y2="0.635" layer="51" rot="R180"/>
-<circle x="-0.2" y="0.5" radius="0.25" width="0" layer="21"/>
-<text x="0" y="1.175" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.175" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="S-PDSO-G8_DGK_VSSOP_TI" urn="urn:adsk.eagle:package:24366002/2" type="model" library_version="4">
-<description>aus Datenblatt TLV900x</description>
-<packageinstances>
-<packageinstance name="S-PDSO-G8_DGK_VSSOP_TI"/>
-</packageinstances>
-</package3d>
-<package3d name="DRV0006A_TI" urn="urn:adsk.eagle:package:24366057/2" type="model" library_version="4">
-<description>aus Datenblatt TPS709</description>
-<packageinstances>
-<packageinstance name="DRV0006A_TI"/>
-</packageinstances>
-</package3d>
-<package3d name="RUY0028A_TI" urn="urn:adsk.eagle:package:25538825/2" type="model" library_version="46">
-<description>aus Datenblatt bq24780S</description>
-<packageinstances>
-<packageinstance name="RUY0028A_TI"/>
-</packageinstances>
-</package3d>
-<package3d name="S-PQFP-G48_PFB_TI" urn="urn:adsk.eagle:package:24366045/2" type="model" library_version="25">
-<description>Abmessungen Package aus Datenblatt BQ76942, Footprint nach Library Expert for IPC</description>
-<packageinstances>
-<packageinstance name="S-PQFP-G48_PFB_TI"/>
-</packageinstances>
-</package3d>
-<package3d name="DSG0008A_WSON_TI" urn="urn:adsk.eagle:package:24366054/2" type="model" library_version="128">
-<description>aus Datenblatt DRV8837/DRV8838</description>
-<packageinstances>
-<packageinstance name="DSG0008A_WSON_TI"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT23-6L_WE" urn="urn:adsk.eagle:package:30126118/2" type="model" library_version="121">
-<description>aus Datenblatt 824001 von Würth Elektronik</description>
-<packageinstances>
-<packageinstance name="SOT23-6L_WE"/>
-</packageinstances>
-</package3d>
-<package3d name="UFQFPN48_ST" urn="urn:adsk.eagle:package:30595045/2" type="model" library_version="131">
-<description>aus Datenblatt STM32G431xx; zusätzliche Vias in Exposed Pad eingefügt</description>
-<packageinstances>
-<packageinstance name="UFQFPN48_ST"/>
-</packageinstances>
-</package3d>
-<package3d name="DRL0006A_TI" urn="urn:adsk.eagle:package:24366022/2" type="model" library_version="145">
-<description>aus Datenblatt TPS61023</description>
-<packageinstances>
-<packageinstance name="DRL0006A_TI"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="TMP1075" urn="urn:adsk.eagle:symbol:29598576/1" library_version="132">
-<pin name="SDA" x="10.16" y="7.62" length="short" direction="oc" rot="R180"/>
-<pin name="SCL" x="10.16" y="5.08" length="short" direction="in" rot="R180"/>
-<pin name="ALERT" x="10.16" y="0" length="short" direction="oc" rot="R180"/>
-<pin name="GND" x="-10.16" y="-5.08" length="short" direction="in"/>
-<pin name="A2" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
-<pin name="A1" x="10.16" y="-7.62" length="short" direction="in" rot="R180"/>
-<pin name="A0" x="10.16" y="-10.16" length="short" direction="in" rot="R180"/>
-<pin name="VCC" x="-10.16" y="7.62" length="short" direction="in"/>
-<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<text x="-7.62" y="10.668" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="TPS709" urn="urn:adsk.eagle:symbol:29598526/1" library_version="132">
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<pin name="IN" x="-10.16" y="2.54" length="short" direction="in"/>
-<pin name="GND" x="0" y="-7.62" length="short" direction="in" rot="R90"/>
-<pin name="OUT" x="10.16" y="2.54" length="short" direction="out" rot="R180"/>
-<pin name="EN" x="-10.16" y="-2.54" length="short" direction="in"/>
-<pin name="NC" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
-<text x="-7.62" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
-</symbol>
-<symbol name="BQ24780S" urn="urn:adsk.eagle:symbol:29598501/1" library_version="132">
-<pin name="ACN" x="-15.24" y="27.94" length="short" direction="in"/>
-<pin name="ACP" x="-15.24" y="25.4" length="short" direction="in"/>
-<pin name="CMSRC" x="-15.24" y="20.32" length="short" direction="in"/>
-<pin name="ACDRV" x="-15.24" y="17.78" length="short" direction="out"/>
-<pin name="ACOK" x="-15.24" y="-12.7" length="short" direction="oc"/>
-<pin name="ACDET" x="-15.24" y="12.7" length="short" direction="in"/>
-<pin name="IADP" x="-15.24" y="-22.86" length="short" direction="out"/>
-<pin name="IDCHG" x="-15.24" y="-25.4" length="short" direction="out"/>
-<pin name="PMON" x="-15.24" y="-27.94" length="short" direction="out"/>
-<pin name="!PROCHOT" x="-15.24" y="-17.78" length="short" direction="oc"/>
-<pin name="SDA" x="-15.24" y="-5.08" length="short" direction="oc"/>
-<pin name="SCL" x="-15.24" y="-7.62" length="short" direction="oc"/>
-<pin name="CMPIN" x="-15.24" y="7.62" length="short" direction="in"/>
-<pin name="CMPOUT" x="-15.24" y="5.08" length="short" direction="oc"/>
-<pin name="!BATPRES" x="17.78" y="-17.78" length="short" direction="in" rot="R180"/>
-<pin name="!TB_STAT" x="-15.24" y="-15.24" length="short" direction="oc"/>
-<pin name="BATSRC" x="17.78" y="17.78" length="short" direction="in" rot="R180"/>
-<pin name="BATDRV" x="17.78" y="22.86" length="short" direction="out" rot="R180"/>
-<pin name="SRN" x="17.78" y="-12.7" length="short" direction="in" rot="R180"/>
-<pin name="SRP" x="17.78" y="-10.16" length="short" direction="in" rot="R180"/>
-<pin name="ILIM" x="-15.24" y="0" length="short" direction="in"/>
-<pin name="GND" x="17.78" y="-27.94" length="short" direction="in" rot="R180"/>
-<pin name="LODRV" x="17.78" y="-5.08" length="short" direction="out" rot="R180"/>
-<pin name="REGN" x="17.78" y="-22.86" length="short" direction="out" rot="R180"/>
-<pin name="BTST" x="17.78" y="10.16" length="short" direction="in" rot="R180"/>
-<pin name="HIDRV" x="17.78" y="5.08" length="short" direction="out" rot="R180"/>
-<pin name="PHASE" x="17.78" y="0" length="short" direction="in" rot="R180"/>
-<pin name="VCC" x="17.78" y="27.94" length="short" direction="in" rot="R180"/>
-<wire x1="-12.7" y1="30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-30.48" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
-<wire x1="15.24" y1="30.48" x2="-12.7" y2="30.48" width="0.254" layer="94"/>
-<text x="-12.7" y="30.988" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-12.7" y="-33.02" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-<symbol name="BQ769X2_PWR" urn="urn:adsk.eagle:symbol:29598605/1" library_version="125">
-<pin name="VC0" x="-15.24" y="-17.78" length="short"/>
-<pin name="VC1" x="-15.24" y="-15.24" length="short"/>
-<pin name="VC2" x="-15.24" y="-12.7" length="short"/>
-<pin name="VC3" x="-15.24" y="-10.16" length="short"/>
-<pin name="VC4" x="-15.24" y="-7.62" length="short"/>
-<pin name="NC__/VC5" x="-15.24" y="-5.08" length="short"/>
-<pin name="VC5_/VC6" x="-15.24" y="-2.54" length="short"/>
-<pin name="NC__/VC7" x="-15.24" y="0" length="short"/>
-<pin name="VC6_/VC8" x="-15.24" y="2.54" length="short"/>
-<pin name="NC__/VC9" x="-15.24" y="5.08" length="short"/>
-<pin name="VC7_/VC10" x="-15.24" y="7.62" length="short"/>
-<pin name="VSS" x="-15.24" y="-20.32" length="short" direction="in"/>
-<pin name="SRP" x="-15.24" y="-25.4" length="short" direction="in"/>
-<pin name="SRN" x="-15.24" y="-30.48" length="short" direction="in"/>
-<pin name="REG18" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
-<pin name="REG2" x="15.24" y="10.16" length="short" direction="out" rot="R180"/>
-<pin name="REG1" x="15.24" y="12.7" length="short" direction="out" rot="R180"/>
-<pin name="REGIN" x="15.24" y="17.78" length="short" direction="in" rot="R180"/>
-<pin name="BREG" x="15.24" y="22.86" length="short" direction="out" rot="R180"/>
-<pin name="DSG" x="15.24" y="27.94" length="short" direction="out" rot="R180"/>
-<pin name="CHG" x="15.24" y="30.48" length="short" direction="out" rot="R180"/>
-<pin name="CP1" x="-15.24" y="30.48" length="short"/>
-<pin name="BAT" x="-15.24" y="25.4" length="short" direction="in"/>
-<pin name="NC" x="15.24" y="-30.48" length="short" direction="pas" rot="R180"/>
-<pin name="NC__/VC11" x="-15.24" y="10.16" length="short"/>
-<pin name="VC8_/VC12" x="-15.24" y="12.7" length="short"/>
-<pin name="NC__/VC13" x="-15.24" y="15.24" length="short"/>
-<pin name="VC9_/VC14" x="-15.24" y="17.78" length="short"/>
-<pin name="NC__/VC15" x="-15.24" y="20.32" length="short"/>
-<pin name="VC10/VC16" x="-15.24" y="22.86" length="short"/>
-<wire x1="-12.7" y1="33.02" x2="12.7" y2="33.02" width="0.254" layer="94"/>
-<wire x1="12.7" y1="33.02" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-33.02" x2="-12.7" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="33.02" width="0.254" layer="94"/>
-<text x="-12.7" y="33.528" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-12.7" y="-35.56" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<text x="-2.54" y="-12.7" size="1.778" layer="94">BQ76942
-/BQ76952</text>
-</symbol>
-<symbol name="BQ769X2_IO" urn="urn:adsk.eagle:symbol:29598604/1" library_version="125">
-<pin name="TS1" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="TS2" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="TS3" x="15.24" y="-15.24" length="short" rot="R180"/>
-<pin name="ALERT" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="SCL" x="15.24" y="12.7" length="short" rot="R180"/>
-<pin name="SDA" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="HDQ" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="CFETOFF" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="DFETOFF" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="DCHG" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="DDSG" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="RST_SHUT" x="-15.24" y="12.7" length="short" direction="in"/>
-<pin name="FUSE" x="-15.24" y="7.62" length="short"/>
-<pin name="PDSG" x="-15.24" y="5.08" length="short" direction="out"/>
-<pin name="PCHG" x="-15.24" y="2.54" length="short" direction="out"/>
-<pin name="LD" x="-15.24" y="0" length="short"/>
-<pin name="PACK" x="-15.24" y="-2.54" length="short" direction="in"/>
-<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
-<text x="-12.7" y="-20.32" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<text x="-12.7" y="15.748" size="1.778" layer="95" font="vector">&gt;NAME</text>
-</symbol>
-<symbol name="BQ2947" urn="urn:adsk.eagle:symbol:30521294/1" library_version="128">
-<pin name="VDD" x="-10.16" y="7.62" length="short" direction="in"/>
-<pin name="V4" x="-10.16" y="2.54" length="short" direction="in"/>
-<pin name="V3" x="-10.16" y="0" length="short" direction="in"/>
-<pin name="V2" x="-10.16" y="-2.54" length="short" direction="in"/>
-<pin name="V1" x="-10.16" y="-5.08" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="7.62" length="short" direction="out" rot="R180"/>
-<pin name="CD" x="10.16" y="2.54" length="short" rot="R180"/>
-<pin name="VSS" x="-10.16" y="-10.16" length="short" direction="in"/>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="10.668" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="WE-TVS_4_LANE" urn="urn:adsk.eagle:symbol:30126235/1" library_version="121">
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<pin name="I/O1" x="0" y="12.7" length="short" direction="pas" rot="R270"/>
-<pin name="GND" x="-12.7" y="-5.08" length="short" direction="in"/>
-<pin name="I/O2" x="2.54" y="12.7" length="short" direction="pas" rot="R270"/>
-<pin name="I/O4" x="7.62" y="12.7" length="short" direction="pas" rot="R270"/>
-<pin name="VBUS" x="-12.7" y="7.62" length="short" direction="in"/>
-<pin name="I/O3" x="5.08" y="12.7" length="short" direction="pas" rot="R270"/>
-<text x="-10.16" y="10.922" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="STM32G431C_MISC" urn="urn:adsk.eagle:symbol:30595040/1" library_version="131">
-<wire x1="-22.86" y1="17.78" x2="25.4" y2="17.78" width="0.254" layer="94"/>
-<wire x1="25.4" y1="17.78" x2="25.4" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-17.78" x2="-22.86" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-17.78" x2="-22.86" y2="17.78" width="0.254" layer="94"/>
-<pin name="!NRST!/PG10/MCO" x="-25.4" y="15.24" length="short"/>
-<pin name="VDD1" x="27.94" y="10.16" length="short" direction="in" rot="R180"/>
-<pin name="VDD2" x="27.94" y="7.62" length="short" direction="in" rot="R180"/>
-<pin name="VSS" x="27.94" y="-15.24" length="short" direction="in" rot="R180"/>
-<pin name="OSC_IN/PF0" x="-25.4" y="-7.62" length="short"/>
-<pin name="OSC_OUT/PF1" x="-25.4" y="-12.7" length="short"/>
-<pin name="VBAT" x="27.94" y="15.24" length="short" direction="in" rot="R180"/>
-<pin name="OSC32_IN/PC14" x="-25.4" y="7.62" length="short"/>
-<pin name="OSC32_OUT/PC15" x="-25.4" y="5.08" length="short"/>
-<pin name="VDDA" x="27.94" y="0" length="short" direction="in" rot="R180"/>
-<pin name="VREF+/VREFBUF_OUT" x="27.94" y="-2.54" length="short" direction="in" rot="R180"/>
-<pin name="VDD3" x="27.94" y="5.08" length="short" direction="in" rot="R180"/>
-<text x="-22.86" y="-20.32" size="1.778" layer="96">&gt;Value</text>
-<text x="-22.86" y="18.288" size="1.778" layer="95">&gt;Name</text>
-<text x="-5.08" y="-7.62" size="1.27" layer="97" align="center-left">I2C2_SDA,SPI2_NSS/I2S2_WS
-TIM1_CH3N,ADC1_IN10</text>
-<text x="-5.08" y="-12.7" size="1.27" layer="97" align="center-left">SPI2_SCK/I2S2_CK
-ADC2_IN10,COMP3_INM</text>
-</symbol>
-<symbol name="STM32G431C_PORTA" urn="urn:adsk.eagle:symbol:30595041/1" library_version="131">
-<pin name="PA0" x="-48.26" y="40.64" length="short"/>
-<pin name="PA1" x="-48.26" y="35.56" length="short"/>
-<pin name="PA2" x="-48.26" y="30.48" length="short"/>
-<pin name="PA3" x="-48.26" y="25.4" length="short"/>
-<pin name="PA4" x="-48.26" y="20.32" length="short"/>
-<pin name="PA5" x="-48.26" y="15.24" length="short"/>
-<pin name="PA6" x="-48.26" y="10.16" length="short"/>
-<pin name="PA7" x="-48.26" y="5.08" length="short"/>
-<pin name="PA8" x="-48.26" y="0" length="short"/>
-<pin name="PA9" x="-48.26" y="-5.08" length="short"/>
-<pin name="PA10" x="-48.26" y="-10.16" length="short"/>
-<pin name="PA11" x="-48.26" y="-15.24" length="short"/>
-<pin name="PA12" x="-48.26" y="-20.32" length="short"/>
-<pin name="PA13" x="-48.26" y="-25.4" length="short"/>
-<pin name="PA14" x="-48.26" y="-30.48" length="short"/>
-<pin name="PA15" x="-48.26" y="-35.56" length="short"/>
-<wire x1="-45.72" y1="43.18" x2="45.72" y2="43.18" width="0.254" layer="94"/>
-<wire x1="45.72" y1="43.18" x2="45.72" y2="-40.64" width="0.254" layer="94"/>
-<wire x1="45.72" y1="-40.64" x2="-45.72" y2="-40.64" width="0.254" layer="94"/>
-<wire x1="-45.72" y1="-40.64" x2="-45.72" y2="43.18" width="0.254" layer="94"/>
-<text x="-45.72" y="-43.18" size="1.778" layer="96">&gt;Value</text>
-<text x="-45.72" y="43.688" size="1.778" layer="95">&gt;Name</text>
-<text x="-35.56" y="38.1" size="1.27" layer="97">TIM2_CH1,USART2_CTS,COMP1_OUT,TIM8_BKIN, TIM8_ETR,TIM2_ETR,
-ADC12_IN1,COMP1_INM,COMP3_INP,RTC_TAMP2,WKUP1</text>
-<text x="-35.56" y="33.02" size="1.27" layer="97">RTC_REFIN,TIM2_CH2,USART2_RTS_DE,TIM15_CH1N,
-ADC12_IN2,COMP1_INP,OPAMP1_VINP,OPAMP3_VINP</text>
-<text x="-35.56" y="27.94" size="1.27" layer="97">TIM2_CH3,USART2_TX,COMP2_OUT,TIM15_CH1,LPUART1_TX,UCPD1_FRSTX
-ADC1_IN3,COMP2_INM,OPAMP1_VOUT,WKUP4/LSCO</text>
-<text x="-35.56" y="22.86" size="1.27" layer="97">TIM2_CH4, SAI1_CK1,USART2_RX,TIM15_CH2,LPUART1_RX,SAI1_MCLK_A,
-ADC1_IN4,COMP2_INP,OPAMP1_VINM/OPAMP1_VINP</text>
-<text x="-35.56" y="17.78" size="1.27" layer="97">TIM3_CH2, SPI1_NSS,SPI3_NSS/I2S3_WS, USART2_CK,SAI1_FS_B
-ADC2_IN17,DAC1_OUT1,COMP1_INM</text>
-<text x="-35.56" y="12.7" size="1.27" layer="97">TIM2_CH1, TIM2_ETR,SPI1_SCK,UCPD1_FRSTX
-ADC2_IN13,DAC1_OUT2,COMP2_INM,OPAMP2_VINM</text>
-<text x="-35.56" y="7.62" size="1.27" layer="97">TIM16_CH1,TIM3_CH1,TIM8_BKIN,SPI1_MISO,TIM1_BKIN,COMP1_OUT,LPUART1_CTS
-ADC2_IN3,OPAMP2_VOUT</text>
-<text x="-35.56" y="2.54" size="1.27" layer="97">TIM17_CH1,TIM3_CH2,TIM8_CH1N,SPI1_MOSI,TIM1_CH1N,COMP2_OUT,UCPD1_FRSTX,
-ADC2_IN4,COMP2_INP,OPAMP1_VINP,OPAMP2_VINP</text>
-<text x="-35.56" y="-2.54" size="1.27" layer="97">MCO, I2C3_SCL,I2C2_SDA, I2S2_MCK,TIM1_CH1,
-USART1_CK,TIM4_ETR, SAI1_CK2,SAI1_SCK_A</text>
-<text x="-35.56" y="-7.62" size="1.27" layer="97">I2C3_SMBA, I2C2_SCL,I2S3_MCK, TIM1_CH2,USART1_TX,
-TIM15_BKIN,TIM2_CH3, SAI1_FS_A,UCPD1_DBCC1</text>
-<text x="-35.56" y="-12.7" size="1.27" layer="97">TIM17_BKIN,USB_CRS_SYNC,I2C2_SMBA,SPI2_MISO, TIM1_CH3,
-USART1_RX,TIM2_CH4, TIM8_BKIN,SAI1_D1, SAI1_SD_A,UCPD1_DBCC2</text>
-<text x="-35.56" y="-17.78" size="1.27" layer="97">SPI2_MOSI/I2S2_SD,TIM1_CH1N,USART1_CTS,COMP1_OUT,
-FDCAN1_RX,TIM4_CH1,TIM1_CH4,TIM1_BKIN2,USB_DM</text>
-<text x="-35.56" y="-22.86" size="1.27" layer="97">TIM16_CH1,I2SCKIN,TIM1_CH2N,USART1_RTS_DE,COMP2_OUT,
-FDCAN1_TX,TIM4_CH2,TIM1_ETR,USB_DP</text>
-<text x="-35.56" y="-27.94" size="1.27" layer="97">SWDIO-JTMS,TIM16_CH1N,I2C1_SCL,IR_OUT,
-USART3_CTS,TIM4_CH3,SAI1_SD_B</text>
-<text x="-35.56" y="-33.02" size="1.27" layer="97">SWCLK-JTCK,LPTIM1_OUT,I2C1_SDA,TIM8_CH2,TIM1_BKIN,
-USART2_TX,SAI1_FS_B,</text>
-<text x="-35.56" y="-38.1" size="1.27" layer="97">JTDI,TIM2_CH1, TIM8_CH1,I2C1_SCL, SPI1_NSS,SPI3_NSS/I2S3_WS, 
-USART2_RX,UART4_RTS_DE,TIM1_BKIN, TIM2_ETR,</text>
-</symbol>
-<symbol name="STM32G431C_PORTB" urn="urn:adsk.eagle:symbol:30595042/1" library_version="131">
-<pin name="PB0" x="-45.72" y="38.1" length="short"/>
-<pin name="PB3" x="-45.72" y="22.86" length="short"/>
-<pin name="PB4" x="-45.72" y="17.78" length="short"/>
-<pin name="PB5" x="-45.72" y="12.7" length="short"/>
-<pin name="PB6" x="-45.72" y="7.62" length="short"/>
-<pin name="PB7" x="-45.72" y="2.54" length="short"/>
-<pin name="PB8" x="-45.72" y="-2.54" length="short"/>
-<pin name="PB1" x="-45.72" y="33.02" length="short"/>
-<pin name="PB2" x="-45.72" y="27.94" length="short"/>
-<pin name="PB9" x="-45.72" y="-7.62" length="short"/>
-<pin name="PB10" x="-45.72" y="-12.7" length="short"/>
-<pin name="PB11" x="-45.72" y="-17.78" length="short"/>
-<pin name="PB12" x="-45.72" y="-22.86" length="short"/>
-<pin name="PB13" x="-45.72" y="-27.94" length="short"/>
-<pin name="PB14" x="-45.72" y="-33.02" length="short"/>
-<pin name="PB15" x="-45.72" y="-38.1" length="short"/>
-<wire x1="-43.18" y1="40.64" x2="45.72" y2="40.64" width="0.254" layer="94"/>
-<wire x1="45.72" y1="40.64" x2="45.72" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="45.72" y1="-43.18" x2="-43.18" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="-43.18" y1="-43.18" x2="-43.18" y2="40.64" width="0.254" layer="94"/>
-<text x="-43.18" y="-45.72" size="1.778" layer="96">&gt;Value</text>
-<text x="-43.18" y="41.148" size="1.778" layer="95">&gt;Name</text>
-<text x="-33.02" y="35.56" size="1.27" layer="97">TIM3_CH3,TIM8_CH2N,TIM1_CH2N,UCPD1_FRSTX,
-ADC1_IN15,COMP4_INP,OPAMP2_VINP,OPAMP3_VINP</text>
-<text x="-33.02" y="20.32" size="1.27" layer="97">JTDO-TRACESWO,TIM2_CH2, TIM4_ETR,USB_CRS_SYNC,TIM8_CH1N,
-SPI1_SCK, SPI3_SCK/I2S3_CK,USART2_TX,TIM3_ETR,SAI1_SCK_B</text>
-<text x="-33.02" y="15.24" size="1.27" layer="97">JTRST,TIM16_CH1,TIM3_CH1,TIM8_CH2N,SPI1_MISO,SPI3_MISO,
-USART2_RX,TIM17_BKIN,SAI1_MCLK_B,UCPD1_CC2</text>
-<text x="-33.02" y="10.16" size="1.27" layer="97">TIM16_BKIN,TIM3_CH2,TIM8_CH3N,I2C1_SMBA,SPI1_MOSI,SPI3_MOSI/I2S3_SD,
-USART2_CK,I2C3_SDA, TIM17_CH1,LPTIM1_IN1,SAI1_SD_B,</text>
-<text x="-33.02" y="5.08" size="1.27" layer="97">TIM16_CH1N,TIM4_CH1,TIM8_CH1,TIM8_ETR,USART1_TX,
-COMP4_OUT,TIM8_BKIN2,LPTIM1_ETR,SAI1_FS_B,UCPD1_CC1</text>
-<text x="-33.02" y="0" size="1.27" layer="97">TIM17_CH1N,TIM4_CH2,I2C1_SDA,TIM8_BKIN,USART1_RX,
-COMP3_OUT,TIM3_CH4,LPTIM1_IN2,UART4_CTS,PVD_IN</text>
-<text x="-33.02" y="-5.08" size="1.27" layer="97">BOOT0,TIM16_CH1,TIM4_CH3, SAI1_CK1,I2C1_SCL,USART3_RX,
-COMP1_OUT,FDCAN1_RX,TIM8_CH2, TIM1_BKIN,SAI1_MCLK_A</text>
-<text x="-33.02" y="30.48" size="1.27" layer="97">TIM3_CH4,TIM8_CH3N,TIM1_CH3N,COMP4_OUT,LPUART1_RTS_DE,
-ADC1_IN12,COMP1_INP,OPAMP3_VOUT</text>
-<text x="-33.02" y="25.4" size="1.27" layer="97">RTC_OUT2,LPTIM1_OUT,I2C3_SMBA,
-ADC2_IN12,COMP4_INM,OPAMP3_VINM</text>
-<text x="-33.02" y="-10.16" size="1.27" layer="97">TIM17_CH1,TIM4_CH4,SAI1_D2, I2C1_SDA,IR_OUT, USART3_TX,
-COMP2_OUT,FDCAN1_TX,TIM8_CH3,TIM1_CH3N,SAI1_FS_A</text>
-<text x="-33.02" y="-15.24" size="1.27" layer="97">TIM2_CH3,USART3_TX,LPUART1_RX,
-TIM1_BKIN,SAI1_SCK_A,OPAMP3_VINM</text>
-<text x="-33.02" y="-20.32" size="1.27" layer="97">TIM2_CH4,USART3_RX,LPUART1_TX,
-ADC12_IN14</text>
-<text x="-33.02" y="-25.4" size="1.27" layer="97">I2C2_SMBA,SPI2_NSS/I2S2_WS, TIM1_BKIN,
-USART3_CK,LPUART1_RTS_DE,ADC1_IN11</text>
-<text x="-33.02" y="-30.48" size="1.27" layer="97">SPI2_SCK/I2S2_CK,TIM1_CH1N,
-USART3_CTS,LPUART1_CTS,OPAMP3_VINP</text>
-<text x="-33.02" y="-35.56" size="1.27" layer="97">TIM15_CH1,SPI2_MISO,TIM1_CH2N,
-USART3_RTS_DE,COMP4_OUT,ADC1_IN5,OPAMP2_VINP</text>
-<text x="-33.02" y="-40.64" size="1.27" layer="97">RTC_REFIN,TIM15_CH2,TIM15_CH1N,COMP3_OUT,
-TIM1_CH3N,SPI2_MOSI/I2S2_SD,ADC2_IN15</text>
-</symbol>
-<symbol name="STM32G431C_PORTC" urn="urn:adsk.eagle:symbol:30595043/1" library_version="131">
-<pin name="PC4" x="-35.56" y="20.32" length="short"/>
-<pin name="PC6" x="-35.56" y="12.7" length="short"/>
-<pin name="PC10" x="-35.56" y="5.08" length="short"/>
-<pin name="PC11" x="-35.56" y="0" length="short"/>
-<pin name="PC13" x="-35.56" y="-7.62" length="short"/>
-<wire x1="-33.02" y1="22.86" x2="35.56" y2="22.86" width="0.254" layer="94"/>
-<wire x1="35.56" y1="22.86" x2="35.56" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="35.56" y1="-22.86" x2="-33.02" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-33.02" y1="-22.86" x2="-33.02" y2="22.86" width="0.254" layer="94"/>
-<text x="-33.02" y="-25.4" size="1.778" layer="96">&gt;Value</text>
-<text x="-33.02" y="23.368" size="1.778" layer="95">&gt;Name</text>
-<text x="-32.087625" y="-13.461034375" size="1.524" layer="97">&gt;PC14</text>
-<text x="-32.08665" y="-18.541240625" size="1.524" layer="97">&gt;PC15</text>
-<text x="-22.86" y="17.78" size="1.27" layer="97">TIM1_ETR, I2C2_SCL,USART1_TX,
-ADC2_IN5</text>
-<text x="-22.86" y="10.16" size="1.27" layer="97">TIM3_CH1, TIM8_CH1,
-I2S2_MCK</text>
-<text x="-22.86" y="2.54" size="1.27" layer="97">TIM8_CH1N,UART4_TX,
-SPI3_SCK/I2S3_CK,USART3_TX,</text>
-<text x="-22.86" y="-2.54" size="1.27" layer="97">TIM8_CH2N,UART4_RX,
-SPI3_MISO,USART3_RX,I2C3_SDA</text>
-<text x="-22.86" y="-10.16" size="1.27" layer="97">TIM1_BKIN,TIM1_CH1N,TIM8_CH4N,
-WKUP2,RTC_TAMP1,RTC_TS,RTC_OUT1</text>
-</symbol>
-<symbol name="TMP112" urn="urn:adsk.eagle:symbol:31522253/1" library_version="145">
-<pin name="SDA" x="10.16" y="5.08" length="short" direction="oc" rot="R180"/>
-<pin name="SCL" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
-<pin name="ALERT" x="10.16" y="-2.54" length="short" direction="oc" rot="R180"/>
-<pin name="GND" x="-10.16" y="-7.62" length="short" direction="in"/>
-<pin name="ADD0" x="10.16" y="-7.62" length="short" direction="in" rot="R180"/>
-<pin name="V+" x="-10.16" y="5.08" length="short" direction="in"/>
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="8.128" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TMP1075" urn="urn:adsk.eagle:component:29598930/2" prefix="IC" library_version="132">
-<description>&lt;b&gt;TMP1075 Temperature Sensor With I2C and SMBus Interface&lt;/b&gt;&lt;br /&gt;
-±1°C (Maximum) From −40°C to +110°C (TMP1075DGK / TMP1075D)&lt;br /&gt;
-Wide Supply Range: 1.7 V to 5.5 V</description>
-<gates>
-<gate name="G$1" symbol="TMP1075" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DGK" package="S-PDSO-G8_DGK_VSSOP_TI">
-<connects>
-<connect gate="G$1" pin="A0" pad="7"/>
-<connect gate="G$1" pin="A1" pad="6"/>
-<connect gate="G$1" pin="A2" pad="5"/>
-<connect gate="G$1" pin="ALERT" pad="3"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="SCL" pad="2"/>
-<connect gate="G$1" pin="SDA" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24366002/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2020-06-18"/>
-<attribute name="CREATED" value="2020-06-18"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="5.5 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TPS709" urn="urn:adsk.eagle:component:29598837/2" prefix="IC" library_version="132">
-<description>&lt;b&gt;TPS709, LDO, V_in = 2.7...30 V, 150 mA&lt;/b&gt;&lt;br /&gt;
-- Ultralow IQ: 1 μA&lt;br /&gt;
-- Reverse Current Protection&lt;br /&gt;
-- 2% Accuracy Over Temperature</description>
-<gates>
-<gate name="G$1" symbol="TPS709" x="0" y="0"/>
-</gates>
-<devices>
-<device name="30DRV" package="DRV0006A_TI">
-<connects>
-<connect gate="G$1" pin="EN" pad="4"/>
-<connect gate="G$1" pin="GND" pad="3 7.1 7.2"/>
-<connect gate="G$1" pin="IN" pad="6"/>
-<connect gate="G$1" pin="NC" pad="2 5"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24366057/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2020-10-16"/>
-<attribute name="CREATED" value="2020-10-16"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="30.0 V"/>
-<attribute name="VOUT" value="3.0 V"/>
-</technology>
-</technologies>
-</device>
-<device name="33DRV" package="DRV0006A_TI">
-<connects>
-<connect gate="G$1" pin="EN" pad="4"/>
-<connect gate="G$1" pin="GND" pad="3 7.1 7.2"/>
-<connect gate="G$1" pin="IN" pad="6"/>
-<connect gate="G$1" pin="NC" pad="2 5"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24366057/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2020-11-14"/>
-<attribute name="CREATED" value="2020-11-14"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="30.0 V"/>
-<attribute name="VOUT" value="3.3 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BQ24780S" urn="urn:adsk.eagle:component:29598794/2" prefix="IC" library_version="132">
-<description>&lt;b&gt;bq24780S, 1- to 4-Cell Hybrid Power Boost Mode Battery Charge Controller&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="BQ24780S" x="0" y="0"/>
-</gates>
-<devices>
-<device name="RUY" package="RUY0028A_TI">
-<connects>
-<connect gate="G$1" pin="!BATPRES" pad="15"/>
-<connect gate="G$1" pin="!PROCHOT" pad="10"/>
-<connect gate="G$1" pin="!TB_STAT" pad="16"/>
-<connect gate="G$1" pin="ACDET" pad="6"/>
-<connect gate="G$1" pin="ACDRV" pad="4"/>
-<connect gate="G$1" pin="ACN" pad="1"/>
-<connect gate="G$1" pin="ACOK" pad="5"/>
-<connect gate="G$1" pin="ACP" pad="2"/>
-<connect gate="G$1" pin="BATDRV" pad="18"/>
-<connect gate="G$1" pin="BATSRC" pad="17"/>
-<connect gate="G$1" pin="BTST" pad="25"/>
-<connect gate="G$1" pin="CMPIN" pad="13"/>
-<connect gate="G$1" pin="CMPOUT" pad="14"/>
-<connect gate="G$1" pin="CMSRC" pad="3"/>
-<connect gate="G$1" pin="GND" pad="22 E1 E2 E3 E4 E5"/>
-<connect gate="G$1" pin="HIDRV" pad="26"/>
-<connect gate="G$1" pin="IADP" pad="7"/>
-<connect gate="G$1" pin="IDCHG" pad="8"/>
-<connect gate="G$1" pin="ILIM" pad="21"/>
-<connect gate="G$1" pin="LODRV" pad="23"/>
-<connect gate="G$1" pin="PHASE" pad="27"/>
-<connect gate="G$1" pin="PMON" pad="9"/>
-<connect gate="G$1" pin="REGN" pad="24"/>
-<connect gate="G$1" pin="SCL" pad="12"/>
-<connect gate="G$1" pin="SDA" pad="11"/>
-<connect gate="G$1" pin="SRN" pad="19"/>
-<connect gate="G$1" pin="SRP" pad="20"/>
-<connect gate="G$1" pin="VCC" pad="28"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25538825/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2020-12-22"/>
-<attribute name="CREATED" value="2020-12-22"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="24.0 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BQ769X2" urn="urn:adsk.eagle:component:29598990/3" prefix="IC" library_version="132">
-<description>&lt;b&gt;Device for BQ76942/BQ76952 High Accuracy 3-s to 10/16-s High Accuracy Battery Monitor and Protector&lt;/b&gt;</description>
-<gates>
-<gate name="-PWR" symbol="BQ769X2_PWR" x="-17.78" y="-15.24"/>
-<gate name="-IO" symbol="BQ769X2_IO" x="22.86" y="2.54"/>
-</gates>
-<devices>
-<device name="PFB" package="S-PQFP-G48_PFB_TI">
-<connects>
-<connect gate="-IO" pin="ALERT" pad="25"/>
-<connect gate="-IO" pin="CFETOFF" pad="29"/>
-<connect gate="-IO" pin="DCHG" pad="31"/>
-<connect gate="-IO" pin="DDSG" pad="32"/>
-<connect gate="-IO" pin="DFETOFF" pad="30"/>
-<connect gate="-IO" pin="FUSE" pad="38"/>
-<connect gate="-IO" pin="HDQ" pad="28"/>
-<connect gate="-IO" pin="LD" pad="41"/>
-<connect gate="-IO" pin="PACK" pad="42"/>
-<connect gate="-IO" pin="PCHG" pad="40"/>
-<connect gate="-IO" pin="PDSG" pad="39"/>
-<connect gate="-IO" pin="RST_SHUT" pad="33"/>
-<connect gate="-IO" pin="SCL" pad="26"/>
-<connect gate="-IO" pin="SDA" pad="27"/>
-<connect gate="-IO" pin="TS1" pad="21"/>
-<connect gate="-IO" pin="TS2" pad="22"/>
-<connect gate="-IO" pin="TS3" pad="23"/>
-<connect gate="-PWR" pin="BAT" pad="47"/>
-<connect gate="-PWR" pin="BREG" pad="37"/>
-<connect gate="-PWR" pin="CHG" pad="45"/>
-<connect gate="-PWR" pin="CP1" pad="46"/>
-<connect gate="-PWR" pin="DSG" pad="43"/>
-<connect gate="-PWR" pin="NC" pad="19 44"/>
-<connect gate="-PWR" pin="NC__/VC11" pad="5"/>
-<connect gate="-PWR" pin="NC__/VC13" pad="3"/>
-<connect gate="-PWR" pin="NC__/VC15" pad="1"/>
-<connect gate="-PWR" pin="NC__/VC5" pad="11"/>
-<connect gate="-PWR" pin="NC__/VC7" pad="9"/>
-<connect gate="-PWR" pin="NC__/VC9" pad="7"/>
-<connect gate="-PWR" pin="REG1" pad="35"/>
-<connect gate="-PWR" pin="REG18" pad="24"/>
-<connect gate="-PWR" pin="REG2" pad="34"/>
-<connect gate="-PWR" pin="REGIN" pad="36"/>
-<connect gate="-PWR" pin="SRN" pad="20"/>
-<connect gate="-PWR" pin="SRP" pad="18"/>
-<connect gate="-PWR" pin="VC0" pad="16"/>
-<connect gate="-PWR" pin="VC1" pad="15"/>
-<connect gate="-PWR" pin="VC10/VC16" pad="48"/>
-<connect gate="-PWR" pin="VC2" pad="14"/>
-<connect gate="-PWR" pin="VC3" pad="13"/>
-<connect gate="-PWR" pin="VC4" pad="12"/>
-<connect gate="-PWR" pin="VC5_/VC6" pad="10"/>
-<connect gate="-PWR" pin="VC6_/VC8" pad="8"/>
-<connect gate="-PWR" pin="VC7_/VC10" pad="6"/>
-<connect gate="-PWR" pin="VC8_/VC12" pad="4"/>
-<connect gate="-PWR" pin="VC9_/VC14" pad="2"/>
-<connect gate="-PWR" pin="VSS" pad="17"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24366045/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-06-28"/>
-<attribute name="CREATED" value="2021-06-28"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="55.0 / 80.0 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BQ2947" urn="urn:adsk.eagle:component:30521295/2" prefix="IC" library_version="132">
-<description>&lt;b&gt;BQ2947xx, Overvoltage Protection for 2-Series to 4-Series Cell Li-Ion Batteries with External Delay Capacitor&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="BQ2947" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DSG" package="DSG0008A_WSON_TI">
-<connects>
-<connect gate="G$1" pin="CD" pad="7"/>
-<connect gate="G$1" pin="OUT" pad="8"/>
-<connect gate="G$1" pin="V1" pad="5"/>
-<connect gate="G$1" pin="V2" pad="4"/>
-<connect gate="G$1" pin="V3" pad="3"/>
-<connect gate="G$1" pin="V4" pad="2"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-<connect gate="G$1" pin="VSS" pad="6 P$1 P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24366054/2"/>
-</package3dinstances>
-<technologies>
-<technology name="00">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.350 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="01">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.250 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="02">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.300 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="03">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.325 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="04">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.400 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="05">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.450 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="06">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.550 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="07">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="open-drain"/>
-<attribute name="OVP" value="4.225 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="08">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.500 v"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="11">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.220 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="12">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.125 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-<technology name="13">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="OUTPUT" value="CMOS"/>
-<attribute name="OVP" value="4.600 V"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="20.0 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="824001" urn="urn:adsk.eagle:component:30126236/2" prefix="IC" library_version="132">
-<description>&lt;b&gt;824001, WE-TVS, 4-lanes, VBUS = 5V&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="WE-TVS_4_LANE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-6L_WE">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="I/O1" pad="1"/>
-<connect gate="G$1" pin="I/O2" pad="3"/>
-<connect gate="G$1" pin="I/O3" pad="4"/>
-<connect gate="G$1" pin="I/O4" pad="6"/>
-<connect gate="G$1" pin="VBUS" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30126118/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-07-28"/>
-<attribute name="CREATED" value="2021-07-28"/>
-<attribute name="MANUFACTURER" value="Wuerth"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="5.0 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="STM32G431C" urn="urn:adsk.eagle:component:30595092/3" prefix="IC" library_version="132">
-<description>&lt;b&gt;STM32G431xUx&lt;/b&gt;</description>
-<gates>
-<gate name="-MISC" symbol="STM32G431C_MISC" x="-53.34" y="35.56" addlevel="always"/>
-<gate name="-PORTA" symbol="STM32G431C_PORTA" x="-50.8" y="-48.26" addlevel="always"/>
-<gate name="-PORTB" symbol="STM32G431C_PORTB" x="48.26" y="-45.72" addlevel="always"/>
-<gate name="-PORTC" symbol="STM32G431C_PORTC" x="38.1" y="30.48" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="UFQFPN48_ST">
-<connects>
-<connect gate="-MISC" pin="!NRST!/PG10/MCO" pad="7"/>
-<connect gate="-MISC" pin="OSC32_IN/PC14" pad="3"/>
-<connect gate="-MISC" pin="OSC32_OUT/PC15" pad="4"/>
-<connect gate="-MISC" pin="OSC_IN/PF0" pad="5"/>
-<connect gate="-MISC" pin="OSC_OUT/PF1" pad="6"/>
-<connect gate="-MISC" pin="VBAT" pad="1"/>
-<connect gate="-MISC" pin="VDD1" pad="23"/>
-<connect gate="-MISC" pin="VDD2" pad="35"/>
-<connect gate="-MISC" pin="VDD3" pad="48"/>
-<connect gate="-MISC" pin="VDDA" pad="21"/>
-<connect gate="-MISC" pin="VREF+/VREFBUF_OUT" pad="20"/>
-<connect gate="-MISC" pin="VSS" pad="EP1 EP2 EP3 EP4 EP5 EP6 EP7 EP8 EP9"/>
-<connect gate="-PORTA" pin="PA0" pad="8"/>
-<connect gate="-PORTA" pin="PA1" pad="9"/>
-<connect gate="-PORTA" pin="PA10" pad="32"/>
-<connect gate="-PORTA" pin="PA11" pad="33"/>
-<connect gate="-PORTA" pin="PA12" pad="34"/>
-<connect gate="-PORTA" pin="PA13" pad="36"/>
-<connect gate="-PORTA" pin="PA14" pad="37"/>
-<connect gate="-PORTA" pin="PA15" pad="38"/>
-<connect gate="-PORTA" pin="PA2" pad="10"/>
-<connect gate="-PORTA" pin="PA3" pad="11"/>
-<connect gate="-PORTA" pin="PA4" pad="12"/>
-<connect gate="-PORTA" pin="PA5" pad="13"/>
-<connect gate="-PORTA" pin="PA6" pad="14"/>
-<connect gate="-PORTA" pin="PA7" pad="15"/>
-<connect gate="-PORTA" pin="PA8" pad="30"/>
-<connect gate="-PORTA" pin="PA9" pad="31"/>
-<connect gate="-PORTB" pin="PB0" pad="17"/>
-<connect gate="-PORTB" pin="PB1" pad="18"/>
-<connect gate="-PORTB" pin="PB10" pad="22"/>
-<connect gate="-PORTB" pin="PB11" pad="24"/>
-<connect gate="-PORTB" pin="PB12" pad="25"/>
-<connect gate="-PORTB" pin="PB13" pad="26"/>
-<connect gate="-PORTB" pin="PB14" pad="27"/>
-<connect gate="-PORTB" pin="PB15" pad="28"/>
-<connect gate="-PORTB" pin="PB2" pad="19"/>
-<connect gate="-PORTB" pin="PB3" pad="41"/>
-<connect gate="-PORTB" pin="PB4" pad="42"/>
-<connect gate="-PORTB" pin="PB5" pad="43"/>
-<connect gate="-PORTB" pin="PB6" pad="44"/>
-<connect gate="-PORTB" pin="PB7" pad="45"/>
-<connect gate="-PORTB" pin="PB8" pad="46"/>
-<connect gate="-PORTB" pin="PB9" pad="47"/>
-<connect gate="-PORTC" pin="PC10" pad="39"/>
-<connect gate="-PORTC" pin="PC11" pad="40"/>
-<connect gate="-PORTC" pin="PC13" pad="2"/>
-<connect gate="-PORTC" pin="PC4" pad="16"/>
-<connect gate="-PORTC" pin="PC6" pad="29"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30595045/2"/>
-</package3dinstances>
-<technologies>
-<technology name="6U3">
-<attribute name="CHANGED" value="2021-08-30"/>
-<attribute name="CREATED" value="2021-08-30"/>
-<attribute name="FLASH" value="32 Kbytes"/>
-<attribute name="MANUFACTURER" value="STM"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="3.6 V"/>
-</technology>
-<technology name="6U6">
-<attribute name="CHANGED" value="2021-08-30"/>
-<attribute name="CREATED" value="2021-08-30"/>
-<attribute name="FLASH" value="32 Kbytes"/>
-<attribute name="MANUFACTURER" value="STM"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="3.6 V"/>
-</technology>
-<technology name="8U3">
-<attribute name="CHANGED" value="2021-08-30"/>
-<attribute name="CREATED" value="2021-08-30"/>
-<attribute name="FLASH" value="64 Kbytes"/>
-<attribute name="MANUFACTURER" value="STM"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="3.6 V"/>
-</technology>
-<technology name="8U6">
-<attribute name="CHANGED" value="2021-08-30"/>
-<attribute name="CREATED" value="2021-08-30"/>
-<attribute name="FLASH" value="64 Kbytes"/>
-<attribute name="MANUFACTURER" value="STM"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="3.6 V"/>
-</technology>
-<technology name="BU3">
-<attribute name="CHANGED" value="2021-08-30"/>
-<attribute name="CREATED" value="2021-08-30"/>
-<attribute name="FLASH" value="128 Kbytes"/>
-<attribute name="MANUFACTURER" value="STM"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="3.6 V"/>
-</technology>
-<technology name="BU6">
-<attribute name="CHANGED" value="2021-08-30"/>
-<attribute name="CREATED" value="2021-08-30"/>
-<attribute name="FLASH" value="128 Kbytes"/>
-<attribute name="MANUFACTURER" value="STM"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="3.6 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TMP112" urn="urn:adsk.eagle:component:31522258/1" prefix="IC" library_version="145">
-<description>&lt;b&gt;TMP112, Temperature Sensor, I2C, low power, high accuracy&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="TMP112" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DRL" package="DRL0006A_TI">
-<connects>
-<connect gate="G$1" pin="ADD0" pad="4"/>
-<connect gate="G$1" pin="ALERT" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="SCL" pad="1"/>
-<connect gate="G$1" pin="SDA" pad="6"/>
-<connect gate="G$1" pin="V+" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24366022/2"/>
-</package3dinstances>
-<technologies>
-<technology name="AI">
-<attribute name="CHANGED" value="2021-10-14"/>
-<attribute name="CREATED" value="2021-10-14"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="3.6 V"/>
-</technology>
-<technology name="BI">
-<attribute name="CHANGED" value="2021-10-14"/>
-<attribute name="CREATED" value="2021-10-14"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="3.6 V"/>
-</technology>
-<technology name="NAI">
-<attribute name="CHANGED" value="2021-10-14"/>
-<attribute name="CREATED" value="2021-10-14"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="3.6 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="08_DT_Supply" urn="urn:adsk.eagle:library:25408263">
-<packages>
-</packages>
-<symbols>
-<symbol name="GND" urn="urn:adsk.eagle:symbol:25408273/1" library_version="1">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-<symbol name="+3V3" urn="urn:adsk.eagle:symbol:25408283/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" urn="urn:adsk.eagle:component:25408308/1" prefix="GND" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-13"/>
-<attribute name="CREATED" value="2017-09-13"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+3V3" urn="urn:adsk.eagle:component:25408318/1" prefix="+3V3" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-13"/>
-<attribute name="CREATED" value="2017-09-13"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="03_DT_Passive_Components" urn="urn:adsk.eagle:library:24370348">
-<packages>
-<package name="C0603" urn="urn:adsk.eagle:footprint:24370365/1" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR06</description>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.5" y2="0.4" layer="51"/>
-<rectangle x1="0.5" y1="-0.4" x2="0.8" y2="0.4" layer="51" rot="R180"/>
-<wire x1="-1.225" y1="0.475" x2="1.225" y2="0.475" width="0.15" layer="39"/>
-<wire x1="1.225" y1="0.475" x2="1.225" y2="-0.475" width="0.15" layer="39"/>
-<wire x1="1.225" y1="-0.475" x2="-1.225" y2="-0.475" width="0.15" layer="39"/>
-<wire x1="-1.225" y1="-0.475" x2="-1.225" y2="0.475" width="0.15" layer="39"/>
-<wire x1="-0.75" y1="0.35" x2="0.75" y2="0.35" width="0.1" layer="51"/>
-<wire x1="0.75" y1="-0.35" x2="-0.75" y2="-0.35" width="0.1" layer="51"/>
-<smd name="1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
-<smd name="2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
-<text x="0" y="0.625" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.625" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="C0805" urn="urn:adsk.eagle:footprint:24370364/1" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR08</description>
-<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-<rectangle x1="-1" y1="-0.625" x2="-0.6" y2="0.625" layer="51"/>
-<rectangle x1="0.6" y1="-0.625" x2="1" y2="0.625" layer="51"/>
-<wire x1="-1.475" y1="0.725" x2="1.475" y2="0.725" width="0.15" layer="39"/>
-<wire x1="1.475" y1="0.725" x2="1.475" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="1.475" y1="-0.725" x2="-1.475" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="-1.475" y1="-0.725" x2="-1.475" y2="0.725" width="0.15" layer="39"/>
-<wire x1="-0.95" y1="0.575" x2="0.95" y2="0.575" width="0.1" layer="51"/>
-<wire x1="-0.95" y1="-0.575" x2="0.95" y2="-0.575" width="0.1" layer="51"/>
-<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
-<text x="0" y="0.825" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.825" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="C1210" urn="urn:adsk.eagle:footprint:24370362/1" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen Vishay CRCW1210-HP e3</description>
-<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
-<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<rectangle x1="-1.6" y1="-1.25" x2="-1.2" y2="1.25" layer="51"/>
-<rectangle x1="1.2" y1="-1.25" x2="1.6" y2="1.25" layer="51"/>
-<wire x1="-1.55" y1="1.2" x2="1.55" y2="1.2" width="0.1" layer="51"/>
-<wire x1="-1.55" y1="-1.2" x2="1.55" y2="-1.2" width="0.1" layer="51"/>
-<wire x1="-2.075" y1="1.325" x2="2.075" y2="1.325" width="0.15" layer="39"/>
-<wire x1="2.075" y1="1.325" x2="2.075" y2="-1.325" width="0.15" layer="39"/>
-<wire x1="2.075" y1="-1.325" x2="-2.075" y2="-1.325" width="0.15" layer="39"/>
-<wire x1="-2.075" y1="-1.325" x2="-2.075" y2="1.325" width="0.15" layer="39"/>
-<text x="0" y="1.425" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.425" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="R0603" urn="urn:adsk.eagle:footprint:24370358/1" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR06</description>
-<wire x1="-1.125" y1="0.525" x2="1.125" y2="0.525" width="0.15" layer="39"/>
-<wire x1="1.125" y1="0.525" x2="1.125" y2="-0.525" width="0.15" layer="39"/>
-<wire x1="1.125" y1="-0.525" x2="-1.125" y2="-0.525" width="0.15" layer="39"/>
-<wire x1="-1.125" y1="-0.525" x2="-1.125" y2="0.525" width="0.15" layer="39"/>
-<wire x1="-0.75" y1="0.35" x2="0.75" y2="0.35" width="0.1" layer="51"/>
-<wire x1="0.75" y1="-0.35" x2="-0.75" y2="-0.35" width="0.1" layer="51"/>
-<smd name="1" x="-0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
-<smd name="2" x="0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
-<text x="0" y="0.625" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.625" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.5" y2="0.4" layer="51"/>
-<rectangle x1="0.5" y1="-0.4" x2="0.8" y2="0.4" layer="51" rot="R180"/>
-</package>
-<package name="WE-PD_1260_WE" urn="urn:adsk.eagle:footprint:24370380/2" library_version="7">
-<description>Aus Datenblatt 7447709004</description>
-<smd name="DOT" x="-4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
-<smd name="NODOT" x="4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
-<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="21"/>
-<wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.127" layer="21"/>
-<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="21"/>
-<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.127" layer="21"/>
-<wire x1="-6.325" y1="-6.325" x2="6.325" y2="-6.325" width="0.15" layer="39"/>
-<wire x1="6.325" y1="-6.325" x2="6.325" y2="-2.775" width="0.15" layer="39"/>
-<wire x1="6.325" y1="-2.775" x2="6.475" y2="-2.775" width="0.15" layer="39"/>
-<wire x1="6.475" y1="-2.775" x2="6.475" y2="2.775" width="0.15" layer="39"/>
-<wire x1="6.475" y1="2.775" x2="6.325" y2="2.775" width="0.15" layer="39"/>
-<wire x1="6.325" y1="2.775" x2="6.325" y2="6.325" width="0.15" layer="39"/>
-<wire x1="6.325" y1="6.325" x2="-6.325" y2="6.325" width="0.15" layer="39"/>
-<wire x1="-6.325" y1="6.325" x2="-6.325" y2="2.775" width="0.15" layer="39"/>
-<wire x1="-6.325" y1="2.775" x2="-6.475" y2="2.775" width="0.15" layer="39"/>
-<wire x1="-6.475" y1="2.775" x2="-6.475" y2="-2.775" width="0.15" layer="39"/>
-<wire x1="-6.475" y1="-2.775" x2="-6.325" y2="-2.775" width="0.15" layer="39"/>
-<wire x1="-6.325" y1="-2.775" x2="-6.325" y2="-6.325" width="0.15" layer="39"/>
-<text x="0" y="6.35" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-6.35" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-<circle x="-5" y="3.67" radius="0.5" width="0" layer="21"/>
-</package>
-<package name="LVT12_R003_OHMITE" urn="urn:adsk.eagle:footprint:24370418/1" library_version="7">
-<description>aus Datenblatt "LVT Series"</description>
-<smd name="1" x="-1.5" y="0" dx="1.8" dy="1.84" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="1.8" dy="1.84" layer="1"/>
-<wire x1="-1.725" y1="0.925" x2="1.725" y2="0.925" width="0.127" layer="21"/>
-<wire x1="1.725" y1="0.925" x2="1.725" y2="-0.925" width="0.127" layer="21"/>
-<wire x1="1.725" y1="-0.925" x2="-1.725" y2="-0.925" width="0.127" layer="21"/>
-<wire x1="-1.725" y1="-0.925" x2="-1.725" y2="0.925" width="0.127" layer="21"/>
-<wire x1="-2.475" y1="1" x2="2.475" y2="1" width="0.15" layer="39"/>
-<wire x1="2.475" y1="1" x2="2.475" y2="-1" width="0.15" layer="39"/>
-<wire x1="2.475" y1="-1" x2="-2.475" y2="-1" width="0.15" layer="39"/>
-<wire x1="-2.475" y1="-1" x2="-2.475" y2="1" width="0.15" layer="39"/>
-<rectangle x1="-1.725" y1="-0.925" x2="-0.825" y2="0.925" layer="51"/>
-<rectangle x1="0.825" y1="-0.925" x2="1.725" y2="0.925" layer="51" rot="R180"/>
-<text x="0" y="1.1" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.1" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="C0402" urn="urn:adsk.eagle:footprint:24370366/1" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCMR04</description>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.55" y1="-0.275" x2="-0.3" y2="0.275" layer="51"/>
-<rectangle x1="0.3" y1="-0.275" x2="0.55" y2="0.275" layer="51"/>
-<wire x1="-0.825" y1="0.325" x2="0.825" y2="0.325" width="0.15" layer="39"/>
-<wire x1="0.825" y1="0.325" x2="0.825" y2="-0.325" width="0.15" layer="39"/>
-<wire x1="0.825" y1="-0.325" x2="-0.825" y2="-0.325" width="0.15" layer="39"/>
-<wire x1="-0.825" y1="-0.325" x2="-0.825" y2="0.325" width="0.15" layer="39"/>
-<wire x1="-0.5" y1="0.225" x2="0.5" y2="0.225" width="0.1" layer="51"/>
-<wire x1="0.5" y1="-0.225" x2="-0.5" y2="-0.225" width="0.1" layer="51"/>
-<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
-<text x="0" y="0.425" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.425" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="C1206" urn="urn:adsk.eagle:footprint:24370363/1" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR08</description>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<rectangle x1="-1.55" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
-<rectangle x1="1.1" y1="-0.8" x2="1.55" y2="0.8" layer="51"/>
-<wire x1="-2.075" y1="0.875" x2="2.075" y2="0.875" width="0.15" layer="39"/>
-<wire x1="2.075" y1="0.875" x2="2.075" y2="-0.875" width="0.15" layer="39"/>
-<wire x1="2.075" y1="-0.875" x2="-2.075" y2="-0.875" width="0.15" layer="39"/>
-<wire x1="-2.075" y1="-0.875" x2="-2.075" y2="0.875" width="0.15" layer="39"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.1016" layer="51"/>
-<text x="0" y="0.975" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.975" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<smd name="1" x="-1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
-<smd name="2" x="1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
-</package>
-<package name="C1812" urn="urn:adsk.eagle:footprint:24370361/1" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von TDK C4532</description>
-<rectangle x1="-0.3" y1="-0.4001" x2="0.3" y2="0.4001" layer="35"/>
-<rectangle x1="-2.25" y1="-1.6" x2="-2.05" y2="1.6" layer="51"/>
-<rectangle x1="2.05" y1="-1.6" x2="2.25" y2="1.6" layer="51"/>
-<wire x1="-2.113" y1="-1.55" x2="2.139" y2="-1.55" width="0.1" layer="51"/>
-<wire x1="2.113" y1="1.55" x2="-2.139" y2="1.55" width="0.1" layer="51"/>
-<wire x1="-2.725" y1="1.975" x2="2.725" y2="1.975" width="0.15" layer="39"/>
-<wire x1="2.725" y1="1.975" x2="2.725" y2="-1.975" width="0.15" layer="39"/>
-<wire x1="2.725" y1="-1.975" x2="-2.725" y2="-1.975" width="0.15" layer="39"/>
-<wire x1="-2.725" y1="-1.975" x2="-2.725" y2="1.975" width="0.15" layer="39"/>
-<smd name="1" x="-2.2" y="0" dx="0.9" dy="3.8" layer="1"/>
-<smd name="2" x="2.2" y="0" dx="0.9" dy="3.8" layer="1"/>
-<text x="0" y="2.075" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.075" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="C0201" urn="urn:adsk.eagle:footprint:24370360/1" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR02X</description>
-<smd name="1" x="-0.3" y="0" dx="0.3" dy="0.3" layer="1"/>
-<smd name="2" x="0.3" y="0" dx="0.3" dy="0.3" layer="1"/>
-<text x="0" y="0.325" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.325" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<wire x1="-0.525" y1="0.225" x2="0.525" y2="0.225" width="0.15" layer="39"/>
-<wire x1="0.525" y1="0.225" x2="0.525" y2="-0.225" width="0.15" layer="39"/>
-<wire x1="0.525" y1="-0.225" x2="-0.525" y2="-0.225" width="0.15" layer="39"/>
-<wire x1="-0.525" y1="-0.225" x2="-0.525" y2="0.225" width="0.15" layer="39"/>
-<wire x1="-0.2515" y1="0.1015" x2="0.2515" y2="0.1015" width="0.1" layer="51"/>
-<wire x1="0.2515" y1="-0.1015" x2="-0.2515" y2="-0.1015" width="0.1" layer="51"/>
-<rectangle x1="-0.3015" y1="-0.1515" x2="-0.2" y2="0.1515" layer="51"/>
-<rectangle x1="0.2" y1="-0.1515" x2="0.3015" y2="0.1515" layer="51"/>
-</package>
-<package name="R0402" urn="urn:adsk.eagle:footprint:24370359/1" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCMR04</description>
-<wire x1="-0.825" y1="0.375" x2="0.825" y2="0.375" width="0.15" layer="39"/>
-<wire x1="0.825" y1="0.375" x2="0.825" y2="-0.375" width="0.15" layer="39"/>
-<wire x1="0.825" y1="-0.375" x2="-0.825" y2="-0.375" width="0.15" layer="39"/>
-<wire x1="-0.825" y1="-0.375" x2="-0.825" y2="0.375" width="0.15" layer="39"/>
-<wire x1="-0.5" y1="0.225" x2="0.5" y2="0.225" width="0.1" layer="51"/>
-<wire x1="0.5" y1="-0.225" x2="-0.5" y2="-0.225" width="0.1" layer="51"/>
-<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
-<text x="0" y="0.475" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.475" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<rectangle x1="-0.55" y1="-0.275" x2="-0.3" y2="0.275" layer="51"/>
-<rectangle x1="0.3" y1="-0.275" x2="0.55" y2="0.275" layer="51"/>
-</package>
-<package name="R0805" urn="urn:adsk.eagle:footprint:24370357/1" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR08</description>
-<wire x1="-1.375" y1="0.725" x2="1.375" y2="0.725" width="0.15" layer="39"/>
-<wire x1="1.375" y1="0.725" x2="1.375" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="1.375" y1="-0.725" x2="-1.375" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="-1.375" y1="-0.725" x2="-1.375" y2="0.725" width="0.15" layer="39"/>
-<wire x1="-0.95" y1="0.575" x2="0.95" y2="0.575" width="0.1" layer="51"/>
-<wire x1="-0.95" y1="-0.575" x2="0.95" y2="-0.575" width="0.1" layer="51"/>
-<smd name="1" x="-0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
-<text x="0" y="0.825" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.825" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<rectangle x1="-1" y1="-0.625" x2="-0.6" y2="0.625" layer="51"/>
-<rectangle x1="0.6" y1="-0.625" x2="1" y2="0.625" layer="51"/>
-</package>
-<package name="R1206" urn="urn:adsk.eagle:footprint:24370356/1" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR08</description>
-<wire x1="-1.975" y1="0.875" x2="1.975" y2="0.875" width="0.15" layer="39"/>
-<wire x1="1.975" y1="0.875" x2="1.975" y2="-0.875" width="0.15" layer="39"/>
-<wire x1="1.975" y1="-0.875" x2="-1.975" y2="-0.875" width="0.15" layer="39"/>
-<wire x1="-1.975" y1="-0.875" x2="-1.975" y2="0.875" width="0.15" layer="39"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.1016" layer="51"/>
-<smd name="2" x="1.45" y="0" dx="0.9" dy="1.6" layer="1"/>
-<smd name="1" x="-1.45" y="0" dx="0.9" dy="1.6" layer="1"/>
-<text x="0" y="0.975" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.975" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-<rectangle x1="-1.55" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
-<rectangle x1="1.1" y1="-0.8" x2="1.55" y2="0.8" layer="51"/>
-</package>
-<package name="R1210" urn="urn:adsk.eagle:footprint:24370355/1" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br/&gt;
-Vishay CRCW1210-HP e3</description>
-<wire x1="-1.55" y1="1.2" x2="1.55" y2="1.2" width="0.1" layer="51"/>
-<wire x1="-1.55" y1="-1.2" x2="1.55" y2="-1.2" width="0.1" layer="51"/>
-<wire x1="-2.025" y1="1.475" x2="2.025" y2="1.475" width="0.15" layer="39"/>
-<wire x1="2.025" y1="1.475" x2="2.025" y2="-1.475" width="0.15" layer="39"/>
-<wire x1="2.025" y1="-1.475" x2="-2.025" y2="-1.475" width="0.15" layer="39"/>
-<wire x1="-2.025" y1="-1.475" x2="-2.025" y2="1.475" width="0.15" layer="39"/>
-<smd name="1" x="-1.4" y="0" dx="1.1" dy="2.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.1" dy="2.8" layer="1"/>
-<text x="0" y="1.575" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.575" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-1.6" y1="-1.25" x2="-1.2" y2="1.25" layer="51"/>
-<rectangle x1="1.2" y1="-1.25" x2="1.6" y2="1.25" layer="51"/>
-<rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
-</package>
-<package name="R2512" urn="urn:adsk.eagle:footprint:24370354/1" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCPWR12</description>
-<wire x1="-3.075" y1="1.5" x2="3.075" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-3.075" y1="-1.5" x2="3.075" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-3.575" y1="1.825" x2="3.575" y2="1.825" width="0.15" layer="39"/>
-<wire x1="3.575" y1="1.825" x2="3.575" y2="-1.825" width="0.15" layer="39"/>
-<wire x1="3.575" y1="-1.825" x2="-3.575" y2="-1.825" width="0.15" layer="39"/>
-<wire x1="-3.575" y1="-1.825" x2="-3.575" y2="1.825" width="0.15" layer="39"/>
-<smd name="1" x="-2.7" y="0" dx="1.6" dy="3.5" layer="1"/>
-<smd name="2" x="2.7" y="0" dx="1.6" dy="3.5" layer="1"/>
-<text x="0" y="1.925" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.925" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-3.175" y1="-1.55" x2="-2.675" y2="1.55" layer="51"/>
-<rectangle x1="2.675" y1="-1.55" x2="3.175" y2="1.55" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="R0201" urn="urn:adsk.eagle:footprint:24370353/1" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR02X</description>
-<smd name="1" x="-0.3" y="0" dx="0.3" dy="0.3" layer="1"/>
-<smd name="2" x="0.3" y="0" dx="0.3" dy="0.3" layer="1"/>
-<text x="0" y="0.325" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.325" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<wire x1="-0.525" y1="0.225" x2="0.525" y2="0.225" width="0.15" layer="39"/>
-<wire x1="0.525" y1="0.225" x2="0.525" y2="-0.225" width="0.15" layer="39"/>
-<wire x1="0.525" y1="-0.225" x2="-0.525" y2="-0.225" width="0.15" layer="39"/>
-<wire x1="-0.525" y1="-0.225" x2="-0.525" y2="0.225" width="0.15" layer="39"/>
-<wire x1="-0.2515" y1="0.1015" x2="0.2515" y2="0.1015" width="0.1" layer="51"/>
-<wire x1="0.2515" y1="-0.1015" x2="-0.2515" y2="-0.1015" width="0.1" layer="51"/>
-<rectangle x1="-0.3015" y1="-0.1515" x2="-0.2" y2="0.1515" layer="51"/>
-<rectangle x1="0.2" y1="-0.1515" x2="0.3015" y2="0.1515" layer="51"/>
-</package>
-<package name="R1218" urn="urn:adsk.eagle:footprint:24370352/1" library_version="7">
-<description>&lt;b&gt;CRCW1218 Thick Film, Rectangular Chip Resistors&lt;/b&gt;&lt;p&gt;
-Source: http://www.vishay.com .. dcrcw.pdf</description>
-<wire x1="-0.913" y1="-2.219" x2="0.939" y2="-2.219" width="0.1524" layer="51"/>
-<wire x1="0.913" y1="2.219" x2="-0.939" y2="2.219" width="0.1524" layer="51"/>
-<wire x1="-2.075" y1="2.525" x2="2.075" y2="2.525" width="0.15" layer="39"/>
-<wire x1="2.075" y1="2.525" x2="2.075" y2="-2.525" width="0.15" layer="39"/>
-<wire x1="2.075" y1="-2.525" x2="-2.075" y2="-2.525" width="0.15" layer="39"/>
-<wire x1="-2.075" y1="-2.525" x2="-2.075" y2="2.525" width="0.15" layer="39"/>
-<smd name="1" x="-1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
-<smd name="2" x="1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
-<text x="0" y="2.625" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.625" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-2.3" x2="-0.9009" y2="2.3" layer="51"/>
-<rectangle x1="0.9144" y1="-2.3" x2="1.6645" y2="2.3" layer="51"/>
-</package>
-<package name="R0612" urn="urn:adsk.eagle:footprint:24370351/1" library_version="7">
-<description>Recommended Footprint and Package Dimensions from Vishay RCL e3</description>
-<smd name="1" x="-0.8" y="0" dx="0.6" dy="3.2" layer="1"/>
-<smd name="2" x="0.8" y="0" dx="0.6" dy="3.2" layer="1"/>
-<text x="0" y="1.775" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.775" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<wire x1="-0.75" y1="1.55" x2="0.75" y2="1.55" width="0.1" layer="51"/>
-<wire x1="0.75" y1="-1.55" x2="-0.75" y2="-1.55" width="0.1" layer="51"/>
-<wire x1="-1.175" y1="1.675" x2="1.175" y2="1.675" width="0.15" layer="39"/>
-<wire x1="1.175" y1="1.675" x2="1.175" y2="-1.675" width="0.15" layer="39"/>
-<wire x1="1.175" y1="-1.675" x2="-1.175" y2="-1.675" width="0.15" layer="39"/>
-<wire x1="-1.175" y1="-1.675" x2="-1.175" y2="1.675" width="0.15" layer="39"/>
-<rectangle x1="-0.8" y1="-1.6" x2="-0.45" y2="1.6" layer="51"/>
-<rectangle x1="0.45" y1="-1.6" x2="0.8" y2="1.6" layer="51" rot="R180"/>
-</package>
-<package name="FERRIT_1806_WUERTH" urn="urn:adsk.eagle:footprint:26001917/1" library_version="28">
-<description>Aus Datenblatt 742792410</description>
-<wire x1="-2.3" y1="-0.9" x2="2.3" y2="-0.9" width="0.1" layer="51"/>
-<wire x1="2.3" y1="0.9" x2="-2.3" y2="0.9" width="0.1" layer="51"/>
-<wire x1="-2.835" y1="0.985" x2="2.835" y2="0.985" width="0.15" layer="39"/>
-<wire x1="2.835" y1="0.985" x2="2.835" y2="-0.985" width="0.15" layer="39"/>
-<wire x1="2.835" y1="-0.985" x2="-2.835" y2="-0.985" width="0.15" layer="39"/>
-<wire x1="-2.835" y1="-0.985" x2="-2.835" y2="0.985" width="0.15" layer="39"/>
-<smd name="1" x="-2.125" y="0" dx="1.25" dy="1.8" layer="1"/>
-<smd name="2" x="2.125" y="0" dx="1.25" dy="1.8" layer="1"/>
-<text x="0" y="1.085" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.085" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-2.35" y1="-0.9" x2="-1.75" y2="0.9" layer="51"/>
-<rectangle x1="1.75" y1="-0.9" x2="2.35" y2="0.9" layer="51"/>
-</package>
-<package name="TSX-3225_SEIKO_EPSON" urn="urn:adsk.eagle:footprint:24370392/1" library_version="47">
-<description>aus Datenblatt "FA-238V / FA-238 / TSX-3225"</description>
-<smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="3" x="1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
-<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
-<wire x1="-1.65" y1="1.325" x2="1.65" y2="1.325" width="0.127" layer="21"/>
-<wire x1="1.65" y1="1.325" x2="1.65" y2="-1.325" width="0.127" layer="21"/>
-<wire x1="1.65" y1="-1.325" x2="-1.65" y2="-1.325" width="0.127" layer="21"/>
-<wire x1="-1.65" y1="-1.325" x2="-1.65" y2="1.325" width="0.127" layer="21"/>
-<wire x1="-1.875" y1="1.45" x2="1.875" y2="1.45" width="0.15" layer="39"/>
-<wire x1="1.875" y1="1.45" x2="1.875" y2="-1.45" width="0.15" layer="39"/>
-<wire x1="1.875" y1="-1.45" x2="-1.875" y2="-1.45" width="0.15" layer="39"/>
-<wire x1="-1.875" y1="-1.45" x2="-1.875" y2="1.45" width="0.15" layer="39"/>
-<text x="0" y="1.55" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.55" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="ECX-12R_ECS" urn="urn:adsk.eagle:footprint:32146332/1" library_version="61">
-<description>from datasheet ECX-12R</description>
-<smd name="1" x="-0.7" y="0" dx="0.8" dy="1.3" layer="1"/>
-<smd name="2" x="0.7" y="0" dx="0.8" dy="1.3" layer="1"/>
-<wire x1="-1.05" y1="0.65" x2="1.05" y2="0.65" width="0.127" layer="21"/>
-<wire x1="1.05" y1="0.65" x2="1.05" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="1.05" y1="-0.65" x2="-1.05" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="-1.05" y1="-0.65" x2="-1.05" y2="0.65" width="0.127" layer="21"/>
-<wire x1="-1.175" y1="0.725" x2="-1.175" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="-1.175" y1="-0.725" x2="1.175" y2="-0.725" width="0.15" layer="39"/>
-<wire x1="1.175" y1="-0.725" x2="1.175" y2="0.725" width="0.15" layer="39"/>
-<wire x1="1.175" y1="0.725" x2="-1.175" y2="0.725" width="0.15" layer="39"/>
-<text x="0" y="0.825" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.825" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:24370455/2" type="model" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR06</description>
-<packageinstances>
-<packageinstance name="C0603"/>
-</packageinstances>
-</package3d>
-<package3d name="C0805" urn="urn:adsk.eagle:package:24370454/2" type="model" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR08</description>
-<packageinstances>
-<packageinstance name="C0805"/>
-</packageinstances>
-</package3d>
-<package3d name="C1210" urn="urn:adsk.eagle:package:24370452/2" type="model" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen Vishay CRCW1210-HP e3</description>
-<packageinstances>
-<packageinstance name="C1210"/>
-</packageinstances>
-</package3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:24370456/2" type="model" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCMR04</description>
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C1206" urn="urn:adsk.eagle:package:24370453/2" type="model" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR08</description>
-<packageinstances>
-<packageinstance name="C1206"/>
-</packageinstances>
-</package3d>
-<package3d name="C1812" urn="urn:adsk.eagle:package:24370451/2" type="model" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von TDK C4532</description>
-<packageinstances>
-<packageinstance name="C1812"/>
-</packageinstances>
-</package3d>
-<package3d name="C0201" urn="urn:adsk.eagle:package:24370450/3" type="box" library_version="7">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR02X</description>
-<packageinstances>
-<packageinstance name="C0201"/>
-</packageinstances>
-</package3d>
-<package3d name="LVT12_R003_OHMITE" urn="urn:adsk.eagle:package:24370484/2" type="model" library_version="7">
-<description>aus Datenblatt "LVT Series"</description>
-<packageinstances>
-<packageinstance name="LVT12_R003_OHMITE"/>
-</packageinstances>
-</package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:24370447/2" type="model" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR06</description>
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
-</package3d>
-<package3d name="R0402" urn="urn:adsk.eagle:package:24370448/2" type="model" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCMR04</description>
-<packageinstances>
-<packageinstance name="R0402"/>
-</packageinstances>
-</package3d>
-<package3d name="R0805" urn="urn:adsk.eagle:package:24370446/2" type="model" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR08</description>
-<packageinstances>
-<packageinstance name="R0805"/>
-</packageinstances>
-</package3d>
-<package3d name="R1206" urn="urn:adsk.eagle:package:24370445/2" type="model" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR08</description>
-<packageinstances>
-<packageinstance name="R1206"/>
-</packageinstances>
-</package3d>
-<package3d name="R1210" urn="urn:adsk.eagle:package:24370444/2" type="model" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br/&gt;
-Vishay CRCW1210-HP e3</description>
-<packageinstances>
-<packageinstance name="R1210"/>
-</packageinstances>
-</package3d>
-<package3d name="R2512" urn="urn:adsk.eagle:package:24370443/2" type="model" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCPWR12</description>
-<packageinstances>
-<packageinstance name="R2512"/>
-</packageinstances>
-</package3d>
-<package3d name="R0201" urn="urn:adsk.eagle:package:24370442/2" type="model" library_version="7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
-Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
-Chipabmessungen von Multicomp MCWR02X</description>
-<packageinstances>
-<packageinstance name="R0201"/>
-</packageinstances>
-</package3d>
-<package3d name="R1218" urn="urn:adsk.eagle:package:24370441/1" type="box" library_version="7">
-<description>&lt;b&gt;CRCW1218 Thick Film, Rectangular Chip Resistors&lt;/b&gt;&lt;p&gt;
-Source: http://www.vishay.com .. dcrcw.pdf</description>
-<packageinstances>
-<packageinstance name="R1218"/>
-</packageinstances>
-</package3d>
-<package3d name="R0612" urn="urn:adsk.eagle:package:24370440/1" type="box" library_version="7">
-<description>Recommended Footprint and Package Dimensions from Vishay RCL e3</description>
-<packageinstances>
-<packageinstance name="R0612"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-PD_1260_WE" urn="urn:adsk.eagle:package:24490151/2" type="model" library_version="7">
-<description>Aus Datenblatt 7447709004</description>
-<packageinstances>
-<packageinstance name="WE-PD_1260_WE"/>
-</packageinstances>
-</package3d>
-<package3d name="FERRIT_1806_WUERTH" urn="urn:adsk.eagle:package:26001918/2" type="model" library_version="28">
-<description>Aus Datenblatt 742792410</description>
-<packageinstances>
-<packageinstance name="FERRIT_1806_WUERTH"/>
-</packageinstances>
-</package3d>
-<package3d name="TSX-3225_SEIKO_EPSON" urn="urn:adsk.eagle:package:24370458/2" type="model" library_version="47">
-<description>aus Datenblatt "FA-238V / FA-238 / TSX-3225"</description>
-<packageinstances>
-<packageinstance name="TSX-3225_SEIKO_EPSON"/>
-</packageinstances>
-</package3d>
-<package3d name="ECX-12R_ECS" urn="urn:adsk.eagle:package:32146333/2" type="model" library_version="61">
-<description>from datasheet ECX-12R</description>
-<packageinstances>
-<packageinstance name="ECX-12R_ECS"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="C-EU" urn="urn:adsk.eagle:symbol:24370378/1" library_version="7">
-<wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<text x="1.524" y="0.381" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.524" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
-<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
-<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="R-EU" urn="urn:adsk.eagle:symbol:24370377/1" library_version="7">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="L_EU_POL" urn="urn:adsk.eagle:symbol:24370375/1" library_version="7">
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="DOT" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="NODOT" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<rectangle x1="-2.794" y1="-1.016" x2="2.794" y2="1.016" layer="94"/>
-<circle x="-3.556" y="-0.889" radius="0.508" width="0" layer="94"/>
-</symbol>
-<symbol name="L_EU" urn="urn:adsk.eagle:symbol:24370376/1" library_version="7">
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<rectangle x1="-2.794" y1="-1.016" x2="2.794" y2="1.016" layer="94"/>
-</symbol>
-<symbol name="CRYSTAL_4_PIN" urn="urn:adsk.eagle:symbol:24370372/1" library_version="47">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-4.064" x2="-2.54" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-3.302" x2="-1.778" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-4.064" x2="2.54" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-3.302" x2="1.778" y2="-3.302" width="0.254" layer="94"/>
-<text x="-5.08" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="3.302" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.016" y="-3.81" size="0.8128" layer="94" font="vector" ratio="20">GND</text>
-<pin name="C2" x="7.62" y="0" visible="pad" length="short" rot="R180"/>
-<pin name="C1" x="-7.62" y="0" visible="pad" length="short"/>
-<pin name="G1" x="-2.54" y="-7.62" visible="pad" length="short" rot="R90"/>
-<pin name="G2" x="2.54" y="-7.62" visible="pad" length="short" rot="R90"/>
-</symbol>
-<symbol name="PTC" urn="urn:adsk.eagle:symbol:30555136/1" library_version="48">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="-1.778" x2="-1.524" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-1.778" x2="1.778" y2="1.524" width="0.254" layer="94"/>
-<text x="-3.81" y="1.7526" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="CRYSTAL_2_PIN" urn="urn:adsk.eagle:symbol:24370373/1" library_version="61">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="-5.08" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="3.048" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="C-EU" urn="urn:adsk.eagle:component:24370507/7" prefix="C" uservalue="yes" library_version="72">
-<description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
-<gates>
-<gate name="G$1" symbol="C-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="C0402" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370456/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="DIELECTRIC" value="X5R" constant="no"/>
-<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±20 %" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="C0603" package="C0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370455/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="DIELECTRIC" value="X5R" constant="no"/>
-<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±20 %" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="C0805" package="C0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370454/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="DIELECTRIC" value="X5R" constant="no"/>
-<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±20 %" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="C1206" package="C1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370453/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="DIELECTRIC" value="X5R" constant="no"/>
-<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±20 %" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="C1210" package="C1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370452/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="DIELECTRIC" value="X5R" constant="no"/>
-<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±20 %" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="C1812" package="C1812">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370451/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="DIELECTRIC" value="X5R" constant="no"/>
-<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±20 %" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="C0201" package="C0201">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370450/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="DIELECTRIC" value="X5R" constant="no"/>
-<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±20 %" constant="no"/>
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="R-EU" urn="urn:adsk.eagle:component:24370506/2" prefix="R" uservalue="yes" library_version="7">
-<description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
-<gates>
-<gate name="G$1" symbol="R-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="R0402" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370448/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
-<attribute name="POWER" value="63 mW" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
-<attribute name="TOLERANCE" value="±1 %" constant="no"/>
-<attribute name="VOLTAGE" value="25 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="R0603" package="R0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370447/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
-<attribute name="POWER" value="63 mW" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
-<attribute name="TOLERANCE" value="±1 %" constant="no"/>
-<attribute name="VOLTAGE" value="50 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="R0805" package="R0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370446/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="MAX_OP_TEMP" value="70°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="POWER" value="100 mW" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
-<attribute name="TOLERANCE" value="±1 %" constant="no"/>
-<attribute name="VOLTAGE" value="75 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="R1206" package="R1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370445/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="MAX_OP_TEMP" value="70°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="POWER" value="125 mW" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
-<attribute name="TOLERANCE" value="±1 %" constant="no"/>
-<attribute name="VOLTAGE" value="100 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="R1210" package="R1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370444/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="MAX_OP_TEMP" value="70°C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
-<attribute name="POWER" value="330 mW" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
-<attribute name="TOLERANCE" value="±1 %" constant="no"/>
-<attribute name="VOLTAGE" value="200 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="R2512" package="R2512">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370443/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
-<attribute name="POWER" value="1.5 W" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
-<attribute name="TOLERANCE" value="±5 %" constant="no"/>
-<attribute name="VOLTAGE" value="500 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="R0201" package="R0201">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370442/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
-<attribute name="POWER" value="50 mW" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
-<attribute name="TOLERANCE" value="±1 %" constant="no"/>
-<attribute name="VOLTAGE" value="25 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="R1218" package="R1218">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370441/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
-<attribute name="POWER" value="1.0 W" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
-<attribute name="TOLERANCE" value="±5 %" constant="no"/>
-<attribute name="VOLTAGE" value="200 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="R0612" package="R0612">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370440/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
-<attribute name="CREATED" value="2017-09-12"/>
-<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
-<attribute name="POWER" value="500 mW" constant="no"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TEMP_COEFF" value="±200 ppm/°C" constant="no"/>
-<attribute name="TOLERANCE" value="±5 %" constant="no"/>
-<attribute name="VOLTAGE" value="75 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LVT12" urn="urn:adsk.eagle:component:24370549/7" prefix="R" library_version="64">
-<description>&lt;b&gt;LVT12 Low Value Current Sense Resistor, 1206, 1W&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="R-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="R0100FER" package="LVT12_R003_OHMITE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370484/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2020-07-10"/>
-<attribute name="CREATED" value="2020-07-10"/>
-<attribute name="MANUFACTURER" value="Ohmite"/>
-<attribute name="MAX_OP_TEMP" value="155 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="R" value="10 mR"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±1 %"/>
-</technology>
-</technologies>
-</device>
-<device name="R0050FER" package="LVT12_R003_OHMITE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370484/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-01-14"/>
-<attribute name="CREATED" value="2021-01-14"/>
-<attribute name="MANUFACTURER" value="Ohmite"/>
-<attribute name="MAX_OP_TEMP" value="155 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="R" value="5 mR"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±1 %"/>
-</technology>
-</technologies>
-</device>
-<device name="R0030GER" package="LVT12_R003_OHMITE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370484/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-02-14"/>
-<attribute name="CREATED" value="2021-02-14"/>
-<attribute name="MANUFACTURER" value="Ohmite"/>
-<attribute name="MAX_OP_TEMP" value="155 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="R" value="3 mR"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±2 %"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="742792410" urn="urn:adsk.eagle:component:26001945/2" prefix="L" library_version="49">
-<description>&lt;b&gt;742792410, WE-CBF, Ferrite Bead, 60 R @ 100 MHz&lt;/b&gt;&lt;br/&gt;</description>
-<gates>
-<gate name="G$1" symbol="L_EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FERRIT_1806_WUERTH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26001918/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-01-14"/>
-<attribute name="CREATED" value="2021-01-14"/>
-<attribute name="CURRENT" value="5.0 A"/>
-<attribute name="MANUFACTURER" value="Wuerth"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="744771004" urn="urn:adsk.eagle:component:25541030/2" prefix="L" library_version="49">
-<description>&lt;b&gt;744771004, WE-PD, 4.7 uH, I_R=8.25 A, I_sat=8 A&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="L_EU_POL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-PD_1260_WE">
-<connects>
-<connect gate="G$1" pin="DOT" pad="DOT"/>
-<connect gate="G$1" pin="NODOT" pad="NODOT"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24490151/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2020-12-22"/>
-<attribute name="CREATED" value="2020-12-22"/>
-<attribute name="I_R" value="8.25 A"/>
-<attribute name="I_SAT" value="8.0 A"/>
-<attribute name="MANUFACTURER" value="Wuerth"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±20 %"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TSX-3225" urn="urn:adsk.eagle:component:24370492/4" prefix="Q" library_version="49">
-<description>&lt;b&gt;TSX-3225 Crystal&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
-3.2 x 2.5 x 0.6 mm&lt;br/&gt;</description>
-<gates>
-<gate name="G$1" symbol="CRYSTAL_4_PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSX-3225_SEIKO_EPSON">
-<connects>
-<connect gate="G$1" pin="C1" pad="1"/>
-<connect gate="G$1" pin="C2" pad="3"/>
-<connect gate="G$1" pin="G1" pad="2"/>
-<connect gate="G$1" pin="G2" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370458/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_24.0000MF10Z-C">
-<attribute name="CHANGED" value="2021-06-24"/>
-<attribute name="CREATED" value="2021-06-24"/>
-<attribute name="C_L" value="18 pF"/>
-<attribute name="FREQUENCY" value="24 MHz"/>
-<attribute name="MANUFACTURER" value="Epson"/>
-<attribute name="MAX_OP_TEMP" value="75 °C"/>
-<attribute name="MIN_OP_TEMP" value="-20 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±10 PPM"/>
-</technology>
-<technology name="_24.0000MF15X-AC3">
-<attribute name="CHANGED" value="2021-06-24"/>
-<attribute name="CREATED" value="2019-01-19"/>
-<attribute name="C_L" value="9 pF"/>
-<attribute name="FREQUENCY" value="24 MHz"/>
-<attribute name="MANUFACTURER" value="Epson"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±10 PPM"/>
-</technology>
-<technology name="_32.0000MF10Z-W6">
-<attribute name="CHANGED" value="2021-06-24"/>
-<attribute name="CREATED" value="2019-03-29"/>
-<attribute name="C_L" value="12 pF"/>
-<attribute name="FREQUENCY" value="32 MHz"/>
-<attribute name="MANUFACTURER" value="Epson"/>
-<attribute name="MAX_OP_TEMP" value="75 °C"/>
-<attribute name="MIN_OP_TEMP" value="-20 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±10 PPM"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PRF15BE103RB6RC" urn="urn:adsk.eagle:component:30555139/2" prefix="PTC" library_version="49">
-<description>&lt;b&gt;PRF15BE103RB6RC, Murata, PTC, 0402, 10k&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="PTC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370448/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-08-27"/>
-<attribute name="CREATED" value="2021-08-27"/>
-<attribute name="MANUFACTURER" value="Murata"/>
-<attribute name="MAX_OP_TEMP" value="110 °C"/>
-<attribute name="MIN_OP_TEMP" value="-20 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±50 %"/>
-<attribute name="VOLTAGE" value="32.0 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ECS-.327-12.5-12R" urn="urn:adsk.eagle:component:32146349/2" prefix="Q" library_version="63">
-<description>&lt;b&gt;ECS-.327-12.5-12R, crystal, 32.768 kHz, 12.5 pF, 2.0 mm x 1.2 mm</description>
-<gates>
-<gate name="G$1" symbol="CRYSTAL_2_PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ECX-12R_ECS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32146333/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-11-12"/>
-<attribute name="CREATED" value="2021-11-12"/>
-<attribute name="C_L" value="12.5 pF"/>
-<attribute name="MANUFACTURER" value="ECS"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="TOLERANCE" value="±20 ppm"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1@1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -3259,658 +268,70 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="00_DT_Connectors" urn="urn:adsk.eagle:library:24369824">
+<library name="supply1">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="WIREPAD_0.8X6.5MM" urn="urn:adsk.eagle:footprint:30516390/1" library_version="162">
-<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$2" x="3.25" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$3" x="-3.25" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$4" x="-0.1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$5" x="-0.2" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$6" x="-0.3" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$7" x="-0.4" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$8" x="-0.5" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$9" x="-0.6" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$10" x="-0.7" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$11" x="-0.8" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$12" x="-0.9" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$13" x="-1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$14" x="-1.1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$15" x="-1.2" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$16" x="-1.3" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$17" x="-1.4" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$18" x="-1.5" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$19" x="-1.6" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$20" x="-1.7" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$21" x="-1.8" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$22" x="-1.9" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$23" x="-2" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$24" x="-2.1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$25" x="-2.2" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$26" x="-2.3" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$27" x="-2.4" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$28" x="-2.5" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$29" x="-2.6" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$30" x="-2.7" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$31" x="-2.8" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$32" x="-2.9" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$33" x="-3" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$34" x="-3.1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$35" x="-3.2" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$36" x="0.1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$37" x="0.2" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$38" x="0.3" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$39" x="0.4" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$40" x="0.5" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$41" x="0.6" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$42" x="0.7" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$43" x="0.8" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$44" x="0.9" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$45" x="1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$46" x="1.1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$47" x="1.2" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$48" x="1.3" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$49" x="1.4" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$50" x="1.5" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$51" x="1.6" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$52" x="1.7" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$53" x="1.8" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$54" x="1.9" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$55" x="2" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$56" x="2.1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$57" x="2.2" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$58" x="2.3" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$59" x="2.4" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$60" x="2.5" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$61" x="2.6" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$62" x="2.7" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$63" x="2.8" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$64" x="2.9" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$65" x="3" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$66" x="3.1" y="0" drill="0.8" diameter="1.8"/>
-<pad name="P$67" x="3.2" y="0" drill="0.8" diameter="1.8"/>
-<text x="0" y="1.4" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.4" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<wire x1="-3.25" y1="0" x2="3.25" y2="0" width="0.8" layer="46"/>
-<wire x1="-3.25" y1="1.4" x2="-4.65" y2="0" width="1" layer="39" curve="90"/>
-<wire x1="-4.65" y1="0" x2="-3.25" y2="-1.4" width="1" layer="39" curve="90"/>
-<wire x1="-3.25" y1="-1.4" x2="3.25" y2="-1.4" width="1" layer="39"/>
-<wire x1="3.25" y1="-1.4" x2="4.65" y2="0" width="1" layer="39" curve="90"/>
-<wire x1="4.65" y1="0" x2="3.25" y2="1.4" width="1" layer="39" curve="90"/>
-<wire x1="3.25" y1="1.4" x2="-3.25" y2="1.4" width="1" layer="39"/>
-<wire x1="-3.25" y1="1.4" x2="-4.65" y2="0" width="1" layer="40" curve="90"/>
-<wire x1="-4.65" y1="0" x2="-3.25" y2="-1.4" width="1" layer="40" curve="90"/>
-<wire x1="-3.25" y1="-1.4" x2="3.25" y2="-1.4" width="1" layer="40"/>
-<wire x1="3.25" y1="-1.4" x2="4.65" y2="0" width="1" layer="40" curve="90"/>
-<wire x1="4.65" y1="0" x2="3.25" y2="1.4" width="1" layer="40" curve="90"/>
-<wire x1="3.25" y1="1.4" x2="-3.25" y2="1.4" width="1" layer="40"/>
-<wire x1="-3.25" y1="2.15" x2="-5.4" y2="0" width="2.5" layer="52" curve="90"/>
-<wire x1="-5.4" y1="0" x2="-3.25" y2="-2.15" width="2.5" layer="52" curve="90"/>
-<wire x1="-3.25" y1="-2.15" x2="3.25" y2="-2.15" width="2.5" layer="52"/>
-<wire x1="3.25" y1="-2.15" x2="5.4" y2="0" width="2.5" layer="52" curve="90"/>
-<wire x1="5.4" y1="0" x2="3.25" y2="2.15" width="2.5" layer="52" curve="90"/>
-<wire x1="3.25" y1="2.15" x2="-3.25" y2="2.15" width="2.5" layer="52"/>
-</package>
-<package name="MUSBR-M5C1-XX_AMPHENOL" urn="urn:adsk.eagle:footprint:26410198/1" library_version="69">
-<description>Aus Zeichnung P-MUSBR-M5C1-XX</description>
-<pad name="G1" x="-4.95" y="0" drill="0.53" diameter="0.93"/>
-<pad name="G2" x="-3.85" y="0" drill="0.53" diameter="0.93"/>
-<pad name="G3" x="-2.75" y="0" drill="0.53" diameter="0.93"/>
-<pad name="G4" x="2.75" y="0" drill="0.53" diameter="0.93"/>
-<pad name="G5" x="3.85" y="0" drill="0.53" diameter="0.93"/>
-<pad name="G6" x="4.95" y="0" drill="0.53" diameter="0.93"/>
-<pad name="A5" x="-1.675" y="0.525" drill="0.53" diameter="0.93"/>
-<pad name="B8" x="-1.3" y="-0.525" drill="0.53" diameter="0.93"/>
-<pad name="B5" x="1.3" y="-0.525" drill="0.53" diameter="0.93"/>
-<pad name="A8" x="1.675" y="0.525" drill="0.53" diameter="0.93"/>
-<pad name="A1" x="-5.725" y="1.325" drill="0.53" diameter="0.93"/>
-<pad name="A2" x="-4.625" y="1.325" drill="0.53" diameter="0.93"/>
-<pad name="A3" x="-3.525" y="1.325" drill="0.53" diameter="0.93"/>
-<pad name="A4" x="-2.425" y="1.325" drill="0.53" diameter="0.93"/>
-<pad name="A6" x="-0.925" y="1.325" drill="0.53" diameter="0.93"/>
-<pad name="A12" x="5.725" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
-<pad name="A11" x="4.625" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
-<pad name="A10" x="3.525" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
-<pad name="A9" x="2.425" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
-<pad name="A7" x="0.925" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
-<pad name="B1" x="5.35" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="B2" x="4.25" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="B3" x="3.15" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="B4" x="2.05" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="B6" x="0.55" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="B7" x="-0.55" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="B9" x="-2.05" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="B10" x="-3.15" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="B11" x="-4.25" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="B12" x="-5.35" y="-1.325" drill="0.53" diameter="0.93"/>
-<pad name="S1" x="8.5" y="1.125" drill="0.65" diameter="1.05"/>
-<pad name="S2" x="8.5" y="-1.125" drill="0.65" diameter="1.05"/>
-<pad name="S3" x="8.5" y="-0.975" drill="0.65" diameter="1.05"/>
-<pad name="S4" x="8.5" y="-0.825" drill="0.65" diameter="1.05"/>
-<pad name="S5" x="8.5" y="-0.675" drill="0.65" diameter="1.05"/>
-<pad name="S6" x="8.5" y="-0.525" drill="0.65" diameter="1.05"/>
-<pad name="S7" x="8.5" y="-0.375" drill="0.65" diameter="1.05"/>
-<pad name="S8" x="8.5" y="-0.225" drill="0.65" diameter="1.05"/>
-<pad name="S9" x="8.5" y="-0.075" drill="0.65" diameter="1.05"/>
-<pad name="S10" x="8.5" y="0.075" drill="0.65" diameter="1.05"/>
-<pad name="S11" x="8.5" y="0.225" drill="0.65" diameter="1.05"/>
-<pad name="S12" x="8.5" y="0.375" drill="0.65" diameter="1.05"/>
-<pad name="S13" x="8.5" y="0.525" drill="0.65" diameter="1.05"/>
-<pad name="S14" x="8.5" y="0.525" drill="0.65" diameter="1.05"/>
-<pad name="S15" x="8.5" y="0.675" drill="0.65" diameter="1.05"/>
-<pad name="S16" x="8.5" y="0.825" drill="0.65" diameter="1.05"/>
-<pad name="S17" x="8.5" y="0.975" drill="0.65" diameter="1.05"/>
-<pad name="S18" x="-8.5" y="1.125" drill="0.65" diameter="1.05"/>
-<pad name="S19" x="-8.5" y="-1.125" drill="0.65" diameter="1.05"/>
-<pad name="S20" x="-8.5" y="-0.975" drill="0.65" diameter="1.05"/>
-<pad name="S21" x="-8.5" y="-0.825" drill="0.65" diameter="1.05"/>
-<pad name="S22" x="-8.5" y="-0.675" drill="0.65" diameter="1.05"/>
-<pad name="S23" x="-8.5" y="-0.525" drill="0.65" diameter="1.05"/>
-<pad name="S24" x="-8.5" y="-0.375" drill="0.65" diameter="1.05"/>
-<pad name="S25" x="-8.5" y="-0.225" drill="0.65" diameter="1.05"/>
-<pad name="S26" x="-8.5" y="-0.075" drill="0.65" diameter="1.05"/>
-<pad name="S27" x="-8.5" y="0.075" drill="0.65" diameter="1.05"/>
-<pad name="S28" x="-8.5" y="0.225" drill="0.65" diameter="1.05"/>
-<pad name="S29" x="-8.5" y="0.375" drill="0.65" diameter="1.05"/>
-<pad name="S30" x="-8.5" y="0.525" drill="0.65" diameter="1.05"/>
-<pad name="S31" x="-8.5" y="0.525" drill="0.65" diameter="1.05"/>
-<pad name="S32" x="-8.5" y="0.675" drill="0.65" diameter="1.05"/>
-<pad name="S33" x="-8.5" y="0.825" drill="0.65" diameter="1.05"/>
-<pad name="S34" x="-8.5" y="0.975" drill="0.65" diameter="1.05"/>
-<wire x1="8.5" y1="1.125" x2="8.5" y2="-1.125" width="0.65" layer="46"/>
-<wire x1="-8.5" y1="1.125" x2="-8.5" y2="-1.125" width="0.65" layer="46"/>
-<wire x1="-11.25" y1="3.015" x2="-11.25" y2="-3.015" width="0.127" layer="21"/>
-<wire x1="-11.25" y1="-3.015" x2="11.25" y2="-3.015" width="0.127" layer="21"/>
-<wire x1="11.25" y1="-3.015" x2="11.25" y2="3.015" width="0.127" layer="21"/>
-<wire x1="11.25" y1="3.015" x2="-11.25" y2="3.015" width="0.127" layer="21"/>
-<wire x1="-8.9" y1="-5.975" x2="-8.9" y2="-3.015" width="0.85" layer="51"/>
-<wire x1="8.9" y1="-5.975" x2="8.9" y2="-3.015" width="0.85" layer="51"/>
-<wire x1="-11.875" y1="4.525" x2="-11.875" y2="-4.525" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-11.875" y1="-4.525" x2="11.875" y2="-4.525" width="0.127" layer="51" style="shortdash"/>
-<wire x1="11.875" y1="-4.525" x2="11.875" y2="4.525" width="0.127" layer="51" style="shortdash"/>
-<wire x1="11.875" y1="4.525" x2="-11.875" y2="4.525" width="0.127" layer="51" style="shortdash"/>
-<wire x1="-11.4" y1="3.165" x2="11.4" y2="3.165" width="0.3" layer="39"/>
-<wire x1="11.4" y1="3.165" x2="11.4" y2="-3.165" width="0.3" layer="39"/>
-<wire x1="11.4" y1="-3.165" x2="-11.4" y2="-3.165" width="0.3" layer="39"/>
-<wire x1="-11.4" y1="-3.165" x2="-11.4" y2="3.165" width="0.3" layer="39"/>
-<wire x1="-6.69" y1="2.29" x2="-6.69" y2="-2.29" width="1" layer="40"/>
-<wire x1="-6.69" y1="-2.29" x2="6.69" y2="-2.29" width="1" layer="40"/>
-<wire x1="6.69" y1="-2.29" x2="6.69" y2="2.29" width="1" layer="40"/>
-<wire x1="6.69" y1="2.29" x2="-6.69" y2="2.29" width="1" layer="40"/>
-<wire x1="-9.525" y1="2.15" x2="-7.475" y2="2.15" width="1" layer="40"/>
-<wire x1="-7.475" y1="2.15" x2="-7.475" y2="-2.15" width="1" layer="40"/>
-<wire x1="-7.475" y1="-2.15" x2="-9.525" y2="-2.15" width="1" layer="40"/>
-<wire x1="-9.525" y1="-2.15" x2="-9.525" y2="2.15" width="1" layer="40"/>
-<wire x1="7.475" y1="2.15" x2="9.525" y2="2.15" width="1" layer="40"/>
-<wire x1="9.525" y1="2.15" x2="9.525" y2="-2.15" width="1" layer="40"/>
-<wire x1="7.475" y1="-2.15" x2="7.475" y2="2.15" width="1" layer="40"/>
-<wire x1="9.525" y1="-2.15" x2="7.475" y2="-2.15" width="1" layer="40"/>
-<wire x1="10.275" y1="3.04" x2="-10.275" y2="3.04" width="2.5" layer="52"/>
-<wire x1="-10.275" y1="3.04" x2="-10.275" y2="-3.04" width="2.5" layer="52"/>
-<wire x1="-10.275" y1="-3.04" x2="10.275" y2="-3.04" width="2.5" layer="52"/>
-<wire x1="10.275" y1="-3.04" x2="10.275" y2="3.04" width="2.5" layer="52"/>
-<text x="0" y="-3.265" size="0.8" layer="25" font="vector" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="3.265" size="0.8" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
-<text x="-7.2" y="1" size="0.8" layer="22" font="vector" rot="MR0" align="bottom-center">A1</text>
-<text x="6.6" y="-1.7" size="0.8" layer="22" font="vector" rot="MR0" align="bottom-center">B1</text>
-</package>
-<package name="TC2030-IDC-FP_TAGCONNECT" urn="urn:adsk.eagle:footprint:24369940/1" library_version="104">
-<description>aus Dokument "Footprint for TC2030-IDC-FP"</description>
-<hole x="0.635" y="2.54" drill="2.4"/>
-<hole x="-2.54" y="2.54" drill="2.4"/>
-<hole x="0.635" y="-2.54" drill="2.4"/>
-<hole x="-2.54" y="-2.54" drill="2.4"/>
-<hole x="-2.54" y="0" drill="1"/>
-<hole x="2.54" y="1.016" drill="1"/>
-<hole x="2.54" y="-1.016" drill="1"/>
-<smd name="2" x="-1.27" y="0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
-<smd name="4" x="0" y="0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
-<smd name="6" x="1.27" y="0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
-<smd name="5" x="1.27" y="-0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
-<smd name="3" x="0" y="-0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
-<smd name="1" x="-1.27" y="-0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
-<polygon width="0.15" layer="41">
-<vertex x="-1.27" y="0.15"/>
-<vertex x="-1.27" y="-0.15"/>
-<vertex x="-0.79" y="-0.15"/>
-<vertex x="-0.79" y="-0.6"/>
-<vertex x="-0.49" y="-0.6"/>
-<vertex x="-0.49" y="-0.15"/>
-<vertex x="0.51" y="-0.15"/>
-<vertex x="0.51" y="-0.6"/>
-<vertex x="0.76" y="-0.6"/>
-<vertex x="0.76" y="-0.15"/>
-<vertex x="1.27" y="-0.15"/>
-<vertex x="1.27" y="0.15"/>
-<vertex x="0.76" y="0.15"/>
-<vertex x="0.76" y="0.6"/>
-<vertex x="0.51" y="0.6"/>
-<vertex x="0.51" y="0.15"/>
-<vertex x="-0.49" y="0.15"/>
-<vertex x="-0.49" y="0.6"/>
-<vertex x="-0.79" y="0.6"/>
-<vertex x="-0.79" y="0.15"/>
-</polygon>
-<polygon width="0.15" layer="43">
-<vertex x="-1.27" y="0.15"/>
-<vertex x="-1.27" y="-0.15"/>
-<vertex x="-0.79" y="-0.15"/>
-<vertex x="-0.79" y="-0.6"/>
-<vertex x="-0.49" y="-0.6"/>
-<vertex x="-0.49" y="-0.15"/>
-<vertex x="0.51" y="-0.15"/>
-<vertex x="0.51" y="-0.6"/>
-<vertex x="0.76" y="-0.6"/>
-<vertex x="0.76" y="-0.15"/>
-<vertex x="1.27" y="-0.15"/>
-<vertex x="1.27" y="0.15"/>
-<vertex x="0.76" y="0.15"/>
-<vertex x="0.76" y="0.6"/>
-<vertex x="0.51" y="0.6"/>
-<vertex x="0.51" y="0.15"/>
-<vertex x="-0.49" y="0.15"/>
-<vertex x="-0.49" y="0.6"/>
-<vertex x="-0.79" y="0.6"/>
-<vertex x="-0.79" y="0.15"/>
-</polygon>
-<text x="-0.94" y="-2" size="0.8" layer="21" font="vector" align="bottom-center">1</text>
-<text x="-0.99" y="1.2" size="0.8" layer="21" font="vector" align="bottom-center">2</text>
-<text x="0" y="4.6" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.6" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-<wire x1="-5.215" y1="4.575" x2="5.235" y2="4.575" width="0.15" layer="39"/>
-<wire x1="5.235" y1="4.575" x2="5.235" y2="-4.575" width="0.15" layer="39"/>
-<wire x1="5.235" y1="-4.575" x2="-5.215" y2="-4.575" width="0.15" layer="39"/>
-<wire x1="-5.215" y1="-4.575" x2="-5.215" y2="4.575" width="0.15" layer="39"/>
-<wire x1="-5.14" y1="4.5" x2="5.16" y2="4.5" width="0.127" layer="21"/>
-<wire x1="5.16" y1="4.5" x2="5.16" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="5.16" y1="-4.5" x2="-5.14" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-5.14" y1="-4.5" x2="-5.14" y2="4.5" width="0.127" layer="21"/>
-</package>
-<package name="SSW-110-03-G-S-RA-LL_SAMTEC" urn="urn:adsk.eagle:footprint:30516240/1" library_version="160">
-<description>Samtec drawing SSW-1XX-XX-XXX-X-XX-XXX-XX</description>
-<pad name="1" x="-11.43" y="0" drill="1.04" diameter="1.7"/>
-<pad name="2" x="-8.89" y="0" drill="1.04" diameter="1.7"/>
-<pad name="3" x="-6.35" y="0" drill="1.04" diameter="1.7"/>
-<pad name="4" x="-3.81" y="0" drill="1.04" diameter="1.7"/>
-<pad name="5" x="-1.27" y="0" drill="1.04" diameter="1.7"/>
-<pad name="6" x="1.27" y="0" drill="1.04" diameter="1.7"/>
-<pad name="7" x="3.81" y="0" drill="1.04" diameter="1.7"/>
-<pad name="8" x="6.35" y="0" drill="1.04" diameter="1.7"/>
-<pad name="9" x="8.89" y="0" drill="1.04" diameter="1.7"/>
-<pad name="10" x="11.43" y="0" drill="1.04" diameter="1.7"/>
-<rectangle x1="-1.665" y1="-0.205" x2="-0.875" y2="0.205" layer="51"/>
-<rectangle x1="-6.745" y1="-0.205" x2="-5.955" y2="0.205" layer="51"/>
-<rectangle x1="-9.285" y1="-0.205" x2="-8.495" y2="0.205" layer="51"/>
-<rectangle x1="-11.825" y1="-0.205" x2="-11.035" y2="0.205" layer="51"/>
-<rectangle x1="-4.205" y1="-0.205" x2="-3.415" y2="0.205" layer="51"/>
-<rectangle x1="0.875" y1="-0.205" x2="1.665" y2="0.205" layer="51"/>
-<rectangle x1="3.415" y1="-0.205" x2="4.205" y2="0.205" layer="51"/>
-<rectangle x1="5.955" y1="-0.205" x2="6.745" y2="0.205" layer="51"/>
-<rectangle x1="8.495" y1="-0.205" x2="9.285" y2="0.205" layer="51"/>
-<rectangle x1="11.035" y1="-0.205" x2="11.825" y2="0.205" layer="51"/>
-<rectangle x1="-11.825" y1="0" x2="-11.035" y2="1.524" layer="51"/>
-<rectangle x1="-9.285" y1="0" x2="-8.495" y2="1.524" layer="51"/>
-<rectangle x1="-6.745" y1="0" x2="-5.955" y2="1.524" layer="51"/>
-<rectangle x1="-4.205" y1="0" x2="-3.415" y2="1.524" layer="51"/>
-<rectangle x1="-1.665" y1="0" x2="-0.875" y2="1.524" layer="51"/>
-<rectangle x1="0.875" y1="0" x2="1.665" y2="1.524" layer="51"/>
-<rectangle x1="3.415" y1="0" x2="4.205" y2="1.524" layer="51"/>
-<rectangle x1="5.955" y1="0" x2="6.745" y2="1.524" layer="51"/>
-<rectangle x1="8.495" y1="0" x2="9.285" y2="1.524" layer="51"/>
-<rectangle x1="11.035" y1="0" x2="11.825" y2="1.524" layer="51"/>
-<wire x1="-13.08" y1="10.334" x2="13.08" y2="10.334" width="0.127" layer="21"/>
-<wire x1="13.08" y1="10.334" x2="13.08" y2="1.524" width="0.127" layer="21"/>
-<wire x1="13.08" y1="1.524" x2="-13.08" y2="1.524" width="0.127" layer="21"/>
-<wire x1="-13.08" y1="1.524" x2="-13.08" y2="10.334" width="0.127" layer="21"/>
-<wire x1="-13.23" y1="10.484" x2="13.23" y2="10.484" width="0.3" layer="39"/>
-<wire x1="13.23" y1="10.484" x2="13.23" y2="1.374" width="0.3" layer="39"/>
-<wire x1="13.23" y1="1.374" x2="12.43" y2="1.374" width="0.3" layer="39"/>
-<wire x1="12.43" y1="1.374" x2="12.43" y2="-1" width="0.3" layer="39"/>
-<wire x1="12.43" y1="-1" x2="-12.43" y2="-1" width="0.3" layer="39"/>
-<wire x1="-12.43" y1="-1" x2="-12.43" y2="1.374" width="0.3" layer="39"/>
-<wire x1="-12.43" y1="1.374" x2="-13.23" y2="1.374" width="0.3" layer="39"/>
-<wire x1="-13.23" y1="1.374" x2="-13.23" y2="10.484" width="0.3" layer="39"/>
-<wire x1="-11.43" y1="1.35" x2="11.43" y2="1.35" width="1" layer="40"/>
-<wire x1="11.43" y1="1.35" x2="12.78" y2="0" width="1" layer="40" curve="-90"/>
-<wire x1="12.78" y1="0" x2="11.43" y2="-1.35" width="1" layer="40" curve="-90"/>
-<wire x1="11.43" y1="-1.35" x2="-11.43" y2="-1.35" width="1" layer="40"/>
-<wire x1="-11.43" y1="-1.35" x2="-12.78" y2="0" width="1" layer="40" curve="-90"/>
-<wire x1="-12.78" y1="0" x2="-11.43" y2="1.35" width="1" layer="40" curve="-90"/>
-<wire x1="-11.43" y1="2.1" x2="11.43" y2="2.1" width="2.5" layer="52"/>
-<wire x1="11.43" y1="2.1" x2="13.53" y2="0" width="2.5" layer="52" curve="-90"/>
-<wire x1="13.53" y1="0" x2="11.43" y2="-2.1" width="2.5" layer="52" curve="-90"/>
-<wire x1="11.43" y1="-2.1" x2="-11.43" y2="-2.1" width="2.5" layer="52"/>
-<wire x1="-11.43" y1="-2.1" x2="-13.53" y2="0" width="2.5" layer="52" curve="-90"/>
-<wire x1="-13.53" y1="0" x2="-11.43" y2="2.1" width="2.5" layer="52" curve="-90"/>
-<text x="0" y="-1.1" size="0.8" layer="25" font="vector" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="2.2" size="0.8" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
-<text x="-11.43" y="2.25" size="0.8" layer="21" font="vector" align="bottom-center">1</text>
-<text x="11.43" y="2.25" size="0.8" layer="21" font="vector" align="bottom-center">10</text>
-</package>
-<package name="665102131822_WURTH" urn="urn:adsk.eagle:footprint:27358442/1" library_version="162">
-<description>aus Datenblatt 665 1xx 131 822</description>
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
-<smd name="S1" x="-1.8" y="-3.875" dx="1.2" dy="1.8" layer="1"/>
-<smd name="S2" x="1.8" y="-3.875" dx="1.2" dy="1.8" layer="1"/>
-<text x="0" y="-4.95" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<text x="0" y="0.95" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.8" y="-1.9" size="0.8128" layer="21">1</text>
-<wire x1="-2.05" y1="-0.425" x2="2.05" y2="-0.425" width="0.127" layer="21"/>
-<wire x1="2.05" y1="-0.425" x2="2.05" y2="-4.725" width="0.127" layer="21"/>
-<wire x1="2.05" y1="-4.725" x2="-2.05" y2="-4.725" width="0.127" layer="21"/>
-<wire x1="-2.05" y1="-4.725" x2="-2.05" y2="-0.425" width="0.127" layer="21"/>
-<wire x1="-2.475" y1="-4.85" x2="2.475" y2="-4.85" width="0.15" layer="39"/>
-<wire x1="2.475" y1="-4.85" x2="2.475" y2="-2.9" width="0.15" layer="39"/>
-<wire x1="2.475" y1="-2.9" x2="2.125" y2="-2.9" width="0.15" layer="39"/>
-<wire x1="2.125" y1="-2.9" x2="2.125" y2="-0.35" width="0.15" layer="39"/>
-<wire x1="2.125" y1="-0.35" x2="0.875" y2="-0.35" width="0.15" layer="39"/>
-<wire x1="0.875" y1="-0.35" x2="0.875" y2="0.85" width="0.15" layer="39"/>
-<wire x1="0.875" y1="0.85" x2="-0.875" y2="0.85" width="0.15" layer="39"/>
-<wire x1="-0.875" y1="0.85" x2="-0.875" y2="-0.35" width="0.15" layer="39"/>
-<wire x1="-0.875" y1="-0.35" x2="-2.125" y2="-0.35" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="-0.35" x2="-2.125" y2="-2.9" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="-2.9" x2="-2.475" y2="-2.9" width="0.15" layer="39"/>
-<wire x1="-2.475" y1="-2.9" x2="-2.475" y2="-4.85" width="0.15" layer="39"/>
-<circle x="-1.3" y="0" radius="0.3" width="0" layer="21"/>
-<rectangle x1="0.4" y1="-0.425" x2="0.6" y2="0.225" layer="51"/>
-<rectangle x1="-0.6" y1="-0.425" x2="-0.4" y2="0.225" layer="51"/>
-<rectangle x1="-0.2" y1="-0.825" x2="0.2" y2="0.825" layer="41"/>
-</package>
 </packages>
-<packages3d>
-<package3d name="WIREPAD_0.8X6.5MM" urn="urn:adsk.eagle:package:30516391/2" type="empty" library_version="162">
-<packageinstances>
-<packageinstance name="WIREPAD_0.8X6.5MM"/>
-</packageinstances>
-</package3d>
-<package3d name="MUSBR-M5C1-XX_AMPHENOL" urn="urn:adsk.eagle:package:26410200/2" type="model" library_version="69">
-<description>Aus Zeichnung P-MUSBR-M5C1-XX</description>
-<packageinstances>
-<packageinstance name="MUSBR-M5C1-XX_AMPHENOL"/>
-</packageinstances>
-</package3d>
-<package3d name="TC2030-IDC-FP_TAGCONNECT" urn="urn:adsk.eagle:package:24370039/2" type="empty" library_version="104">
-<description>aus Dokument "Footprint for TC2030-IDC-FP"</description>
-<packageinstances>
-<packageinstance name="TC2030-IDC-FP_TAGCONNECT"/>
-</packageinstances>
-</package3d>
-<package3d name="SSW-110-03-G-S-RA-LL_SAMTEC" urn="urn:adsk.eagle:package:30516241/2" type="model" library_version="160">
-<description>Samtec drawing SSW-1XX-XX-XXX-X-XX-XXX-XX</description>
-<packageinstances>
-<packageinstance name="SSW-110-03-G-S-RA-LL_SAMTEC"/>
-</packageinstances>
-</package3d>
-<package3d name="665102131822_WURTH" urn="urn:adsk.eagle:package:27358444/2" type="model" library_version="162">
-<description>aus Datenblatt 665 1xx 131 822</description>
-<packageinstances>
-<packageinstance name="665102131822_WURTH"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="WIREPAD" urn="urn:adsk.eagle:symbol:24369852/1" library_version="14">
-<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
-<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="USB_TYPE_C" urn="urn:adsk.eagle:symbol:24369856/1" library_version="69">
-<pin name="GND@A1" x="-17.78" y="12.7" length="short" direction="in"/>
-<pin name="SSTXP1" x="-17.78" y="10.16" length="short"/>
-<pin name="SSTXN1" x="-17.78" y="7.62" length="short"/>
-<pin name="VBUS@A4" x="-17.78" y="5.08" length="short" direction="out"/>
-<pin name="CC1" x="-17.78" y="2.54" length="short"/>
-<pin name="DP1" x="-17.78" y="0" length="short"/>
-<pin name="DN1" x="-17.78" y="-2.54" length="short"/>
-<pin name="SBU1" x="-17.78" y="-5.08" length="short"/>
-<pin name="VBUS@A9" x="-17.78" y="-7.62" length="short" direction="out"/>
-<pin name="SSRXN2" x="-17.78" y="-10.16" length="short"/>
-<pin name="SSRXP2" x="-17.78" y="-12.7" length="short"/>
-<pin name="GND@A12" x="-17.78" y="-15.24" length="short" direction="in"/>
-<pin name="SHIELD" x="0" y="-20.32" length="short" direction="in" rot="R90"/>
-<pin name="GND@B12" x="17.78" y="12.7" length="short" direction="in" rot="R180"/>
-<pin name="SSRXP1" x="17.78" y="10.16" length="short" rot="R180"/>
-<pin name="SSRXN1" x="17.78" y="7.62" length="short" rot="R180"/>
-<pin name="VBUS@B9" x="17.78" y="5.08" length="short" direction="out" rot="R180"/>
-<pin name="SBU2" x="17.78" y="2.54" length="short" rot="R180"/>
-<pin name="DN2" x="17.78" y="0" length="short" rot="R180"/>
-<pin name="DP2" x="17.78" y="-2.54" length="short" rot="R180"/>
-<pin name="CC2" x="17.78" y="-5.08" length="short" rot="R180"/>
-<pin name="VBUS@B4" x="17.78" y="-7.62" length="short" direction="out" rot="R180"/>
-<pin name="SSTXN2" x="17.78" y="-10.16" length="short" rot="R180"/>
-<pin name="SSTXP2" x="17.78" y="-12.7" length="short" rot="R180"/>
-<pin name="GND@B1" x="17.78" y="-15.24" length="short" direction="in" rot="R180"/>
-<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-17.78" x2="15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<text x="-15.24" y="15.748" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="2.54" y="-20.32" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-<symbol name="TAG-CONNECT_SWD" urn="urn:adsk.eagle:symbol:24369862/1" library_version="104">
-<pin name="VCC" x="-12.7" y="2.54" length="short" direction="in"/>
-<pin name="!RST" x="-12.7" y="0" length="short" direction="out"/>
-<pin name="GND" x="-12.7" y="-2.54" length="short" direction="in"/>
-<pin name="SWDIO/TMS" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="SWCLK/TCK" x="15.24" y="0" length="short" direction="out" rot="R180"/>
-<pin name="SWO/TDO" x="15.24" y="-2.54" length="short" direction="in" rot="R180"/>
-<wire x1="-10.16" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<text x="-10.16" y="5.588" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-<symbol name="CONNECTOR_1X10" urn="urn:adsk.eagle:symbol:30516321/1" library_version="160">
-<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-15.24" x2="2.54" y2="12.7" width="0.254" layer="94"/>
-<pin name="1" x="-5.08" y="10.16" visible="pin" length="short" direction="pas"/>
-<pin name="2" x="-5.08" y="7.62" visible="pin" length="short" direction="pas"/>
-<pin name="3" x="-5.08" y="5.08" visible="pin" length="short" direction="pas"/>
-<pin name="4" x="-5.08" y="2.54" visible="pin" length="short" direction="pas"/>
-<pin name="5" x="-5.08" y="0" visible="pin" length="short" direction="pas"/>
-<pin name="6" x="-5.08" y="-2.54" visible="pin" length="short" direction="pas"/>
-<pin name="7" x="-5.08" y="-5.08" visible="pin" length="short" direction="pas"/>
-<pin name="8" x="-5.08" y="-7.62" visible="pin" length="short" direction="pas"/>
-<pin name="9" x="-5.08" y="-10.16" visible="pin" length="short" direction="pas"/>
-<pin name="10" x="-5.08" y="-12.7" visible="pin" length="short" direction="pas"/>
-<text x="-2.54" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="13.208" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="CONNECTOR_1X2_SHIELDED" urn="urn:adsk.eagle:symbol:24369850/1" library_version="162">
-<wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="-5.08" y="2.54" visible="pin" length="short" direction="pas"/>
-<pin name="2" x="-5.08" y="0" visible="pin" length="short" direction="pas"/>
-<pin name="S" x="0" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
-<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WIREPAD_0.8X6.5MM" urn="urn:adsk.eagle:component:30516392/3" prefix="PAD" uservalue="yes" library_version="163">
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="WIREPAD" x="0" y="0"/>
+<gate name="1" symbol="GND" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WIREPAD_0.8X6.5MM">
-<connects>
-<connect gate="G$1" pin="P" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35 P$36 P$37 P$38 P$39 P$40 P$41 P$42 P$43 P$44 P$45 P$46 P$47 P$48 P$49 P$50 P$51 P$52 P$53 P$54 P$55 P$56 P$57 P$58 P$59 P$60 P$61 P$62 P$63 P$64 P$65 P$66 P$67"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30516391/2"/>
-</package3dinstances>
+<device name="">
 <technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MUSBR-M5C1" urn="urn:adsk.eagle:component:26410454/2" prefix="X" library_version="164">
-<description>&lt;b&gt;MUSBR-M5C1-XX, USB Type C Receptacle, panel mount, THT&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="USB_TYPE_C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-M0" package="MUSBR-M5C1-XX_AMPHENOL">
-<connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="DN1" pad="A7"/>
-<connect gate="G$1" pin="DN2" pad="B7"/>
-<connect gate="G$1" pin="DP1" pad="A6"/>
-<connect gate="G$1" pin="DP2" pad="B6"/>
-<connect gate="G$1" pin="GND@A1" pad="A1"/>
-<connect gate="G$1" pin="GND@A12" pad="A12"/>
-<connect gate="G$1" pin="GND@B1" pad="B1"/>
-<connect gate="G$1" pin="GND@B12" pad="B12"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SHIELD" pad="G1 G2 G3 G4 G5 G6 S1 S2 S3 S4 S5 S6 S7 S8 S9 S10 S11 S12 S13 S14 S15 S16 S17 S18 S19 S20 S21 S22 S23 S24 S25 S26 S27 S28 S29 S30 S31 S32 S33 S34"/>
-<connect gate="G$1" pin="SSRXN1" pad="B10"/>
-<connect gate="G$1" pin="SSRXN2" pad="A10"/>
-<connect gate="G$1" pin="SSRXP1" pad="B11"/>
-<connect gate="G$1" pin="SSRXP2" pad="A11"/>
-<connect gate="G$1" pin="SSTXN1" pad="A3"/>
-<connect gate="G$1" pin="SSTXN2" pad="B3"/>
-<connect gate="G$1" pin="SSTXP1" pad="A2"/>
-<connect gate="G$1" pin="SSTXP2" pad="B2"/>
-<connect gate="G$1" pin="VBUS@A4" pad="A4"/>
-<connect gate="G$1" pin="VBUS@A9" pad="A9"/>
-<connect gate="G$1" pin="VBUS@B4" pad="B4"/>
-<connect gate="G$1" pin="VBUS@B9" pad="B9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26410200/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-01-27"/>
-<attribute name="CREATED" value="2021-01-27"/>
-<attribute name="CURRENT" value="5.0 A"/>
-<attribute name="MANUFACTURER" value="Amphenol"/>
-<attribute name="MAX_OP_TEMP" value="105 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="THREAD" value="M2.5"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TC2030-CTX" urn="urn:adsk.eagle:component:24370134/2" prefix="X" library_version="104">
-<description>&lt;b&gt;TC2030-CTX&lt;/b&gt;&lt;br /&gt;
-Tag-Connect for ARM CORTEX SWD&lt;br /&gt;</description>
-<gates>
-<gate name="G$1" symbol="TAG-CONNECT_SWD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TC2030-IDC-FP_TAGCONNECT">
-<connects>
-<connect gate="G$1" pin="!RST" pad="3"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="SWCLK/TCK" pad="4"/>
-<connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
-<connect gate="G$1" pin="SWO/TDO" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370039/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2020-02-28"/>
-<attribute name="CREATED" value="2020-02-28"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SSW-110-03-G-S-RA-LL" urn="urn:adsk.eagle:component:30516322/2" prefix="X" library_version="164">
-<description>&lt;b&gt;SSW-110-03-G-S-RA-LL, THT socket header, right angle, 10 pins&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="CONNECTOR_1X10" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SSW-110-03-G-S-RA-LL_SAMTEC">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30516241/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="CURRENT" value="4.7 A"/>
-<attribute name="MANUFACTURER" value="Samtec"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="465 VAC"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="665102131822" urn="urn:adsk.eagle:component:27358470/2" prefix="X" library_version="164">
-<description>&lt;b&gt;665102131822, WR-WTB, 1.00 mm, horizontal, 2 pins&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="CONNECTOR_1X2_SHIELDED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="665102131822_WURTH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="S" pad="S1 S2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27358444/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-03-09"/>
-<attribute name="CREATED" value="2021-03-09"/>
-<attribute name="CURRENT" value="1.0 A"/>
-<attribute name="MANUFACTURER" value="Wuerth"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-25 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="50.0 V"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 </devicesets>
 </library>
-<library name="02_DT_Discrete_Semiconductors" urn="urn:adsk.eagle:library:24371305">
+<library name="02_TFH_Discrete_Semiconductors" urn="urn:adsk.eagle:library:33514804">
 <packages>
-<package name="SMA_ST" urn="urn:adsk.eagle:footprint:24371356/1" library_version="5">
+<package name="SOT-323_DIODES_INC" urn="urn:adsk.eagle:footprint:33514842/1" library_version="5">
+<description>&lt;b&gt;SOT323&lt;/b&gt;&lt;br/&gt;
+Aus Datenblatt DMG1012UW</description>
+<smd name="1" x="0.95" y="-0.65" dx="0.9" dy="0.7" layer="1"/>
+<smd name="2" x="0.95" y="0.65" dx="0.9" dy="0.7" layer="1"/>
+<smd name="3" x="-0.95" y="0" dx="0.9" dy="0.7" layer="1"/>
+<wire x1="-0.675" y1="-1.1" x2="0.675" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="0.675" y1="-1.1" x2="0.675" y2="1.1" width="0.127" layer="21"/>
+<wire x1="0.675" y1="1.1" x2="-0.675" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-0.675" y1="1.1" x2="-0.675" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-0.775" y1="1.175" x2="0.775" y2="1.175" width="0.15" layer="39"/>
+<wire x1="0.775" y1="1.175" x2="0.775" y2="1.075" width="0.15" layer="39"/>
+<wire x1="0.775" y1="1.075" x2="1.475" y2="1.075" width="0.15" layer="39"/>
+<wire x1="1.475" y1="1.075" x2="1.475" y2="-1.075" width="0.15" layer="39"/>
+<wire x1="1.475" y1="-1.075" x2="0.775" y2="-1.075" width="0.15" layer="39"/>
+<wire x1="0.775" y1="-1.075" x2="0.775" y2="-1.175" width="0.15" layer="39"/>
+<wire x1="0.775" y1="-1.175" x2="-0.775" y2="-1.175" width="0.15" layer="39"/>
+<wire x1="-0.775" y1="-1.175" x2="-0.775" y2="-0.425" width="0.15" layer="39"/>
+<wire x1="-0.775" y1="-0.425" x2="-1.475" y2="-0.425" width="0.15" layer="39"/>
+<wire x1="-1.475" y1="-0.425" x2="-1.475" y2="0.425" width="0.15" layer="39"/>
+<wire x1="-1.475" y1="0.425" x2="-0.775" y2="0.425" width="0.15" layer="39"/>
+<wire x1="-0.775" y1="0.425" x2="-0.775" y2="1.175" width="0.15" layer="39"/>
+<text x="0" y="1.275" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.275" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="0.675" y1="0.45" x2="1.1" y2="0.85" layer="27"/>
+<rectangle x1="0.675" y1="-0.85" x2="1.1" y2="-0.45" layer="27"/>
+<rectangle x1="-1.1" y1="-0.2" x2="-0.675" y2="0.2" layer="27" rot="R180"/>
+</package>
+<package name="SMA_ST" urn="urn:adsk.eagle:footprint:33514841/1" library_version="5">
 <description>aus Datenblatt SMA6J</description>
 <smd name="C" x="-2.015" y="0" dx="1.4" dy="1.64" layer="1"/>
 <smd name="A" x="2.015" y="0" dx="1.4" dy="1.64" layer="1"/>
@@ -3941,96 +362,197 @@ Tag-Connect for ARM CORTEX SWD&lt;br /&gt;</description>
 <text x="0" y="1.625" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.625" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="Q3_TI" urn="urn:adsk.eagle:footprint:24749433/2" library_version="15">
-<description>aus Datenblatt CSD17308Q3, zusätzliche Vias eingefügt</description>
-<smd name="1" x="-1.435" y="0.975" dx="0.63" dy="0.5" layer="1" roundness="5" cream="no"/>
-<smd name="2" x="-1.435" y="0.325" dx="0.63" dy="0.5" layer="1" roundness="5" cream="no"/>
-<smd name="3" x="-1.435" y="-0.325" dx="0.63" dy="0.5" layer="1" roundness="5" cream="no"/>
-<smd name="4" x="-1.435" y="-0.975" dx="0.63" dy="0.5" layer="1" roundness="5" cream="no"/>
-<smd name="5" x="0" y="0" dx="0.2" dy="0.2" layer="1" roundness="5" stop="no" cream="no"/>
-<polygon width="0.15" layer="1">
-<vertex x="-0.535" y="1.15"/>
-<vertex x="1.675" y="1.15"/>
-<vertex x="1.675" y="0.8"/>
-<vertex x="1.265" y="0.8"/>
-<vertex x="1.265" y="0.5"/>
-<vertex x="1.675" y="0.5"/>
-<vertex x="1.675" y="0.15"/>
-<vertex x="1.265" y="0.15"/>
-<vertex x="1.265" y="-0.15"/>
-<vertex x="1.675" y="-0.15"/>
-<vertex x="1.675" y="-0.5"/>
-<vertex x="1.265" y="-0.5"/>
-<vertex x="1.265" y="-0.8"/>
-<vertex x="1.675" y="-0.8"/>
-<vertex x="1.675" y="-1.15"/>
-<vertex x="-0.535" y="-1.15"/>
+<package name="150044M155260_WUERTH" urn="urn:adsk.eagle:footprint:33514843/1" library_version="5">
+<description>from datasheet "150044M155260"</description>
+<smd name="2" x="-0.4" y="0.4" dx="0.4" dy="0.4" layer="1"/>
+<smd name="3" x="0.4" y="0.4" dx="0.4" dy="0.4" layer="1"/>
+<smd name="4" x="0.4" y="-0.4" dx="0.4" dy="0.4" layer="1"/>
+<smd name="1" x="-0.4" y="-0.4" dx="0.4" dy="0.4" layer="1"/>
+<wire x1="-0.55" y1="0.55" x2="0.55" y2="0.55" width="0.127" layer="21"/>
+<wire x1="0.55" y1="0.55" x2="0.55" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="0.55" y1="-0.55" x2="-0.55" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="-0.55" y1="-0.55" x2="-0.55" y2="0.55" width="0.127" layer="21"/>
+<wire x1="-0.675" y1="0.675" x2="-0.675" y2="-0.675" width="0.15" layer="39"/>
+<wire x1="-0.675" y1="-0.675" x2="0.675" y2="-0.675" width="0.15" layer="39"/>
+<wire x1="0.675" y1="-0.675" x2="0.675" y2="0.675" width="0.15" layer="39"/>
+<wire x1="0.675" y1="0.675" x2="-0.675" y2="0.675" width="0.15" layer="39"/>
+<wire x1="-0.2" y1="0" x2="0" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="0" y1="-0.2" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="-0.2" y2="0" width="0.127" layer="51"/>
+<wire x1="-0.2" y1="0" x2="-0.4" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="0.4" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="-0.2" x2="0" y2="-0.4" width="0.127" layer="51"/>
+<text x="0" y="0.775" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.775" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="SOD323F_SC-90_NXP" urn="urn:adsk.eagle:footprint:33514883/1" library_version="5">
+<description>aus Datenblatt PMEG6010CEJ</description>
+<smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<wire x1="-0.9" y1="0.675" x2="0.9" y2="0.675" width="0.127" layer="21"/>
+<wire x1="0.9" y1="0.675" x2="0.9" y2="-0.675" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.675" x2="-0.9" y2="-0.675" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-0.675" x2="-0.9" y2="0.675" width="0.127" layer="21"/>
+<wire x1="-1.475" y1="-0.375" x2="-1.475" y2="0.375" width="0.15" layer="39"/>
+<wire x1="-1.475" y1="0.375" x2="-0.975" y2="0.375" width="0.15" layer="39"/>
+<wire x1="-0.975" y1="0.375" x2="-0.975" y2="0.75" width="0.15" layer="39"/>
+<wire x1="-0.975" y1="0.75" x2="0.975" y2="0.75" width="0.15" layer="39"/>
+<wire x1="0.975" y1="0.75" x2="0.975" y2="0.375" width="0.15" layer="39"/>
+<wire x1="0.975" y1="0.375" x2="1.475" y2="0.375" width="0.15" layer="39"/>
+<wire x1="1.475" y1="0.375" x2="1.475" y2="-0.375" width="0.15" layer="39"/>
+<wire x1="1.475" y1="-0.375" x2="0.975" y2="-0.375" width="0.15" layer="39"/>
+<wire x1="0.975" y1="-0.375" x2="0.975" y2="-0.75" width="0.15" layer="39"/>
+<wire x1="0.975" y1="-0.75" x2="-0.975" y2="-0.75" width="0.15" layer="39"/>
+<wire x1="-0.975" y1="-0.75" x2="-0.975" y2="-0.375" width="0.15" layer="39"/>
+<wire x1="-0.975" y1="-0.375" x2="-1.475" y2="-0.375" width="0.15" layer="39"/>
+<polygon width="0.127" layer="21">
+<vertex x="-0.2" y="0.675"/>
+<vertex x="-0.2" y="-0.675"/>
+<vertex x="-0.9" y="-0.675"/>
+<vertex x="-0.9" y="0.675"/>
 </polygon>
-<polygon width="0.127" layer="51">
-<vertex x="-1.61" y="0.705"/>
-<vertex x="-0.705" y="0.705"/>
-<vertex x="-0.705" y="1.61"/>
-<vertex x="-1.61" y="1.61"/>
-</polygon>
+<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
+<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51" rot="R180"/>
+<text x="0" y="0.85" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.85" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="POWERPAK_1212-8S_VISHAY" urn="urn:adsk.eagle:footprint:33514869/1" library_version="5">
+<description>from datasheet SiSS06DN</description>
+<smd name="1" x="-1.435" y="0.9925" dx="0.99" dy="0.405" layer="1"/>
+<smd name="2" x="-1.435" y="0.330834375" dx="0.99" dy="0.405" layer="1"/>
+<smd name="3" x="-1.435" y="-0.330834375" dx="0.99" dy="0.405" layer="1"/>
+<smd name="4" x="-1.435" y="-0.9925" dx="0.99" dy="0.405" layer="1"/>
+<smd name="5" x="0.5575" y="0" dx="1.725" dy="2.235" layer="1"/>
+<rectangle x1="-1.98" y1="-0.128334375" x2="-0.89" y2="0.128334375" layer="41"/>
+<rectangle x1="-1.98" y1="-0.790003125" x2="-0.89" y2="-0.533334375" layer="41"/>
+<rectangle x1="-1.98" y1="0.533334375" x2="-0.89" y2="0.790003125" layer="41"/>
+<rectangle x1="1.42" y1="0.533334375" x2="1.98" y2="0.790003125" layer="41"/>
+<rectangle x1="1.42" y1="-0.128334375" x2="1.98" y2="0.128334375" layer="41"/>
+<rectangle x1="1.42" y1="-0.790003125" x2="1.98" y2="-0.533334375" layer="41"/>
 <polygon width="0.25" layer="29">
-<vertex x="-0.535" y="1.15"/>
-<vertex x="1.675" y="1.15"/>
-<vertex x="1.675" y="0.8"/>
-<vertex x="1.265" y="0.8"/>
-<vertex x="1.265" y="0.5"/>
-<vertex x="1.675" y="0.5"/>
-<vertex x="1.675" y="0.15"/>
-<vertex x="1.265" y="0.15"/>
-<vertex x="1.265" y="-0.15"/>
-<vertex x="1.675" y="-0.15"/>
-<vertex x="1.675" y="-0.5"/>
-<vertex x="1.265" y="-0.5"/>
-<vertex x="1.265" y="-0.8"/>
-<vertex x="1.675" y="-0.8"/>
-<vertex x="1.675" y="-1.15"/>
-<vertex x="-0.535" y="-1.15"/>
+<vertex x="-0.2" y="1"/>
+<vertex x="1.245" y="1"/>
+<vertex x="1.245" y="1.120003125"/>
+<vertex x="1.855" y="1.120003125"/>
+<vertex x="1.855" y="0.865003125"/>
+<vertex x="1.2" y="0.865003125"/>
+<vertex x="1.2" y="0.458334375"/>
+<vertex x="1.855" y="0.458334375"/>
+<vertex x="1.855" y="0.203334375"/>
+<vertex x="1.2" y="0.203334375"/>
+<vertex x="1.2" y="-0.203334375"/>
+<vertex x="1.855" y="-0.203334375"/>
+<vertex x="1.855" y="-0.458334375"/>
+<vertex x="1.2" y="-0.458334375"/>
+<vertex x="1.2" y="-0.865003125"/>
+<vertex x="1.855" y="-0.865003125"/>
+<vertex x="1.855" y="-1.120003125"/>
+<vertex x="1.245" y="-1.120003125"/>
+<vertex x="1.245" y="-1"/>
+<vertex x="-0.2" y="-1"/>
 </polygon>
-<pad name="P$1" x="-0.36" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="P$4" x="0.365" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="P$5" x="1.09" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="P$6" x="1.09" y="0.975" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
-<pad name="P$7" x="1.09" y="-0.975" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<polygon width="0.15" layer="1">
+<vertex x="-0.2" y="1"/>
+<vertex x="1.245" y="1"/>
+<vertex x="1.245" y="1.120003125"/>
+<vertex x="1.855" y="1.120003125"/>
+<vertex x="1.855" y="0.865003125"/>
+<vertex x="1.2" y="0.865003125"/>
+<vertex x="1.2" y="0.458334375"/>
+<vertex x="1.855" y="0.458334375"/>
+<vertex x="1.855" y="0.203334375"/>
+<vertex x="1.2" y="0.203334375"/>
+<vertex x="1.2" y="-0.203334375"/>
+<vertex x="1.855" y="-0.203334375"/>
+<vertex x="1.855" y="-0.458334375"/>
+<vertex x="1.2" y="-0.458334375"/>
+<vertex x="1.2" y="-0.865003125"/>
+<vertex x="1.855" y="-0.865003125"/>
+<vertex x="1.855" y="-1.120003125"/>
+<vertex x="1.245" y="-1.120003125"/>
+<vertex x="1.245" y="-1"/>
+<vertex x="-0.2" y="-1"/>
+</polygon>
+<polygon width="0.15" layer="31">
+<vertex x="-0.2" y="1"/>
+<vertex x="1.245" y="1"/>
+<vertex x="1.245" y="1.120003125"/>
+<vertex x="1.855" y="1.120003125"/>
+<vertex x="1.855" y="0.865003125"/>
+<vertex x="1.2" y="0.865003125"/>
+<vertex x="1.2" y="0.458334375"/>
+<vertex x="1.855" y="0.458334375"/>
+<vertex x="1.855" y="0.203334375"/>
+<vertex x="1.2" y="0.203334375"/>
+<vertex x="1.2" y="-0.203334375"/>
+<vertex x="1.855" y="-0.203334375"/>
+<vertex x="1.855" y="-0.458334375"/>
+<vertex x="1.2" y="-0.458334375"/>
+<vertex x="1.2" y="-0.865003125"/>
+<vertex x="1.855" y="-0.865003125"/>
+<vertex x="1.855" y="-1.120003125"/>
+<vertex x="1.245" y="-1.120003125"/>
+<vertex x="1.245" y="-1"/>
+<vertex x="-0.2" y="-1"/>
+</polygon>
+<polygon width="0.15" layer="51">
+<vertex x="-1.7" y="1.3"/>
+<vertex x="-1.7" y="1.7"/>
+<vertex x="-0.8" y="1.7"/>
+<vertex x="-0.8" y="1.3"/>
+</polygon>
 <wire x1="-1.7" y1="1.7" x2="1.7" y2="1.7" width="0.127" layer="21"/>
 <wire x1="1.7" y1="1.7" x2="1.7" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-1.7" x2="-1.7" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="-1.7" y1="-1.7" x2="-1.7" y2="1.7" width="0.127" layer="21"/>
-<wire x1="-1.775" y1="1.775" x2="-1.775" y2="1.3" width="0.15" layer="39"/>
-<wire x1="-1.775" y1="1.3" x2="-1.825" y2="1.3" width="0.15" layer="39"/>
-<wire x1="1.775" y1="-1.775" x2="1.775" y2="-1.3" width="0.15" layer="39"/>
-<wire x1="1.775" y1="-1.3" x2="1.825" y2="-1.3" width="0.15" layer="39"/>
-<wire x1="1.775" y1="-1.775" x2="-1.775" y2="-1.775" width="0.15" layer="39"/>
-<wire x1="-1.775" y1="-1.775" x2="-1.775" y2="-1.3" width="0.15" layer="39"/>
-<wire x1="-1.775" y1="-1.3" x2="-1.825" y2="-1.3" width="0.15" layer="39"/>
-<wire x1="-1.825" y1="-1.3" x2="-1.825" y2="1.3" width="0.15" layer="39"/>
-<wire x1="-1.775" y1="1.775" x2="1.775" y2="1.775" width="0.15" layer="39"/>
-<wire x1="1.775" y1="1.775" x2="1.775" y2="1.3" width="0.15" layer="39"/>
-<wire x1="1.775" y1="1.3" x2="1.825" y2="1.3" width="0.15" layer="39"/>
-<wire x1="1.825" y1="1.3" x2="1.825" y2="-1.3" width="0.15" layer="39"/>
-<text x="-1.925" y="0" size="0.8" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.925" y="0" size="0.8" layer="27" font="vector" rot="R270" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-1.8" y1="-0.075" x2="-1.07" y2="0.075" layer="41"/>
-<rectangle x1="-1.8" y1="-0.725" x2="-1.07" y2="-0.575" layer="41"/>
-<rectangle x1="-1.8" y1="0.575" x2="-1.07" y2="0.725" layer="41"/>
-<rectangle x1="1.34" y1="-0.075" x2="1.8" y2="0.075" layer="41"/>
-<rectangle x1="1.34" y1="0.575" x2="1.8" y2="0.725" layer="41"/>
-<rectangle x1="1.34" y1="-0.725" x2="1.8" y2="-0.575" layer="41"/>
-<rectangle x1="-1.66" y1="-0.495" x2="-1.21" y2="-0.155" layer="31"/>
-<rectangle x1="-1.66" y1="-1.145" x2="-1.21" y2="-0.805" layer="31"/>
-<rectangle x1="-1.66" y1="0.155" x2="-1.21" y2="0.495" layer="31"/>
-<rectangle x1="-1.66" y1="0.805" x2="-1.21" y2="1.145" layer="31"/>
-<rectangle x1="1.21" y1="-0.495" x2="1.66" y2="-0.155" layer="31"/>
-<rectangle x1="1.21" y1="0.155" x2="1.66" y2="0.495" layer="31"/>
-<rectangle x1="1.21" y1="0.805" x2="1.66" y2="1.145" layer="31"/>
-<rectangle x1="1.21" y1="-1.145" x2="1.66" y2="-0.805" layer="31"/>
-<rectangle x1="-0.46" y1="0.125" x2="0.985" y2="1.145" layer="31"/>
-<rectangle x1="-0.46" y1="-1.145" x2="0.985" y2="-0.125" layer="31"/>
+<wire x1="1.775" y1="1.775" x2="-1.775" y2="1.775" width="0.15" layer="39"/>
+<wire x1="-1.775" y1="1.775" x2="-1.775" y2="1.27" width="0.15" layer="39"/>
+<wire x1="-1.775" y1="1.27" x2="-2.005" y2="1.27" width="0.15" layer="39"/>
+<wire x1="1.775" y1="1.775" x2="1.775" y2="1.27" width="0.15" layer="39"/>
+<wire x1="1.775" y1="1.27" x2="2.005" y2="1.27" width="0.15" layer="39"/>
+<wire x1="-1.775" y1="-1.775" x2="1.775" y2="-1.775" width="0.15" layer="39"/>
+<wire x1="1.775" y1="-1.775" x2="1.775" y2="-1.27" width="0.15" layer="39"/>
+<wire x1="1.775" y1="-1.27" x2="2.005" y2="-1.27" width="0.15" layer="39"/>
+<wire x1="2.005" y1="-1.27" x2="2.005" y2="1.27" width="0.15" layer="39"/>
+<wire x1="-1.775" y1="-1.775" x2="-1.775" y2="-1.27" width="0.15" layer="39"/>
+<wire x1="-1.775" y1="-1.27" x2="-2.005" y2="-1.27" width="0.15" layer="39"/>
+<wire x1="-2.005" y1="-1.27" x2="-2.005" y2="1.27" width="0.15" layer="39"/>
+<text x="0" y="1.875" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.875" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="Q3A_TI" urn="urn:adsk.eagle:footprint:24371426/1" library_version="12">
+<package name="SOT-23_NXP" urn="urn:adsk.eagle:footprint:33514811/1" library_version="5">
+<description>Aus Dokument "SOT23", NXP, vom 9. Januar 2017</description>
+<smd name="2" x="-0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="1" x="0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="3" x="0" y="-1" dx="0.6" dy="0.7" layer="1"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-1.325" y1="1.425" x2="-1.325" y2="0.775" width="0.15" layer="39"/>
+<wire x1="-1.325" y1="0.775" x2="-1.575" y2="0.775" width="0.15" layer="39"/>
+<wire x1="-1.575" y1="0.775" x2="-1.575" y2="-0.775" width="0.15" layer="39"/>
+<wire x1="-1.575" y1="-0.775" x2="-0.375" y2="-0.775" width="0.15" layer="39"/>
+<wire x1="-0.375" y1="-0.775" x2="-0.375" y2="-1.425" width="0.15" layer="39"/>
+<wire x1="-0.375" y1="-1.425" x2="0.375" y2="-1.425" width="0.15" layer="39"/>
+<wire x1="0.375" y1="-1.425" x2="0.375" y2="-0.775" width="0.15" layer="39"/>
+<wire x1="0.375" y1="-0.775" x2="1.575" y2="-0.775" width="0.15" layer="39"/>
+<wire x1="1.575" y1="-0.775" x2="1.575" y2="0.775" width="0.15" layer="39"/>
+<wire x1="1.575" y1="0.775" x2="1.325" y2="0.775" width="0.15" layer="39"/>
+<wire x1="1.325" y1="0.775" x2="1.325" y2="1.425" width="0.15" layer="39"/>
+<wire x1="1.325" y1="1.425" x2="0.575" y2="1.425" width="0.15" layer="39"/>
+<wire x1="0.575" y1="1.425" x2="0.575" y2="0.775" width="0.15" layer="39"/>
+<wire x1="0.575" y1="0.775" x2="-0.575" y2="0.775" width="0.15" layer="39"/>
+<wire x1="-0.575" y1="0.775" x2="-0.575" y2="1.425" width="0.15" layer="39"/>
+<wire x1="-0.575" y1="1.425" x2="-1.325" y2="1.425" width="0.15" layer="39"/>
+<text x="-1.675" y="0" size="0.8" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.675" y="0" size="0.8" layer="27" rot="R270" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-0.24" y1="-1.25" x2="0.24" y2="-0.7" layer="51" rot="R180"/>
+<rectangle x1="-1.19" y1="0.7" x2="-0.71" y2="1.25" layer="51"/>
+<rectangle x1="0.71" y1="0.7" x2="1.19" y2="1.25" layer="51"/>
+</package>
+<package name="Q3A_TI" urn="urn:adsk.eagle:footprint:33514814/1" library_version="5">
 <description>aus Datenblatt CSD17551Q3A</description>
 <smd name="1" x="-1.55" y="0.975" dx="0.7" dy="0.4" layer="1" roundness="30" stop="no" cream="no"/>
 <smd name="2" x="-1.55" y="0.325" dx="0.7" dy="0.4" layer="1" roundness="30" stop="no" cream="no"/>
@@ -4223,290 +745,149 @@ Tag-Connect for ARM CORTEX SWD&lt;br /&gt;</description>
 <text x="-2.075" y="0" size="0.8" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="2.075" y="0" size="0.8" layer="27" font="vector" rot="R270" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="SOD323F_SC-90_NXP" urn="urn:adsk.eagle:footprint:24371355/2" library_version="53">
-<description>aus Datenblatt PMEG6010CEJ</description>
-<smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<wire x1="-0.9" y1="0.675" x2="0.9" y2="0.675" width="0.127" layer="21"/>
-<wire x1="0.9" y1="0.675" x2="0.9" y2="-0.675" width="0.127" layer="21"/>
-<wire x1="0.9" y1="-0.675" x2="-0.9" y2="-0.675" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="-0.675" x2="-0.9" y2="0.675" width="0.127" layer="21"/>
-<wire x1="-1.475" y1="-0.375" x2="-1.475" y2="0.375" width="0.15" layer="39"/>
-<wire x1="-1.475" y1="0.375" x2="-0.975" y2="0.375" width="0.15" layer="39"/>
-<wire x1="-0.975" y1="0.375" x2="-0.975" y2="0.75" width="0.15" layer="39"/>
-<wire x1="-0.975" y1="0.75" x2="0.975" y2="0.75" width="0.15" layer="39"/>
-<wire x1="0.975" y1="0.75" x2="0.975" y2="0.375" width="0.15" layer="39"/>
-<wire x1="0.975" y1="0.375" x2="1.475" y2="0.375" width="0.15" layer="39"/>
-<wire x1="1.475" y1="0.375" x2="1.475" y2="-0.375" width="0.15" layer="39"/>
-<wire x1="1.475" y1="-0.375" x2="0.975" y2="-0.375" width="0.15" layer="39"/>
-<wire x1="0.975" y1="-0.375" x2="0.975" y2="-0.75" width="0.15" layer="39"/>
-<wire x1="0.975" y1="-0.75" x2="-0.975" y2="-0.75" width="0.15" layer="39"/>
-<wire x1="-0.975" y1="-0.75" x2="-0.975" y2="-0.375" width="0.15" layer="39"/>
-<wire x1="-0.975" y1="-0.375" x2="-1.475" y2="-0.375" width="0.15" layer="39"/>
-<polygon width="0.127" layer="21">
-<vertex x="-0.2" y="0.675"/>
-<vertex x="-0.2" y="-0.675"/>
-<vertex x="-0.9" y="-0.675"/>
-<vertex x="-0.9" y="0.675"/>
-</polygon>
-<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
-<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51" rot="R180"/>
-<text x="0" y="0.85" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.85" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="SOT-23_NXP" urn="urn:adsk.eagle:footprint:24371354/1" library_version="10">
-<description>Aus Dokument "SOT23", NXP, vom 9. Januar 2017</description>
-<smd name="2" x="-0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
-<smd name="1" x="0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
-<smd name="3" x="0" y="-1" dx="0.6" dy="0.7" layer="1"/>
-<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="21"/>
-<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="21"/>
-<wire x1="-1.325" y1="1.425" x2="-1.325" y2="0.775" width="0.15" layer="39"/>
-<wire x1="-1.325" y1="0.775" x2="-1.575" y2="0.775" width="0.15" layer="39"/>
-<wire x1="-1.575" y1="0.775" x2="-1.575" y2="-0.775" width="0.15" layer="39"/>
-<wire x1="-1.575" y1="-0.775" x2="-0.375" y2="-0.775" width="0.15" layer="39"/>
-<wire x1="-0.375" y1="-0.775" x2="-0.375" y2="-1.425" width="0.15" layer="39"/>
-<wire x1="-0.375" y1="-1.425" x2="0.375" y2="-1.425" width="0.15" layer="39"/>
-<wire x1="0.375" y1="-1.425" x2="0.375" y2="-0.775" width="0.15" layer="39"/>
-<wire x1="0.375" y1="-0.775" x2="1.575" y2="-0.775" width="0.15" layer="39"/>
-<wire x1="1.575" y1="-0.775" x2="1.575" y2="0.775" width="0.15" layer="39"/>
-<wire x1="1.575" y1="0.775" x2="1.325" y2="0.775" width="0.15" layer="39"/>
-<wire x1="1.325" y1="0.775" x2="1.325" y2="1.425" width="0.15" layer="39"/>
-<wire x1="1.325" y1="1.425" x2="0.575" y2="1.425" width="0.15" layer="39"/>
-<wire x1="0.575" y1="1.425" x2="0.575" y2="0.775" width="0.15" layer="39"/>
-<wire x1="0.575" y1="0.775" x2="-0.575" y2="0.775" width="0.15" layer="39"/>
-<wire x1="-0.575" y1="0.775" x2="-0.575" y2="1.425" width="0.15" layer="39"/>
-<wire x1="-0.575" y1="1.425" x2="-1.325" y2="1.425" width="0.15" layer="39"/>
-<text x="-1.675" y="0" size="0.8" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.675" y="0" size="0.8" layer="27" rot="R270" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-0.24" y1="-1.25" x2="0.24" y2="-0.7" layer="51" rot="R180"/>
-<rectangle x1="-1.19" y1="0.7" x2="-0.71" y2="1.25" layer="51"/>
-<rectangle x1="0.71" y1="0.7" x2="1.19" y2="1.25" layer="51"/>
-</package>
-<package name="POWERPAK_1212-8S_VISHAY" urn="urn:adsk.eagle:footprint:30540702/1" library_version="50">
-<description>from datasheet SiSS06DN</description>
-<smd name="1" x="-1.435" y="0.9925" dx="0.99" dy="0.405" layer="1"/>
-<smd name="2" x="-1.435" y="0.330834375" dx="0.99" dy="0.405" layer="1"/>
-<smd name="3" x="-1.435" y="-0.330834375" dx="0.99" dy="0.405" layer="1"/>
-<smd name="4" x="-1.435" y="-0.9925" dx="0.99" dy="0.405" layer="1"/>
-<smd name="5" x="0.5575" y="0" dx="1.725" dy="2.235" layer="1"/>
-<rectangle x1="-1.98" y1="-0.128334375" x2="-0.89" y2="0.128334375" layer="41"/>
-<rectangle x1="-1.98" y1="-0.790003125" x2="-0.89" y2="-0.533334375" layer="41"/>
-<rectangle x1="-1.98" y1="0.533334375" x2="-0.89" y2="0.790003125" layer="41"/>
-<rectangle x1="1.42" y1="0.533334375" x2="1.98" y2="0.790003125" layer="41"/>
-<rectangle x1="1.42" y1="-0.128334375" x2="1.98" y2="0.128334375" layer="41"/>
-<rectangle x1="1.42" y1="-0.790003125" x2="1.98" y2="-0.533334375" layer="41"/>
-<polygon width="0.25" layer="29">
-<vertex x="-0.2" y="1"/>
-<vertex x="1.245" y="1"/>
-<vertex x="1.245" y="1.120003125"/>
-<vertex x="1.855" y="1.120003125"/>
-<vertex x="1.855" y="0.865003125"/>
-<vertex x="1.2" y="0.865003125"/>
-<vertex x="1.2" y="0.458334375"/>
-<vertex x="1.855" y="0.458334375"/>
-<vertex x="1.855" y="0.203334375"/>
-<vertex x="1.2" y="0.203334375"/>
-<vertex x="1.2" y="-0.203334375"/>
-<vertex x="1.855" y="-0.203334375"/>
-<vertex x="1.855" y="-0.458334375"/>
-<vertex x="1.2" y="-0.458334375"/>
-<vertex x="1.2" y="-0.865003125"/>
-<vertex x="1.855" y="-0.865003125"/>
-<vertex x="1.855" y="-1.120003125"/>
-<vertex x="1.245" y="-1.120003125"/>
-<vertex x="1.245" y="-1"/>
-<vertex x="-0.2" y="-1"/>
-</polygon>
+<package name="Q3_TI" urn="urn:adsk.eagle:footprint:33514867/1" library_version="5">
+<description>aus Datenblatt CSD17308Q3, zusätzliche Vias eingefügt</description>
+<smd name="1" x="-1.435" y="0.975" dx="0.63" dy="0.5" layer="1" roundness="5" cream="no"/>
+<smd name="2" x="-1.435" y="0.325" dx="0.63" dy="0.5" layer="1" roundness="5" cream="no"/>
+<smd name="3" x="-1.435" y="-0.325" dx="0.63" dy="0.5" layer="1" roundness="5" cream="no"/>
+<smd name="4" x="-1.435" y="-0.975" dx="0.63" dy="0.5" layer="1" roundness="5" cream="no"/>
+<smd name="5" x="0" y="0" dx="0.2" dy="0.2" layer="1" roundness="5" stop="no" cream="no"/>
 <polygon width="0.15" layer="1">
-<vertex x="-0.2" y="1"/>
-<vertex x="1.245" y="1"/>
-<vertex x="1.245" y="1.120003125"/>
-<vertex x="1.855" y="1.120003125"/>
-<vertex x="1.855" y="0.865003125"/>
-<vertex x="1.2" y="0.865003125"/>
-<vertex x="1.2" y="0.458334375"/>
-<vertex x="1.855" y="0.458334375"/>
-<vertex x="1.855" y="0.203334375"/>
-<vertex x="1.2" y="0.203334375"/>
-<vertex x="1.2" y="-0.203334375"/>
-<vertex x="1.855" y="-0.203334375"/>
-<vertex x="1.855" y="-0.458334375"/>
-<vertex x="1.2" y="-0.458334375"/>
-<vertex x="1.2" y="-0.865003125"/>
-<vertex x="1.855" y="-0.865003125"/>
-<vertex x="1.855" y="-1.120003125"/>
-<vertex x="1.245" y="-1.120003125"/>
-<vertex x="1.245" y="-1"/>
-<vertex x="-0.2" y="-1"/>
+<vertex x="-0.535" y="1.15"/>
+<vertex x="1.675" y="1.15"/>
+<vertex x="1.675" y="0.8"/>
+<vertex x="1.265" y="0.8"/>
+<vertex x="1.265" y="0.5"/>
+<vertex x="1.675" y="0.5"/>
+<vertex x="1.675" y="0.15"/>
+<vertex x="1.265" y="0.15"/>
+<vertex x="1.265" y="-0.15"/>
+<vertex x="1.675" y="-0.15"/>
+<vertex x="1.675" y="-0.5"/>
+<vertex x="1.265" y="-0.5"/>
+<vertex x="1.265" y="-0.8"/>
+<vertex x="1.675" y="-0.8"/>
+<vertex x="1.675" y="-1.15"/>
+<vertex x="-0.535" y="-1.15"/>
 </polygon>
-<polygon width="0.15" layer="31">
-<vertex x="-0.2" y="1"/>
-<vertex x="1.245" y="1"/>
-<vertex x="1.245" y="1.120003125"/>
-<vertex x="1.855" y="1.120003125"/>
-<vertex x="1.855" y="0.865003125"/>
-<vertex x="1.2" y="0.865003125"/>
-<vertex x="1.2" y="0.458334375"/>
-<vertex x="1.855" y="0.458334375"/>
-<vertex x="1.855" y="0.203334375"/>
-<vertex x="1.2" y="0.203334375"/>
-<vertex x="1.2" y="-0.203334375"/>
-<vertex x="1.855" y="-0.203334375"/>
-<vertex x="1.855" y="-0.458334375"/>
-<vertex x="1.2" y="-0.458334375"/>
-<vertex x="1.2" y="-0.865003125"/>
-<vertex x="1.855" y="-0.865003125"/>
-<vertex x="1.855" y="-1.120003125"/>
-<vertex x="1.245" y="-1.120003125"/>
-<vertex x="1.245" y="-1"/>
-<vertex x="-0.2" y="-1"/>
+<polygon width="0.127" layer="51">
+<vertex x="-1.61" y="0.705"/>
+<vertex x="-0.705" y="0.705"/>
+<vertex x="-0.705" y="1.61"/>
+<vertex x="-1.61" y="1.61"/>
 </polygon>
-<polygon width="0.15" layer="51">
-<vertex x="-1.7" y="1.3"/>
-<vertex x="-1.7" y="1.7"/>
-<vertex x="-0.8" y="1.7"/>
-<vertex x="-0.8" y="1.3"/>
+<polygon width="0.25" layer="29">
+<vertex x="-0.535" y="1.15"/>
+<vertex x="1.675" y="1.15"/>
+<vertex x="1.675" y="0.8"/>
+<vertex x="1.265" y="0.8"/>
+<vertex x="1.265" y="0.5"/>
+<vertex x="1.675" y="0.5"/>
+<vertex x="1.675" y="0.15"/>
+<vertex x="1.265" y="0.15"/>
+<vertex x="1.265" y="-0.15"/>
+<vertex x="1.675" y="-0.15"/>
+<vertex x="1.675" y="-0.5"/>
+<vertex x="1.265" y="-0.5"/>
+<vertex x="1.265" y="-0.8"/>
+<vertex x="1.675" y="-0.8"/>
+<vertex x="1.675" y="-1.15"/>
+<vertex x="-0.535" y="-1.15"/>
 </polygon>
+<pad name="P$1" x="-0.36" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="P$4" x="0.365" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="P$5" x="1.09" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="P$6" x="1.09" y="0.975" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="P$7" x="1.09" y="-0.975" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
 <wire x1="-1.7" y1="1.7" x2="1.7" y2="1.7" width="0.127" layer="21"/>
 <wire x1="1.7" y1="1.7" x2="1.7" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-1.7" x2="-1.7" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="-1.7" y1="-1.7" x2="-1.7" y2="1.7" width="0.127" layer="21"/>
-<wire x1="1.775" y1="1.775" x2="-1.775" y2="1.775" width="0.15" layer="39"/>
-<wire x1="-1.775" y1="1.775" x2="-1.775" y2="1.27" width="0.15" layer="39"/>
-<wire x1="-1.775" y1="1.27" x2="-2.005" y2="1.27" width="0.15" layer="39"/>
-<wire x1="1.775" y1="1.775" x2="1.775" y2="1.27" width="0.15" layer="39"/>
-<wire x1="1.775" y1="1.27" x2="2.005" y2="1.27" width="0.15" layer="39"/>
-<wire x1="-1.775" y1="-1.775" x2="1.775" y2="-1.775" width="0.15" layer="39"/>
-<wire x1="1.775" y1="-1.775" x2="1.775" y2="-1.27" width="0.15" layer="39"/>
-<wire x1="1.775" y1="-1.27" x2="2.005" y2="-1.27" width="0.15" layer="39"/>
-<wire x1="2.005" y1="-1.27" x2="2.005" y2="1.27" width="0.15" layer="39"/>
-<wire x1="-1.775" y1="-1.775" x2="-1.775" y2="-1.27" width="0.15" layer="39"/>
-<wire x1="-1.775" y1="-1.27" x2="-2.005" y2="-1.27" width="0.15" layer="39"/>
-<wire x1="-2.005" y1="-1.27" x2="-2.005" y2="1.27" width="0.15" layer="39"/>
-<text x="0" y="1.875" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.875" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="150044M155260_WUERTH" urn="urn:adsk.eagle:footprint:30548207/1" library_version="53">
-<description>from datasheet "150044M155260"</description>
-<smd name="2" x="-0.4" y="0.4" dx="0.4" dy="0.4" layer="1"/>
-<smd name="3" x="0.4" y="0.4" dx="0.4" dy="0.4" layer="1"/>
-<smd name="4" x="0.4" y="-0.4" dx="0.4" dy="0.4" layer="1"/>
-<smd name="1" x="-0.4" y="-0.4" dx="0.4" dy="0.4" layer="1"/>
-<wire x1="-0.55" y1="0.55" x2="0.55" y2="0.55" width="0.127" layer="21"/>
-<wire x1="0.55" y1="0.55" x2="0.55" y2="-0.55" width="0.127" layer="21"/>
-<wire x1="0.55" y1="-0.55" x2="-0.55" y2="-0.55" width="0.127" layer="21"/>
-<wire x1="-0.55" y1="-0.55" x2="-0.55" y2="0.55" width="0.127" layer="21"/>
-<wire x1="-0.675" y1="0.675" x2="-0.675" y2="-0.675" width="0.15" layer="39"/>
-<wire x1="-0.675" y1="-0.675" x2="0.675" y2="-0.675" width="0.15" layer="39"/>
-<wire x1="0.675" y1="-0.675" x2="0.675" y2="0.675" width="0.15" layer="39"/>
-<wire x1="0.675" y1="0.675" x2="-0.675" y2="0.675" width="0.15" layer="39"/>
-<wire x1="-0.2" y1="0" x2="0" y2="-0.2" width="0.127" layer="51"/>
-<wire x1="0" y1="-0.2" x2="0" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="0" x2="-0.2" y2="0" width="0.127" layer="51"/>
-<wire x1="-0.2" y1="0" x2="-0.4" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="0.4" width="0.127" layer="51"/>
-<wire x1="0" y1="0" x2="0.4" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="-0.2" x2="0" y2="-0.4" width="0.127" layer="51"/>
-<text x="0" y="0.775" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.775" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="SOT-323_DIODES_INC" urn="urn:adsk.eagle:footprint:24371403/1" library_version="64">
-<description>&lt;b&gt;SOT323&lt;/b&gt;&lt;br/&gt;
-Aus Datenblatt DMG1012UW</description>
-<smd name="1" x="0.95" y="-0.65" dx="0.9" dy="0.7" layer="1"/>
-<smd name="2" x="0.95" y="0.65" dx="0.9" dy="0.7" layer="1"/>
-<smd name="3" x="-0.95" y="0" dx="0.9" dy="0.7" layer="1"/>
-<wire x1="-0.675" y1="-1.1" x2="0.675" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="0.675" y1="-1.1" x2="0.675" y2="1.1" width="0.127" layer="21"/>
-<wire x1="0.675" y1="1.1" x2="-0.675" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.675" y1="1.1" x2="-0.675" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.775" y1="1.175" x2="0.775" y2="1.175" width="0.15" layer="39"/>
-<wire x1="0.775" y1="1.175" x2="0.775" y2="1.075" width="0.15" layer="39"/>
-<wire x1="0.775" y1="1.075" x2="1.475" y2="1.075" width="0.15" layer="39"/>
-<wire x1="1.475" y1="1.075" x2="1.475" y2="-1.075" width="0.15" layer="39"/>
-<wire x1="1.475" y1="-1.075" x2="0.775" y2="-1.075" width="0.15" layer="39"/>
-<wire x1="0.775" y1="-1.075" x2="0.775" y2="-1.175" width="0.15" layer="39"/>
-<wire x1="0.775" y1="-1.175" x2="-0.775" y2="-1.175" width="0.15" layer="39"/>
-<wire x1="-0.775" y1="-1.175" x2="-0.775" y2="-0.425" width="0.15" layer="39"/>
-<wire x1="-0.775" y1="-0.425" x2="-1.475" y2="-0.425" width="0.15" layer="39"/>
-<wire x1="-1.475" y1="-0.425" x2="-1.475" y2="0.425" width="0.15" layer="39"/>
-<wire x1="-1.475" y1="0.425" x2="-0.775" y2="0.425" width="0.15" layer="39"/>
-<wire x1="-0.775" y1="0.425" x2="-0.775" y2="1.175" width="0.15" layer="39"/>
-<text x="0" y="1.275" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.275" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="0.675" y1="0.45" x2="1.1" y2="0.85" layer="27"/>
-<rectangle x1="0.675" y1="-0.85" x2="1.1" y2="-0.45" layer="27"/>
-<rectangle x1="-1.1" y1="-0.2" x2="-0.675" y2="0.2" layer="27" rot="R180"/>
+<wire x1="-1.775" y1="1.775" x2="-1.775" y2="1.3" width="0.15" layer="39"/>
+<wire x1="-1.775" y1="1.3" x2="-1.825" y2="1.3" width="0.15" layer="39"/>
+<wire x1="1.775" y1="-1.775" x2="1.775" y2="-1.3" width="0.15" layer="39"/>
+<wire x1="1.775" y1="-1.3" x2="1.825" y2="-1.3" width="0.15" layer="39"/>
+<wire x1="1.775" y1="-1.775" x2="-1.775" y2="-1.775" width="0.15" layer="39"/>
+<wire x1="-1.775" y1="-1.775" x2="-1.775" y2="-1.3" width="0.15" layer="39"/>
+<wire x1="-1.775" y1="-1.3" x2="-1.825" y2="-1.3" width="0.15" layer="39"/>
+<wire x1="-1.825" y1="-1.3" x2="-1.825" y2="1.3" width="0.15" layer="39"/>
+<wire x1="-1.775" y1="1.775" x2="1.775" y2="1.775" width="0.15" layer="39"/>
+<wire x1="1.775" y1="1.775" x2="1.775" y2="1.3" width="0.15" layer="39"/>
+<wire x1="1.775" y1="1.3" x2="1.825" y2="1.3" width="0.15" layer="39"/>
+<wire x1="1.825" y1="1.3" x2="1.825" y2="-1.3" width="0.15" layer="39"/>
+<text x="-1.925" y="0" size="0.8" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.925" y="0" size="0.8" layer="27" font="vector" rot="R270" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.8" y1="-0.075" x2="-1.07" y2="0.075" layer="41"/>
+<rectangle x1="-1.8" y1="-0.725" x2="-1.07" y2="-0.575" layer="41"/>
+<rectangle x1="-1.8" y1="0.575" x2="-1.07" y2="0.725" layer="41"/>
+<rectangle x1="1.34" y1="-0.075" x2="1.8" y2="0.075" layer="41"/>
+<rectangle x1="1.34" y1="0.575" x2="1.8" y2="0.725" layer="41"/>
+<rectangle x1="1.34" y1="-0.725" x2="1.8" y2="-0.575" layer="41"/>
+<rectangle x1="-1.66" y1="-0.495" x2="-1.21" y2="-0.155" layer="31"/>
+<rectangle x1="-1.66" y1="-1.145" x2="-1.21" y2="-0.805" layer="31"/>
+<rectangle x1="-1.66" y1="0.155" x2="-1.21" y2="0.495" layer="31"/>
+<rectangle x1="-1.66" y1="0.805" x2="-1.21" y2="1.145" layer="31"/>
+<rectangle x1="1.21" y1="-0.495" x2="1.66" y2="-0.155" layer="31"/>
+<rectangle x1="1.21" y1="0.155" x2="1.66" y2="0.495" layer="31"/>
+<rectangle x1="1.21" y1="0.805" x2="1.66" y2="1.145" layer="31"/>
+<rectangle x1="1.21" y1="-1.145" x2="1.66" y2="-0.805" layer="31"/>
+<rectangle x1="-0.46" y1="0.125" x2="0.985" y2="1.145" layer="31"/>
+<rectangle x1="-0.46" y1="-1.145" x2="0.985" y2="-0.125" layer="31"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="SMA_ST" urn="urn:adsk.eagle:package:24371482/2" type="model" library_version="5">
-<description>aus Datenblatt SMA6J</description>
-<packageinstances>
-<packageinstance name="SMA_ST"/>
-</packageinstances>
-</package3d>
-<package3d name="Q3_TI" urn="urn:adsk.eagle:package:24749434/3" type="model" library_version="15">
-<description>aus Datenblatt CSD17308Q3, zusätzliche Vias eingefügt</description>
-<packageinstances>
-<packageinstance name="Q3_TI"/>
-</packageinstances>
-</package3d>
-<package3d name="Q3A_TI" urn="urn:adsk.eagle:package:24371487/2" type="model" library_version="12">
-<description>aus Datenblatt CSD17551Q3A</description>
-<packageinstances>
-<packageinstance name="Q3A_TI"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD323F_SC-90_NXP" urn="urn:adsk.eagle:package:24371481/3" type="model" library_version="53">
-<description>aus Datenblatt PMEG6010CEJ</description>
-<packageinstances>
-<packageinstance name="SOD323F_SC-90_NXP"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT-23_NXP" urn="urn:adsk.eagle:package:24371480/2" type="model" library_version="10">
-<description>Aus Dokument "SOT23", NXP, vom 9. Januar 2017</description>
-<packageinstances>
-<packageinstance name="SOT-23_NXP"/>
-</packageinstances>
-</package3d>
-<package3d name="POWERPAK_1212-8S_VISHAY" urn="urn:adsk.eagle:package:30540703/2" type="model" library_version="50">
-<description>from datasheet SiSS06DN</description>
-<packageinstances>
-<packageinstance name="POWERPAK_1212-8S_VISHAY"/>
-</packageinstances>
-</package3d>
-<package3d name="150044M155260_WUERTH" urn="urn:adsk.eagle:package:30548209/2" type="model" library_version="53">
-<description>from datasheet "150044M155260"</description>
-<packageinstances>
-<packageinstance name="150044M155260_WUERTH"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT-323_DIODES_INC" urn="urn:adsk.eagle:package:24371463/2" type="model" library_version="64">
+<package3d name="SOT-323_DIODES_INC" urn="urn:adsk.eagle:package:33514940/1" type="model" library_version="5">
 <description>&lt;b&gt;SOT323&lt;/b&gt;&lt;br/&gt;
 Aus Datenblatt DMG1012UW</description>
 <packageinstances>
 <packageinstance name="SOT-323_DIODES_INC"/>
 </packageinstances>
 </package3d>
+<package3d name="SMA_ST" urn="urn:adsk.eagle:package:33514938/1" type="model" library_version="5">
+<description>aus Datenblatt SMA6J</description>
+<packageinstances>
+<packageinstance name="SMA_ST"/>
+</packageinstances>
+</package3d>
+<package3d name="150044M155260_WUERTH" urn="urn:adsk.eagle:package:33514967/1" type="model" library_version="5">
+<description>from datasheet "150044M155260"</description>
+<packageinstances>
+<packageinstance name="150044M155260_WUERTH"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD323F_SC-90_NXP" urn="urn:adsk.eagle:package:33515025/1" type="model" library_version="5">
+<description>aus Datenblatt PMEG6010CEJ</description>
+<packageinstances>
+<packageinstance name="SOD323F_SC-90_NXP"/>
+</packageinstances>
+</package3d>
+<package3d name="POWERPAK_1212-8S_VISHAY" urn="urn:adsk.eagle:package:33515007/1" type="model" library_version="5">
+<description>from datasheet SiSS06DN</description>
+<packageinstances>
+<packageinstance name="POWERPAK_1212-8S_VISHAY"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT-23_NXP" urn="urn:adsk.eagle:package:33514986/1" type="model" library_version="5">
+<description>Aus Dokument "SOT23", NXP, vom 9. Januar 2017</description>
+<packageinstances>
+<packageinstance name="SOT-23_NXP"/>
+</packageinstances>
+</package3d>
+<package3d name="Q3A_TI" urn="urn:adsk.eagle:package:33514973/1" type="model" library_version="5">
+<description>aus Datenblatt CSD17551Q3A</description>
+<packageinstances>
+<packageinstance name="Q3A_TI"/>
+</packageinstances>
+</package3d>
+<package3d name="Q3_TI" urn="urn:adsk.eagle:package:33514998/1" type="model" library_version="5">
+<description>aus Datenblatt CSD17308Q3, zusätzliche Vias eingefügt</description>
+<packageinstances>
+<packageinstance name="Q3_TI"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="ZD_EU" urn="urn:adsk.eagle:symbol:24371391/1" library_version="5">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="MOSFET_N-CH" urn="urn:adsk.eagle:symbol:24371385/1" library_version="5">
+<symbol name="MOSFET_N-CH" urn="urn:adsk.eagle:symbol:33514833/1" library_version="5">
 <wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
 <wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
@@ -4543,21 +924,19 @@ Aus Datenblatt DMG1012UW</description>
 <vertex x="2.032" y="-0.762"/>
 </polygon>
 </symbol>
-<symbol name="SCHOTTKY" urn="urn:adsk.eagle:symbol:24371389/1" library_version="12">
+<symbol name="ZD_EU" urn="urn:adsk.eagle:symbol:33514823/1" library_version="5">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="2.032" y2="1.27" width="0.254" layer="94"/>
 <text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
 <text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="LED_RGB_COMMON_A" urn="urn:adsk.eagle:symbol:24371373/1" library_version="48">
+<symbol name="LED_RGB_COMMON_A" urn="urn:adsk.eagle:symbol:33514827/1" library_version="5">
 <wire x1="0" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
@@ -4631,7 +1010,21 @@ Aus Datenblatt DMG1012UW</description>
 </polygon>
 <circle x="2.54" y="0" radius="0.508" width="0" layer="94"/>
 </symbol>
-<symbol name="D_EU_DUAL_CC" urn="urn:adsk.eagle:symbol:24371365/1" library_version="17">
+<symbol name="SCHOTTKY" urn="urn:adsk.eagle:symbol:33514821/1" library_version="5">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="2.032" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="D_EU_DUAL_CC" urn="urn:adsk.eagle:symbol:33514826/1" library_version="5">
 <wire x1="3.81" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -4653,7 +1046,55 @@ Aus Datenblatt DMG1012UW</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMA6J" urn="urn:adsk.eagle:component:24371527/4" prefix="D" library_version="54">
+<deviceset name="DMG1012UW-7" urn="urn:adsk.eagle:component:33515124/1" prefix="T" library_version="5">
+<description>&lt;b&gt;DMG1012UW-7&lt;/b&gt;&lt;br /&gt;
+N-CHANNEL ENHANCEMENT MODE MOSFET</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N-CH" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-323_DIODES_INC">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514940/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00115"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2019-04-10"/>
+<attribute name="I_D" value="1.0 A"/>
+<attribute name="MANUFACTURER" value="Diodes Inc"/>
+<attribute name="MAN_PN" value="DMG1012UW-7"/>
+<attribute name="MAX_OP_TEMP" value="150 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="DMG1012UW-7"/>
+<attribute name="V_DS" value="20 V"/>
+<attribute name="V_GS" value="±6 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMA6J" urn="urn:adsk.eagle:component:33515130/1" prefix="D" library_version="5">
 <description>&lt;b&gt;SMA6J&lt;/b&gt;&lt;br /&gt;
 600 W (10/1000 μs)&lt;br /&gt;
 4 kW (8/20 μs)&lt;br /&gt;
@@ -4669,29 +1110,59 @@ Leakage current: 0.2 μA at 25 °C, 1 μA at 85 °C&lt;br /&gt;</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24371482/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514938/1"/>
 </package3dinstances>
 <technologies>
 <technology name="15">
-<attribute name="CHANGED" value="2021-02-24"/>
+<attribute name="ALIGNI_PN" value="61-00104"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00233"/>
+<attribute name="ALT_1_MAN" value="Micro Commercial"/>
+<attribute name="ALT_1_MAN_PN" value="SMA6J15A-TP"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
 <attribute name="CREATED" value="2017-09-12"/>
 <attribute name="CURRENT" value="60.0 A"/>
-<attribute name="MANUFACTURER" value="STM"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="MAN_PN" value="SMA6J15A"/>
 <attribute name="MAX_OP_TEMP" value="175 °C"/>
 <attribute name="MIN_OP_TEMP" value="-55 °C"/>
 <attribute name="ROHS" value="yes"/>
 <attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="SMA6J15A"/>
 <attribute name="VOLTAGE" value="15.0 V"/>
 </technology>
 <technology name="20">
-<attribute name="CHANGED" value="2021-02-24"/>
+<attribute name="ALIGNI_PN" value="61-00263"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
 <attribute name="CREATED" value="2020-07-09"/>
 <attribute name="CURRENT" value="60.0 A"/>
 <attribute name="MANUFACTURER" value="STM"/>
+<attribute name="MAN_PN" value="SMA6J20A-TR"/>
 <attribute name="MAX_OP_TEMP" value="175 °C"/>
 <attribute name="MIN_OP_TEMP" value="-55 °C"/>
 <attribute name="ROHS" value="yes"/>
 <attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="SMA6J20A"/>
 <attribute name="VOLTAGE" value="20.0 V"/>
 </technology>
 <technology name="24">
@@ -4720,71 +1191,54 @@ Leakage current: 0.2 μA at 25 °C, 1 μA at 85 °C&lt;br /&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CSD17308Q3" urn="urn:adsk.eagle:component:24749436/4" prefix="T" library_version="54">
-<description>&lt;b&gt;CSD17308Q3 N-Ch MOSFET, 30V, 14A&lt;/b&gt;</description>
+<deviceset name="150044M155260" urn="urn:adsk.eagle:component:33515134/1" prefix="D" library_version="5">
+<description>&lt;b&gt;150044M155260, RGB LED, SMD, 1x1mm, 5 mA&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="MOSFET_N-CH" x="-2.54" y="0"/>
+<gate name="G$1" symbol="LED_RGB_COMMON_A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="Q3_TI">
+<device name="" package="150044M155260_WUERTH">
 <connects>
-<connect gate="G$1" pin="D" pad="5 P$1 P$4 P$5 P$6 P$7"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C_BLUE" pad="4"/>
+<connect gate="G$1" pin="C_GREEN" pad="3"/>
+<connect gate="G$1" pin="C_RED" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24749434/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514967/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CHANGED" value="2020-11-16"/>
-<attribute name="CREATED" value="2020-11-16"/>
-<attribute name="I_D" value="14 A"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="150 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="ALIGNI_PN" value="61-00331"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-08-27"/>
+<attribute name="CURRENT" value="5 mA"/>
+<attribute name="MANUFACTURER" value="Wuerth"/>
+<attribute name="MAN_PN" value="150044M155260"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
 <attribute name="ROHS" value="yes"/>
 <attribute name="STATUS" value="active"/>
-<attribute name="V_DS" value="30.0 V"/>
-<attribute name="V_GS" value="+10 V/-8 V"/>
+<attribute name="VALUE" value="150044M155260"/>
+<attribute name="VOLTAGE" value="5.0 V"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CSD17577Q3A" urn="urn:adsk.eagle:component:24749435/3" prefix="T" library_version="54">
-<description>&lt;b&gt;CSD17577Q3A N-Ch MOSFET, 30V, 19A&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MOSFET_N-CH" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="Q3A_TI">
-<connects>
-<connect gate="G$1" pin="D" pad="5 P$1 P$2 P$3 P$4 P$5 P$6 P$7"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24371487/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2020-11-16"/>
-<attribute name="CREATED" value="2020-11-16"/>
-<attribute name="I_D" value="19 A"/>
-<attribute name="MANUFACTURER" value="TI"/>
-<attribute name="MAX_OP_TEMP" value="150 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="V_DS" value="30.0 V"/>
-<attribute name="V_GS" value="±20 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PMEG6010CEJ" urn="urn:adsk.eagle:component:24371526/4" prefix="D" library_version="54">
+<deviceset name="PMEG6010CEJ" urn="urn:adsk.eagle:component:33515234/1" prefix="D" library_version="5">
 <description>&lt;b&gt;PMEG6010CEJ&lt;/b&gt;&lt;br /&gt;
 Planar Maximum Efficiency General Application (MEGA) Schottky barrier rectifiers with an
 integrated guard ring for stress protection, encapsulated in small and flat lead
@@ -4799,121 +1253,40 @@ Surface-Mounted Device (SMD) plastic packages.</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24371481/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515025/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="ALIGNI_PN" value="61-00197"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00427"/>
+<attribute name="ALT_1_MAN" value="Nexperia"/>
+<attribute name="ALT_1_MAN_PN" value="PMEG6010CEJF"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
 <attribute name="CREATED" value="2017-09-12"/>
 <attribute name="CURRENT" value="1.0 A"/>
-<attribute name="MANUFACTURER" value="NXP"/>
+<attribute name="MANUFACTURER" value="Nexperia"/>
+<attribute name="MAN_PN" value="PMEG6010CEJ,115"/>
 <attribute name="MAX_OP_TEMP" value="150 °C"/>
 <attribute name="MIN_OP_TEMP" value="-65 °C"/>
 <attribute name="ROHS" value="yes"/>
 <attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="PMEG6010CEJ"/>
 <attribute name="VOLTAGE" value="60 V"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PMV30ENEA" urn="urn:adsk.eagle:component:26751273/2" prefix="T" library_version="54">
-<description>&lt;b&gt;PMV30ENEA, N-Ch MOSFET, 40V, 4.8A&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MOSFET_N-CH" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23_NXP">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24371480/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-02-10"/>
-<attribute name="CREATED" value="2021-02-10"/>
-<attribute name="I_D" value="4.8 A"/>
-<attribute name="MANUFACTURER" value="NXP"/>
-<attribute name="MAX_OP_TEMP" value="175 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="V_DS" value="40.0 V"/>
-<attribute name="V_GS" value="±20.0 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SISS06DN" urn="urn:adsk.eagle:component:30540704/3" prefix="T" library_version="54">
-<description>&lt;b&gt;SiSS06DN, N-Ch MOSFET, 30V, 172A, 1.4 mR&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MOSFET_N-CH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="POWERPAK_1212-8S_VISHAY">
-<connects>
-<connect gate="G$1" pin="D" pad="5"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30540703/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-08-26"/>
-<attribute name="CREATED" value="2021-08-26"/>
-<attribute name="I_D" value="172.6 A"/>
-<attribute name="MANUFACTURER" value="Vishay"/>
-<attribute name="MAX_OP_TEMP" value="150 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="V_DS" value="30.0 V"/>
-<attribute name="V_GS" value="+20V/-16V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="150044M155260" urn="urn:adsk.eagle:component:30548292/2" prefix="D" library_version="54">
-<description>&lt;b&gt;150044M155260, RGB LED, SMD, 1x1mm, 5 mA&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="LED_RGB_COMMON_A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="150044M155260_WUERTH">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C_BLUE" pad="4"/>
-<connect gate="G$1" pin="C_GREEN" pad="3"/>
-<connect gate="G$1" pin="C_RED" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-08-27"/>
-<attribute name="CREATED" value="2021-08-27"/>
-<attribute name="CURRENT" value="5 mA"/>
-<attribute name="MANUFACTURER" value="Wuerth"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="5.0 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BAS70W-05" urn="urn:adsk.eagle:component:24371533/3" prefix="D" library_version="64">
+<deviceset name="BAS70W-05" urn="urn:adsk.eagle:component:33515126/1" prefix="D" library_version="5">
 <description>&lt;b&gt;BAS70W-05&lt;/b&gt;&lt;br /&gt;
 SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <gates>
@@ -4927,19 +1300,222 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24371463/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514940/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CHANGED" value="2020-02-11"/>
+<attribute name="ALIGNI_PN" value="61-00099"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
 <attribute name="CREATED" value="2020-02-11"/>
 <attribute name="CURRENT" value="70 mA"/>
 <attribute name="MANUFACTURER" value="Diodes Inc"/>
+<attribute name="MAN_PN" value="BAS70W-05-7-F"/>
 <attribute name="MAX_OP_TEMP" value="125 °C"/>
 <attribute name="MIN_OP_TEMP" value="-55 °C"/>
 <attribute name="ROHS" value="yes"/>
 <attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="BAS70W-05"/>
 <attribute name="VOLTAGE" value="70.0 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SISS06DN" urn="urn:adsk.eagle:component:33515209/1" prefix="T" library_version="5">
+<description>&lt;b&gt;SiSS06DN, N-Ch MOSFET, 30V, 172A, 1.4 mR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N-CH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWERPAK_1212-8S_VISHAY">
+<connects>
+<connect gate="G$1" pin="D" pad="5"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515007/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00334"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-08-26"/>
+<attribute name="I_D" value="172.6 A"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
+<attribute name="MAN_PN" value="SiSS06DN-T1-GE3"/>
+<attribute name="MAX_OP_TEMP" value="150 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="SISS06DN"/>
+<attribute name="V_DS" value="30.0 V"/>
+<attribute name="V_GS" value="+20V/-16V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMV30ENEA" urn="urn:adsk.eagle:component:33515087/1" prefix="T" library_version="5">
+<description>&lt;b&gt;PMV30ENEA, N-Ch MOSFET, 40V, 4.8A&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N-CH" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23_NXP">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514986/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00198"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-02-10"/>
+<attribute name="I_D" value="4.8 A"/>
+<attribute name="MANUFACTURER" value="Nexperia"/>
+<attribute name="MAN_PN" value="PMV30ENEAR"/>
+<attribute name="MAX_OP_TEMP" value="175 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="PMV30ENEA"/>
+<attribute name="V_DS" value="40.0 V"/>
+<attribute name="V_GS" value="±20.0 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CSD17577Q3A" urn="urn:adsk.eagle:component:33515102/1" prefix="T" library_version="5">
+<description>&lt;b&gt;CSD17577Q3A N-Ch MOSFET, 30V, 19A&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N-CH" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="Q3A_TI">
+<connects>
+<connect gate="G$1" pin="D" pad="5 P$1 P$2 P$3 P$4 P$5 P$6 P$7"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514973/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00024"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00551"/>
+<attribute name="ALT_1_MAN" value="TI"/>
+<attribute name="ALT_1_MAN_PN" value="CSD17577Q3AT"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2020-11-16"/>
+<attribute name="I_D" value="19 A"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAN_PN" value="CSD17577Q3A"/>
+<attribute name="MAX_OP_TEMP" value="150 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="CSD17577Q3A"/>
+<attribute name="V_DS" value="30.0 V"/>
+<attribute name="V_GS" value="±20 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CSD17308Q3" urn="urn:adsk.eagle:component:33515203/1" prefix="T" library_version="5">
+<description>&lt;b&gt;CSD17308Q3 N-Ch MOSFET, 30V, 14A&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_N-CH" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="Q3_TI">
+<connects>
+<connect gate="G$1" pin="D" pad="5 P$1 P$4 P$5 P$6 P$7"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514998/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00008"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00550"/>
+<attribute name="ALT_1_MAN" value="TI"/>
+<attribute name="ALT_1_MAN_PN" value="CSD17308Q3T"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2020-11-16"/>
+<attribute name="I_D" value="14 A"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAN_PN" value="CSD17308Q3"/>
+<attribute name="MAX_OP_TEMP" value="150 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="CSD17308Q3"/>
+<attribute name="V_DS" value="30.0 V"/>
+<attribute name="V_GS" value="+10 V/-8 V"/>
 </technology>
 </technologies>
 </device>
@@ -4947,10 +1523,5173 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="09_DT_Holes" urn="urn:adsk.eagle:library:24491136">
+<library name="08_TFH_Supply" urn="urn:adsk.eagle:library:33516923">
+<packages>
+</packages>
+<symbols>
+<symbol name="+3V3" urn="urn:adsk.eagle:symbol:33516988/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:33516972/1" library_version="1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="+VBAT" urn="urn:adsk.eagle:symbol:33516989/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+VBAT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="+3V3" urn="urn:adsk.eagle:component:33517030/1" prefix="+3V3" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+3V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-13"/>
+<attribute name="CREATED" value="2017-09-13"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" urn="urn:adsk.eagle:component:33517003/1" prefix="GND" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-13"/>
+<attribute name="CREATED" value="2017-09-13"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+VBAT" urn="urn:adsk.eagle:component:33517034/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+VBAT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-13"/>
+<attribute name="CREATED" value="2017-09-13"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="03_TFH_Passive_Components" urn="urn:adsk.eagle:library:33514896">
+<packages>
+<package name="C0603" urn="urn:adsk.eagle:footprint:33514978/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR06</description>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.5" y2="0.4" layer="51"/>
+<rectangle x1="0.5" y1="-0.4" x2="0.8" y2="0.4" layer="51" rot="R180"/>
+<wire x1="-1.225" y1="0.475" x2="1.225" y2="0.475" width="0.15" layer="39"/>
+<wire x1="1.225" y1="0.475" x2="1.225" y2="-0.475" width="0.15" layer="39"/>
+<wire x1="1.225" y1="-0.475" x2="-1.225" y2="-0.475" width="0.15" layer="39"/>
+<wire x1="-1.225" y1="-0.475" x2="-1.225" y2="0.475" width="0.15" layer="39"/>
+<wire x1="-0.75" y1="0.35" x2="0.75" y2="0.35" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-0.35" x2="-0.75" y2="-0.35" width="0.1" layer="51"/>
+<smd name="1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<text x="0" y="0.625" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.625" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="C0805" urn="urn:adsk.eagle:footprint:33514957/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR08</description>
+<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+<rectangle x1="-1" y1="-0.625" x2="-0.6" y2="0.625" layer="51"/>
+<rectangle x1="0.6" y1="-0.625" x2="1" y2="0.625" layer="51"/>
+<wire x1="-1.475" y1="0.725" x2="1.475" y2="0.725" width="0.15" layer="39"/>
+<wire x1="1.475" y1="0.725" x2="1.475" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="1.475" y1="-0.725" x2="-1.475" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="-1.475" y1="-0.725" x2="-1.475" y2="0.725" width="0.15" layer="39"/>
+<wire x1="-0.95" y1="0.575" x2="0.95" y2="0.575" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-0.575" x2="0.95" y2="-0.575" width="0.1" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<text x="0" y="0.825" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.825" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="C1210" urn="urn:adsk.eagle:footprint:33514950/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen Vishay CRCW1210-HP e3</description>
+<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
+<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<rectangle x1="-1.6" y1="-1.25" x2="-1.2" y2="1.25" layer="51"/>
+<rectangle x1="1.2" y1="-1.25" x2="1.6" y2="1.25" layer="51"/>
+<wire x1="-1.55" y1="1.2" x2="1.55" y2="1.2" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="-1.2" x2="1.55" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-2.075" y1="1.325" x2="2.075" y2="1.325" width="0.15" layer="39"/>
+<wire x1="2.075" y1="1.325" x2="2.075" y2="-1.325" width="0.15" layer="39"/>
+<wire x1="2.075" y1="-1.325" x2="-2.075" y2="-1.325" width="0.15" layer="39"/>
+<wire x1="-2.075" y1="-1.325" x2="-2.075" y2="1.325" width="0.15" layer="39"/>
+<text x="0" y="1.425" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.425" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="WE-PD_1260_WE" urn="urn:adsk.eagle:footprint:33515022/1" library_version="11">
+<description>Aus Datenblatt 7447709004</description>
+<smd name="DOT" x="-4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<smd name="NODOT" x="4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="21"/>
+<wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.127" layer="21"/>
+<wire x1="-6.325" y1="-6.325" x2="6.325" y2="-6.325" width="0.15" layer="39"/>
+<wire x1="6.325" y1="-6.325" x2="6.325" y2="-2.775" width="0.15" layer="39"/>
+<wire x1="6.325" y1="-2.775" x2="6.475" y2="-2.775" width="0.15" layer="39"/>
+<wire x1="6.475" y1="-2.775" x2="6.475" y2="2.775" width="0.15" layer="39"/>
+<wire x1="6.475" y1="2.775" x2="6.325" y2="2.775" width="0.15" layer="39"/>
+<wire x1="6.325" y1="2.775" x2="6.325" y2="6.325" width="0.15" layer="39"/>
+<wire x1="6.325" y1="6.325" x2="-6.325" y2="6.325" width="0.15" layer="39"/>
+<wire x1="-6.325" y1="6.325" x2="-6.325" y2="2.775" width="0.15" layer="39"/>
+<wire x1="-6.325" y1="2.775" x2="-6.475" y2="2.775" width="0.15" layer="39"/>
+<wire x1="-6.475" y1="2.775" x2="-6.475" y2="-2.775" width="0.15" layer="39"/>
+<wire x1="-6.475" y1="-2.775" x2="-6.325" y2="-2.775" width="0.15" layer="39"/>
+<wire x1="-6.325" y1="-2.775" x2="-6.325" y2="-6.325" width="0.15" layer="39"/>
+<text x="0" y="6.35" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.35" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+<circle x="-5" y="3.67" radius="0.5" width="0" layer="21"/>
+</package>
+<package name="FERRIT_1806_WUERTH" urn="urn:adsk.eagle:footprint:33515036/1" library_version="11">
+<description>Aus Datenblatt 742792410</description>
+<wire x1="-2.3" y1="-0.9" x2="2.3" y2="-0.9" width="0.1" layer="51"/>
+<wire x1="2.3" y1="0.9" x2="-2.3" y2="0.9" width="0.1" layer="51"/>
+<wire x1="-2.835" y1="0.985" x2="2.835" y2="0.985" width="0.15" layer="39"/>
+<wire x1="2.835" y1="0.985" x2="2.835" y2="-0.985" width="0.15" layer="39"/>
+<wire x1="2.835" y1="-0.985" x2="-2.835" y2="-0.985" width="0.15" layer="39"/>
+<wire x1="-2.835" y1="-0.985" x2="-2.835" y2="0.985" width="0.15" layer="39"/>
+<smd name="1" x="-2.125" y="0" dx="1.25" dy="1.8" layer="1"/>
+<smd name="2" x="2.125" y="0" dx="1.25" dy="1.8" layer="1"/>
+<text x="0" y="1.085" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.085" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.35" y1="-0.9" x2="-1.75" y2="0.9" layer="51"/>
+<rectangle x1="1.75" y1="-0.9" x2="2.35" y2="0.9" layer="51"/>
+</package>
+<package name="R0402" urn="urn:adsk.eagle:footprint:33515064/1" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCMR04</description>
+<wire x1="-0.825" y1="0.375" x2="0.825" y2="0.375" width="0.15" layer="39"/>
+<wire x1="0.825" y1="0.375" x2="0.825" y2="-0.375" width="0.15" layer="39"/>
+<wire x1="0.825" y1="-0.375" x2="-0.825" y2="-0.375" width="0.15" layer="39"/>
+<wire x1="-0.825" y1="-0.375" x2="-0.825" y2="0.375" width="0.15" layer="39"/>
+<wire x1="-0.5" y1="0.225" x2="0.5" y2="0.225" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.225" x2="-0.5" y2="-0.225" width="0.1" layer="51"/>
+<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<text x="0" y="0.475" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.475" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<rectangle x1="-0.55" y1="-0.275" x2="-0.3" y2="0.275" layer="51"/>
+<rectangle x1="0.3" y1="-0.275" x2="0.55" y2="0.275" layer="51"/>
+</package>
+<package name="TSX-3225_SEIKO_EPSON" urn="urn:adsk.eagle:footprint:33515109/1" library_version="11">
+<description>aus Datenblatt "FA-238V / FA-238 / TSX-3225"</description>
+<smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="3" x="1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<wire x1="-1.65" y1="1.325" x2="1.65" y2="1.325" width="0.127" layer="21"/>
+<wire x1="1.65" y1="1.325" x2="1.65" y2="-1.325" width="0.127" layer="21"/>
+<wire x1="1.65" y1="-1.325" x2="-1.65" y2="-1.325" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-1.325" x2="-1.65" y2="1.325" width="0.127" layer="21"/>
+<wire x1="-1.875" y1="1.45" x2="1.875" y2="1.45" width="0.15" layer="39"/>
+<wire x1="1.875" y1="1.45" x2="1.875" y2="-1.45" width="0.15" layer="39"/>
+<wire x1="1.875" y1="-1.45" x2="-1.875" y2="-1.45" width="0.15" layer="39"/>
+<wire x1="-1.875" y1="-1.45" x2="-1.875" y2="1.45" width="0.15" layer="39"/>
+<text x="0" y="1.55" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.55" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="ECX-12R_ECS" urn="urn:adsk.eagle:footprint:33515111/1" library_version="11">
+<description>from datasheet ECX-12R</description>
+<smd name="1" x="-0.7" y="0" dx="0.8" dy="1.3" layer="1"/>
+<smd name="2" x="0.7" y="0" dx="0.8" dy="1.3" layer="1"/>
+<wire x1="-1.05" y1="0.65" x2="1.05" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.05" y1="0.65" x2="1.05" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-0.65" x2="-1.05" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-0.65" x2="-1.05" y2="0.65" width="0.127" layer="21"/>
+<wire x1="-1.175" y1="0.725" x2="-1.175" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="-1.175" y1="-0.725" x2="1.175" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="1.175" y1="-0.725" x2="1.175" y2="0.725" width="0.15" layer="39"/>
+<wire x1="1.175" y1="0.725" x2="-1.175" y2="0.725" width="0.15" layer="39"/>
+<text x="0" y="0.825" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.825" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="R0603" urn="urn:adsk.eagle:footprint:33515060/1" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR06</description>
+<wire x1="-1.125" y1="0.525" x2="1.125" y2="0.525" width="0.15" layer="39"/>
+<wire x1="1.125" y1="0.525" x2="1.125" y2="-0.525" width="0.15" layer="39"/>
+<wire x1="1.125" y1="-0.525" x2="-1.125" y2="-0.525" width="0.15" layer="39"/>
+<wire x1="-1.125" y1="-0.525" x2="-1.125" y2="0.525" width="0.15" layer="39"/>
+<wire x1="-0.75" y1="0.35" x2="0.75" y2="0.35" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-0.35" x2="-0.75" y2="-0.35" width="0.1" layer="51"/>
+<smd name="1" x="-0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
+<smd name="2" x="0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
+<text x="0" y="0.625" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.625" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.5" y2="0.4" layer="51"/>
+<rectangle x1="0.5" y1="-0.4" x2="0.8" y2="0.4" layer="51" rot="R180"/>
+</package>
+<package name="R0805" urn="urn:adsk.eagle:footprint:33515058/1" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR08</description>
+<wire x1="-1.375" y1="0.725" x2="1.375" y2="0.725" width="0.15" layer="39"/>
+<wire x1="1.375" y1="0.725" x2="1.375" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="1.375" y1="-0.725" x2="-1.375" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="-1.375" y1="-0.725" x2="-1.375" y2="0.725" width="0.15" layer="39"/>
+<wire x1="-0.95" y1="0.575" x2="0.95" y2="0.575" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-0.575" x2="0.95" y2="-0.575" width="0.1" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
+<text x="0" y="0.825" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.825" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<rectangle x1="-1" y1="-0.625" x2="-0.6" y2="0.625" layer="51"/>
+<rectangle x1="0.6" y1="-0.625" x2="1" y2="0.625" layer="51"/>
+</package>
+<package name="R1206" urn="urn:adsk.eagle:footprint:33515082/1" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR08</description>
+<wire x1="-1.975" y1="0.875" x2="1.975" y2="0.875" width="0.15" layer="39"/>
+<wire x1="1.975" y1="0.875" x2="1.975" y2="-0.875" width="0.15" layer="39"/>
+<wire x1="1.975" y1="-0.875" x2="-1.975" y2="-0.875" width="0.15" layer="39"/>
+<wire x1="-1.975" y1="-0.875" x2="-1.975" y2="0.875" width="0.15" layer="39"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.1016" layer="51"/>
+<smd name="2" x="1.45" y="0" dx="0.9" dy="1.6" layer="1"/>
+<smd name="1" x="-1.45" y="0" dx="0.9" dy="1.6" layer="1"/>
+<text x="0" y="0.975" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.975" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+<rectangle x1="-1.55" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
+<rectangle x1="1.1" y1="-0.8" x2="1.55" y2="0.8" layer="51"/>
+</package>
+<package name="R1210" urn="urn:adsk.eagle:footprint:33515063/1" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br/&gt;
+Vishay CRCW1210-HP e3</description>
+<wire x1="-1.55" y1="1.2" x2="1.55" y2="1.2" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="-1.2" x2="1.55" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-2.025" y1="1.475" x2="2.025" y2="1.475" width="0.15" layer="39"/>
+<wire x1="2.025" y1="1.475" x2="2.025" y2="-1.475" width="0.15" layer="39"/>
+<wire x1="2.025" y1="-1.475" x2="-2.025" y2="-1.475" width="0.15" layer="39"/>
+<wire x1="-2.025" y1="-1.475" x2="-2.025" y2="1.475" width="0.15" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.1" dy="2.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.1" dy="2.8" layer="1"/>
+<text x="0" y="1.575" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.575" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-1.25" x2="-1.2" y2="1.25" layer="51"/>
+<rectangle x1="1.2" y1="-1.25" x2="1.6" y2="1.25" layer="51"/>
+<rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
+</package>
+<package name="R2512" urn="urn:adsk.eagle:footprint:33515066/1" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCPWR12</description>
+<wire x1="-3.075" y1="1.5" x2="3.075" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-3.075" y1="-1.5" x2="3.075" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-3.575" y1="1.825" x2="3.575" y2="1.825" width="0.15" layer="39"/>
+<wire x1="3.575" y1="1.825" x2="3.575" y2="-1.825" width="0.15" layer="39"/>
+<wire x1="3.575" y1="-1.825" x2="-3.575" y2="-1.825" width="0.15" layer="39"/>
+<wire x1="-3.575" y1="-1.825" x2="-3.575" y2="1.825" width="0.15" layer="39"/>
+<smd name="1" x="-2.7" y="0" dx="1.6" dy="3.5" layer="1"/>
+<smd name="2" x="2.7" y="0" dx="1.6" dy="3.5" layer="1"/>
+<text x="0" y="1.925" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.925" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-3.175" y1="-1.55" x2="-2.675" y2="1.55" layer="51"/>
+<rectangle x1="2.675" y1="-1.55" x2="3.175" y2="1.55" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+</package>
+<package name="R0201" urn="urn:adsk.eagle:footprint:33515078/1" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR02X</description>
+<smd name="1" x="-0.3" y="0" dx="0.3" dy="0.3" layer="1"/>
+<smd name="2" x="0.3" y="0" dx="0.3" dy="0.3" layer="1"/>
+<text x="0" y="0.325" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.325" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="-0.525" y1="0.225" x2="0.525" y2="0.225" width="0.15" layer="39"/>
+<wire x1="0.525" y1="0.225" x2="0.525" y2="-0.225" width="0.15" layer="39"/>
+<wire x1="0.525" y1="-0.225" x2="-0.525" y2="-0.225" width="0.15" layer="39"/>
+<wire x1="-0.525" y1="-0.225" x2="-0.525" y2="0.225" width="0.15" layer="39"/>
+<wire x1="-0.2515" y1="0.1015" x2="0.2515" y2="0.1015" width="0.1" layer="51"/>
+<wire x1="0.2515" y1="-0.1015" x2="-0.2515" y2="-0.1015" width="0.1" layer="51"/>
+<rectangle x1="-0.3015" y1="-0.1515" x2="-0.2" y2="0.1515" layer="51"/>
+<rectangle x1="0.2" y1="-0.1515" x2="0.3015" y2="0.1515" layer="51"/>
+</package>
+<package name="R1218" urn="urn:adsk.eagle:footprint:33515067/1" library_version="11">
+<description>&lt;b&gt;CRCW1218 Thick Film, Rectangular Chip Resistors&lt;/b&gt;&lt;p&gt;
+Source: http://www.vishay.com .. dcrcw.pdf</description>
+<wire x1="-0.913" y1="-2.219" x2="0.939" y2="-2.219" width="0.1524" layer="51"/>
+<wire x1="0.913" y1="2.219" x2="-0.939" y2="2.219" width="0.1524" layer="51"/>
+<wire x1="-2.075" y1="2.525" x2="2.075" y2="2.525" width="0.15" layer="39"/>
+<wire x1="2.075" y1="2.525" x2="2.075" y2="-2.525" width="0.15" layer="39"/>
+<wire x1="2.075" y1="-2.525" x2="-2.075" y2="-2.525" width="0.15" layer="39"/>
+<wire x1="-2.075" y1="-2.525" x2="-2.075" y2="2.525" width="0.15" layer="39"/>
+<smd name="1" x="-1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
+<smd name="2" x="1.475" y="0" dx="1.05" dy="4.9" layer="1"/>
+<text x="0" y="2.625" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.625" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-2.3" x2="-0.9009" y2="2.3" layer="51"/>
+<rectangle x1="0.9144" y1="-2.3" x2="1.6645" y2="2.3" layer="51"/>
+</package>
+<package name="R0612" urn="urn:adsk.eagle:footprint:33515071/1" library_version="11">
+<description>Recommended Footprint and Package Dimensions from Vishay RCL e3</description>
+<smd name="1" x="-0.8" y="0" dx="0.6" dy="3.2" layer="1"/>
+<smd name="2" x="0.8" y="0" dx="0.6" dy="3.2" layer="1"/>
+<text x="0" y="1.775" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.775" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="-0.75" y1="1.55" x2="0.75" y2="1.55" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-1.55" x2="-0.75" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="-1.175" y1="1.675" x2="1.175" y2="1.675" width="0.15" layer="39"/>
+<wire x1="1.175" y1="1.675" x2="1.175" y2="-1.675" width="0.15" layer="39"/>
+<wire x1="1.175" y1="-1.675" x2="-1.175" y2="-1.675" width="0.15" layer="39"/>
+<wire x1="-1.175" y1="-1.675" x2="-1.175" y2="1.675" width="0.15" layer="39"/>
+<rectangle x1="-0.8" y1="-1.6" x2="-0.45" y2="1.6" layer="51"/>
+<rectangle x1="0.45" y1="-1.6" x2="0.8" y2="1.6" layer="51" rot="R180"/>
+</package>
+<package name="LVT12_R003_OHMITE" urn="urn:adsk.eagle:footprint:33515044/1" library_version="11">
+<description>aus Datenblatt "LVT Series"</description>
+<smd name="1" x="-1.5" y="0" dx="1.8" dy="1.84" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1.8" dy="1.84" layer="1"/>
+<wire x1="-1.725" y1="0.925" x2="1.725" y2="0.925" width="0.127" layer="21"/>
+<wire x1="1.725" y1="0.925" x2="1.725" y2="-0.925" width="0.127" layer="21"/>
+<wire x1="1.725" y1="-0.925" x2="-1.725" y2="-0.925" width="0.127" layer="21"/>
+<wire x1="-1.725" y1="-0.925" x2="-1.725" y2="0.925" width="0.127" layer="21"/>
+<wire x1="-2.475" y1="1" x2="2.475" y2="1" width="0.15" layer="39"/>
+<wire x1="2.475" y1="1" x2="2.475" y2="-1" width="0.15" layer="39"/>
+<wire x1="2.475" y1="-1" x2="-2.475" y2="-1" width="0.15" layer="39"/>
+<wire x1="-2.475" y1="-1" x2="-2.475" y2="1" width="0.15" layer="39"/>
+<rectangle x1="-1.725" y1="-0.925" x2="-0.825" y2="0.925" layer="51"/>
+<rectangle x1="0.825" y1="-0.925" x2="1.725" y2="0.925" layer="51" rot="R180"/>
+<text x="0" y="1.1" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.1" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="C0402" urn="urn:adsk.eagle:footprint:33514955/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCMR04</description>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.55" y1="-0.275" x2="-0.3" y2="0.275" layer="51"/>
+<rectangle x1="0.3" y1="-0.275" x2="0.55" y2="0.275" layer="51"/>
+<wire x1="-0.825" y1="0.325" x2="0.825" y2="0.325" width="0.15" layer="39"/>
+<wire x1="0.825" y1="0.325" x2="0.825" y2="-0.325" width="0.15" layer="39"/>
+<wire x1="0.825" y1="-0.325" x2="-0.825" y2="-0.325" width="0.15" layer="39"/>
+<wire x1="-0.825" y1="-0.325" x2="-0.825" y2="0.325" width="0.15" layer="39"/>
+<wire x1="-0.5" y1="0.225" x2="0.5" y2="0.225" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.225" x2="-0.5" y2="-0.225" width="0.1" layer="51"/>
+<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.5" dy="0.5" layer="1"/>
+<text x="0" y="0.425" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.425" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="C1206" urn="urn:adsk.eagle:footprint:33515024/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR08</description>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<rectangle x1="-1.55" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
+<rectangle x1="1.1" y1="-0.8" x2="1.55" y2="0.8" layer="51"/>
+<wire x1="-2.075" y1="0.875" x2="2.075" y2="0.875" width="0.15" layer="39"/>
+<wire x1="2.075" y1="0.875" x2="2.075" y2="-0.875" width="0.15" layer="39"/>
+<wire x1="2.075" y1="-0.875" x2="-2.075" y2="-0.875" width="0.15" layer="39"/>
+<wire x1="-2.075" y1="-0.875" x2="-2.075" y2="0.875" width="0.15" layer="39"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.1016" layer="51"/>
+<text x="0" y="0.975" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.975" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<smd name="1" x="-1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
+<smd name="2" x="1.55" y="0" dx="0.9" dy="1.6" layer="1"/>
+</package>
+<package name="C1812" urn="urn:adsk.eagle:footprint:33515032/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von TDK C4532</description>
+<rectangle x1="-0.3" y1="-0.4001" x2="0.3" y2="0.4001" layer="35"/>
+<rectangle x1="-2.25" y1="-1.6" x2="-2.05" y2="1.6" layer="51"/>
+<rectangle x1="2.05" y1="-1.6" x2="2.25" y2="1.6" layer="51"/>
+<wire x1="-2.113" y1="-1.55" x2="2.139" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="2.113" y1="1.55" x2="-2.139" y2="1.55" width="0.1" layer="51"/>
+<wire x1="-2.725" y1="1.975" x2="2.725" y2="1.975" width="0.15" layer="39"/>
+<wire x1="2.725" y1="1.975" x2="2.725" y2="-1.975" width="0.15" layer="39"/>
+<wire x1="2.725" y1="-1.975" x2="-2.725" y2="-1.975" width="0.15" layer="39"/>
+<wire x1="-2.725" y1="-1.975" x2="-2.725" y2="1.975" width="0.15" layer="39"/>
+<smd name="1" x="-2.2" y="0" dx="0.9" dy="3.8" layer="1"/>
+<smd name="2" x="2.2" y="0" dx="0.9" dy="3.8" layer="1"/>
+<text x="0" y="2.075" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.075" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="C0201" urn="urn:adsk.eagle:footprint:33515026/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR02X</description>
+<smd name="1" x="-0.3" y="0" dx="0.3" dy="0.3" layer="1"/>
+<smd name="2" x="0.3" y="0" dx="0.3" dy="0.3" layer="1"/>
+<text x="0" y="0.325" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.325" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="-0.525" y1="0.225" x2="0.525" y2="0.225" width="0.15" layer="39"/>
+<wire x1="0.525" y1="0.225" x2="0.525" y2="-0.225" width="0.15" layer="39"/>
+<wire x1="0.525" y1="-0.225" x2="-0.525" y2="-0.225" width="0.15" layer="39"/>
+<wire x1="-0.525" y1="-0.225" x2="-0.525" y2="0.225" width="0.15" layer="39"/>
+<wire x1="-0.2515" y1="0.1015" x2="0.2515" y2="0.1015" width="0.1" layer="51"/>
+<wire x1="0.2515" y1="-0.1015" x2="-0.2515" y2="-0.1015" width="0.1" layer="51"/>
+<rectangle x1="-0.3015" y1="-0.1515" x2="-0.2" y2="0.1515" layer="51"/>
+<rectangle x1="0.2" y1="-0.1515" x2="0.3015" y2="0.1515" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:33515231/1" type="model" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR06</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+<package3d name="C0805" urn="urn:adsk.eagle:package:33515237/1" type="model" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR08</description>
+<packageinstances>
+<packageinstance name="C0805"/>
+</packageinstances>
+</package3d>
+<package3d name="C1210" urn="urn:adsk.eagle:package:33515217/1" type="model" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen Vishay CRCW1210-HP e3</description>
+<packageinstances>
+<packageinstance name="C1210"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-PD_1260_WE" urn="urn:adsk.eagle:package:33515266/1" type="model" library_version="11">
+<description>Aus Datenblatt 7447709004</description>
+<packageinstances>
+<packageinstance name="WE-PD_1260_WE"/>
+</packageinstances>
+</package3d>
+<package3d name="FERRIT_1806_WUERTH" urn="urn:adsk.eagle:package:33515215/1" type="model" library_version="11">
+<description>Aus Datenblatt 742792410</description>
+<packageinstances>
+<packageinstance name="FERRIT_1806_WUERTH"/>
+</packageinstances>
+</package3d>
+<package3d name="R0402" urn="urn:adsk.eagle:package:33515300/1" type="model" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCMR04</description>
+<packageinstances>
+<packageinstance name="R0402"/>
+</packageinstances>
+</package3d>
+<package3d name="TSX-3225_SEIKO_EPSON" urn="urn:adsk.eagle:package:33515336/1" type="model" library_version="11">
+<description>aus Datenblatt "FA-238V / FA-238 / TSX-3225"</description>
+<packageinstances>
+<packageinstance name="TSX-3225_SEIKO_EPSON"/>
+</packageinstances>
+</package3d>
+<package3d name="ECX-12R_ECS" urn="urn:adsk.eagle:package:33515338/1" type="model" library_version="11">
+<description>from datasheet ECX-12R</description>
+<packageinstances>
+<packageinstance name="ECX-12R_ECS"/>
+</packageinstances>
+</package3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:33515295/1" type="model" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR06</description>
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
+</package3d>
+<package3d name="R0805" urn="urn:adsk.eagle:package:33515298/1" type="model" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR08</description>
+<packageinstances>
+<packageinstance name="R0805"/>
+</packageinstances>
+</package3d>
+<package3d name="R1206" urn="urn:adsk.eagle:package:33515301/1" type="model" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR08</description>
+<packageinstances>
+<packageinstance name="R1206"/>
+</packageinstances>
+</package3d>
+<package3d name="R1210" urn="urn:adsk.eagle:package:33515303/1" type="model" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br/&gt;
+Vishay CRCW1210-HP e3</description>
+<packageinstances>
+<packageinstance name="R1210"/>
+</packageinstances>
+</package3d>
+<package3d name="R2512" urn="urn:adsk.eagle:package:33515304/1" type="model" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCPWR12</description>
+<packageinstances>
+<packageinstance name="R2512"/>
+</packageinstances>
+</package3d>
+<package3d name="R0201" urn="urn:adsk.eagle:package:33515307/1" type="model" library_version="11">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR02X</description>
+<packageinstances>
+<packageinstance name="R0201"/>
+</packageinstances>
+</package3d>
+<package3d name="R1218" urn="urn:adsk.eagle:package:33515280/1" type="box" library_version="11">
+<description>&lt;b&gt;CRCW1218 Thick Film, Rectangular Chip Resistors&lt;/b&gt;&lt;p&gt;
+Source: http://www.vishay.com .. dcrcw.pdf</description>
+<packageinstances>
+<packageinstance name="R1218"/>
+</packageinstances>
+</package3d>
+<package3d name="R0612" urn="urn:adsk.eagle:package:33515284/1" type="box" library_version="11">
+<description>Recommended Footprint and Package Dimensions from Vishay RCL e3</description>
+<packageinstances>
+<packageinstance name="R0612"/>
+</packageinstances>
+</package3d>
+<package3d name="LVT12_R003_OHMITE" urn="urn:adsk.eagle:package:33515227/1" type="model" library_version="11">
+<description>aus Datenblatt "LVT Series"</description>
+<packageinstances>
+<packageinstance name="LVT12_R003_OHMITE"/>
+</packageinstances>
+</package3d>
+<package3d name="C0402" urn="urn:adsk.eagle:package:33515229/1" type="model" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCMR04</description>
+<packageinstances>
+<packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C1206" urn="urn:adsk.eagle:package:33515233/1" type="model" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR08</description>
+<packageinstances>
+<packageinstance name="C1206"/>
+</packageinstances>
+</package3d>
+<package3d name="C1812" urn="urn:adsk.eagle:package:33515223/1" type="model" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von TDK C4532</description>
+<packageinstances>
+<packageinstance name="C1812"/>
+</packageinstances>
+</package3d>
+<package3d name="C0201" urn="urn:adsk.eagle:package:33515182/1" type="box" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;br /&gt;
+Design nach Walsin Technology Corporation, SMT Notes, 2002a&lt;br /&gt;
+Chipabmessungen von Multicomp MCWR02X</description>
+<packageinstances>
+<packageinstance name="C0201"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C-EU" urn="urn:adsk.eagle:symbol:33515008/1" library_version="11">
+<wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<text x="1.524" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.524" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
+<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="L_EU_POL" urn="urn:adsk.eagle:symbol:33515006/1" library_version="11">
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DOT" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="NODOT" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<rectangle x1="-2.794" y1="-1.016" x2="2.794" y2="1.016" layer="94"/>
+<circle x="-3.556" y="-0.889" radius="0.508" width="0" layer="94"/>
+</symbol>
+<symbol name="L_EU" urn="urn:adsk.eagle:symbol:33515012/1" library_version="11">
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<rectangle x1="-2.794" y1="-1.016" x2="2.794" y2="1.016" layer="94"/>
+</symbol>
+<symbol name="PTC" urn="urn:adsk.eagle:symbol:33514963/1" library_version="11">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-1.778" x2="-1.524" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-1.778" x2="1.778" y2="1.524" width="0.254" layer="94"/>
+<text x="-3.81" y="1.7526" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="CRYSTAL_4_PIN" urn="urn:adsk.eagle:symbol:33514983/1" library_version="11">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-4.064" x2="-2.54" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.302" x2="-1.778" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-4.064" x2="2.54" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.302" x2="1.778" y2="-3.302" width="0.254" layer="94"/>
+<text x="-5.08" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="3.302" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.016" y="-3.81" size="0.8128" layer="94" font="vector" ratio="20">GND</text>
+<pin name="C2" x="7.62" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="C1" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="G1" x="-2.54" y="-7.62" visible="pad" length="short" rot="R90"/>
+<pin name="G2" x="2.54" y="-7.62" visible="pad" length="short" rot="R90"/>
+</symbol>
+<symbol name="CRYSTAL_2_PIN" urn="urn:adsk.eagle:symbol:33514960/1" library_version="11">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="3.048" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+<symbol name="R-EU" urn="urn:adsk.eagle:symbol:33515016/1" library_version="11">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="C-EU" urn="urn:adsk.eagle:component:33515453/3" prefix="C" uservalue="yes" library_version="11">
+<description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-C0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515229/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="-100N">
+<attribute name="ALIGNI_PN" value="61-00174"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00061"/>
+<attribute name="ALT_1_MAN" value="Wuerth"/>
+<attribute name="ALT_1_MAN_PN" value="885012205085"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00479"/>
+<attribute name="ALT_2_MAN" value="YAGEO"/>
+<attribute name="ALT_2_MAN_PN" value="CC0402KRX7R7BB104"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00605"/>
+<attribute name="ALT_3_MAN" value="C0402-100n-16V-20%-X5R"/>
+<attribute name="ALT_3_MAN_PN" value="free choice"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MAN_PN" value="C0402C104M4PACTU"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="100n 16V"/>
+<attribute name="VOLTAGE" value="16.0 V"/>
+</technology>
+<technology name="-1N">
+<attribute name="ALIGNI_PN" value="61-00384"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00607"/>
+<attribute name="ALT_1_MAN" value="C0402-1n-50V-10%-X7R"/>
+<attribute name="ALT_1_MAN_PN" value="free choice"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="CC0402KRX7R9BB102"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="1n 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-220P">
+<attribute name="ALIGNI_PN" value="61-00130"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00478"/>
+<attribute name="ALT_1_MAN" value="YAGEO"/>
+<attribute name="ALT_1_MAN_PN" value="CC0402KRX7R9BB221"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00606"/>
+<attribute name="ALT_2_MAN" value="C0402-220p-25V-10%-X7R"/>
+<attribute name="ALT_2_MAN_PN" value="free choice"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="Wuerth"/>
+<attribute name="MAN_PN" value="885012205040"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="220p 25V"/>
+<attribute name="VOLTAGE" value="25.0 V"/>
+</technology>
+</technologies>
+</device>
+<device name="-C0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515231/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_1_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_1_MAN" value="" constant="no"/>
+<attribute name="ALT_1_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_2_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_2_MAN" value="" constant="no"/>
+<attribute name="ALT_2_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_3_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_3_MAN" value="" constant="no"/>
+<attribute name="ALT_3_MAN_PN" value="" constant="no"/>
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MAN_PN" value="" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="-100N">
+<attribute name="ALIGNI_PN" value="61-00176"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00318"/>
+<attribute name="ALT_1_MAN" value="TDK"/>
+<attribute name="ALT_1_MAN_PN" value="C1608X5R1H104K080AA"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00065"/>
+<attribute name="ALT_2_MAN" value="Wuerth"/>
+<attribute name="ALT_2_MAN_PN" value="885012206095"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00410"/>
+<attribute name="ALT_3_MAN" value="YAGEO"/>
+<attribute name="ALT_3_MAN_PN" value="CC0603KRX7R9BB104"/>
+<attribute name="ALT_4_ALIGNI_PN" value="61-00609"/>
+<attribute name="ALT_4_MAN" value="C0603-100n-50V-20%-X5R"/>
+<attribute name="ALT_4_MAN_PN" value="free choice"/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MAN_PN" value="06035D104MAT4A"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="100n 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-100P">
+<attribute name="ALIGNI_PN" value="61-00473"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00222"/>
+<attribute name="ALT_1_MAN" value="Wuerth"/>
+<attribute name="ALT_1_MAN_PN" value="885012206077"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00480"/>
+<attribute name="ALT_2_MAN" value="YAGEO"/>
+<attribute name="ALT_2_MAN_PN" value="CC0603KRX7R9BB101"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00620"/>
+<attribute name="ALT_3_MAN" value="C0603-100p-50V-10%-X7R"/>
+<attribute name="ALT_3_MAN_PN" value="free choice"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="Walsin"/>
+<attribute name="MAN_PN" value="0603N101J500CT"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="100p 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-10N">
+<attribute name="ALIGNI_PN" value="61-00472"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00178"/>
+<attribute name="ALT_1_MAN" value="TDK"/>
+<attribute name="ALT_1_MAN_PN" value="C1608X5R1H103M080AA"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00145"/>
+<attribute name="ALT_2_MAN" value="Walsin"/>
+<attribute name="ALT_2_MAN_PN" value="0603B103K500CT"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00616"/>
+<attribute name="ALT_3_MAN" value="C0603-10n-50V-20%-X5R"/>
+<attribute name="ALT_3_MAN_PN" value="free choice"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Samsung"/>
+<attribute name="MAN_PN" value="CL10B103KB8NNNC"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="10n 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-10P">
+<attribute name="ALIGNI_PN" value="61-00240"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00411"/>
+<attribute name="ALT_1_MAN" value="YAGEO"/>
+<attribute name="ALT_1_MAN_PN" value="CC0603KRNPO9BN100"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00610"/>
+<attribute name="ALT_2_MAN" value="C0603-10p-50V-10%-X7R"/>
+<attribute name="ALT_2_MAN_PN" value="free choice"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MAN_PN" value="06035C100K4T4A"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="10p 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-10U">
+<attribute name="ALIGNI_PN" value="61-00241"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00614"/>
+<attribute name="ALT_1_MAN" value="C0603-10u-10V-10%-X7R"/>
+<attribute name="ALT_1_MAN_PN" value="free choice"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MAN_PN" value="GRM188Z71A106KA73D"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="10u 10V"/>
+<attribute name="VOLTAGE" value="10.0 V"/>
+</technology>
+<technology name="-150P">
+<attribute name="ALIGNI_PN" value="61-00376"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00621"/>
+<attribute name="ALT_1_MAN" value="C0603-150p-50V-10%-X7R"/>
+<attribute name="ALT_1_MAN_PN" value="free choice"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="CC0603KRX7R9BB151"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="150p 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-18P">
+<attribute name="ALIGNI_PN" value="61-00385"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00112"/>
+<attribute name="ALT_1_MAN" value="YAGEO"/>
+<attribute name="ALT_1_MAN_PN" value="CC0603JRNPO9BN180"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00619"/>
+<attribute name="ALT_2_MAN" value="C0603-18p-50V-10%-C0G"/>
+<attribute name="ALT_2_MAN_PN" value="free choice"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="C0G/NP0"/>
+<attribute name="MANUFACTURER" value="Walsin"/>
+<attribute name="MAN_PN" value="0603N180J500CT"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="18p 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-1N">
+<attribute name="ALIGNI_PN" value="61-00119"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00617"/>
+<attribute name="ALT_1_MAN" value="C0603-1n-250V-10%-C0G"/>
+<attribute name="ALT_1_MAN_PN" value="free choice"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="C0G/NP0"/>
+<attribute name="MANUFACTURER" value="TDK"/>
+<attribute name="MAN_PN" value="CGA3E3C0G2E102J080AE"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="1n 250"/>
+<attribute name="VOLTAGE" value="250.0 V"/>
+</technology>
+<technology name="-1U">
+<attribute name="ALIGNI_PN" value="61-00028"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00598"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="0603-1uF-25V-20%-X5R"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Samsung"/>
+<attribute name="MAN_PN" value="CL10A105KA8NNNC"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="1u 25V"/>
+<attribute name="VOLTAGE" value="25.0 V"/>
+</technology>
+<technology name="-220N">
+<attribute name="ALIGNI_PN" value="61-00272"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00615"/>
+<attribute name="ALT_1_MAN" value="C0603-220n-50V-20%-X5R"/>
+<attribute name="ALT_1_MAN_PN" value="free choice"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Samsung"/>
+<attribute name="MAN_PN" value="CL10A224KB8NNNC"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="220n 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-27P">
+<attribute name="ALIGNI_PN" value="61-00179"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00319"/>
+<attribute name="ALT_1_MAN" value="AVX"/>
+<attribute name="ALT_1_MAN_PN" value="06035A270KAT2A"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00446"/>
+<attribute name="ALT_2_MAN" value="YAGEO"/>
+<attribute name="ALT_2_MAN_PN" value="CC0603KRNPO9BN270"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00363"/>
+<attribute name="ALT_3_MAN" value="KEMET"/>
+<attribute name="ALT_3_MAN_PN" value="C0603C270J5GACTU"/>
+<attribute name="ALT_4_ALIGNI_PN" value="61-00608"/>
+<attribute name="ALT_4_MAN" value="C0603-27p-50V-20%-C0G"/>
+<attribute name="ALT_4_MAN_PN" value="free choice"/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="C0G/NP0"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MAN_PN" value="06035A270MAT2A"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="27p 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-2N2">
+<attribute name="ALIGNI_PN" value="61-00242"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00502"/>
+<attribute name="ALT_1_MAN" value="Stackpole"/>
+<attribute name="ALT_1_MAN_PN" value="CML0603X7R222KT50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00611"/>
+<attribute name="ALT_2_MAN" value="C0603-2n2-50V-10%-X7R"/>
+<attribute name="ALT_2_MAN_PN" value="free choice"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MAN_PN" value="C0603C222K5RECAUTO"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="2n2 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-2U2">
+<attribute name="ALIGNI_PN" value="61-00177"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00622"/>
+<attribute name="ALT_1_MAN" value="C0603-2u2-50V-20%-X5R"/>
+<attribute name="ALT_1_MAN_PN" value="free choice"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MAN_PN" value="GRM188R61H225ME11J"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="2u2"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-33N">
+<attribute name="ALIGNI_PN" value="61-00243"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00364"/>
+<attribute name="ALT_1_MAN" value="Taiyo Yuden"/>
+<attribute name="ALT_1_MAN_PN" value="UMK107B7333KAHT"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00612"/>
+<attribute name="ALT_2_MAN" value="C0603-33n-50V-10%-X7R"/>
+<attribute name="ALT_2_MAN_PN" value="free choice"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MAN_PN" value="C0603X333K5RAC3316"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="33n 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-680N">
+<attribute name="ALIGNI_PN" value="61-00274"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00618"/>
+<attribute name="ALT_1_MAN" value="C0603-680n-16V-10%-X7R"/>
+<attribute name="ALT_1_MAN_PN" value="free choice"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="TDK"/>
+<attribute name="MAN_PN" value="C1608X7R1C684K080AC"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="680n 16V"/>
+<attribute name="VOLTAGE" value="16.0 V"/>
+</technology>
+<technology name="-68N">
+<attribute name="ALIGNI_PN" value="61-00244"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00613"/>
+<attribute name="ALT_1_MAN" value="C0603-68n-50V-10%-X7R"/>
+<attribute name="ALT_1_MAN_PN" value="free choice"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MAN_PN" value="C0603C683K5RACAUTO7411"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %"/>
+<attribute name="VALUE" value="68n 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+</technologies>
+</device>
+<device name="-C0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515237/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="-1U">
+<attribute name="ALIGNI_PN" value="61-00180"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00471"/>
+<attribute name="ALT_1_MAN" value="Samsung"/>
+<attribute name="ALT_1_MAN_PN" value="CL21B105KAFNNNE"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00321"/>
+<attribute name="ALT_2_MAN" value="TDK"/>
+<attribute name="ALT_2_MAN_PN" value="C2012X5R1E105M085AC"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00245"/>
+<attribute name="ALT_3_MAN" value="Wuerth"/>
+<attribute name="ALT_3_MAN_PN" value="885012207078"/>
+<attribute name="ALT_4_ALIGNI_PN" value="61-00623"/>
+<attribute name="ALT_4_MAN" value="C0805-1u-25V-20%-X5R"/>
+<attribute name="ALT_4_MAN_PN" value="free choice"/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MAN_PN" value="08053D105MAT2A"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="1u 25V"/>
+<attribute name="VOLTAGE" value="25.0 V"/>
+</technology>
+<technology name="-22U">
+<attribute name="ALIGNI_PN" value="61-00181"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00322"/>
+<attribute name="ALT_1_MAN" value="Samsung"/>
+<attribute name="ALT_1_MAN_PN" value="CL21A226MPQNNNE"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00224"/>
+<attribute name="ALT_2_MAN" value="Wuerth"/>
+<attribute name="ALT_2_MAN_PN" value="885012107011"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00625"/>
+<attribute name="ALT_3_MAN" value="C0805-22u-10V-20%-X5R"/>
+<attribute name="ALT_3_MAN_PN" value="free choice"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MAN_PN" value="0805ZD226MAT2A"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="22u 10V"/>
+<attribute name="VOLTAGE" value="10.0 V"/>
+</technology>
+<technology name="-4U7">
+<attribute name="ALIGNI_PN" value="61-00182"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00131"/>
+<attribute name="ALT_1_MAN" value="Samsung"/>
+<attribute name="ALT_1_MAN_PN" value="CL21A475KAQNNNG"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00481"/>
+<attribute name="ALT_2_MAN" value="Samsung"/>
+<attribute name="ALT_2_MAN_PN" value="CL21A475KAQNNNE"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00624"/>
+<attribute name="ALT_3_MAN" value="C0805-4u7-16V-20%-X5R"/>
+<attribute name="ALT_3_MAN_PN" value="free choice"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MAN_PN" value="0805YD475MAT2A"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="4u7 16V"/>
+<attribute name="VOLTAGE" value="16.0 V"/>
+</technology>
+</technologies>
+</device>
+<device name="-C1206" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515233/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="-10U">
+<attribute name="ALIGNI_PN" value="61-00144"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00183"/>
+<attribute name="ALT_1_MAN" value="TDK"/>
+<attribute name="ALT_1_MAN_PN" value="C3216X5R1H106M160AB"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00482"/>
+<attribute name="ALT_2_MAN" value="Samsung"/>
+<attribute name="ALT_2_MAN_PN" value="CL31B106KBHNNNE"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00628"/>
+<attribute name="ALT_3_MAN" value="C1206-10u-50V-20%-X5R"/>
+<attribute name="ALT_3_MAN_PN" value="free choice"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Samsung"/>
+<attribute name="MAN_PN" value="CL31A106KBHNNNE"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="10u 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-22U">
+<attribute name="ALIGNI_PN" value="61-00120"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00225"/>
+<attribute name="ALT_1_MAN" value="Samsung"/>
+<attribute name="ALT_1_MAN_PN" value="CL31A226MOCLNNC"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00626"/>
+<attribute name="ALT_2_MAN" value="C1206-22u-16V-20%-X5R"/>
+<attribute name="ALT_2_MAN_PN" value="free choice"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MAN_PN" value="GRM319R61C226ME15D"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="22u 16V"/>
+<attribute name="VOLTAGE" value="16.0 V"/>
+</technology>
+<technology name="-47U">
+<attribute name="ALIGNI_PN" value="61-00415"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00627"/>
+<attribute name="ALT_1_MAN" value="C1206-47u-6V3-20%-X5R"/>
+<attribute name="ALT_1_MAN_PN" value="free choice"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MAN_PN" value="GRM31CR60J476ME19K"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="47u 6V3"/>
+<attribute name="VOLTAGE" value="6.3 V"/>
+</technology>
+</technologies>
+</device>
+<device name="-C1210" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515217/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="-10U">
+<attribute name="ALIGNI_PN" value="61-00401"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00148"/>
+<attribute name="ALT_1_MAN" value="Wuerth"/>
+<attribute name="ALT_1_MAN_PN" value="885012209073"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00630"/>
+<attribute name="ALT_2_MAN" value="C1210-10u-50V-20%-X5R"/>
+<attribute name="ALT_2_MAN_PN" value="free choice"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden"/>
+<attribute name="MAN_PN" value="UMK325AB7106KM-T"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="10u 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-4U7-25V">
+<attribute name="ALIGNI_PN" value="61-00320"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00348"/>
+<attribute name="ALT_1_MAN" value="Taiyo Yuden"/>
+<attribute name="ALT_1_MAN_PN" value="UMK325BJ475MM-T"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00184"/>
+<attribute name="ALT_2_MAN" value="TDK"/>
+<attribute name="ALT_2_MAN_PN" value="C3225X5R1H475M250AB"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00246"/>
+<attribute name="ALT_3_MAN" value="Wuerth"/>
+<attribute name="ALT_3_MAN_PN" value="885012209048"/>
+<attribute name="ALT_4_ALIGNI_PN" value="61-00631"/>
+<attribute name="ALT_4_MAN" value="C1210-4u7-25V-20%-X5R"/>
+<attribute name="ALT_4_MAN_PN" value="free choice"/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden"/>
+<attribute name="MAN_PN" value="TMK325BJ475MNHT"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="4u7 25V"/>
+<attribute name="VOLTAGE" value="25.0 V"/>
+</technology>
+<technology name="-4U7-50V">
+<attribute name="ALIGNI_PN" value="61-00348"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00184"/>
+<attribute name="ALT_1_MAN" value="TDK"/>
+<attribute name="ALT_1_MAN_PN" value="C3225X5R1H475M250AB"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00246"/>
+<attribute name="ALT_2_MAN" value="Wuerth"/>
+<attribute name="ALT_2_MAN_PN" value="885012209048"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00629"/>
+<attribute name="ALT_3_MAN" value="C1210-4u7-50V-20%-X5R"/>
+<attribute name="ALT_3_MAN_PN" value="free choice"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden"/>
+<attribute name="MAN_PN" value="UMK325BJ475MM-T"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="4u7 50V"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+</technologies>
+</device>
+<device name="C1812" package="C1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515223/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="C0201" package="C0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515182/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="85°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="744771004" urn="urn:adsk.eagle:component:33515409/2" prefix="L" library_version="11">
+<description>&lt;b&gt;744771004, WE-PD, 4.7 uH, I_R=8.25 A, I_sat=8 A&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="L_EU_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PD_1260_WE">
+<connects>
+<connect gate="G$1" pin="DOT" pad="DOT"/>
+<connect gate="G$1" pin="NODOT" pad="NODOT"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515266/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00002"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2020-12-22"/>
+<attribute name="I_R" value="8.25 A"/>
+<attribute name="I_SAT" value="8.0 A"/>
+<attribute name="MANUFACTURER" value="Wuerth"/>
+<attribute name="MAN_PN" value="744771004"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±20 %"/>
+<attribute name="VALUE" value="744771004"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="742792410" urn="urn:adsk.eagle:component:33515407/2" prefix="L" library_version="11">
+<description>&lt;b&gt;742792410, WE-CBF, Ferrite Bead, 60 R @ 100 MHz&lt;/b&gt;&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="L_EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FERRIT_1806_WUERTH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515215/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00001"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-01-14"/>
+<attribute name="CURRENT" value="5.0 A"/>
+<attribute name="MANUFACTURER" value="Wuerth"/>
+<attribute name="MAN_PN" value="742792410"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="742792410"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PRF15BE103RB6RC" urn="urn:adsk.eagle:component:33515502/2" prefix="PTC" library_version="11">
+<description>&lt;b&gt;PRF15BE103RB6RC, Murata, PTC, 0402, 10k&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515300/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00335"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-08-27"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MAN_PN" value="PRF15BE103RB6RC"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-20 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±50 %"/>
+<attribute name="VALUE" value="PRF15BE103RB6RC"/>
+<attribute name="VOLTAGE" value="32.0 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSX-3225" urn="urn:adsk.eagle:component:33515559/2" prefix="Q" library_version="11">
+<description>&lt;b&gt;TSX-3225 Crystal&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+
+3.2 x 2.5 x 0.6 mm&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL_4_PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSX-3225_SEIKO_EPSON">
+<connects>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="3"/>
+<connect gate="G$1" pin="G1" pad="2"/>
+<connect gate="G$1" pin="G2" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515336/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_24.0000MF10Z-C">
+<attribute name="ALIGNI_PN" value="61-00106"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00456"/>
+<attribute name="ALT_1_MAN" value="Epson"/>
+<attribute name="ALT_1_MAN_PN" value="X1E000021026400"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-06-24"/>
+<attribute name="C_L" value="18 pF"/>
+<attribute name="FREQUENCY" value="24 MHz"/>
+<attribute name="MANUFACTURER" value="Epson"/>
+<attribute name="MAN_PN" value="TSX-3225 24.0000MF10Z-C"/>
+<attribute name="MAX_OP_TEMP" value="75 °C"/>
+<attribute name="MIN_OP_TEMP" value="-20 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±10 PPM"/>
+<attribute name="VALUE" value="TSX-3225_24.0000MF10Z-C"/>
+</technology>
+<technology name="_24.0000MF15X-AC3">
+<attribute name="CHANGED" value="2021-06-24"/>
+<attribute name="CREATED" value="2019-01-19"/>
+<attribute name="C_L" value="9 pF"/>
+<attribute name="FREQUENCY" value="24 MHz"/>
+<attribute name="MANUFACTURER" value="Epson"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±10 PPM"/>
+</technology>
+<technology name="_32.0000MF10Z-W6">
+<attribute name="CHANGED" value="2021-06-24"/>
+<attribute name="CREATED" value="2019-03-29"/>
+<attribute name="C_L" value="12 pF"/>
+<attribute name="FREQUENCY" value="32 MHz"/>
+<attribute name="MANUFACTURER" value="Epson"/>
+<attribute name="MAX_OP_TEMP" value="75 °C"/>
+<attribute name="MIN_OP_TEMP" value="-20 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±10 PPM"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECS-.327-12.5-12R" urn="urn:adsk.eagle:component:33515568/2" prefix="Q" library_version="11">
+<description>&lt;b&gt;ECS-.327-12.5-12R, crystal, 32.768 kHz, 12.5 pF, 2.0 mm x 1.2 mm</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL_2_PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ECX-12R_ECS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515338/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00499"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00532"/>
+<attribute name="ALT_1_MAN" value="ECS"/>
+<attribute name="ALT_1_MAN_PN" value="ECS-.327-12.5-12R-C-TR"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-11-12"/>
+<attribute name="C_L" value="12.5 pF"/>
+<attribute name="MANUFACTURER" value="ECS"/>
+<attribute name="MAN_PN" value="ECS-.327-12.5-12R-TR"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±20 ppm"/>
+<attribute name="VALUE" value="ECS-.327-12.5-12R"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R-EU" urn="urn:adsk.eagle:component:33515506/6" prefix="R" uservalue="yes" library_version="11">
+<description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
+<gates>
+<gate name="G$1" symbol="R-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-R0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515300/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_1_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_1_MAN" value="" constant="no"/>
+<attribute name="ALT_1_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_2_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_2_MAN" value="" constant="no"/>
+<attribute name="ALT_2_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_3_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_3_MAN" value="" constant="no"/>
+<attribute name="ALT_3_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_4_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_4_MAN" value="" constant="no"/>
+<attribute name="ALT_4_MAN_PN" value="" constant="no"/>
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MAN_PN" value="" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
+<attribute name="POWER" value="63 mW" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="25 V" constant="no"/>
+</technology>
+<technology name="-0R">
+<attribute name="ALIGNI_PN" value="61-00342"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00638"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-0R"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0402ZT0R00"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value=""/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="0R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-100R">
+<attribute name="ALIGNI_PN" value="61-00121"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00632"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-100R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0402FT100R"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="100R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-10K">
+<attribute name="ALIGNI_PN" value="61-00132"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00639"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-10k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="MAN_PN" value="CR0402-FX-1002GLF"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="10k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-10R">
+<attribute name="ALIGNI_PN" value="61-00343"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00381"/>
+<attribute name="ALT_1_MAN" value="YAGEO"/>
+<attribute name="ALT_1_MAN_PN" value="RC0402FR-0710RL"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00633"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0402-10R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0402FT10R0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±200 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="10R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-110K">
+<attribute name="ALIGNI_PN" value="61-00133"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00634"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-110k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0402FT110K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="110K"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-1K8">
+<attribute name="ALIGNI_PN" value="61-00382"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00641"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-1k8-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0402FR-071K8L"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="1k8"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-1M">
+<attribute name="ALIGNI_PN" value="61-00402"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00640"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-1Meg-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Multicomp"/>
+<attribute name="MAN_PN" value="MCWR04X1004FTL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="1M"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-240K">
+<attribute name="ALIGNI_PN" value="61-00404"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00642"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-240k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0402FR-07240KL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="240k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-27R">
+<attribute name="ALIGNI_PN" value="61-00134"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00643"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-27R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0402FR-0727RL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="27R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-3K3">
+<attribute name="ALIGNI_PN" value="61-00383"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00644"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-3k3-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0402FR-073K3L"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="3k3"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-3K9">
+<attribute name="ALIGNI_PN" value="61-00045"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00645"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-3k9-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0402FR-073K9L"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="3k9"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-470K">
+<attribute name="ALIGNI_PN" value="61-00044"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00648"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-470k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Multicomp"/>
+<attribute name="MAN_PN" value="MC00625W04021470K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="470k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-47K">
+<attribute name="ALIGNI_PN" value="61-00403"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00635"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-47k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0402FT47K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="47K"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-499R">
+<attribute name="ALIGNI_PN" value="61-00146"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00646"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-499R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0402FR-07499RL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="499R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-4R7">
+<attribute name="ALIGNI_PN" value="61-00147"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00636"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-4R7-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0402FT4R70"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±200 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="4R7"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-680K">
+<attribute name="ALIGNI_PN" value="61-00043"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00647"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-680k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0402FR-07680KL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="680k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-75K">
+<attribute name="ALIGNI_PN" value="61-00344"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00637"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0402-75k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0402FT75K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="75K"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+</technologies>
+</device>
+<device name="-R0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515295/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_1_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_1_MAN" value="" constant="no"/>
+<attribute name="ALT_1_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_2_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_2_MAN" value="" constant="no"/>
+<attribute name="ALT_2_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_3_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_3_MAN" value="" constant="no"/>
+<attribute name="ALT_3_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_4_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_4_MAN" value="" constant="no"/>
+<attribute name="ALT_4_MAN_PN" value="" constant="no"/>
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MAN_PN" value="" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
+<attribute name="POWER" value="63 mW" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="50 V" constant="no"/>
+</technology>
+<technology name="-0R">
+<attribute name="ALIGNI_PN" value="61-00062"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00466"/>
+<attribute name="ALT_1_MAN" value="Uniroyal"/>
+<attribute name="ALT_1_MAN_PN" value="0603WAF0000T5E"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00599"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="0603-0R"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603ZT0R00"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value=""/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="0R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-0R24">
+<attribute name="ALIGNI_PN" value="61-00230"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00707"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-0R24-100mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="PT0603FR-7W0R24L"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="100 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±200 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="0R24"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-100K">
+<attribute name="ALIGNI_PN" value="61-00064"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00329"/>
+<attribute name="ALT_1_MAN" value="TE Connectivity"/>
+<attribute name="ALT_1_MAN_PN" value="CPF0603F100KC1"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00651"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-100k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT100K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="100k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-100R">
+<attribute name="ALIGNI_PN" value="61-00135"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00649"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-100R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FG100R"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="100R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-10K">
+<attribute name="ALIGNI_PN" value="61-00063"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00468"/>
+<attribute name="ALT_1_MAN" value="Uniroyal"/>
+<attribute name="ALT_1_MAN_PN" value="0603WAF1002T5E"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00330"/>
+<attribute name="ALT_2_MAN" value="TE Connectivity"/>
+<attribute name="ALT_2_MAN_PN" value="CPF0603F10KC1"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00358"/>
+<attribute name="ALT_3_MAN" value="KOA Speer"/>
+<attribute name="ALT_3_MAN_PN" value="RN731JTTD1002F100"/>
+<attribute name="ALT_4_ALIGNI_PN" value="61-00652"/>
+<attribute name="ALT_4_MAN" value="free choice"/>
+<attribute name="ALT_4_MAN_PN" value="R0603-10k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT10K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="10k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-10K-0P1">
+<attribute name="ALIGNI_PN" value="61-00365"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00276"/>
+<attribute name="ALT_1_MAN" value="TE Connectivity"/>
+<attribute name="ALT_1_MAN_PN" value="RP73G1J10KBTDF"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00693"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-10k-63mW-0%1-50ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="KOA Speer"/>
+<attribute name="MAN_PN" value="RN73H1JTTD1002B25"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±50 ppm/°C"/>
+<attribute name="TOLERANCE" value="±0.1 %"/>
+<attribute name="VALUE" value="10k 0.1%"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-10M">
+<attribute name="ALIGNI_PN" value="61-00399"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00323"/>
+<attribute name="ALT_1_MAN" value="Bourns"/>
+<attribute name="ALT_1_MAN_PN" value="CR0603-FW-1005ELF"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00683"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-10Meg-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RC0603FR-0710ML"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±200 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="10M"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-10R">
+<attribute name="ALIGNI_PN" value="61-00122"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00465"/>
+<attribute name="ALT_1_MAN" value="Uniroyal"/>
+<attribute name="ALT_1_MAN_PN" value="0603WAF100JT5E"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00357"/>
+<attribute name="ALT_2_MAN" value="KOA Speer"/>
+<attribute name="ALT_2_MAN_PN" value="RN731JTTD10R0F100"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00489"/>
+<attribute name="ALT_3_MAN" value="Stackpole"/>
+<attribute name="ALT_3_MAN_PN" value="RNCP0603FTD10R0"/>
+<attribute name="ALT_4_ALIGNI_PN" value="61-00324"/>
+<attribute name="ALT_4_MAN" value="TE Connectivity"/>
+<attribute name="ALT_4_MAN_PN" value="CRGCQ0603F10R"/>
+<attribute name="ALT_5_ALIGNI_PN" value="61-00653"/>
+<attribute name="ALT_5_MAN" value="free choice"/>
+<attribute name="ALT_5_MAN_PN" value="R0603-10R-63mW-1%-400ppm-50V"/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT10R0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="10R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-120K">
+<attribute name="ALIGNI_PN" value="61-00407"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00654"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-120k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT120K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="120k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-127K">
+<attribute name="ALIGNI_PN" value="61-00253"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00698"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-127k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0603FR-07127KL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="127k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-12K">
+<attribute name="ALIGNI_PN" value="61-00123"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00486"/>
+<attribute name="ALT_1_MAN" value="Uniroyal"/>
+<attribute name="ALT_1_MAN_PN" value="0603WAF1202T5E"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00350"/>
+<attribute name="ALT_2_MAN" value="KOA Speer"/>
+<attribute name="ALT_2_MAN_PN" value="RN731JTTD1202F50"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00655"/>
+<attribute name="ALT_3_MAN" value="free choice"/>
+<attribute name="ALT_3_MAN_PN" value="R0603-12k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT12K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="12k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-130K">
+<attribute name="ALIGNI_PN" value="61-00394"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00699"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-130k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0603FR-07130KL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="130k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-150K">
+<attribute name="ALIGNI_PN" value="61-00254"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00700"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-150k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0603FR-07150KL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="150k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-150R">
+<attribute name="ALIGNI_PN" value="61-00467"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00325"/>
+<attribute name="ALT_1_MAN" value="TE Connectivity"/>
+<attribute name="ALT_1_MAN_PN" value="CPF0603F150RC1"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00387"/>
+<attribute name="ALT_2_MAN" value="YAGEO"/>
+<attribute name="ALT_2_MAN_PN" value="RC0603FR-07150RL"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00686"/>
+<attribute name="ALT_3_MAN" value="free choice"/>
+<attribute name="ALT_3_MAN_PN" value="R0603-150R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Uniroyal"/>
+<attribute name="MAN_PN" value="0603WAF1500T5E"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="150R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-160K">
+<attribute name="ALIGNI_PN" value="61-00124"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00420"/>
+<attribute name="ALT_1_MAN" value="KOA Speer"/>
+<attribute name="ALT_1_MAN_PN" value="RN731JTTD1603F100"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00656"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-160k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT160K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="160k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-18K">
+<attribute name="ALIGNI_PN" value="61-00391"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00475"/>
+<attribute name="ALT_1_MAN" value="Uniroyal"/>
+<attribute name="ALT_1_MAN_PN" value="0603WAF1802T5E"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00351"/>
+<attribute name="ALT_2_MAN" value="KOA Speer"/>
+<attribute name="ALT_2_MAN_PN" value="RN731JTTD1802F25"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00657"/>
+<attribute name="ALT_3_MAN" value="free choice"/>
+<attribute name="ALT_3_MAN_PN" value="R0603-18k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT18K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="18k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-1K">
+<attribute name="ALIGNI_PN" value="61-00405"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00470"/>
+<attribute name="ALT_1_MAN" value="Uniroyal"/>
+<attribute name="ALT_1_MAN_PN" value="0603WAF1001T5E"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00326"/>
+<attribute name="ALT_2_MAN" value="TE Connectivity"/>
+<attribute name="ALT_2_MAN_PN" value="CPF0603F1K0C1"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00650"/>
+<attribute name="ALT_3_MAN" value="free choice"/>
+<attribute name="ALT_3_MAN_PN" value="R0603-1k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FG1K00"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="1k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-1K1">
+<attribute name="ALIGNI_PN" value="61-00379"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00255"/>
+<attribute name="ALT_1_MAN" value="YAGEO"/>
+<attribute name="ALT_1_MAN_PN" value="RC0603FR-071K1L"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00658"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-1k1-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT1K10"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="1k1"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-1K8">
+<attribute name="ALIGNI_PN" value="61-00140"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00477"/>
+<attribute name="ALT_1_MAN" value="Uniroyal"/>
+<attribute name="ALT_1_MAN_PN" value="0603WAF1801T5E"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00352"/>
+<attribute name="ALT_2_MAN" value="KOA Speer"/>
+<attribute name="ALT_2_MAN_PN" value="RN731JTTD1801F100"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00659"/>
+<attribute name="ALT_3_MAN" value="free choice"/>
+<attribute name="ALT_3_MAN_PN" value="R0603-1k8-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT1K80"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="1k8"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-1K8-0P1">
+<attribute name="ALIGNI_PN" value="61-00442"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00697"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-1k8-63mW-0%1-50ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="TE Connectivity"/>
+<attribute name="MAN_PN" value="CPF0603B1K8E1"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±25 ppm/°C"/>
+<attribute name="TOLERANCE" value="±0.1 %"/>
+<attribute name="VALUE" value="1k8 0.1%"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-1M">
+<attribute name="ALIGNI_PN" value="61-00474"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00139"/>
+<attribute name="ALT_1_MAN" value="Multicomp"/>
+<attribute name="ALT_1_MAN_PN" value="MCWR06X1004FTL"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00685"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-1Meg-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Uniroyal"/>
+<attribute name="MAN_PN" value="0603WAF1004T5E"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="1M"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-1R">
+<attribute name="ALIGNI_PN" value="61-00368"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00696"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-1R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Rohm"/>
+<attribute name="MAN_PN" value="SDR03EZPF1R00"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±200 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="1R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-200K">
+<attribute name="ALIGNI_PN" value="61-00395"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00660"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-200k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT200K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="200k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-20K">
+<attribute name="ALIGNI_PN" value="61-00256"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00661"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-20k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT20K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="20k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-220K">
+<attribute name="ALIGNI_PN" value="61-00125"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00662"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-220k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT220K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="220k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-220R">
+<attribute name="ALIGNI_PN" value="61-00388"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00663"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-220R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT220R"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="220R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-22K">
+<attribute name="ALIGNI_PN" value="61-00136"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00664"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-22k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT22K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="22k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-240K">
+<attribute name="ALIGNI_PN" value="61-00126"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00665"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-240k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT240K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="240k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-270K">
+<attribute name="ALIGNI_PN" value="61-00396"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00666"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-270k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT270K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="270k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-27K">
+<attribute name="ALIGNI_PN" value="61-00380"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00423"/>
+<attribute name="ALT_1_MAN" value="KOA Speer"/>
+<attribute name="ALT_1_MAN_PN" value="RN731JTTD2702F100"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00689"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-27k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="MAN_PN" value="CR0603-FX-2702ELF"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="27k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-27R">
+<attribute name="ALIGNI_PN" value="61-00507"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00464"/>
+<attribute name="ALT_1_MAN" value="Uniroyal"/>
+<attribute name="ALT_1_MAN_PN" value="0603WAF270JT5E"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00066"/>
+<attribute name="ALT_2_MAN" value="Bourns"/>
+<attribute name="ALT_2_MAN_PN" value="CR0603-FX-27R0ELF"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00422"/>
+<attribute name="ALT_3_MAN" value="KOA Speer"/>
+<attribute name="ALT_3_MAN_PN" value="RN731JTTD27R0F100"/>
+<attribute name="ALT_4_ALIGNI_PN" value="61-00667"/>
+<attribute name="ALT_4_MAN" value="free choice"/>
+<attribute name="ALT_4_MAN_PN" value="R0603-27R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT27R0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±200 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="27R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-2K">
+<attribute name="ALIGNI_PN" value="61-00406"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00668"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-2k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT2K00"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="2k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-2K2">
+<attribute name="ALIGNI_PN" value="61-00137"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00669"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-2k2-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT2K20"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="2k2"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-2K7">
+<attribute name="ALIGNI_PN" value="61-00400"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00694"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-2k7-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Multicomp"/>
+<attribute name="MAN_PN" value="MCWR06X2701FTL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="2k7"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-300K">
+<attribute name="ALIGNI_PN" value="61-00397"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00670"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-300k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT300K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="300k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-330R">
+<attribute name="ALIGNI_PN" value="61-00389"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00469"/>
+<attribute name="ALT_1_MAN" value="Uniroyal"/>
+<attribute name="ALT_1_MAN_PN" value="0603WAF3300T5E"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00327"/>
+<attribute name="ALT_2_MAN" value="YAGEO"/>
+<attribute name="ALT_2_MAN_PN" value="RC0603FR-07330RL"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00671"/>
+<attribute name="ALT_3_MAN" value="free choice"/>
+<attribute name="ALT_3_MAN_PN" value="R0603-330R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT330R"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="330R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-33K">
+<attribute name="ALIGNI_PN" value="61-00127"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00690"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-33k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="MAN_PN" value="CR0603-FX-3302ELF"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="33k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-36K">
+<attribute name="ALIGNI_PN" value="61-00527"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00695"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-36k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Multicomp"/>
+<attribute name="MAN_PN" value="MCWR06X3602FTL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="36k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-3K">
+<attribute name="ALIGNI_PN" value="61-00366"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00688"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-3k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
+<attribute name="MAN_PN" value="CRCW06033K00FKEAC"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="3k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-3R3">
+<attribute name="ALIGNI_PN" value="61-00485"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00386"/>
+<attribute name="ALT_1_MAN" value="KOA Speer"/>
+<attribute name="ALT_1_MAN_PN" value="RK73H1JTTD3R30F"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00687"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-3R3-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Uniroyal"/>
+<attribute name="MAN_PN" value="0603WAF330KT5E"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="3R3"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-43K">
+<attribute name="ALIGNI_PN" value="61-00483"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00199"/>
+<attribute name="ALT_1_MAN" value="YAGEO"/>
+<attribute name="ALT_1_MAN_PN" value="RC0603FR-0743KL"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00684"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-43k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Uniroyal"/>
+<attribute name="MAN_PN" value="0603WAF4302T5E"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="43k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-442K">
+<attribute name="ALIGNI_PN" value="61-00398"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00200"/>
+<attribute name="ALT_1_MAN" value="KOA Speer"/>
+<attribute name="ALT_1_MAN_PN" value="RK73H1JTTD4423F"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00108"/>
+<attribute name="ALT_2_MAN" value="YAGEO"/>
+<attribute name="ALT_2_MAN_PN" value="RC0603FR-07442KL"/>
+<attribute name="ALT_3_ALIGNI_PN" value="61-00424"/>
+<attribute name="ALT_3_MAN" value="Multicomp"/>
+<attribute name="ALT_3_MAN_PN" value="MC0063W06031442K"/>
+<attribute name="ALT_4_ALIGNI_PN" value="61-00672"/>
+<attribute name="ALT_4_MAN" value="free choice"/>
+<attribute name="ALT_4_MAN_PN" value="R0603-442k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT442K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="442k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-470R">
+<attribute name="ALIGNI_PN" value="61-00231"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00701"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-470R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0603FR-07470RL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="470R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-47K">
+<attribute name="ALIGNI_PN" value="61-00141"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00691"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-47k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="MAN_PN" value="CR0603-FX-4702ELF"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="47k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-47K-0P1">
+<attribute name="ALIGNI_PN" value="61-00201"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00367"/>
+<attribute name="ALT_1_MAN" value="Panasonic"/>
+<attribute name="ALT_1_MAN_PN" value="ERJ-PB3B4702V"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00705"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-47k-63mW-0%1-50ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RT0603BRE0747KL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±50 ppm/°C"/>
+<attribute name="TOLERANCE" value="±0.1 %"/>
+<attribute name="VALUE" value="47k 0.1%"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-4K7">
+<attribute name="ALIGNI_PN" value="61-00142"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00426"/>
+<attribute name="ALT_1_MAN" value="KOA Speer"/>
+<attribute name="ALT_1_MAN_PN" value="RN731JTTD4701F100"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00673"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R0603-4k7-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT4K70"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="4k7"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-4M7">
+<attribute name="ALIGNI_PN" value="61-00425"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00702"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-4Meg7-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0603FR-074M7L"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="4M7"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-510K">
+<attribute name="ALIGNI_PN" value="61-00328"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00674"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-510k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT510K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="510k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-51K">
+<attribute name="ALIGNI_PN" value="61-00138"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00675"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-51k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT51K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="51k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-536K">
+<attribute name="ALIGNI_PN" value="61-00128"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00676"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-536k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT536K"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="536k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-53K6">
+<attribute name="ALIGNI_PN" value="61-00377"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00692"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-53k6-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="MAN_PN" value="CR0603-FX-5362ELF"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="53k6"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-56K">
+<attribute name="ALIGNI_PN" value="61-00257"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00677"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-56k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT56K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="56k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-62K">
+<attribute name="ALIGNI_PN" value="61-00258"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00703"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-62k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0603FR-0762KL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="62k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-68K">
+<attribute name="ALIGNI_PN" value="61-00392"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00678"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-68k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT68K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="68k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-75K">
+<attribute name="ALIGNI_PN" value="61-00129"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00679"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-75k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT75K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="75k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-75K-0P1">
+<attribute name="ALIGNI_PN" value="61-00203"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00706"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-75k-63mW-0%1-50ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RT0603BRE0775KL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±50 ppm/°C"/>
+<attribute name="TOLERANCE" value="±0.1 %"/>
+<attribute name="VALUE" value="75k 0.1%"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-75R">
+<attribute name="ALIGNI_PN" value="61-00143"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00680"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-75R-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT75R0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="75R"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-82K">
+<attribute name="ALIGNI_PN" value="61-00393"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00681"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-82k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT82K0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="82k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-8K2">
+<attribute name="ALIGNI_PN" value="61-00390"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00682"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-8k2-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF0603FT8K20"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="8k2"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+<technology name="-91K">
+<attribute name="ALIGNI_PN" value="61-00259"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00704"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R0603-91k-63mW-1%-400ppm-50V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="RC0603FR-0791KL"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="63 mW"/>
+<attribute name="STATUS" value="" constant="no"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="91k"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+</technologies>
+</device>
+<device name="R0805" package="R0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515298/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="MAX_OP_TEMP" value="70°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="POWER" value="100 mW" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VOLTAGE" value="75 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-R1206" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515301/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="MAX_OP_TEMP" value="70°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="POWER" value="125 mW" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VOLTAGE" value="100 V" constant="no"/>
+</technology>
+<technology name="-0R15">
+<attribute name="ALIGNI_PN" value="61-00487"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00204"/>
+<attribute name="ALT_1_MAN" value="Bourns"/>
+<attribute name="ALT_1_MAN_PN" value="CRL1206-FW-R150ELF"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00709"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R1206-0R15-250mW-1%-800ppm-200V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Uniroyal"/>
+<attribute name="MAN_PN" value="1206W4F150LT5E"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="250 mW"/>
+<attribute name="TEMP_COEFF" value="±800 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="0R15"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-100R">
+<attribute name="ALIGNI_PN" value="61-00260"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00710"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R1206-100R-750mW-1%-400ppm-200V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
+<attribute name="MAN_PN" value="CRCW1206100RFKEAHP"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="750 mW"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="100R"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-1R">
+<attribute name="ALIGNI_PN" value="61-00484"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00375"/>
+<attribute name="ALT_1_MAN" value="Stackpole"/>
+<attribute name="ALT_1_MAN_PN" value="RMCF1206FT1R00"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00708"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R1206-1R-250mW-1%-400ppm-200V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Uniroyal"/>
+<attribute name="MAN_PN" value="1206W4F100KT5E"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="250 mW"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="1R"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-20R">
+<attribute name="ALIGNI_PN" value="61-00345"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00712"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R1206-20R-250mW-1%-400ppm-200V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Stackpole"/>
+<attribute name="MAN_PN" value="RMCF1206FT20R0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="250 mW"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="20R"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-3R9">
+<attribute name="ALIGNI_PN" value="61-00261"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00711"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R1206-3R9-750mW-1%-400ppm-200V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
+<attribute name="MAN_PN" value="CRCW12063R90FKEAHP"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="750 mW"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="3R9"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+</technologies>
+</device>
+<device name="-R1210" package="R1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515303/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_1_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_1_MAN" value="" constant="no"/>
+<attribute name="ALT_1_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_2_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_2_MAN" value="" constant="no"/>
+<attribute name="ALT_2_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_3_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_3_MAN" value="" constant="no"/>
+<attribute name="ALT_3_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_4_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_4_MAN" value="" constant="no"/>
+<attribute name="ALT_4_MAN_PN" value="" constant="no"/>
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MAN_PN" value="" constant="no"/>
+<attribute name="MAX_OP_TEMP" value="70°C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55°C" constant="no"/>
+<attribute name="POWER" value="330 mW" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="200 V" constant="no"/>
+</technology>
+<technology name="-10R">
+<attribute name="ALIGNI_PN" value="61-00285"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00516"/>
+<attribute name="ALT_1_MAN" value="TE Connectivity"/>
+<attribute name="ALT_1_MAN_PN" value="CRGP1210F10R"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00714"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R1210-10R-330mW-1%-100ppm-200V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Rohm"/>
+<attribute name="MAN_PN" value="KTR25JZPF10R0"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="333 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="10R"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-10R-0W75">
+<attribute name="ALIGNI_PN" value="61-00516"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00718"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R1210-10R-750mW-1%-100ppm-200V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="TE Connectivity"/>
+<attribute name="MAN_PN" value="CRGP1210F10R"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="750 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="10R 0W75"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-2R">
+<attribute name="ALIGNI_PN" value="61-00524"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00717"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R1210-2R-667mW-1%-100ppm-200V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Rohm"/>
+<attribute name="MAN_PN" value="ESR25JZPF2R00"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="667 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="2R"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-3R">
+<attribute name="ALIGNI_PN" value="61-00262"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00713"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R1210-3R-750mW-1%-100ppm-200V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
+<attribute name="MAN_PN" value="CRCW12103R00FKEAHP"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="750 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="3R"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-3R3">
+<attribute name="ALIGNI_PN" value="61-00205"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00347"/>
+<attribute name="ALT_1_MAN" value="Panasonic"/>
+<attribute name="ALT_1_MAN_PN" value="ERJ-14BQF3R3U"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00719"/>
+<attribute name="ALT_2_MAN" value="free choice"/>
+<attribute name="ALT_2_MAN_PN" value="R1210-3R3-500mW-1%-100ppm-200V"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MAN_PN" value="AC1210FR-073R3L"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="500 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="3R3"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-3R9">
+<attribute name="ALIGNI_PN" value="61-00294"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00715"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R1210-3R9-330mW-1%-100ppm-200V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Rohm"/>
+<attribute name="MAN_PN" value="KTR25JZPF3R90"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="333 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="3R9"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-6R2">
+<attribute name="ALIGNI_PN" value="61-00295"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00716"/>
+<attribute name="ALT_1_MAN" value="free choice"/>
+<attribute name="ALT_1_MAN_PN" value="R1210-6R2-330mW-1%-100ppm-200V"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="ALT_5_ALIGNI_PN" value=""/>
+<attribute name="ALT_5_MAN" value=""/>
+<attribute name="ALT_5_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-02-25"/>
+<attribute name="CREATED" value="2022-01-11"/>
+<attribute name="MANUFACTURER" value="Rohm"/>
+<attribute name="MAN_PN" value="KTR25JZPF6R20"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="333 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="6R2"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-CRCW121010R0FKEAHP">
+<attribute name="ALIGNI_PN" value="61-00729"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00516"/>
+<attribute name="ALT_1_MAN" value="TE Connectivity"/>
+<attribute name="ALT_1_MAN_PN" value="CRGP1210F10R"/>
+<attribute name="ALT_2_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_2_MAN" value="" constant="no"/>
+<attribute name="ALT_2_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_3_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_3_MAN" value="" constant="no"/>
+<attribute name="ALT_3_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_4_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_4_MAN" value="" constant="no"/>
+<attribute name="ALT_4_MAN_PN" value="" constant="no"/>
+<attribute name="CHANGED" value="2022-02-24"/>
+<attribute name="CREATED" value="2022-02-24"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
+<attribute name="MAN_PN" value="CRCW121010R0FKEAHP"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="750 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="10R 0W75"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-CRCW12102R00FKTA">
+<attribute name="ALIGNI_PN" value="61-00731"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00732"/>
+<attribute name="ALT_1_MAN" value="Vishay"/>
+<attribute name="ALT_1_MAN_PN" value="CRCW12102R00FKEA"/>
+<attribute name="ALT_2_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_2_MAN" value="" constant="no"/>
+<attribute name="ALT_2_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_3_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_3_MAN" value="" constant="no"/>
+<attribute name="ALT_3_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_4_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_4_MAN" value="" constant="no"/>
+<attribute name="ALT_4_MAN_PN" value="" constant="no"/>
+<attribute name="CHANGED" value="2022-02-24"/>
+<attribute name="CREATED" value="2022-02-24"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
+<attribute name="MAN_PN" value="CRCW12102R00FKTA"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="500 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="2R 0W5"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+<technology name="-CRCW12103R90FKEAHP">
+<attribute name="ALIGNI_PN" value="61-00730"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00261"/>
+<attribute name="ALT_1_MAN" value="Vishay"/>
+<attribute name="ALT_1_MAN_PN" value="CRCW12063R90FKEAHP"/>
+<attribute name="ALT_2_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_2_MAN" value="" constant="no"/>
+<attribute name="ALT_2_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_3_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_3_MAN" value="" constant="no"/>
+<attribute name="ALT_3_MAN_PN" value="" constant="no"/>
+<attribute name="ALT_4_ALIGNI_PN" value="" constant="no"/>
+<attribute name="ALT_4_MAN" value="" constant="no"/>
+<attribute name="ALT_4_MAN_PN" value="" constant="no"/>
+<attribute name="CHANGED" value="2022-02-24"/>
+<attribute name="CREATED" value="2022-02-24"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
+<attribute name="MAN_PN" value="CRCW12103R90FKEAHP"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="POWER" value="750 mW"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±100 ppm/°C"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="3R9 0W75"/>
+<attribute name="VOLTAGE" value="200.0 V"/>
+</technology>
+</technologies>
+</device>
+<device name="R2512" package="R2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515304/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
+<attribute name="POWER" value="1.5 W" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VOLTAGE" value="500 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="R0201" package="R0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515307/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
+<attribute name="POWER" value="50 mW" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VOLTAGE" value="25 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="R1218" package="R1218">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515280/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
+<attribute name="POWER" value="1.0 W" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±400 ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VOLTAGE" value="200 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="R0612" package="R0612">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515284/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-09-12"/>
+<attribute name="CREATED" value="2017-09-12"/>
+<attribute name="MAX_OP_TEMP" value="70 °C" constant="no"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C" constant="no"/>
+<attribute name="POWER" value="500 mW" constant="no"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TEMP_COEFF" value="±200 ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VOLTAGE" value="75 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LVT12" urn="urn:adsk.eagle:component:33515457/2" prefix="R" library_version="11">
+<description>&lt;b&gt;LVT12 Low Value Current Sense Resistor, 1206, 1W&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="R0100FER" package="LVT12_R003_OHMITE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515227/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00195"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2020-07-10"/>
+<attribute name="MANUFACTURER" value="ohmite"/>
+<attribute name="MAN_PN" value="LVT12R0100FER"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="R" value="10 mR"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="LVT12R0100FER"/>
+</technology>
+</technologies>
+</device>
+<device name="R0050FER" package="LVT12_R003_OHMITE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515227/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00026"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-01-14"/>
+<attribute name="MANUFACTURER" value="ohmite"/>
+<attribute name="MAN_PN" value="LVT12R0050FER"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="R" value="5 mR"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±1 %"/>
+<attribute name="VALUE" value="LVT12R0050FER"/>
+</technology>
+</technologies>
+</device>
+<device name="R0030GER" package="LVT12_R003_OHMITE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515227/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00194"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-02-14"/>
+<attribute name="MANUFACTURER" value="ohmite"/>
+<attribute name="MAN_PN" value="LVT12R0030GER"/>
+<attribute name="MAX_OP_TEMP" value="155 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="R" value="3 mR"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="TOLERANCE" value="±2 %"/>
+<attribute name="VALUE" value="LVT12R0030GER"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="01_TFH_Fuses" urn="urn:adsk.eagle:library:33514762">
+<packages>
+<package name="0680L_BEL_FUSE" urn="urn:adsk.eagle:footprint:33514768/1" library_version="2">
+<description>from datasheet "Type 0680L"</description>
+<wire x1="-3.51" y1="1.65" x2="3.51" y2="1.65" width="0.15" layer="39"/>
+<wire x1="3.51" y1="1.65" x2="3.51" y2="-1.65" width="0.15" layer="39"/>
+<wire x1="3.51" y1="-1.65" x2="-3.51" y2="-1.65" width="0.15" layer="39"/>
+<wire x1="-3.51" y1="-1.65" x2="-3.51" y2="1.65" width="0.15" layer="39"/>
+<wire x1="-1.5" y1="1.345" x2="1.5" y2="1.345" width="0.1" layer="21"/>
+<wire x1="1.5" y1="-1.345" x2="-1.5" y2="-1.345" width="0.1" layer="21"/>
+<smd name="1" x="-2.455" y="0" dx="1.96" dy="3.15" layer="1"/>
+<smd name="2" x="2.455" y="0" dx="1.96" dy="3.15" layer="1"/>
+<text x="0" y="1.75" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.75" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-3.175" y1="-1.395" x2="-1.4" y2="1.395" layer="51"/>
+<rectangle x1="1.4" y1="-1.395" x2="3.175" y2="1.395" layer="51" rot="R180"/>
+</package>
+<package name="SFJ-XX12_DEXERIALS" urn="urn:adsk.eagle:footprint:33514772/1" library_version="2">
+<smd name="T2" x="-1.9" y="0" dx="1.2" dy="1.6" layer="1"/>
+<smd name="T1" x="0.25" y="1.225" dx="2.4" dy="1.55" layer="1"/>
+<smd name="T3" x="0.25" y="-1.225" dx="2.4" dy="1.55" layer="1"/>
+<wire x1="-2.05" y1="1.55" x2="-2.05" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="-1.55" x2="2.05" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="2.05" y1="-1.55" x2="2.05" y2="1.55" width="0.127" layer="21"/>
+<wire x1="2.05" y1="1.55" x2="-2.05" y2="1.55" width="0.127" layer="21"/>
+<wire x1="2.125" y1="1.625" x2="1.525" y2="1.625" width="0.15" layer="39"/>
+<wire x1="1.525" y1="1.625" x2="1.525" y2="2.075" width="0.15" layer="39"/>
+<wire x1="1.525" y1="2.075" x2="-1.025" y2="2.075" width="0.15" layer="39"/>
+<wire x1="-1.025" y1="2.075" x2="-1.025" y2="1.625" width="0.15" layer="39"/>
+<wire x1="-1.025" y1="1.625" x2="-2.125" y2="1.625" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="1.625" x2="-2.125" y2="0.875" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="0.875" x2="-2.6" y2="0.875" width="0.15" layer="39"/>
+<wire x1="2.125" y1="-1.625" x2="1.525" y2="-1.625" width="0.15" layer="39"/>
+<wire x1="1.525" y1="-1.625" x2="1.525" y2="-2.075" width="0.15" layer="39"/>
+<wire x1="1.525" y1="-2.075" x2="-1.025" y2="-2.075" width="0.15" layer="39"/>
+<wire x1="-1.025" y1="-2.075" x2="-1.025" y2="-1.625" width="0.15" layer="39"/>
+<wire x1="-1.025" y1="-1.625" x2="-2.125" y2="-1.625" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="-1.625" x2="-2.125" y2="-0.875" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="-0.875" x2="-2.6" y2="-0.875" width="0.15" layer="39"/>
+<wire x1="-2.6" y1="-0.875" x2="-2.6" y2="0.875" width="0.15" layer="39"/>
+<wire x1="2.125" y1="-1.625" x2="2.125" y2="1.625" width="0.15" layer="39"/>
+<text x="0.2" y="2.175" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.175" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.6" y1="-1" x2="-1.2" y2="0" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="0680L_BEL_FUSE" urn="urn:adsk.eagle:package:33514787/1" type="model" library_version="2">
+<description>from datasheet "Type 0680L"</description>
+<packageinstances>
+<packageinstance name="0680L_BEL_FUSE"/>
+</packageinstances>
+</package3d>
+<package3d name="SFJ-XX12_DEXERIALS" urn="urn:adsk.eagle:package:33514788/1" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="SFJ-XX12_DEXERIALS"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="FUSE" urn="urn:adsk.eagle:symbol:33514770/1" library_version="2">
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="92.795489"/>
+<wire x1="1.524" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="92.795489"/>
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<text x="-3.81" y="1.397" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="SCP_FUSE" urn="urn:adsk.eagle:symbol:33514771/1" library_version="2">
+<description>fuse with heater connection for external control</description>
+<wire x1="-5.08" y1="2.54" x2="-4.064" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.064" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94" curve="92.795489"/>
+<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94" curve="92.795489"/>
+<wire x1="-1.016" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.016" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="92.795489"/>
+<wire x1="4.064" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="92.795489"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.032" x2="-0.762" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-1.524" x2="0.762" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="0" x2="-0.762" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="0.762" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.016" x2="-0.762" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="1.524" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.032" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="3.556" x2="5.08" y2="3.556" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.556" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="3.556" width="0.254" layer="94"/>
+<text x="-5.08" y="4.191" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="F1" x="-7.62" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="F2" x="7.62" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="H" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0680L" urn="urn:adsk.eagle:component:33514802/1" prefix="F" library_version="2">
+<description>&lt;b&gt;0680L, SMD slow blow fuse&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0680L_BEL_FUSE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514787/1"/>
+</package3dinstances>
+<technologies>
+<technology name="9100-0">
+<attribute name="ALIGNI_PN" value="61-00333"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00529"/>
+<attribute name="ALT_1_MAN" value="Bel Fuse"/>
+<attribute name="ALT_1_MAN_PN" value="0680L9100-01"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-08-26"/>
+<attribute name="CURRENT" value="10.0 A"/>
+<attribute name="MANUFACTURER" value="Bel Fuse"/>
+<attribute name="MAN_PN" value="0680L9100-05"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="PLATING" value="silver"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="0680L9100-0"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SFJ-1412" urn="urn:adsk.eagle:component:33514796/1" prefix="F" library_version="2">
+<description>&lt;b&gt;SFJ-1412, self control protector fuse, 12 A, 10.5 to 19.6 V&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCP_FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SFJ-XX12_DEXERIALS">
+<connects>
+<connect gate="G$1" pin="F1" pad="T1"/>
+<connect gate="G$1" pin="F2" pad="T3"/>
+<connect gate="G$1" pin="H" pad="T2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514788/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00339"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00530"/>
+<attribute name="ALT_1_MAN" value="Dexerials"/>
+<attribute name="ALT_1_MAN_PN" value="SFJ-1412A"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-08-26"/>
+<attribute name="CURRENT" value="12.0 A"/>
+<attribute name="MANUFACTURER" value="Dexerials"/>
+<attribute name="MAN_PN" value="SFJ-1412"/>
+<attribute name="MAX_OP_TEMP" value="???"/>
+<attribute name="MIN_OP_TEMP" value="???"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="SFJ-1412"/>
+<attribute name="VOLTAGE" value="19.6 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="09_TFH_Holes" urn="urn:adsk.eagle:library:33516994">
 <description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
+<package name="2,3-PAD" urn="urn:adsk.eagle:footprint:33517031/1" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.3 mm, round</description>
+<wire x1="-1.528" y1="0" x2="0" y2="-1.528" width="1.9" layer="51" curve="90" cap="flat"/>
+<wire x1="1.528" y1="0" x2="0" y2="1.528" width="1.9" layer="51" curve="90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.4" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.925" width="0.8" layer="39"/>
+<circle x="0" y="0" radius="2.925" width="0.8" layer="40"/>
+<circle x="0" y="0" radius="2.925" width="0.8" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<pad name="B2,3" x="0" y="0" drill="2.3" diameter="4.8"/>
+</package>
 <package name="2,8-PAD" urn="urn:adsk.eagle:footprint:14250/1" library_version="1">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.8 mm, round</description>
 <wire x1="0" y1="2.921" x2="0" y2="2.667" width="0.0508" layer="21"/>
@@ -5073,19 +6812,7 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <circle x="0" y="0" radius="2.85" width="0.1524" layer="21"/>
 <pad name="B5,5" x="0" y="0" drill="5.5" diameter="9"/>
 </package>
-<package name="2,3-PAD" urn="urn:adsk.eagle:footprint:30519611/1" library_version="5">
-<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.3 mm, round</description>
-<wire x1="-1.528" y1="0" x2="0" y2="-1.528" width="1.9" layer="51" curve="90" cap="flat"/>
-<wire x1="1.528" y1="0" x2="0" y2="1.528" width="1.9" layer="51" curve="90" cap="flat"/>
-<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="2.4" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.925" width="0.8" layer="39"/>
-<circle x="0" y="0" radius="2.925" width="0.8" layer="40"/>
-<circle x="0" y="0" radius="2.925" width="0.8" layer="43"/>
-<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
-<pad name="B2,3" x="0" y="0" drill="2.3" diameter="4.8"/>
-</package>
-<package name="3,4-PAD" urn="urn:adsk.eagle:footprint:31999929/2" library_version="7">
+<package name="3,4-PAD" urn="urn:adsk.eagle:footprint:33517029/1" library_version="1">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.4 mm, round</description>
 <wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
@@ -5099,13 +6826,31 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 </package>
 </packages>
 <packages3d>
+<package3d name="2,3-PAD" urn="urn:adsk.eagle:package:33517041/1" type="empty" library_version="1">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.3 mm, round</description>
+<packageinstances>
+<packageinstance name="2,3-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="2,8-PAD" urn="urn:adsk.eagle:package:33517043/1" type="empty" library_version="1">
+<description>MOUNTING PAD 2.8 mm, round</description>
+<packageinstances>
+<packageinstance name="2,8-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="3,0-PAD" urn="urn:adsk.eagle:package:33517048/1" type="empty" library_version="1">
+<description>MOUNTING PAD 3.0 mm, round</description>
+<packageinstances>
+<packageinstance name="3,0-PAD"/>
+</packageinstances>
+</package3d>
 <package3d name="3,2-PAD" urn="urn:adsk.eagle:package:14282/1" type="box" library_version="1">
 <description>MOUNTING PAD 3.2 mm, round</description>
 <packageinstances>
 <packageinstance name="3,2-PAD"/>
 </packageinstances>
 </package3d>
-<package3d name="3,3-PAD" urn="urn:adsk.eagle:package:24491038/2" type="empty" library_version="1">
+<package3d name="3,3-PAD" urn="urn:adsk.eagle:package:33517045/1" type="empty" library_version="1">
 <description>MOUNTING PAD 3.3 mm, round</description>
 <packageinstances>
 <packageinstance name="3,3-PAD"/>
@@ -5147,25 +6892,7 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <packageinstance name="5,5-PAD"/>
 </packageinstances>
 </package3d>
-<package3d name="2,8-PAD" urn="urn:adsk.eagle:package:30314670/2" type="empty" library_version="5">
-<description>MOUNTING PAD 2.8 mm, round</description>
-<packageinstances>
-<packageinstance name="2,8-PAD"/>
-</packageinstances>
-</package3d>
-<package3d name="3,0-PAD" urn="urn:adsk.eagle:package:30314671/2" type="empty" library_version="5">
-<description>MOUNTING PAD 3.0 mm, round</description>
-<packageinstances>
-<packageinstance name="3,0-PAD"/>
-</packageinstances>
-</package3d>
-<package3d name="2,3-PAD" urn="urn:adsk.eagle:package:30519612/2" type="empty" library_version="5">
-<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.3 mm, round</description>
-<packageinstances>
-<packageinstance name="2,3-PAD"/>
-</packageinstances>
-</package3d>
-<package3d name="3,4-PAD" urn="urn:adsk.eagle:package:31999930/3" type="empty" library_version="7">
+<package3d name="3,4-PAD" urn="urn:adsk.eagle:package:33517046/1" type="empty" library_version="1">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.4 mm, round</description>
 <packageinstances>
 <packageinstance name="3,4-PAD"/>
@@ -5173,7 +6900,7 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="MOUNT-PAD" urn="urn:adsk.eagle:symbol:24491137/1" library_version="1">
+<symbol name="MOUNT-PAD" urn="urn:adsk.eagle:symbol:33517023/1" library_version="1">
 <wire x1="0.254" y1="2.032" x2="2.032" y2="0.254" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
 <wire x1="-2.032" y1="0.254" x2="-0.254" y2="2.032" width="1.016" layer="94" curve="-75.749967" cap="flat"/>
 <wire x1="-2.032" y1="-0.254" x2="-0.254" y2="-2.032" width="1.016" layer="94" curve="75.749967" cap="flat"/>
@@ -5185,7 +6912,7 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:24491142/4" prefix="H" library_version="7">
+<deviceset name="MOUNT-PAD-ROUND" urn="urn:adsk.eagle:component:33517049/1" prefix="H" library_version="1">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt;, round</description>
 <gates>
 <gate name="G$1" symbol="MOUNT-PAD" x="0" y="0"/>
@@ -5196,7 +6923,7 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <connect gate="G$1" pin="MOUNT" pad="B2,8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30314670/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33517043/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5209,7 +6936,7 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <connect gate="G$1" pin="MOUNT" pad="B3,0"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30314671/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33517048/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5235,7 +6962,7 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <connect gate="G$1" pin="MOUNT" pad="B3,3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24491038/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33517045/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5326,7 +7053,7 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <connect gate="G$1" pin="MOUNT" pad="B2,3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30519612/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33517041/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5339,7 +7066,7 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <connect gate="G$1" pin="MOUNT" pad="B3,4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:31999930/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33517046/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5351,72 +7078,1824 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="08_DT_Supply">
+<library name="04_TFH_Integrated_Circuits" urn="urn:adsk.eagle:library:33515332">
 <packages>
+<package name="DSG0008A_WSON_TI" urn="urn:adsk.eagle:footprint:33516169/1" library_version="5">
+<description>aus Datenblatt DRV8837/DRV8838</description>
+<pad name="P$1" x="0" y="0.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="P$2" x="0" y="-0.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<smd name="1" x="-0.95" y="0.75" dx="0.5" dy="0.25" layer="1" roundness="40"/>
+<smd name="2" x="-0.95" y="0.25" dx="0.5" dy="0.25" layer="1" roundness="40"/>
+<smd name="3" x="-0.95" y="-0.25" dx="0.5" dy="0.25" layer="1" roundness="40"/>
+<smd name="4" x="-0.95" y="-0.75" dx="0.5" dy="0.25" layer="1" roundness="40"/>
+<smd name="5" x="0.95" y="-0.75" dx="0.5" dy="0.25" layer="1" roundness="40" rot="R180"/>
+<smd name="6" x="0.95" y="-0.25" dx="0.5" dy="0.25" layer="1" roundness="40" rot="R180"/>
+<smd name="7" x="0.95" y="0.25" dx="0.5" dy="0.25" layer="1" roundness="40" rot="R180"/>
+<smd name="8" x="0.95" y="0.75" dx="0.5" dy="0.25" layer="1" roundness="40" rot="R180"/>
+<polygon width="0.15" layer="1">
+<vertex x="-0.375" y="0.725"/>
+<vertex x="0.375" y="0.725"/>
+<vertex x="0.375" y="-0.725"/>
+<vertex x="-0.375" y="-0.725"/>
+</polygon>
+<polygon width="0.15" layer="31">
+<vertex x="-0.375" y="0.725"/>
+<vertex x="0.375" y="0.725"/>
+<vertex x="0.375" y="0.175"/>
+<vertex x="-0.375" y="0.175"/>
+</polygon>
+<polygon width="0.25" layer="29">
+<vertex x="-0.375" y="0.725"/>
+<vertex x="0.375" y="0.725"/>
+<vertex x="0.375" y="-0.725"/>
+<vertex x="-0.375" y="-0.725"/>
+</polygon>
+<polygon width="0.15" layer="31">
+<vertex x="0.375" y="-0.725"/>
+<vertex x="-0.375" y="-0.725"/>
+<vertex x="-0.375" y="-0.175"/>
+<vertex x="0.375" y="-0.175"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="-1" y="1"/>
+<vertex x="0" y="1"/>
+<vertex x="0" y="0.5"/>
+<vertex x="-1" y="0.5"/>
+</polygon>
+<rectangle x1="-1.25" y1="-0.125" x2="-0.65" y2="0.125" layer="41"/>
+<rectangle x1="-1.25" y1="0.375" x2="-0.65" y2="0.625" layer="41"/>
+<rectangle x1="-1.25" y1="-0.625" x2="-0.65" y2="-0.375" layer="41"/>
+<rectangle x1="0.65" y1="-0.625" x2="1.25" y2="-0.375" layer="41" rot="R180"/>
+<rectangle x1="0.65" y1="-0.125" x2="1.25" y2="0.125" layer="41" rot="R180"/>
+<rectangle x1="0.65" y1="0.375" x2="1.25" y2="0.625" layer="41" rot="R180"/>
+<wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.127" layer="21"/>
+<wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-1.05" x2="-1.05" y2="1.05" width="0.127" layer="21"/>
+<wire x1="1.275" y1="1.125" x2="-1.275" y2="1.125" width="0.15" layer="39"/>
+<wire x1="-1.275" y1="1.125" x2="-1.275" y2="-1.125" width="0.15" layer="39"/>
+<wire x1="-1.275" y1="-1.125" x2="1.275" y2="-1.125" width="0.15" layer="39"/>
+<wire x1="1.275" y1="-1.125" x2="1.275" y2="1.125" width="0.15" layer="39"/>
+<text x="0" y="1.225" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.225" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+<circle x="-1.55" y="0.75" radius="0.25" width="0" layer="21"/>
+</package>
+<package name="S-PDSO-G8_DGK_VSSOP_TI" urn="urn:adsk.eagle:footprint:33516138/1" library_version="5">
+<description>aus Datenblatt TLV900x</description>
+<circle x="-0.975" y="-0.975" radius="0.3" width="0" layer="21"/>
+<text x="1.725" y="-0.2" size="0.8" layer="27" font="vector" ratio="10" rot="R270" align="bottom-center">&gt;VALUE</text>
+<text x="-1.725" y="0" size="0.8" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.225" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.25" x2="-1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.625" y1="-1.625" x2="-1.625" y2="1.625" width="0.15" layer="39"/>
+<wire x1="-1.625" y1="1.625" x2="-1.275" y2="1.625" width="0.15" layer="39"/>
+<wire x1="-1.275" y1="1.625" x2="-1.275" y2="3" width="0.15" layer="39"/>
+<wire x1="-1.275" y1="3" x2="1.275" y2="3" width="0.15" layer="39"/>
+<wire x1="1.275" y1="3" x2="1.275" y2="1.625" width="0.15" layer="39"/>
+<wire x1="1.275" y1="1.625" x2="1.625" y2="1.625" width="0.15" layer="39"/>
+<wire x1="1.625" y1="1.625" x2="1.625" y2="-1.625" width="0.15" layer="39"/>
+<wire x1="1.625" y1="-1.625" x2="1.275" y2="-1.625" width="0.15" layer="39"/>
+<wire x1="1.275" y1="-1.625" x2="1.275" y2="-3" width="0.15" layer="39"/>
+<wire x1="1.275" y1="-3" x2="-1.275" y2="-3" width="0.15" layer="39"/>
+<wire x1="-1.275" y1="-3" x2="-1.275" y2="-1.625" width="0.15" layer="39"/>
+<wire x1="-1.275" y1="-1.625" x2="-1.625" y2="-1.625" width="0.15" layer="39"/>
+<rectangle x1="-0.515" y1="-2.525" x2="-0.135" y2="-1.55" layer="51"/>
+<rectangle x1="-1.165" y1="-2.525" x2="-0.785" y2="-1.55" layer="51"/>
+<rectangle x1="0.135" y1="-2.525" x2="0.515" y2="-1.55" layer="51"/>
+<rectangle x1="0.785" y1="-2.525" x2="1.165" y2="-1.55" layer="51"/>
+<rectangle x1="0.135" y1="1.55" x2="0.515" y2="2.525" layer="51" rot="R180"/>
+<rectangle x1="0.785" y1="1.55" x2="1.165" y2="2.525" layer="51" rot="R180"/>
+<rectangle x1="-0.515" y1="1.55" x2="-0.135" y2="2.525" layer="51" rot="R180"/>
+<rectangle x1="-1.165" y1="1.55" x2="-0.785" y2="2.525" layer="51" rot="R180"/>
+<rectangle x1="-0.1" y1="-2.975" x2="0.1" y2="-1.425" layer="41"/>
+<rectangle x1="-0.75" y1="-2.975" x2="-0.55" y2="-1.425" layer="41"/>
+<rectangle x1="0.55" y1="-2.975" x2="0.75" y2="-1.425" layer="41"/>
+<rectangle x1="-0.1" y1="1.425" x2="0.1" y2="2.975" layer="41" rot="R180"/>
+<rectangle x1="0.55" y1="1.425" x2="0.75" y2="2.975" layer="41" rot="R180"/>
+<rectangle x1="-0.75" y1="1.425" x2="-0.55" y2="2.975" layer="41" rot="R180"/>
+<smd name="1" x="-0.975" y="-2.2" dx="0.45" dy="1.45" layer="1" rot="R180"/>
+<smd name="2" x="-0.325" y="-2.2" dx="0.45" dy="1.45" layer="1" rot="R180"/>
+<smd name="3" x="0.325" y="-2.2" dx="0.45" dy="1.45" layer="1" rot="R180"/>
+<smd name="4" x="0.975" y="-2.2" dx="0.45" dy="1.45" layer="1" rot="R180"/>
+<smd name="5" x="0.975" y="2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="6" x="0.325" y="2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="7" x="-0.325" y="2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="8" x="-0.975" y="2.2" dx="0.45" dy="1.45" layer="1"/>
+</package>
+<package name="DRL0006A_TI" urn="urn:adsk.eagle:footprint:33516205/1" library_version="5">
+<description>aus Datenblatt TPS61023</description>
+<smd name="2" x="-0.74" y="0" dx="0.67" dy="0.3" layer="1" roundness="33"/>
+<smd name="1" x="-0.74" y="0.5" dx="0.67" dy="0.3" layer="1" roundness="33"/>
+<smd name="3" x="-0.74" y="-0.5" dx="0.67" dy="0.3" layer="1" roundness="33"/>
+<smd name="4" x="0.74" y="-0.5" dx="0.67" dy="0.3" layer="1" roundness="33" rot="R180"/>
+<smd name="5" x="0.74" y="0" dx="0.67" dy="0.3" layer="1" roundness="33" rot="R180"/>
+<smd name="6" x="0.74" y="0.5" dx="0.67" dy="0.3" layer="1" roundness="33" rot="R180"/>
+<wire x1="-0.65" y1="1" x2="0.65" y2="1" width="0.127" layer="21"/>
+<wire x1="0.65" y1="1" x2="0.65" y2="-1" width="0.127" layer="21"/>
+<wire x1="0.65" y1="-1" x2="-0.65" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.65" y1="-1" x2="-0.65" y2="1" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.075" x2="-0.725" y2="-1.075" width="0.15" layer="39"/>
+<wire x1="-0.725" y1="-1.075" x2="-0.725" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="-0.725" y1="-0.725" x2="-1.15" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="-1.15" y1="-0.725" x2="-1.15" y2="0" width="0.15" layer="39"/>
+<wire x1="0" y1="1.075" x2="0.725" y2="1.075" width="0.15" layer="39"/>
+<wire x1="0.725" y1="1.075" x2="0.725" y2="0.725" width="0.15" layer="39"/>
+<wire x1="0.725" y1="0.725" x2="1.15" y2="0.725" width="0.15" layer="39"/>
+<wire x1="1.15" y1="0.725" x2="1.15" y2="0" width="0.15" layer="39"/>
+<wire x1="0" y1="-1.075" x2="0.725" y2="-1.075" width="0.15" layer="39"/>
+<wire x1="0.725" y1="-1.075" x2="0.725" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="0.725" y1="-0.725" x2="1.15" y2="-0.725" width="0.15" layer="39"/>
+<wire x1="1.15" y1="-0.725" x2="1.15" y2="0" width="0.15" layer="39"/>
+<wire x1="0" y1="1.075" x2="-0.725" y2="1.075" width="0.15" layer="39"/>
+<wire x1="-0.725" y1="1.075" x2="-0.725" y2="0.725" width="0.15" layer="39"/>
+<wire x1="-0.725" y1="0.725" x2="-1.15" y2="0.725" width="0.15" layer="39"/>
+<wire x1="-1.15" y1="0.725" x2="-1.15" y2="0" width="0.15" layer="39"/>
+<rectangle x1="-0.85" y1="-0.135" x2="-0.65" y2="0.135" layer="51"/>
+<rectangle x1="-0.85" y1="0.365" x2="-0.65" y2="0.635" layer="51"/>
+<rectangle x1="-0.85" y1="-0.635" x2="-0.65" y2="-0.365" layer="51"/>
+<rectangle x1="0.65" y1="-0.635" x2="0.85" y2="-0.365" layer="51" rot="R180"/>
+<rectangle x1="0.65" y1="-0.135" x2="0.85" y2="0.135" layer="51" rot="R180"/>
+<rectangle x1="0.65" y1="0.365" x2="0.85" y2="0.635" layer="51" rot="R180"/>
+<circle x="-0.2" y="0.5" radius="0.25" width="0" layer="21"/>
+<text x="0" y="1.175" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.175" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="SOT23-6L_WE" urn="urn:adsk.eagle:footprint:33516151/1" library_version="5">
+<description>aus Datenblatt 824001 von Würth Elektronik</description>
+<smd name="1" x="-0.95" y="-1.25" dx="0.6" dy="1.1" layer="1"/>
+<smd name="2" x="0" y="-1.25" dx="0.6" dy="1.1" layer="1"/>
+<smd name="3" x="0.95" y="-1.25" dx="0.6" dy="1.1" layer="1"/>
+<smd name="4" x="0.95" y="1.25" dx="0.6" dy="1.1" layer="1" rot="R180"/>
+<smd name="5" x="0" y="1.25" dx="0.6" dy="1.1" layer="1" rot="R180"/>
+<smd name="6" x="-0.95" y="1.25" dx="0.6" dy="1.1" layer="1" rot="R180"/>
+<wire x1="-1.5" y1="0.85" x2="1.5" y2="0.85" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.85" x2="1.5" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.85" x2="-1.5" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.85" x2="-1.5" y2="0.85" width="0.127" layer="21"/>
+<wire x1="-1.325" y1="1.875" x2="-1.325" y2="0.925" width="0.15" layer="39"/>
+<wire x1="-1.325" y1="0.925" x2="-1.575" y2="0.925" width="0.15" layer="39"/>
+<wire x1="1.325" y1="-1.875" x2="1.325" y2="-0.925" width="0.15" layer="39"/>
+<wire x1="1.325" y1="-0.925" x2="1.575" y2="-0.925" width="0.15" layer="39"/>
+<wire x1="1.325" y1="-1.875" x2="-1.325" y2="-1.875" width="0.15" layer="39"/>
+<wire x1="-1.325" y1="-1.875" x2="-1.325" y2="-0.925" width="0.15" layer="39"/>
+<wire x1="-1.325" y1="-0.925" x2="-1.575" y2="-0.925" width="0.15" layer="39"/>
+<wire x1="-1.575" y1="-0.925" x2="-1.575" y2="0.925" width="0.15" layer="39"/>
+<wire x1="-1.325" y1="1.875" x2="1.325" y2="1.875" width="0.15" layer="39"/>
+<wire x1="1.325" y1="1.875" x2="1.325" y2="0.925" width="0.15" layer="39"/>
+<wire x1="1.325" y1="0.925" x2="1.575" y2="0.925" width="0.15" layer="39"/>
+<wire x1="1.575" y1="0.925" x2="1.575" y2="-0.925" width="0.15" layer="39"/>
+<circle x="-0.95" y="-0.35" radius="0.3" width="0" layer="21"/>
+<text x="-1.675" y="0" size="0.8" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.675" y="0" size="0.8" layer="27" font="vector" rot="R270" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-0.225" y1="0.85" x2="0.225" y2="1.45" layer="51"/>
+<rectangle x1="-1.175" y1="0.85" x2="-0.725" y2="1.45" layer="51"/>
+<rectangle x1="0.725" y1="0.85" x2="1.175" y2="1.45" layer="51"/>
+<rectangle x1="-0.225" y1="-1.45" x2="0.225" y2="-0.85" layer="51" rot="R180"/>
+<rectangle x1="0.725" y1="-1.45" x2="1.175" y2="-0.85" layer="51" rot="R180"/>
+<rectangle x1="-1.175" y1="-1.45" x2="-0.725" y2="-0.85" layer="51" rot="R180"/>
+</package>
+<package name="UFQFPN48_ST" urn="urn:adsk.eagle:footprint:33516219/1" library_version="5">
+<description>aus Datenblatt STM32G431xx; zusätzliche Vias in Exposed Pad eingefügt</description>
+<smd name="1" x="-3.375" y="2.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="2" x="-3.375" y="2.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="3" x="-3.375" y="1.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="4" x="-3.375" y="1.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="5" x="-3.375" y="0.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="6" x="-3.375" y="0.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="7" x="-3.375" y="-0.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="8" x="-3.375" y="-0.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="9" x="-3.375" y="-1.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="10" x="-3.375" y="-1.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="11" x="-3.375" y="-2.25" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="12" x="-3.375" y="-2.75" dx="0.3" dy="0.55" layer="1" rot="R90"/>
+<smd name="13" x="-2.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="14" x="-2.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="15" x="-1.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="16" x="-1.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="17" x="-0.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="18" x="-0.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="19" x="0.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="20" x="0.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="21" x="1.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="22" x="1.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="23" x="2.25" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="24" x="2.75" y="-3.375" dx="0.3" dy="0.55" layer="1" rot="R180"/>
+<smd name="25" x="3.375" y="-2.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="26" x="3.375" y="-2.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="27" x="3.375" y="-1.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="28" x="3.375" y="-1.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="29" x="3.375" y="-0.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="30" x="3.375" y="-0.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="31" x="3.375" y="0.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="32" x="3.375" y="0.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="33" x="3.375" y="1.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="34" x="3.375" y="1.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="35" x="3.375" y="2.25" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="36" x="3.375" y="2.75" dx="0.3" dy="0.55" layer="1" rot="R270"/>
+<smd name="37" x="2.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="38" x="2.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="39" x="1.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="40" x="1.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="41" x="0.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="42" x="0.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="43" x="-0.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="44" x="-0.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="45" x="-1.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="46" x="-1.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="47" x="-2.25" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<smd name="48" x="-2.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
+<pad name="EP7" x="-2.55" y="-2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="EP1" x="-2.55" y="2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="EP4" x="-2.55" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="EP8" x="0" y="-2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="EP2" x="0" y="2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="EP5" x="0" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="EP9" x="2.55" y="-2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="EP3" x="2.55" y="2.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="EP6" x="2.55" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<polygon width="0.25" layer="29">
+<vertex x="-2.725" y="-2.725"/>
+<vertex x="2.725" y="-2.725"/>
+<vertex x="2.725" y="2.725"/>
+<vertex x="-2.725" y="2.725"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.15" y="0.15"/>
+<vertex x="-0.15" y="2.6"/>
+<vertex x="-2.3" y="2.6"/>
+<vertex x="-2.6" y="2.3"/>
+<vertex x="-2.6" y="0.15"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3.55" y="3.05"/>
+<vertex x="-3.05" y="3.05"/>
+<vertex x="-3.05" y="3.55"/>
+<vertex x="-3.55" y="3.55"/>
+</polygon>
+<polygon width="0.15" layer="1">
+<vertex x="-2.725" y="-2.725"/>
+<vertex x="2.725" y="-2.725"/>
+<vertex x="2.725" y="2.725"/>
+<vertex x="-2.725" y="2.725"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-0.15" y="-0.15"/>
+<vertex x="-2.6" y="-0.15"/>
+<vertex x="-2.6" y="-2.3"/>
+<vertex x="-2.3" y="-2.6"/>
+<vertex x="-0.15" y="-2.6"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="0.15" y="-0.15"/>
+<vertex x="0.15" y="-2.6"/>
+<vertex x="2.3" y="-2.6"/>
+<vertex x="2.6" y="-2.3"/>
+<vertex x="2.6" y="-0.15"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="0.15" y="0.15"/>
+<vertex x="2.6" y="0.15"/>
+<vertex x="2.6" y="2.3"/>
+<vertex x="2.3" y="2.6"/>
+<vertex x="0.15" y="2.6"/>
+</polygon>
+<wire x1="-3.55" y1="3.55" x2="-3.55" y2="-3.55" width="0.127" layer="21"/>
+<wire x1="-3.55" y1="-3.55" x2="3.55" y2="-3.55" width="0.127" layer="21"/>
+<wire x1="3.55" y1="-3.55" x2="3.55" y2="3.55" width="0.127" layer="21"/>
+<wire x1="3.55" y1="3.55" x2="-3.55" y2="3.55" width="0.127" layer="21"/>
+<wire x1="-3.725" y1="3.725" x2="-3.725" y2="-3.725" width="0.15" layer="39"/>
+<wire x1="-3.725" y1="-3.725" x2="3.725" y2="-3.725" width="0.15" layer="39"/>
+<wire x1="3.725" y1="-3.725" x2="3.725" y2="3.725" width="0.15" layer="39"/>
+<wire x1="3.725" y1="3.725" x2="-3.725" y2="3.725" width="0.15" layer="39"/>
+<circle x="-4.1" y="2.75" radius="0.3" width="0" layer="21"/>
+<text x="0" y="3.825" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.825" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-3.7" y1="2.4" x2="-3.05" y2="2.6" layer="41"/>
+<rectangle x1="-3.7" y1="1.9" x2="-3.05" y2="2.1" layer="41"/>
+<rectangle x1="-3.7" y1="1.4" x2="-3.05" y2="1.6" layer="41"/>
+<rectangle x1="-3.7" y1="0.9" x2="-3.05" y2="1.1" layer="41"/>
+<rectangle x1="-3.7" y1="0.4" x2="-3.05" y2="0.6" layer="41"/>
+<rectangle x1="-3.7" y1="-0.1" x2="-3.05" y2="0.1" layer="41"/>
+<rectangle x1="-3.7" y1="-0.6" x2="-3.05" y2="-0.4" layer="41"/>
+<rectangle x1="-3.7" y1="-1.1" x2="-3.05" y2="-0.9" layer="41"/>
+<rectangle x1="-3.7" y1="-1.6" x2="-3.05" y2="-1.4" layer="41"/>
+<rectangle x1="-3.7" y1="-2.1" x2="-3.05" y2="-1.9" layer="41"/>
+<rectangle x1="-3.7" y1="-2.6" x2="-3.05" y2="-2.4" layer="41"/>
+<rectangle x1="-2.825" y1="-3.475" x2="-2.175" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="-2.325" y1="-3.475" x2="-1.675" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="-1.825" y1="-3.475" x2="-1.175" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="-1.325" y1="-3.475" x2="-0.675" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="-0.825" y1="-3.475" x2="-0.175" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="-0.325" y1="-3.475" x2="0.325" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="0.175" y1="-3.475" x2="0.825" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="0.675" y1="-3.475" x2="1.325" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="1.175" y1="-3.475" x2="1.825" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="1.675" y1="-3.475" x2="2.325" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="2.175" y1="-3.475" x2="2.825" y2="-3.275" layer="41" rot="R90"/>
+<rectangle x1="3.05" y1="-2.6" x2="3.7" y2="-2.4" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="-2.1" x2="3.7" y2="-1.9" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="-1.6" x2="3.7" y2="-1.4" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="-1.1" x2="3.7" y2="-0.9" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="-0.6" x2="3.7" y2="-0.4" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="-0.1" x2="3.7" y2="0.1" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="0.4" x2="3.7" y2="0.6" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="0.9" x2="3.7" y2="1.1" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="1.4" x2="3.7" y2="1.6" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="1.9" x2="3.7" y2="2.1" layer="41" rot="R180"/>
+<rectangle x1="3.05" y1="2.4" x2="3.7" y2="2.6" layer="41" rot="R180"/>
+<rectangle x1="2.175" y1="3.275" x2="2.825" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="1.675" y1="3.275" x2="2.325" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="1.175" y1="3.275" x2="1.825" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="0.675" y1="3.275" x2="1.325" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="0.175" y1="3.275" x2="0.825" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="-0.325" y1="3.275" x2="0.325" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="-0.825" y1="3.275" x2="-0.175" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="-1.325" y1="3.275" x2="-0.675" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="-1.825" y1="3.275" x2="-1.175" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="-2.325" y1="3.275" x2="-1.675" y2="3.475" layer="41" rot="R270"/>
+<rectangle x1="-2.825" y1="3.275" x2="-2.175" y2="3.475" layer="41" rot="R270"/>
+</package>
+<package name="DRV0006A_TI" urn="urn:adsk.eagle:footprint:33516226/1" library_version="5">
+<description>aus Datenblatt TPS709</description>
+<pad name="7.1" x="0" y="0.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="7.2" x="0" y="-0.55" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<polygon width="0.15" layer="31">
+<vertex x="-0.425" y="-0.175"/>
+<vertex x="0.425" y="-0.175"/>
+<vertex x="0.425" y="-0.725"/>
+<vertex x="-0.425" y="-0.725"/>
+</polygon>
+<polygon width="0.25" layer="29">
+<vertex x="-0.425" y="0.725"/>
+<vertex x="0.425" y="0.725"/>
+<vertex x="0.425" y="-0.725"/>
+<vertex x="-0.425" y="-0.725"/>
+</polygon>
+<polygon width="0.15" layer="1">
+<vertex x="-0.425" y="0.725"/>
+<vertex x="0.425" y="0.725"/>
+<vertex x="0.425" y="-0.725"/>
+<vertex x="-0.425" y="-0.725"/>
+</polygon>
+<polygon width="0.15" layer="31">
+<vertex x="0.425" y="0.175"/>
+<vertex x="-0.425" y="0.175"/>
+<vertex x="-0.425" y="0.725"/>
+<vertex x="0.425" y="0.725"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="0"/>
+<vertex x="-1" y="0"/>
+<vertex x="-1" y="1"/>
+<vertex x="0" y="1"/>
+</polygon>
+<smd name="1" x="-0.975" y="0.65" dx="0.45" dy="0.3" layer="1" roundness="33"/>
+<smd name="2" x="-0.975" y="0" dx="0.45" dy="0.3" layer="1" roundness="33"/>
+<smd name="3" x="-0.975" y="-0.65" dx="0.45" dy="0.3" layer="1" roundness="33"/>
+<smd name="4" x="0.975" y="-0.65" dx="0.45" dy="0.3" layer="1" roundness="33" rot="R180"/>
+<smd name="5" x="0.975" y="0" dx="0.45" dy="0.3" layer="1" roundness="33" rot="R180"/>
+<smd name="6" x="0.975" y="0.65" dx="0.45" dy="0.3" layer="1" roundness="33" rot="R180"/>
+<wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.127" layer="21"/>
+<wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-1.05" x2="-1.05" y2="1.05" width="0.127" layer="21"/>
+<wire x1="-1.275" y1="1.125" x2="1.275" y2="1.125" width="0.15" layer="39"/>
+<wire x1="1.275" y1="1.125" x2="1.275" y2="-1.125" width="0.15" layer="39"/>
+<wire x1="1.275" y1="-1.125" x2="-1.275" y2="-1.125" width="0.15" layer="39"/>
+<wire x1="-1.275" y1="-1.125" x2="-1.275" y2="1.125" width="0.15" layer="39"/>
+<text x="0" y="1.225" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.225" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.25" y1="0.15" x2="-0.7" y2="0.5" layer="41"/>
+<rectangle x1="-1.25" y1="-0.5" x2="-0.7" y2="-0.15" layer="41"/>
+<rectangle x1="0.7" y1="0.15" x2="1.25" y2="0.5" layer="41"/>
+<rectangle x1="0.7" y1="-0.5" x2="1.25" y2="-0.15" layer="41"/>
+</package>
+<package name="RUY0028A_TI" urn="urn:adsk.eagle:footprint:33516207/1" library_version="5">
+<description>aus Datenblatt bq24780S</description>
+<pad name="E2" x="0" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="E1" x="-1.05" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="E3" x="0" y="1.05" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="E4" x="1.05" y="0" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<pad name="E5" x="0" y="-1.05" drill="0.2" diameter="0.5" stop="no" thermals="no"/>
+<polygon width="0.25" layer="29">
+<vertex x="-1.225" y="1.225"/>
+<vertex x="1.225" y="1.225"/>
+<vertex x="1.225" y="-1.225"/>
+<vertex x="-1.225" y="-1.225"/>
+</polygon>
+<polygon width="0.15" layer="1">
+<vertex x="-1.225" y="1.225"/>
+<vertex x="1.225" y="1.225"/>
+<vertex x="1.225" y="-1.225"/>
+<vertex x="-1.225" y="-1.225"/>
+</polygon>
+<polygon width="0.15" layer="31">
+<vertex x="-1.225" y="1.225"/>
+<vertex x="-0.175" y="1.225"/>
+<vertex x="-0.175" y="0.175"/>
+<vertex x="-1.225" y="0.175"/>
+</polygon>
+<polygon width="0.15" layer="31">
+<vertex x="-1.225" y="-1.225"/>
+<vertex x="-1.225" y="-0.175"/>
+<vertex x="-0.175" y="-0.175"/>
+<vertex x="-0.175" y="-1.225"/>
+</polygon>
+<polygon width="0.15" layer="31">
+<vertex x="1.225" y="-1.225"/>
+<vertex x="0.175" y="-1.225"/>
+<vertex x="0.175" y="-0.175"/>
+<vertex x="1.225" y="-0.175"/>
+</polygon>
+<polygon width="0.15" layer="31">
+<vertex x="1.225" y="1.225"/>
+<vertex x="1.225" y="0.175"/>
+<vertex x="0.175" y="0.175"/>
+<vertex x="0.175" y="1.225"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-2.05" y="2.05"/>
+<vertex x="-1.4" y="2.05"/>
+<vertex x="-1.4" y="1.4"/>
+<vertex x="-2.05" y="1.4"/>
+</polygon>
+<smd name="1" x="-1.9" y="1.2" dx="0.6" dy="0.2" layer="1" roundness="50"/>
+<smd name="2" x="-1.9" y="0.8" dx="0.6" dy="0.2" layer="1" roundness="50"/>
+<smd name="3" x="-1.9" y="0.4" dx="0.6" dy="0.2" layer="1" roundness="50"/>
+<smd name="4" x="-1.9" y="0" dx="0.6" dy="0.2" layer="1" roundness="50"/>
+<smd name="5" x="-1.9" y="-0.4" dx="0.6" dy="0.2" layer="1" roundness="50"/>
+<smd name="6" x="-1.9" y="-0.8" dx="0.6" dy="0.2" layer="1" roundness="50"/>
+<smd name="7" x="-1.9" y="-1.2" dx="0.6" dy="0.2" layer="1" roundness="50"/>
+<smd name="8" x="-1.2" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
+<smd name="9" x="-0.8" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
+<smd name="10" x="-0.4" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
+<smd name="11" x="0" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
+<smd name="12" x="0.4" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
+<smd name="13" x="0.8" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
+<smd name="14" x="1.2" y="-1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R90"/>
+<smd name="15" x="1.9" y="-1.2" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
+<smd name="16" x="1.9" y="-0.8" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
+<smd name="17" x="1.9" y="-0.4" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
+<smd name="18" x="1.9" y="0" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
+<smd name="19" x="1.9" y="0.4" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
+<smd name="20" x="1.9" y="0.8" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
+<smd name="21" x="1.9" y="1.2" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R180"/>
+<smd name="22" x="1.2" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
+<smd name="23" x="0.8" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
+<smd name="24" x="0.4" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
+<smd name="25" x="0" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
+<smd name="26" x="-0.4" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
+<smd name="27" x="-0.8" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
+<smd name="28" x="-1.2" y="1.9" dx="0.6" dy="0.2" layer="1" roundness="50" rot="R270"/>
+<rectangle x1="-2.25" y1="0.1" x2="-1.55" y2="0.3" layer="41"/>
+<rectangle x1="-2.25" y1="0.5" x2="-1.55" y2="0.7" layer="41"/>
+<rectangle x1="-2.25" y1="0.9" x2="-1.55" y2="1.1" layer="41"/>
+<rectangle x1="-2.25" y1="-1.1" x2="-1.55" y2="-0.9" layer="41"/>
+<rectangle x1="-2.25" y1="-0.7" x2="-1.55" y2="-0.5" layer="41"/>
+<rectangle x1="-2.25" y1="-0.3" x2="-1.55" y2="-0.1" layer="41"/>
+<rectangle x1="-0.55" y1="-2" x2="0.15" y2="-1.8" layer="41" rot="R90"/>
+<rectangle x1="-0.95" y1="-2" x2="-0.25" y2="-1.8" layer="41" rot="R90"/>
+<rectangle x1="-1.35" y1="-2" x2="-0.65" y2="-1.8" layer="41" rot="R90"/>
+<rectangle x1="0.65" y1="-2" x2="1.35" y2="-1.8" layer="41" rot="R90"/>
+<rectangle x1="0.25" y1="-2" x2="0.95" y2="-1.8" layer="41" rot="R90"/>
+<rectangle x1="-0.15" y1="-2" x2="0.55" y2="-1.8" layer="41" rot="R90"/>
+<rectangle x1="1.55" y1="-0.3" x2="2.25" y2="-0.1" layer="41" rot="R180"/>
+<rectangle x1="1.55" y1="-0.7" x2="2.25" y2="-0.5" layer="41" rot="R180"/>
+<rectangle x1="1.55" y1="-1.1" x2="2.25" y2="-0.9" layer="41" rot="R180"/>
+<rectangle x1="1.55" y1="0.9" x2="2.25" y2="1.1" layer="41" rot="R180"/>
+<rectangle x1="1.55" y1="0.5" x2="2.25" y2="0.7" layer="41" rot="R180"/>
+<rectangle x1="1.55" y1="0.1" x2="2.25" y2="0.3" layer="41" rot="R180"/>
+<rectangle x1="-0.15" y1="1.8" x2="0.55" y2="2" layer="41" rot="R270"/>
+<rectangle x1="0.25" y1="1.8" x2="0.95" y2="2" layer="41" rot="R270"/>
+<rectangle x1="0.65" y1="1.8" x2="1.35" y2="2" layer="41" rot="R270"/>
+<rectangle x1="-1.35" y1="1.8" x2="-0.65" y2="2" layer="41" rot="R270"/>
+<rectangle x1="-0.95" y1="1.8" x2="-0.25" y2="2" layer="41" rot="R270"/>
+<rectangle x1="-0.55" y1="1.8" x2="0.15" y2="2" layer="41" rot="R270"/>
+<wire x1="-2.05" y1="2.05" x2="2.05" y2="2.05" width="0.127" layer="21"/>
+<wire x1="2.05" y1="2.05" x2="2.05" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="2.05" y1="-2.05" x2="-2.05" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="-2.05" x2="-2.05" y2="2.05" width="0.127" layer="21"/>
+<wire x1="1.375" y1="2.275" x2="1.375" y2="2.125" width="0.15" layer="39"/>
+<wire x1="1.375" y1="2.125" x2="2.125" y2="2.125" width="0.15" layer="39"/>
+<wire x1="2.125" y1="2.125" x2="2.125" y2="1.375" width="0.15" layer="39"/>
+<wire x1="2.125" y1="1.375" x2="2.275" y2="1.375" width="0.15" layer="39"/>
+<wire x1="2.275" y1="1.375" x2="2.275" y2="-1.375" width="0.15" layer="39"/>
+<wire x1="2.275" y1="-1.375" x2="2.125" y2="-1.375" width="0.15" layer="39"/>
+<wire x1="2.125" y1="-1.375" x2="2.125" y2="-2.125" width="0.15" layer="39"/>
+<wire x1="2.125" y1="-2.125" x2="1.375" y2="-2.125" width="0.15" layer="39"/>
+<wire x1="1.375" y1="-2.125" x2="1.375" y2="-2.275" width="0.15" layer="39"/>
+<wire x1="-2.275" y1="1.375" x2="-2.125" y2="1.375" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="1.375" x2="-2.125" y2="2.125" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="2.125" x2="-1.375" y2="2.125" width="0.15" layer="39"/>
+<wire x1="-1.375" y1="2.125" x2="-1.375" y2="2.275" width="0.15" layer="39"/>
+<wire x1="-1.375" y1="2.275" x2="1.375" y2="2.275" width="0.15" layer="39"/>
+<wire x1="1.375" y1="-2.275" x2="-1.375" y2="-2.275" width="0.15" layer="39"/>
+<wire x1="-1.375" y1="-2.275" x2="-1.375" y2="-2.125" width="0.15" layer="39"/>
+<wire x1="-1.375" y1="-2.125" x2="-2.125" y2="-2.125" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="-1.375" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="-1.375" x2="-2.275" y2="-1.375" width="0.15" layer="39"/>
+<wire x1="-2.275" y1="-1.375" x2="-2.275" y2="1.375" width="0.15" layer="39"/>
+<text x="0" y="2.375" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.375" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+<package name="S-PQFP-G48_PFB_TI" urn="urn:adsk.eagle:footprint:33516160/1" library_version="5">
+<description>Abmessungen Package aus Datenblatt BQ76942, Footprint nach Library Expert for IPC</description>
+<smd name="1" x="-2.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="2" x="-2.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="3" x="-1.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="4" x="-1.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="5" x="-0.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="6" x="-0.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="7" x="0.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="8" x="0.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="9" x="1.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="10" x="1.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="11" x="2.25" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="12" x="2.75" y="-4.13" dx="0.3" dy="1.26" layer="1"/>
+<smd name="13" x="4.13" y="-2.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="14" x="4.13" y="-2.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="15" x="4.13" y="-1.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="16" x="4.13" y="-1.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="17" x="4.13" y="-0.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="18" x="4.13" y="-0.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="19" x="4.13" y="0.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="20" x="4.13" y="0.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="21" x="4.13" y="1.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="22" x="4.13" y="1.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="23" x="4.13" y="2.25" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="24" x="4.13" y="2.75" dx="0.3" dy="1.26" layer="1" rot="R90"/>
+<smd name="25" x="2.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="26" x="2.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="27" x="1.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="28" x="1.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="29" x="0.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="30" x="0.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="31" x="-0.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="32" x="-0.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="33" x="-1.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="34" x="-1.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="35" x="-2.25" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="36" x="-2.75" y="4.13" dx="0.3" dy="1.26" layer="1" rot="R180"/>
+<smd name="37" x="-4.13" y="2.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="38" x="-4.13" y="2.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="39" x="-4.13" y="1.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="40" x="-4.13" y="1.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="41" x="-4.13" y="0.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="42" x="-4.13" y="0.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="43" x="-4.13" y="-0.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="44" x="-4.13" y="-0.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="45" x="-4.13" y="-1.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="46" x="-4.13" y="-1.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="47" x="-4.13" y="-2.25" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<smd name="48" x="-4.13" y="-2.75" dx="0.3" dy="1.26" layer="1" rot="R270"/>
+<wire x1="-3.6" y1="-3.2" x2="-3.2" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-3.6" x2="3.2" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-3.6" x2="3.6" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-3.2" x2="3.6" y2="3.2" width="0.127" layer="21"/>
+<wire x1="3.6" y1="3.2" x2="3.2" y2="3.6" width="0.127" layer="21"/>
+<wire x1="3.2" y1="3.6" x2="-3.2" y2="3.6" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="3.6" x2="-3.6" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="3.2" x2="-3.6" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="-4.835" y1="-2.975" x2="-3.675" y2="-2.975" width="0.15" layer="39"/>
+<wire x1="-3.675" y1="-2.975" x2="-3.675" y2="-3.675" width="0.15" layer="39"/>
+<wire x1="-3.675" y1="-3.675" x2="-2.975" y2="-3.675" width="0.15" layer="39"/>
+<wire x1="-2.975" y1="-3.675" x2="-2.975" y2="-4.835" width="0.15" layer="39"/>
+<wire x1="-2.975" y1="-4.835" x2="2.975" y2="-4.835" width="0.15" layer="39"/>
+<wire x1="2.975" y1="-4.835" x2="2.975" y2="-3.675" width="0.15" layer="39"/>
+<wire x1="2.975" y1="-3.675" x2="3.675" y2="-3.675" width="0.15" layer="39"/>
+<wire x1="3.675" y1="-3.675" x2="3.675" y2="-2.975" width="0.15" layer="39"/>
+<wire x1="3.675" y1="-2.975" x2="4.835" y2="-2.975" width="0.15" layer="39"/>
+<wire x1="4.835" y1="-2.975" x2="4.835" y2="2.975" width="0.15" layer="39"/>
+<wire x1="4.835" y1="2.975" x2="3.675" y2="2.975" width="0.15" layer="39"/>
+<wire x1="3.675" y1="2.975" x2="3.675" y2="3.675" width="0.15" layer="39"/>
+<wire x1="3.675" y1="3.675" x2="2.975" y2="3.675" width="0.15" layer="39"/>
+<wire x1="2.975" y1="3.675" x2="2.975" y2="4.835" width="0.15" layer="39"/>
+<wire x1="2.975" y1="4.835" x2="-2.975" y2="4.835" width="0.15" layer="39"/>
+<wire x1="-2.975" y1="4.835" x2="-2.975" y2="3.675" width="0.15" layer="39"/>
+<wire x1="-2.975" y1="3.675" x2="-3.675" y2="3.675" width="0.15" layer="39"/>
+<wire x1="-3.675" y1="3.675" x2="-3.675" y2="2.975" width="0.15" layer="39"/>
+<wire x1="-3.675" y1="2.975" x2="-4.835" y2="2.975" width="0.15" layer="39"/>
+<wire x1="-4.835" y1="2.975" x2="-4.835" y2="-2.975" width="0.15" layer="39"/>
+<circle x="-2.5" y="-2.5" radius="0.5" width="0" layer="21"/>
+<rectangle x1="-0.385" y1="-4.6" x2="-0.115" y2="-3.6" layer="51"/>
+<rectangle x1="-0.885" y1="-4.6" x2="-0.615" y2="-3.6" layer="51"/>
+<rectangle x1="-1.385" y1="-4.6" x2="-1.115" y2="-3.6" layer="51"/>
+<rectangle x1="-1.885" y1="-4.6" x2="-1.615" y2="-3.6" layer="51"/>
+<rectangle x1="-2.885" y1="-4.6" x2="-2.615" y2="-3.6" layer="51"/>
+<rectangle x1="-2.385" y1="-4.6" x2="-2.115" y2="-3.6" layer="51"/>
+<rectangle x1="0.115" y1="-4.6" x2="0.385" y2="-3.6" layer="51"/>
+<rectangle x1="0.615" y1="-4.6" x2="0.885" y2="-3.6" layer="51"/>
+<rectangle x1="1.115" y1="-4.6" x2="1.385" y2="-3.6" layer="51"/>
+<rectangle x1="1.615" y1="-4.6" x2="1.885" y2="-3.6" layer="51"/>
+<rectangle x1="2.615" y1="-4.6" x2="2.885" y2="-3.6" layer="51"/>
+<rectangle x1="2.115" y1="-4.6" x2="2.385" y2="-3.6" layer="51"/>
+<rectangle x1="3.965" y1="-0.75" x2="4.235" y2="0.25" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="-1.25" x2="4.235" y2="-0.25" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="-1.75" x2="4.235" y2="-0.75" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="-2.25" x2="4.235" y2="-1.25" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="-3.25" x2="4.235" y2="-2.25" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="-2.75" x2="4.235" y2="-1.75" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="-0.25" x2="4.235" y2="0.75" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="0.25" x2="4.235" y2="1.25" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="0.75" x2="4.235" y2="1.75" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="1.25" x2="4.235" y2="2.25" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="2.25" x2="4.235" y2="3.25" layer="51" rot="R90"/>
+<rectangle x1="3.965" y1="1.75" x2="4.235" y2="2.75" layer="51" rot="R90"/>
+<rectangle x1="0.115" y1="3.6" x2="0.385" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="0.615" y1="3.6" x2="0.885" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="1.115" y1="3.6" x2="1.385" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="1.615" y1="3.6" x2="1.885" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="2.615" y1="3.6" x2="2.885" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="2.115" y1="3.6" x2="2.385" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="-0.385" y1="3.6" x2="-0.115" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="-0.885" y1="3.6" x2="-0.615" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="-1.385" y1="3.6" x2="-1.115" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="-1.885" y1="3.6" x2="-1.615" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="-2.885" y1="3.6" x2="-2.615" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="-2.385" y1="3.6" x2="-2.115" y2="4.6" layer="51" rot="R180"/>
+<rectangle x1="-4.235" y1="-0.25" x2="-3.965" y2="0.75" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="0.25" x2="-3.965" y2="1.25" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="0.75" x2="-3.965" y2="1.75" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="1.25" x2="-3.965" y2="2.25" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="2.25" x2="-3.965" y2="3.25" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="1.75" x2="-3.965" y2="2.75" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="-0.75" x2="-3.965" y2="0.25" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="-1.25" x2="-3.965" y2="-0.25" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="-1.75" x2="-3.965" y2="-0.75" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="-2.25" x2="-3.965" y2="-1.25" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="-3.25" x2="-3.965" y2="-2.25" layer="51" rot="R270"/>
+<rectangle x1="-4.235" y1="-2.75" x2="-3.965" y2="-1.75" layer="51" rot="R270"/>
+<rectangle x1="-0.1" y1="-4.81" x2="0.1" y2="-3.45" layer="41"/>
+<rectangle x1="-0.6" y1="-4.81" x2="-0.4" y2="-3.45" layer="41"/>
+<rectangle x1="-1.6" y1="-4.81" x2="-1.4" y2="-3.45" layer="41"/>
+<rectangle x1="-2.6" y1="-4.81" x2="-2.4" y2="-3.45" layer="41"/>
+<rectangle x1="-1.1" y1="-4.81" x2="-0.9" y2="-3.45" layer="41"/>
+<rectangle x1="-2.1" y1="-4.81" x2="-1.9" y2="-3.45" layer="41"/>
+<rectangle x1="0.9" y1="-4.81" x2="1.1" y2="-3.45" layer="41"/>
+<rectangle x1="1.9" y1="-4.81" x2="2.1" y2="-3.45" layer="41"/>
+<rectangle x1="0.4" y1="-4.81" x2="0.6" y2="-3.45" layer="41"/>
+<rectangle x1="1.4" y1="-4.81" x2="1.6" y2="-3.45" layer="41"/>
+<rectangle x1="2.4" y1="-4.81" x2="2.6" y2="-3.45" layer="41"/>
+<rectangle x1="4.03" y1="-0.68" x2="4.23" y2="0.68" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="-1.18" x2="4.23" y2="0.18" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="-2.18" x2="4.23" y2="-0.82" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="-3.18" x2="4.23" y2="-1.82" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="-1.68" x2="4.23" y2="-0.32" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="-2.68" x2="4.23" y2="-1.32" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="0.32" x2="4.23" y2="1.68" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="1.32" x2="4.23" y2="2.68" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="-0.18" x2="4.23" y2="1.18" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="0.82" x2="4.23" y2="2.18" layer="41" rot="R90"/>
+<rectangle x1="4.03" y1="1.82" x2="4.23" y2="3.18" layer="41" rot="R90"/>
+<rectangle x1="-0.1" y1="3.45" x2="0.1" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="0.4" y1="3.45" x2="0.6" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="1.4" y1="3.45" x2="1.6" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="2.4" y1="3.45" x2="2.6" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="0.9" y1="3.45" x2="1.1" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="1.9" y1="3.45" x2="2.1" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="-1.1" y1="3.45" x2="-0.9" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="-2.1" y1="3.45" x2="-1.9" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="-0.6" y1="3.45" x2="-0.4" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="-1.6" y1="3.45" x2="-1.4" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="-2.6" y1="3.45" x2="-2.4" y2="4.81" layer="41" rot="R180"/>
+<rectangle x1="-4.23" y1="-0.68" x2="-4.03" y2="0.68" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="-0.18" x2="-4.03" y2="1.18" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="0.82" x2="-4.03" y2="2.18" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="1.82" x2="-4.03" y2="3.18" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="0.32" x2="-4.03" y2="1.68" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="1.32" x2="-4.03" y2="2.68" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="-1.68" x2="-4.03" y2="-0.32" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="-2.68" x2="-4.03" y2="-1.32" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="-1.18" x2="-4.03" y2="0.18" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="-2.18" x2="-4.03" y2="-0.82" layer="41" rot="R270"/>
+<rectangle x1="-4.23" y1="-3.18" x2="-4.03" y2="-1.82" layer="41" rot="R270"/>
+<text x="0" y="4.935" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.935" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="DSG0008A_WSON_TI" urn="urn:adsk.eagle:package:33516368/1" type="model" library_version="5">
+<description>aus Datenblatt DRV8837/DRV8838</description>
+<packageinstances>
+<packageinstance name="DSG0008A_WSON_TI"/>
+</packageinstances>
+</package3d>
+<package3d name="S-PDSO-G8_DGK_VSSOP_TI" urn="urn:adsk.eagle:package:33516348/1" type="model" library_version="5">
+<description>aus Datenblatt TLV900x</description>
+<packageinstances>
+<packageinstance name="S-PDSO-G8_DGK_VSSOP_TI"/>
+</packageinstances>
+</package3d>
+<package3d name="DRL0006A_TI" urn="urn:adsk.eagle:package:33516425/1" type="model" library_version="5">
+<description>aus Datenblatt TPS61023</description>
+<packageinstances>
+<packageinstance name="DRL0006A_TI"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-6L_WE" urn="urn:adsk.eagle:package:33516321/1" type="model" library_version="5">
+<description>aus Datenblatt 824001 von Würth Elektronik</description>
+<packageinstances>
+<packageinstance name="SOT23-6L_WE"/>
+</packageinstances>
+</package3d>
+<package3d name="UFQFPN48_ST" urn="urn:adsk.eagle:package:33516469/1" type="model" library_version="5">
+<description>aus Datenblatt STM32G431xx; zusätzliche Vias in Exposed Pad eingefügt</description>
+<packageinstances>
+<packageinstance name="UFQFPN48_ST"/>
+</packageinstances>
+</package3d>
+<package3d name="DRV0006A_TI" urn="urn:adsk.eagle:package:33516467/1" type="model" library_version="5">
+<description>aus Datenblatt TPS709</description>
+<packageinstances>
+<packageinstance name="DRV0006A_TI"/>
+</packageinstances>
+</package3d>
+<package3d name="RUY0028A_TI" urn="urn:adsk.eagle:package:33516438/1" type="model" library_version="5">
+<description>aus Datenblatt bq24780S</description>
+<packageinstances>
+<packageinstance name="RUY0028A_TI"/>
+</packageinstances>
+</package3d>
+<package3d name="S-PQFP-G48_PFB_TI" urn="urn:adsk.eagle:package:33516358/1" type="model" library_version="5">
+<description>Abmessungen Package aus Datenblatt BQ76942, Footprint nach Library Expert for IPC</description>
+<packageinstances>
+<packageinstance name="S-PQFP-G48_PFB_TI"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<symbol name="BQ2947" urn="urn:adsk.eagle:symbol:33515908/1" library_version="5">
+<pin name="VDD" x="-10.16" y="7.62" length="short" direction="in"/>
+<pin name="V4" x="-10.16" y="2.54" length="short" direction="in"/>
+<pin name="V3" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="V2" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="V1" x="-10.16" y="-5.08" length="short" direction="in"/>
+<pin name="OUT" x="10.16" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="CD" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="VSS" x="-10.16" y="-10.16" length="short" direction="in"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="10.668" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="+3V3">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<symbol name="TMP1075" urn="urn:adsk.eagle:symbol:33515477/1" library_version="5">
+<pin name="SDA" x="10.16" y="7.62" length="short" direction="oc" rot="R180"/>
+<pin name="SCL" x="10.16" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="ALERT" x="10.16" y="0" length="short" direction="oc" rot="R180"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="in"/>
+<pin name="A2" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="A1" x="10.16" y="-7.62" length="short" direction="in" rot="R180"/>
+<pin name="A0" x="10.16" y="-10.16" length="short" direction="in" rot="R180"/>
+<pin name="VCC" x="-10.16" y="7.62" length="short" direction="in"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="10.668" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="+VBAT">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+VBAT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<symbol name="TMP112" urn="urn:adsk.eagle:symbol:33515991/1" library_version="5">
+<pin name="SDA" x="10.16" y="5.08" length="short" direction="oc" rot="R180"/>
+<pin name="SCL" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="ALERT" x="10.16" y="-2.54" length="short" direction="oc" rot="R180"/>
+<pin name="GND" x="-10.16" y="-7.62" length="short" direction="in"/>
+<pin name="ADD0" x="10.16" y="-7.62" length="short" direction="in" rot="R180"/>
+<pin name="V+" x="-10.16" y="5.08" length="short" direction="in"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="WE-TVS_4_LANE" urn="urn:adsk.eagle:symbol:33515706/1" library_version="5">
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<pin name="I/O1" x="0" y="12.7" length="short" direction="pas" rot="R270"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="I/O2" x="2.54" y="12.7" length="short" direction="pas" rot="R270"/>
+<pin name="I/O4" x="7.62" y="12.7" length="short" direction="pas" rot="R270"/>
+<pin name="VBUS" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="I/O3" x="5.08" y="12.7" length="short" direction="pas" rot="R270"/>
+<text x="-10.16" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="STM32G431C_MISC" urn="urn:adsk.eagle:symbol:33516009/1" library_version="5">
+<wire x1="-22.86" y1="17.78" x2="25.4" y2="17.78" width="0.254" layer="94"/>
+<wire x1="25.4" y1="17.78" x2="25.4" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-17.78" x2="-22.86" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-17.78" x2="-22.86" y2="17.78" width="0.254" layer="94"/>
+<pin name="!NRST!/PG10/MCO" x="-25.4" y="15.24" length="short"/>
+<pin name="VDD1" x="27.94" y="10.16" length="short" direction="in" rot="R180"/>
+<pin name="VDD2" x="27.94" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="VSS" x="27.94" y="-15.24" length="short" direction="in" rot="R180"/>
+<pin name="OSC_IN/PF0" x="-25.4" y="-7.62" length="short"/>
+<pin name="OSC_OUT/PF1" x="-25.4" y="-12.7" length="short"/>
+<pin name="VBAT" x="27.94" y="15.24" length="short" direction="in" rot="R180"/>
+<pin name="OSC32_IN/PC14" x="-25.4" y="7.62" length="short"/>
+<pin name="OSC32_OUT/PC15" x="-25.4" y="5.08" length="short"/>
+<pin name="VDDA" x="27.94" y="0" length="short" direction="in" rot="R180"/>
+<pin name="VREF+/VREFBUF_OUT" x="27.94" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="VDD3" x="27.94" y="5.08" length="short" direction="in" rot="R180"/>
+<text x="-22.86" y="-20.32" size="1.778" layer="96">&gt;Value</text>
+<text x="-22.86" y="18.288" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="97" align="center-left">I2C2_SDA,SPI2_NSS/I2S2_WS
+TIM1_CH3N,ADC1_IN10</text>
+<text x="-5.08" y="-12.7" size="1.27" layer="97" align="center-left">SPI2_SCK/I2S2_CK
+ADC2_IN10,COMP3_INM</text>
+</symbol>
+<symbol name="STM32G431C_PORTA" urn="urn:adsk.eagle:symbol:33516011/1" library_version="5">
+<pin name="PA0" x="-48.26" y="40.64" length="short"/>
+<pin name="PA1" x="-48.26" y="35.56" length="short"/>
+<pin name="PA2" x="-48.26" y="30.48" length="short"/>
+<pin name="PA3" x="-48.26" y="25.4" length="short"/>
+<pin name="PA4" x="-48.26" y="20.32" length="short"/>
+<pin name="PA5" x="-48.26" y="15.24" length="short"/>
+<pin name="PA6" x="-48.26" y="10.16" length="short"/>
+<pin name="PA7" x="-48.26" y="5.08" length="short"/>
+<pin name="PA8" x="-48.26" y="0" length="short"/>
+<pin name="PA9" x="-48.26" y="-5.08" length="short"/>
+<pin name="PA10" x="-48.26" y="-10.16" length="short"/>
+<pin name="PA11" x="-48.26" y="-15.24" length="short"/>
+<pin name="PA12" x="-48.26" y="-20.32" length="short"/>
+<pin name="PA13" x="-48.26" y="-25.4" length="short"/>
+<pin name="PA14" x="-48.26" y="-30.48" length="short"/>
+<pin name="PA15" x="-48.26" y="-35.56" length="short"/>
+<wire x1="-45.72" y1="43.18" x2="45.72" y2="43.18" width="0.254" layer="94"/>
+<wire x1="45.72" y1="43.18" x2="45.72" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-40.64" x2="-45.72" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-45.72" y1="-40.64" x2="-45.72" y2="43.18" width="0.254" layer="94"/>
+<text x="-45.72" y="-43.18" size="1.778" layer="96">&gt;Value</text>
+<text x="-45.72" y="43.688" size="1.778" layer="95">&gt;Name</text>
+<text x="-35.56" y="38.1" size="1.27" layer="97">TIM2_CH1,USART2_CTS,COMP1_OUT,TIM8_BKIN, TIM8_ETR,TIM2_ETR,
+ADC12_IN1,COMP1_INM,COMP3_INP,RTC_TAMP2,WKUP1</text>
+<text x="-35.56" y="33.02" size="1.27" layer="97">RTC_REFIN,TIM2_CH2,USART2_RTS_DE,TIM15_CH1N,
+ADC12_IN2,COMP1_INP,OPAMP1_VINP,OPAMP3_VINP</text>
+<text x="-35.56" y="27.94" size="1.27" layer="97">TIM2_CH3,USART2_TX,COMP2_OUT,TIM15_CH1,LPUART1_TX,UCPD1_FRSTX
+ADC1_IN3,COMP2_INM,OPAMP1_VOUT,WKUP4/LSCO</text>
+<text x="-35.56" y="22.86" size="1.27" layer="97">TIM2_CH4, SAI1_CK1,USART2_RX,TIM15_CH2,LPUART1_RX,SAI1_MCLK_A,
+ADC1_IN4,COMP2_INP,OPAMP1_VINM/OPAMP1_VINP</text>
+<text x="-35.56" y="17.78" size="1.27" layer="97">TIM3_CH2, SPI1_NSS,SPI3_NSS/I2S3_WS, USART2_CK,SAI1_FS_B
+ADC2_IN17,DAC1_OUT1,COMP1_INM</text>
+<text x="-35.56" y="12.7" size="1.27" layer="97">TIM2_CH1, TIM2_ETR,SPI1_SCK,UCPD1_FRSTX
+ADC2_IN13,DAC1_OUT2,COMP2_INM,OPAMP2_VINM</text>
+<text x="-35.56" y="7.62" size="1.27" layer="97">TIM16_CH1,TIM3_CH1,TIM8_BKIN,SPI1_MISO,TIM1_BKIN,COMP1_OUT,LPUART1_CTS
+ADC2_IN3,OPAMP2_VOUT</text>
+<text x="-35.56" y="2.54" size="1.27" layer="97">TIM17_CH1,TIM3_CH2,TIM8_CH1N,SPI1_MOSI,TIM1_CH1N,COMP2_OUT,UCPD1_FRSTX,
+ADC2_IN4,COMP2_INP,OPAMP1_VINP,OPAMP2_VINP</text>
+<text x="-35.56" y="-2.54" size="1.27" layer="97">MCO, I2C3_SCL,I2C2_SDA, I2S2_MCK,TIM1_CH1,
+USART1_CK,TIM4_ETR, SAI1_CK2,SAI1_SCK_A</text>
+<text x="-35.56" y="-7.62" size="1.27" layer="97">I2C3_SMBA, I2C2_SCL,I2S3_MCK, TIM1_CH2,USART1_TX,
+TIM15_BKIN,TIM2_CH3, SAI1_FS_A,UCPD1_DBCC1</text>
+<text x="-35.56" y="-12.7" size="1.27" layer="97">TIM17_BKIN,USB_CRS_SYNC,I2C2_SMBA,SPI2_MISO, TIM1_CH3,
+USART1_RX,TIM2_CH4, TIM8_BKIN,SAI1_D1, SAI1_SD_A,UCPD1_DBCC2</text>
+<text x="-35.56" y="-17.78" size="1.27" layer="97">SPI2_MOSI/I2S2_SD,TIM1_CH1N,USART1_CTS,COMP1_OUT,
+FDCAN1_RX,TIM4_CH1,TIM1_CH4,TIM1_BKIN2,USB_DM</text>
+<text x="-35.56" y="-22.86" size="1.27" layer="97">TIM16_CH1,I2SCKIN,TIM1_CH2N,USART1_RTS_DE,COMP2_OUT,
+FDCAN1_TX,TIM4_CH2,TIM1_ETR,USB_DP</text>
+<text x="-35.56" y="-27.94" size="1.27" layer="97">SWDIO-JTMS,TIM16_CH1N,I2C1_SCL,IR_OUT,
+USART3_CTS,TIM4_CH3,SAI1_SD_B</text>
+<text x="-35.56" y="-33.02" size="1.27" layer="97">SWCLK-JTCK,LPTIM1_OUT,I2C1_SDA,TIM8_CH2,TIM1_BKIN,
+USART2_TX,SAI1_FS_B,</text>
+<text x="-35.56" y="-38.1" size="1.27" layer="97">JTDI,TIM2_CH1, TIM8_CH1,I2C1_SCL, SPI1_NSS,SPI3_NSS/I2S3_WS, 
+USART2_RX,UART4_RTS_DE,TIM1_BKIN, TIM2_ETR,</text>
+</symbol>
+<symbol name="STM32G431C_PORTB" urn="urn:adsk.eagle:symbol:33516007/1" library_version="5">
+<pin name="PB0" x="-45.72" y="38.1" length="short"/>
+<pin name="PB3" x="-45.72" y="22.86" length="short"/>
+<pin name="PB4" x="-45.72" y="17.78" length="short"/>
+<pin name="PB5" x="-45.72" y="12.7" length="short"/>
+<pin name="PB6" x="-45.72" y="7.62" length="short"/>
+<pin name="PB7" x="-45.72" y="2.54" length="short"/>
+<pin name="PB8" x="-45.72" y="-2.54" length="short"/>
+<pin name="PB1" x="-45.72" y="33.02" length="short"/>
+<pin name="PB2" x="-45.72" y="27.94" length="short"/>
+<pin name="PB9" x="-45.72" y="-7.62" length="short"/>
+<pin name="PB10" x="-45.72" y="-12.7" length="short"/>
+<pin name="PB11" x="-45.72" y="-17.78" length="short"/>
+<pin name="PB12" x="-45.72" y="-22.86" length="short"/>
+<pin name="PB13" x="-45.72" y="-27.94" length="short"/>
+<pin name="PB14" x="-45.72" y="-33.02" length="short"/>
+<pin name="PB15" x="-45.72" y="-38.1" length="short"/>
+<wire x1="-43.18" y1="40.64" x2="45.72" y2="40.64" width="0.254" layer="94"/>
+<wire x1="45.72" y1="40.64" x2="45.72" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-43.18" x2="-43.18" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-43.18" y1="-43.18" x2="-43.18" y2="40.64" width="0.254" layer="94"/>
+<text x="-43.18" y="-45.72" size="1.778" layer="96">&gt;Value</text>
+<text x="-43.18" y="41.148" size="1.778" layer="95">&gt;Name</text>
+<text x="-33.02" y="35.56" size="1.27" layer="97">TIM3_CH3,TIM8_CH2N,TIM1_CH2N,UCPD1_FRSTX,
+ADC1_IN15,COMP4_INP,OPAMP2_VINP,OPAMP3_VINP</text>
+<text x="-33.02" y="20.32" size="1.27" layer="97">JTDO-TRACESWO,TIM2_CH2, TIM4_ETR,USB_CRS_SYNC,TIM8_CH1N,
+SPI1_SCK, SPI3_SCK/I2S3_CK,USART2_TX,TIM3_ETR,SAI1_SCK_B</text>
+<text x="-33.02" y="15.24" size="1.27" layer="97">JTRST,TIM16_CH1,TIM3_CH1,TIM8_CH2N,SPI1_MISO,SPI3_MISO,
+USART2_RX,TIM17_BKIN,SAI1_MCLK_B,UCPD1_CC2</text>
+<text x="-33.02" y="10.16" size="1.27" layer="97">TIM16_BKIN,TIM3_CH2,TIM8_CH3N,I2C1_SMBA,SPI1_MOSI,SPI3_MOSI/I2S3_SD,
+USART2_CK,I2C3_SDA, TIM17_CH1,LPTIM1_IN1,SAI1_SD_B,</text>
+<text x="-33.02" y="5.08" size="1.27" layer="97">TIM16_CH1N,TIM4_CH1,TIM8_CH1,TIM8_ETR,USART1_TX,
+COMP4_OUT,TIM8_BKIN2,LPTIM1_ETR,SAI1_FS_B,UCPD1_CC1</text>
+<text x="-33.02" y="0" size="1.27" layer="97">TIM17_CH1N,TIM4_CH2,I2C1_SDA,TIM8_BKIN,USART1_RX,
+COMP3_OUT,TIM3_CH4,LPTIM1_IN2,UART4_CTS,PVD_IN</text>
+<text x="-33.02" y="-5.08" size="1.27" layer="97">BOOT0,TIM16_CH1,TIM4_CH3, SAI1_CK1,I2C1_SCL,USART3_RX,
+COMP1_OUT,FDCAN1_RX,TIM8_CH2, TIM1_BKIN,SAI1_MCLK_A</text>
+<text x="-33.02" y="30.48" size="1.27" layer="97">TIM3_CH4,TIM8_CH3N,TIM1_CH3N,COMP4_OUT,LPUART1_RTS_DE,
+ADC1_IN12,COMP1_INP,OPAMP3_VOUT</text>
+<text x="-33.02" y="25.4" size="1.27" layer="97">RTC_OUT2,LPTIM1_OUT,I2C3_SMBA,
+ADC2_IN12,COMP4_INM,OPAMP3_VINM</text>
+<text x="-33.02" y="-10.16" size="1.27" layer="97">TIM17_CH1,TIM4_CH4,SAI1_D2, I2C1_SDA,IR_OUT, USART3_TX,
+COMP2_OUT,FDCAN1_TX,TIM8_CH3,TIM1_CH3N,SAI1_FS_A</text>
+<text x="-33.02" y="-15.24" size="1.27" layer="97">TIM2_CH3,USART3_TX,LPUART1_RX,
+TIM1_BKIN,SAI1_SCK_A,OPAMP3_VINM</text>
+<text x="-33.02" y="-20.32" size="1.27" layer="97">TIM2_CH4,USART3_RX,LPUART1_TX,
+ADC12_IN14</text>
+<text x="-33.02" y="-25.4" size="1.27" layer="97">I2C2_SMBA,SPI2_NSS/I2S2_WS, TIM1_BKIN,
+USART3_CK,LPUART1_RTS_DE,ADC1_IN11</text>
+<text x="-33.02" y="-30.48" size="1.27" layer="97">SPI2_SCK/I2S2_CK,TIM1_CH1N,
+USART3_CTS,LPUART1_CTS,OPAMP3_VINP</text>
+<text x="-33.02" y="-35.56" size="1.27" layer="97">TIM15_CH1,SPI2_MISO,TIM1_CH2N,
+USART3_RTS_DE,COMP4_OUT,ADC1_IN5,OPAMP2_VINP</text>
+<text x="-33.02" y="-40.64" size="1.27" layer="97">RTC_REFIN,TIM15_CH2,TIM15_CH1N,COMP3_OUT,
+TIM1_CH3N,SPI2_MOSI/I2S2_SD,ADC2_IN15</text>
+</symbol>
+<symbol name="STM32G431C_PORTC" urn="urn:adsk.eagle:symbol:33516005/1" library_version="5">
+<pin name="PC4" x="-35.56" y="20.32" length="short"/>
+<pin name="PC6" x="-35.56" y="12.7" length="short"/>
+<pin name="PC10" x="-35.56" y="5.08" length="short"/>
+<pin name="PC11" x="-35.56" y="0" length="short"/>
+<pin name="PC13" x="-35.56" y="-7.62" length="short"/>
+<wire x1="-33.02" y1="22.86" x2="35.56" y2="22.86" width="0.254" layer="94"/>
+<wire x1="35.56" y1="22.86" x2="35.56" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-22.86" x2="-33.02" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-22.86" x2="-33.02" y2="22.86" width="0.254" layer="94"/>
+<text x="-33.02" y="-25.4" size="1.778" layer="96">&gt;Value</text>
+<text x="-33.02" y="23.368" size="1.778" layer="95">&gt;Name</text>
+<text x="-32.087625" y="-13.461034375" size="1.524" layer="97">&gt;PC14</text>
+<text x="-32.08665" y="-18.541240625" size="1.524" layer="97">&gt;PC15</text>
+<text x="-22.86" y="17.78" size="1.27" layer="97">TIM1_ETR, I2C2_SCL,USART1_TX,
+ADC2_IN5</text>
+<text x="-22.86" y="10.16" size="1.27" layer="97">TIM3_CH1, TIM8_CH1,
+I2S2_MCK</text>
+<text x="-22.86" y="2.54" size="1.27" layer="97">TIM8_CH1N,UART4_TX,
+SPI3_SCK/I2S3_CK,USART3_TX,</text>
+<text x="-22.86" y="-2.54" size="1.27" layer="97">TIM8_CH2N,UART4_RX,
+SPI3_MISO,USART3_RX,I2C3_SDA</text>
+<text x="-22.86" y="-10.16" size="1.27" layer="97">TIM1_BKIN,TIM1_CH1N,TIM8_CH4N,
+WKUP2,RTC_TAMP1,RTC_TS,RTC_OUT1</text>
+</symbol>
+<symbol name="TPS709" urn="urn:adsk.eagle:symbol:33516035/1" library_version="5">
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<pin name="IN" x="-10.16" y="2.54" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="10.16" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="EN" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="NC" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
+<text x="-7.62" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="BQ24780S" urn="urn:adsk.eagle:symbol:33515969/1" library_version="5">
+<pin name="ACN" x="-15.24" y="27.94" length="short" direction="in"/>
+<pin name="ACP" x="-15.24" y="25.4" length="short" direction="in"/>
+<pin name="CMSRC" x="-15.24" y="20.32" length="short" direction="in"/>
+<pin name="ACDRV" x="-15.24" y="17.78" length="short" direction="out"/>
+<pin name="ACOK" x="-15.24" y="-12.7" length="short" direction="oc"/>
+<pin name="ACDET" x="-15.24" y="12.7" length="short" direction="in"/>
+<pin name="IADP" x="-15.24" y="-22.86" length="short" direction="out"/>
+<pin name="IDCHG" x="-15.24" y="-25.4" length="short" direction="out"/>
+<pin name="PMON" x="-15.24" y="-27.94" length="short" direction="out"/>
+<pin name="!PROCHOT" x="-15.24" y="-17.78" length="short" direction="oc"/>
+<pin name="SDA" x="-15.24" y="-5.08" length="short" direction="oc"/>
+<pin name="SCL" x="-15.24" y="-7.62" length="short" direction="oc"/>
+<pin name="CMPIN" x="-15.24" y="7.62" length="short" direction="in"/>
+<pin name="CMPOUT" x="-15.24" y="5.08" length="short" direction="oc"/>
+<pin name="!BATPRES" x="17.78" y="-17.78" length="short" direction="in" rot="R180"/>
+<pin name="!TB_STAT" x="-15.24" y="-15.24" length="short" direction="oc"/>
+<pin name="BATSRC" x="17.78" y="17.78" length="short" direction="in" rot="R180"/>
+<pin name="BATDRV" x="17.78" y="22.86" length="short" direction="out" rot="R180"/>
+<pin name="SRN" x="17.78" y="-12.7" length="short" direction="in" rot="R180"/>
+<pin name="SRP" x="17.78" y="-10.16" length="short" direction="in" rot="R180"/>
+<pin name="ILIM" x="-15.24" y="0" length="short" direction="in"/>
+<pin name="GND" x="17.78" y="-27.94" length="short" direction="in" rot="R180"/>
+<pin name="LODRV" x="17.78" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="REGN" x="17.78" y="-22.86" length="short" direction="out" rot="R180"/>
+<pin name="BTST" x="17.78" y="10.16" length="short" direction="in" rot="R180"/>
+<pin name="HIDRV" x="17.78" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="PHASE" x="17.78" y="0" length="short" direction="in" rot="R180"/>
+<pin name="VCC" x="17.78" y="27.94" length="short" direction="in" rot="R180"/>
+<wire x1="-12.7" y1="30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-30.48" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="30.48" x2="-12.7" y2="30.48" width="0.254" layer="94"/>
+<text x="-12.7" y="30.988" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="-33.02" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="BQ769X2_PWR" urn="urn:adsk.eagle:symbol:33515781/1" library_version="5">
+<pin name="VC0" x="-15.24" y="-17.78" length="short"/>
+<pin name="VC1" x="-15.24" y="-15.24" length="short"/>
+<pin name="VC2" x="-15.24" y="-12.7" length="short"/>
+<pin name="VC3" x="-15.24" y="-10.16" length="short"/>
+<pin name="VC4" x="-15.24" y="-7.62" length="short"/>
+<pin name="NC__/VC5" x="-15.24" y="-5.08" length="short"/>
+<pin name="VC5_/VC6" x="-15.24" y="-2.54" length="short"/>
+<pin name="NC__/VC7" x="-15.24" y="0" length="short"/>
+<pin name="VC6_/VC8" x="-15.24" y="2.54" length="short"/>
+<pin name="NC__/VC9" x="-15.24" y="5.08" length="short"/>
+<pin name="VC7_/VC10" x="-15.24" y="7.62" length="short"/>
+<pin name="VSS" x="-15.24" y="-20.32" length="short" direction="in"/>
+<pin name="SRP" x="-15.24" y="-25.4" length="short" direction="in"/>
+<pin name="SRN" x="-15.24" y="-30.48" length="short" direction="in"/>
+<pin name="REG18" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="REG2" x="15.24" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="REG1" x="15.24" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="REGIN" x="15.24" y="17.78" length="short" direction="in" rot="R180"/>
+<pin name="BREG" x="15.24" y="22.86" length="short" direction="out" rot="R180"/>
+<pin name="DSG" x="15.24" y="27.94" length="short" direction="out" rot="R180"/>
+<pin name="CHG" x="15.24" y="30.48" length="short" direction="out" rot="R180"/>
+<pin name="CP1" x="-15.24" y="30.48" length="short"/>
+<pin name="BAT" x="-15.24" y="25.4" length="short" direction="in"/>
+<pin name="NC" x="15.24" y="-30.48" length="short" direction="pas" rot="R180"/>
+<pin name="NC__/VC11" x="-15.24" y="10.16" length="short"/>
+<pin name="VC8_/VC12" x="-15.24" y="12.7" length="short"/>
+<pin name="NC__/VC13" x="-15.24" y="15.24" length="short"/>
+<pin name="VC9_/VC14" x="-15.24" y="17.78" length="short"/>
+<pin name="NC__/VC15" x="-15.24" y="20.32" length="short"/>
+<pin name="VC10/VC16" x="-15.24" y="22.86" length="short"/>
+<wire x1="-12.7" y1="33.02" x2="12.7" y2="33.02" width="0.254" layer="94"/>
+<wire x1="12.7" y1="33.02" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-33.02" x2="-12.7" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="33.02" width="0.254" layer="94"/>
+<text x="-12.7" y="33.528" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="-35.56" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="-12.7" size="1.778" layer="94">BQ76942
+/BQ76952</text>
+</symbol>
+<symbol name="BQ769X2_IO" urn="urn:adsk.eagle:symbol:33515774/1" library_version="5">
+<pin name="TS1" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="TS2" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="TS3" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="ALERT" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="SCL" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="SDA" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="HDQ" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="CFETOFF" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="DFETOFF" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="DCHG" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="DDSG" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="RST_SHUT" x="-15.24" y="12.7" length="short" direction="in"/>
+<pin name="FUSE" x="-15.24" y="7.62" length="short"/>
+<pin name="PDSG" x="-15.24" y="5.08" length="short" direction="out"/>
+<pin name="PCHG" x="-15.24" y="2.54" length="short" direction="out"/>
+<pin name="LD" x="-15.24" y="0" length="short"/>
+<pin name="PACK" x="-15.24" y="-2.54" length="short" direction="in"/>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="-20.32" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-12.7" y="15.748" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<deviceset name="BQ2947" urn="urn:adsk.eagle:component:33516617/1" prefix="IC" library_version="5">
+<description>&lt;b&gt;BQ2947xx, Overvoltage Protection for 2-Series to 4-Series Cell Li-Ion Batteries with External Delay Capacitor&lt;/b&gt;</description>
 <gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
+<gate name="G$1" symbol="BQ2947" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="DSG" package="DSG0008A_WSON_TI">
+<connects>
+<connect gate="G$1" pin="CD" pad="7"/>
+<connect gate="G$1" pin="OUT" pad="8"/>
+<connect gate="G$1" pin="V1" pad="5"/>
+<connect gate="G$1" pin="V2" pad="4"/>
+<connect gate="G$1" pin="V3" pad="3"/>
+<connect gate="G$1" pin="V4" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="6 P$1 P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516368/1"/>
+</package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-09-13"/>
-<attribute name="CREATED" value="2017-09-13"/>
+<technology name="00">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.350 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="01">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.250 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="02">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.300 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="03">
+<attribute name="ALIGNI_PN" value="61-00336"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00549"/>
+<attribute name="ALT_1_MAN" value="TI"/>
+<attribute name="ALT_1_MAN_PN" value="BQ294703DSGT"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAN_PN" value="BQ294703DSGR"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.325 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="BQ294703DSG"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="04">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.400 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="05">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.450 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="06">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.550 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="07">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="open-drain"/>
+<attribute name="OVP" value="4.225 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="08">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.500 v"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="11">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.220 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="12">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.125 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
+</technology>
+<technology name="13">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="110 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="OUTPUT" value="CMOS"/>
+<attribute name="OVP" value="4.600 V"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="20.0 V"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<deviceset name="TMP1075" urn="urn:adsk.eagle:component:33516581/1" prefix="IC" library_version="5">
+<description>&lt;b&gt;TMP1075 Temperature Sensor With I2C and SMBus Interface&lt;/b&gt;&lt;br /&gt;
+±1°C (Maximum) From −40°C to +110°C (TMP1075DGK / TMP1075D)&lt;br /&gt;
+Wide Supply Range: 1.7 V to 5.5 V</description>
 <gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
+<gate name="G$1" symbol="TMP1075" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="DGK" package="S-PDSO-G8_DGK_VSSOP_TI">
+<connects>
+<connect gate="G$1" pin="A0" pad="7"/>
+<connect gate="G$1" pin="A1" pad="6"/>
+<connect gate="G$1" pin="A2" pad="5"/>
+<connect gate="G$1" pin="ALERT" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="2"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516348/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CHANGED" value="2017-09-13"/>
-<attribute name="CREATED" value="2017-09-13"/>
+<attribute name="ALIGNI_PN" value="61-00015"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00266"/>
+<attribute name="ALT_1_MAN" value="TI"/>
+<attribute name="ALT_1_MAN_PN" value="TMP1075DGKT"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2020-06-18"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAN_PN" value="TMP1075DGKR"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="TMP1075DGK"/>
+<attribute name="VOLTAGE" value="5.5 V"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+VBAT" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<deviceset name="TMP112" urn="urn:adsk.eagle:component:33516664/1" prefix="IC" library_version="5">
+<description>&lt;b&gt;TMP112, Temperature Sensor, I2C, low power, high accuracy&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="+VBAT" x="0" y="0"/>
+<gate name="G$1" symbol="TMP112" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="DRL" package="DRL0006A_TI">
+<connects>
+<connect gate="G$1" pin="ADD0" pad="4"/>
+<connect gate="G$1" pin="ALERT" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516425/1"/>
+</package3dinstances>
+<technologies>
+<technology name="AI">
+<attribute name="CHANGED" value="2021-10-14"/>
+<attribute name="CREATED" value="2021-10-14"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="3.6 V"/>
+</technology>
+<technology name="BI">
+<attribute name="CHANGED" value="2021-10-14"/>
+<attribute name="CREATED" value="2021-10-14"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="3.6 V"/>
+</technology>
+<technology name="NAI">
+<attribute name="ALIGNI_PN" value="61-00458"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00577"/>
+<attribute name="ALT_1_MAN" value="TI"/>
+<attribute name="ALT_1_MAN_PN" value="TMP112NAIDRLT"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-10-14"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAN_PN" value="TMP112NAIDRLR"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="TMP112NAIDRL"/>
+<attribute name="VOLTAGE" value="3.6 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="824001" urn="urn:adsk.eagle:component:33516579/1" prefix="IC" library_version="5">
+<description>&lt;b&gt;824001, WE-TVS, 4-lanes, VBUS = 5V&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="WE-TVS_4_LANE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6L_WE">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="I/O1" pad="1"/>
+<connect gate="G$1" pin="I/O2" pad="3"/>
+<connect gate="G$1" pin="I/O3" pad="4"/>
+<connect gate="G$1" pin="I/O4" pad="6"/>
+<connect gate="G$1" pin="VBUS" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516321/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CHANGED" value="2017-09-13"/>
-<attribute name="CREATED" value="2017-09-13"/>
+<attribute name="ALIGNI_PN" value="61-00150"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-07-28"/>
+<attribute name="MANUFACTURER" value="Wuerth"/>
+<attribute name="MAN_PN" value="824001"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-55 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="824001"/>
+<attribute name="VOLTAGE" value="5.0 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32G431C" urn="urn:adsk.eagle:component:33516677/1" prefix="IC" library_version="5">
+<description>&lt;b&gt;STM32G431xUx&lt;/b&gt;</description>
+<gates>
+<gate name="-MISC" symbol="STM32G431C_MISC" x="-53.34" y="35.56" addlevel="always"/>
+<gate name="-PORTA" symbol="STM32G431C_PORTA" x="-50.8" y="-48.26" addlevel="always"/>
+<gate name="-PORTB" symbol="STM32G431C_PORTB" x="48.26" y="-45.72" addlevel="always"/>
+<gate name="-PORTC" symbol="STM32G431C_PORTC" x="38.1" y="30.48" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="UFQFPN48_ST">
+<connects>
+<connect gate="-MISC" pin="!NRST!/PG10/MCO" pad="7"/>
+<connect gate="-MISC" pin="OSC32_IN/PC14" pad="3"/>
+<connect gate="-MISC" pin="OSC32_OUT/PC15" pad="4"/>
+<connect gate="-MISC" pin="OSC_IN/PF0" pad="5"/>
+<connect gate="-MISC" pin="OSC_OUT/PF1" pad="6"/>
+<connect gate="-MISC" pin="VBAT" pad="1"/>
+<connect gate="-MISC" pin="VDD1" pad="23"/>
+<connect gate="-MISC" pin="VDD2" pad="35"/>
+<connect gate="-MISC" pin="VDD3" pad="48"/>
+<connect gate="-MISC" pin="VDDA" pad="21"/>
+<connect gate="-MISC" pin="VREF+/VREFBUF_OUT" pad="20"/>
+<connect gate="-MISC" pin="VSS" pad="EP1 EP2 EP3 EP4 EP5 EP6 EP7 EP8 EP9"/>
+<connect gate="-PORTA" pin="PA0" pad="8"/>
+<connect gate="-PORTA" pin="PA1" pad="9"/>
+<connect gate="-PORTA" pin="PA10" pad="32"/>
+<connect gate="-PORTA" pin="PA11" pad="33"/>
+<connect gate="-PORTA" pin="PA12" pad="34"/>
+<connect gate="-PORTA" pin="PA13" pad="36"/>
+<connect gate="-PORTA" pin="PA14" pad="37"/>
+<connect gate="-PORTA" pin="PA15" pad="38"/>
+<connect gate="-PORTA" pin="PA2" pad="10"/>
+<connect gate="-PORTA" pin="PA3" pad="11"/>
+<connect gate="-PORTA" pin="PA4" pad="12"/>
+<connect gate="-PORTA" pin="PA5" pad="13"/>
+<connect gate="-PORTA" pin="PA6" pad="14"/>
+<connect gate="-PORTA" pin="PA7" pad="15"/>
+<connect gate="-PORTA" pin="PA8" pad="30"/>
+<connect gate="-PORTA" pin="PA9" pad="31"/>
+<connect gate="-PORTB" pin="PB0" pad="17"/>
+<connect gate="-PORTB" pin="PB1" pad="18"/>
+<connect gate="-PORTB" pin="PB10" pad="22"/>
+<connect gate="-PORTB" pin="PB11" pad="24"/>
+<connect gate="-PORTB" pin="PB12" pad="25"/>
+<connect gate="-PORTB" pin="PB13" pad="26"/>
+<connect gate="-PORTB" pin="PB14" pad="27"/>
+<connect gate="-PORTB" pin="PB15" pad="28"/>
+<connect gate="-PORTB" pin="PB2" pad="19"/>
+<connect gate="-PORTB" pin="PB3" pad="41"/>
+<connect gate="-PORTB" pin="PB4" pad="42"/>
+<connect gate="-PORTB" pin="PB5" pad="43"/>
+<connect gate="-PORTB" pin="PB6" pad="44"/>
+<connect gate="-PORTB" pin="PB7" pad="45"/>
+<connect gate="-PORTB" pin="PB8" pad="46"/>
+<connect gate="-PORTB" pin="PB9" pad="47"/>
+<connect gate="-PORTC" pin="PC10" pad="39"/>
+<connect gate="-PORTC" pin="PC11" pad="40"/>
+<connect gate="-PORTC" pin="PC13" pad="2"/>
+<connect gate="-PORTC" pin="PC4" pad="16"/>
+<connect gate="-PORTC" pin="PC6" pad="29"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516469/1"/>
+</package3dinstances>
+<technologies>
+<technology name="6U3">
+<attribute name="CHANGED" value="2021-08-30"/>
+<attribute name="CREATED" value="2021-08-30"/>
+<attribute name="FLASH" value="32 Kbytes"/>
+<attribute name="MANUFACTURER" value="STM"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="3.6 V"/>
+</technology>
+<technology name="6U6">
+<attribute name="CHANGED" value="2021-08-30"/>
+<attribute name="CREATED" value="2021-08-30"/>
+<attribute name="FLASH" value="32 Kbytes"/>
+<attribute name="MANUFACTURER" value="STM"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="3.6 V"/>
+</technology>
+<technology name="8U3">
+<attribute name="CHANGED" value="2021-08-30"/>
+<attribute name="CREATED" value="2021-08-30"/>
+<attribute name="FLASH" value="64 Kbytes"/>
+<attribute name="MANUFACTURER" value="STM"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="3.6 V"/>
+</technology>
+<technology name="8U6">
+<attribute name="CHANGED" value="2021-08-30"/>
+<attribute name="CREATED" value="2021-08-30"/>
+<attribute name="FLASH" value="64 Kbytes"/>
+<attribute name="MANUFACTURER" value="STM"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="3.6 V"/>
+</technology>
+<technology name="BU3">
+<attribute name="CHANGED" value="2021-08-30"/>
+<attribute name="CREATED" value="2021-08-30"/>
+<attribute name="FLASH" value="128 Kbytes"/>
+<attribute name="MANUFACTURER" value="STM"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="3.6 V"/>
+</technology>
+<technology name="BU6">
+<attribute name="ALIGNI_PN" value="61-00341"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-08-30"/>
+<attribute name="FLASH" value="128 Kbytes"/>
+<attribute name="MANUFACTURER" value="STM"/>
+<attribute name="MAN_PN" value="STM32G431CBU6"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="STM32G431CBU6"/>
+<attribute name="VOLTAGE" value="3.6 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS709" urn="urn:adsk.eagle:component:33516688/1" prefix="IC" library_version="5">
+<description>&lt;b&gt;TPS709, LDO, V_in = 2.7...30 V, 150 mA&lt;/b&gt;&lt;br /&gt;
+- Ultralow IQ: 1 μA&lt;br /&gt;
+- Reverse Current Protection&lt;br /&gt;
+- 2% Accuracy Over Temperature</description>
+<gates>
+<gate name="G$1" symbol="TPS709" x="0" y="0"/>
+</gates>
+<devices>
+<device name="30DRV" package="DRV0006A_TI">
+<connects>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="GND" pad="3 7.1 7.2"/>
+<connect gate="G$1" pin="IN" pad="6"/>
+<connect gate="G$1" pin="NC" pad="2 5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516467/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2020-10-16"/>
+<attribute name="CREATED" value="2020-10-16"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VOLTAGE" value="30.0 V"/>
+<attribute name="VOUT" value="3.0 V"/>
+</technology>
+</technologies>
+</device>
+<device name="33DRV" package="DRV0006A_TI">
+<connects>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="GND" pad="3 7.1 7.2"/>
+<connect gate="G$1" pin="IN" pad="6"/>
+<connect gate="G$1" pin="NC" pad="2 5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516467/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00022"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00584"/>
+<attribute name="ALT_1_MAN" value="TI"/>
+<attribute name="ALT_1_MAN_PN" value="TPS70933DRVRM3"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00583"/>
+<attribute name="ALT_2_MAN" value="TI"/>
+<attribute name="ALT_2_MAN_PN" value="TPS70933DRVT"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2020-11-14"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAN_PN" value="TPS70933DRVR"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="TPS70933DRV"/>
+<attribute name="VOLTAGE" value="30.0 V"/>
+<attribute name="VOUT" value="3.3 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BQ24780S" urn="urn:adsk.eagle:component:33516665/1" prefix="IC" library_version="5">
+<description>&lt;b&gt;bq24780S, 1- to 4-Cell Hybrid Power Boost Mode Battery Charge Controller&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="BQ24780S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="RUY" package="RUY0028A_TI">
+<connects>
+<connect gate="G$1" pin="!BATPRES" pad="15"/>
+<connect gate="G$1" pin="!PROCHOT" pad="10"/>
+<connect gate="G$1" pin="!TB_STAT" pad="16"/>
+<connect gate="G$1" pin="ACDET" pad="6"/>
+<connect gate="G$1" pin="ACDRV" pad="4"/>
+<connect gate="G$1" pin="ACN" pad="1"/>
+<connect gate="G$1" pin="ACOK" pad="5"/>
+<connect gate="G$1" pin="ACP" pad="2"/>
+<connect gate="G$1" pin="BATDRV" pad="18"/>
+<connect gate="G$1" pin="BATSRC" pad="17"/>
+<connect gate="G$1" pin="BTST" pad="25"/>
+<connect gate="G$1" pin="CMPIN" pad="13"/>
+<connect gate="G$1" pin="CMPOUT" pad="14"/>
+<connect gate="G$1" pin="CMSRC" pad="3"/>
+<connect gate="G$1" pin="GND" pad="22 E1 E2 E3 E4 E5"/>
+<connect gate="G$1" pin="HIDRV" pad="26"/>
+<connect gate="G$1" pin="IADP" pad="7"/>
+<connect gate="G$1" pin="IDCHG" pad="8"/>
+<connect gate="G$1" pin="ILIM" pad="21"/>
+<connect gate="G$1" pin="LODRV" pad="23"/>
+<connect gate="G$1" pin="PHASE" pad="27"/>
+<connect gate="G$1" pin="PMON" pad="9"/>
+<connect gate="G$1" pin="REGN" pad="24"/>
+<connect gate="G$1" pin="SCL" pad="12"/>
+<connect gate="G$1" pin="SDA" pad="11"/>
+<connect gate="G$1" pin="SRN" pad="19"/>
+<connect gate="G$1" pin="SRP" pad="20"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516438/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00006"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00548"/>
+<attribute name="ALT_1_MAN" value="TI"/>
+<attribute name="ALT_1_MAN_PN" value="BQ24780SRUYT"/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2020-12-22"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAN_PN" value="BQ24780SRUYR"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="BQ24780SRUY"/>
+<attribute name="VOLTAGE" value="24.0 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BQ769X2" urn="urn:adsk.eagle:component:33516606/1" prefix="IC" library_version="5">
+<description>&lt;b&gt;Device for BQ76942/BQ76952 High Accuracy 3-s to 10/16-s High Accuracy Battery Monitor and Protector&lt;/b&gt;</description>
+<gates>
+<gate name="-PWR" symbol="BQ769X2_PWR" x="-17.78" y="-15.24"/>
+<gate name="-IO" symbol="BQ769X2_IO" x="22.86" y="2.54"/>
+</gates>
+<devices>
+<device name="PFB" package="S-PQFP-G48_PFB_TI">
+<connects>
+<connect gate="-IO" pin="ALERT" pad="25"/>
+<connect gate="-IO" pin="CFETOFF" pad="29"/>
+<connect gate="-IO" pin="DCHG" pad="31"/>
+<connect gate="-IO" pin="DDSG" pad="32"/>
+<connect gate="-IO" pin="DFETOFF" pad="30"/>
+<connect gate="-IO" pin="FUSE" pad="38"/>
+<connect gate="-IO" pin="HDQ" pad="28"/>
+<connect gate="-IO" pin="LD" pad="41"/>
+<connect gate="-IO" pin="PACK" pad="42"/>
+<connect gate="-IO" pin="PCHG" pad="40"/>
+<connect gate="-IO" pin="PDSG" pad="39"/>
+<connect gate="-IO" pin="RST_SHUT" pad="33"/>
+<connect gate="-IO" pin="SCL" pad="26"/>
+<connect gate="-IO" pin="SDA" pad="27"/>
+<connect gate="-IO" pin="TS1" pad="21"/>
+<connect gate="-IO" pin="TS2" pad="22"/>
+<connect gate="-IO" pin="TS3" pad="23"/>
+<connect gate="-PWR" pin="BAT" pad="47"/>
+<connect gate="-PWR" pin="BREG" pad="37"/>
+<connect gate="-PWR" pin="CHG" pad="45"/>
+<connect gate="-PWR" pin="CP1" pad="46"/>
+<connect gate="-PWR" pin="DSG" pad="43"/>
+<connect gate="-PWR" pin="NC" pad="19 44"/>
+<connect gate="-PWR" pin="NC__/VC11" pad="5"/>
+<connect gate="-PWR" pin="NC__/VC13" pad="3"/>
+<connect gate="-PWR" pin="NC__/VC15" pad="1"/>
+<connect gate="-PWR" pin="NC__/VC5" pad="11"/>
+<connect gate="-PWR" pin="NC__/VC7" pad="9"/>
+<connect gate="-PWR" pin="NC__/VC9" pad="7"/>
+<connect gate="-PWR" pin="REG1" pad="35"/>
+<connect gate="-PWR" pin="REG18" pad="24"/>
+<connect gate="-PWR" pin="REG2" pad="34"/>
+<connect gate="-PWR" pin="REGIN" pad="36"/>
+<connect gate="-PWR" pin="SRN" pad="20"/>
+<connect gate="-PWR" pin="SRP" pad="18"/>
+<connect gate="-PWR" pin="VC0" pad="16"/>
+<connect gate="-PWR" pin="VC1" pad="15"/>
+<connect gate="-PWR" pin="VC10/VC16" pad="48"/>
+<connect gate="-PWR" pin="VC2" pad="14"/>
+<connect gate="-PWR" pin="VC3" pad="13"/>
+<connect gate="-PWR" pin="VC4" pad="12"/>
+<connect gate="-PWR" pin="VC5_/VC6" pad="10"/>
+<connect gate="-PWR" pin="VC6_/VC8" pad="8"/>
+<connect gate="-PWR" pin="VC7_/VC10" pad="6"/>
+<connect gate="-PWR" pin="VC8_/VC12" pad="4"/>
+<connect gate="-PWR" pin="VC9_/VC14" pad="2"/>
+<connect gate="-PWR" pin="VSS" pad="17"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516358/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00337"/>
+<attribute name="ALT_1_ALIGNI_PN" value="61-00463"/>
+<attribute name="ALT_1_MAN" value="TI"/>
+<attribute name="ALT_1_MAN_PN" value="BQ76942PFBR"/>
+<attribute name="ALT_2_ALIGNI_PN" value="61-00007"/>
+<attribute name="ALT_2_MAN" value="TI"/>
+<attribute name="ALT_2_MAN_PN" value="BQ76952PFBR"/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-06-28"/>
+<attribute name="MANUFACTURER" value="TI"/>
+<attribute name="MAN_PN" value="see alternatives"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="BQ769X2PFB"/>
+<attribute name="VOLTAGE" value="55.0 / 80.0 V"/>
 </technology>
 </technologies>
 </device>
@@ -5424,16 +8903,9 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="07_DT_Miscellaneous" urn="urn:adsk.eagle:library:24370246">
+<library name="07_TFH_Miscellaneous" urn="urn:adsk.eagle:library:33515500">
 <packages>
-<package name="TESTVIA_ROUND_0.8MM" urn="urn:adsk.eagle:footprint:24370257/1" library_version="3">
-<description>&lt;b&gt;Test Via&lt;/b&gt;</description>
-<text x="0" y="0.925" size="0.8" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.925" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<circle x="0" y="0" radius="0.825" width="0.15" layer="39"/>
-<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.5"/>
-</package>
-<package name="PASSERMARKE" urn="urn:adsk.eagle:footprint:24370263/1" library_version="5">
+<package name="PASSERMARKE" urn="urn:adsk.eagle:footprint:33515695/1" library_version="3">
 <smd name="P$1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 <polygon width="0.127" layer="29">
 <vertex x="-1.5" y="0" curve="-90"/>
@@ -5460,31 +8932,29 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 </polygon>
 <circle x="0" y="0" radius="1.5" width="0.127" layer="21"/>
 </package>
+<package name="TESTVIA_ROUND_0.8MM" urn="urn:adsk.eagle:footprint:33515711/1" library_version="3">
+<description>&lt;b&gt;Test Via&lt;/b&gt;</description>
+<text x="0" y="0.925" size="0.8" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.925" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.825" width="0.15" layer="39"/>
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.5"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="TESTVIA_ROUND_0.8MM" urn="urn:adsk.eagle:package:24370295/2" type="empty" library_version="3">
+<package3d name="PASSERMARKE" urn="urn:adsk.eagle:package:33515805/1" type="empty" library_version="3">
+<packageinstances>
+<packageinstance name="PASSERMARKE"/>
+</packageinstances>
+</package3d>
+<package3d name="TESTVIA_ROUND_0.8MM" urn="urn:adsk.eagle:package:33515795/1" type="empty" library_version="3">
 <description>&lt;b&gt;Test Via&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="TESTVIA_ROUND_0.8MM"/>
 </packageinstances>
 </package3d>
-<package3d name="PASSERMARKE" urn="urn:adsk.eagle:package:24370301/2" type="empty" library_version="5">
-<packageinstances>
-<packageinstance name="PASSERMARKE"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
-<symbol name="TESTPOINT" urn="urn:adsk.eagle:symbol:24370275/1" library_version="3">
-<wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<text x="0" y="0.508" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="1.27" y="-1.778" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
-</symbol>
-<symbol name="PASSERMARKE" urn="urn:adsk.eagle:symbol:24370274/1" library_version="5">
+<symbol name="PASSERMARKE" urn="urn:adsk.eagle:symbol:33515702/1" library_version="3">
 <circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
 <polygon width="0.254" layer="94">
 <vertex x="-2.54" y="0" curve="-90"/>
@@ -5495,9 +8965,36 @@ SURFACE MOUNT SCHOTTKY BARRIER DIODE</description>
 <text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="5.08" y="-4.318" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TESTPOINT" urn="urn:adsk.eagle:symbol:33515720/1" library_version="3">
+<wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<text x="0" y="0.508" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-1.778" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="TESTPOINT_VIA_ROUND_0.8MM" urn="urn:adsk.eagle:component:24370315/2" prefix="TP" library_version="3">
+<deviceset name="PASSERMARKE" urn="urn:adsk.eagle:component:33515858/1" prefix="PS" library_version="3">
+<gates>
+<gate name="G$1" symbol="PASSERMARKE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PASSERMARKE">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515805/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2017-11-07"/>
+<attribute name="CREATED" value="2017-11-07"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TESTPOINT_VIA_ROUND_0.8MM" urn="urn:adsk.eagle:component:33515861/1" prefix="TP" library_version="3">
 <description>&lt;b&gt;Testpoint&lt;/b&gt;&lt;br/&gt;
 THT&lt;br/&gt;
 Round 1.5 mm diameter, 0.8 mm hole&lt;br/&gt;</description>
@@ -5510,7 +9007,7 @@ Round 1.5 mm diameter, 0.8 mm hole&lt;br/&gt;</description>
 <connect gate="G$1" pin="TP" pad="P$1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370295/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33515795/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5521,29 +9018,11 @@ Round 1.5 mm diameter, 0.8 mm hole&lt;br/&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PASSERMARKE" urn="urn:adsk.eagle:component:24370321/2" prefix="PS" library_version="5">
-<gates>
-<gate name="G$1" symbol="PASSERMARKE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PASSERMARKE">
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24370301/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2017-11-07"/>
-<attribute name="CREATED" value="2017-11-07"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
-<library name="05_DT_Electromechanic" urn="urn:adsk.eagle:library:25339718">
+<library name="05_TFH_Electromechanic" urn="urn:adsk.eagle:library:33516758">
 <packages>
-<package name="430451025836_WUERTH" urn="urn:adsk.eagle:footprint:27086788/1" library_version="12">
+<package name="430451025836_WUERTH" urn="urn:adsk.eagle:footprint:33516796/1" library_version="5">
 <description>aus Datenblatt 430451025836</description>
 <smd name="1" x="-3.5" y="2" dx="2" dy="1.4" layer="1"/>
 <smd name="2" x="3.5" y="2" dx="2" dy="1.4" layer="1"/>
@@ -5569,7 +9048,7 @@ Round 1.5 mm diameter, 0.8 mm hole&lt;br/&gt;</description>
 <text x="0" y="-3.375" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
 <circle x="0" y="0" radius="1.5" width="0.127" layer="51"/>
 </package>
-<package name="702916000_WUERTH" urn="urn:adsk.eagle:footprint:30517227/1" library_version="14">
+<package name="702916000_WUERTH" urn="urn:adsk.eagle:footprint:33516807/1" library_version="5">
 <description>Aus Drawing 702 91x xxx</description>
 <pad name="P$1" x="0" y="0" drill="3" diameter="3.3"/>
 <circle x="0" y="0" radius="2.1" width="0.127" layer="21"/>
@@ -5581,13 +9060,13 @@ Round 1.5 mm diameter, 0.8 mm hole&lt;br/&gt;</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="430451025836_WUERTH" urn="urn:adsk.eagle:package:27086789/2" type="model" library_version="12">
+<package3d name="430451025836_WUERTH" urn="urn:adsk.eagle:package:33516855/1" type="model" library_version="5">
 <description>aus Datenblatt 430451025836</description>
 <packageinstances>
 <packageinstance name="430451025836_WUERTH"/>
 </packageinstances>
 </package3d>
-<package3d name="702916000_WUERTH" urn="urn:adsk.eagle:package:30517229/2" type="model" library_version="14">
+<package3d name="702916000_WUERTH" urn="urn:adsk.eagle:package:33516847/1" type="model" library_version="5">
 <description>Aus Drawing 702 91x xxx</description>
 <packageinstances>
 <packageinstance name="702916000_WUERTH"/>
@@ -5595,7 +9074,7 @@ Round 1.5 mm diameter, 0.8 mm hole&lt;br/&gt;</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="BUTTON_SPST" urn="urn:adsk.eagle:symbol:25339748/1" library_version="8">
+<symbol name="BUTTON_SPST" urn="urn:adsk.eagle:symbol:33516776/1" library_version="5">
 <wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
 <wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
 <wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
@@ -5612,7 +9091,7 @@ Round 1.5 mm diameter, 0.8 mm hole&lt;br/&gt;</description>
 <pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="S" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
-<symbol name="WA-SPACER" urn="urn:adsk.eagle:symbol:30517249/1" library_version="14">
+<symbol name="WA-SPACER" urn="urn:adsk.eagle:symbol:33516783/1" library_version="5">
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 <text x="-5.08" y="4.826" size="1.778" layer="95">&gt;Name</text>
 <text x="-5.08" y="-5.08" size="1.778" layer="95">&gt;Value</text>
@@ -5620,7 +9099,7 @@ Round 1.5 mm diameter, 0.8 mm hole&lt;br/&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="430451025836" urn="urn:adsk.eagle:component:27086790/3" prefix="S" library_version="15">
+<deviceset name="430451025836" urn="urn:adsk.eagle:component:33516906/1" prefix="S" library_version="5">
 <description>&lt;b&gt;430451025836, WS-TASV SMT Tact Switch&lt;/b&gt;</description>
 <gates>
 <gate name="SW" symbol="BUTTON_SPST" x="-2.54" y="7.62" addlevel="always"/>
@@ -5632,356 +9111,11 @@ Round 1.5 mm diameter, 0.8 mm hole&lt;br/&gt;</description>
 <connect gate="SW" pin="S" pad="1 2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27086789/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516855/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CHANGED" value="2021-02-24"/>
-<attribute name="CREATED" value="2021-02-24"/>
-<attribute name="CURRENT" value="50 mA"/>
-<attribute name="MANUFACTURER" value="Wuerth"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-40 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="12.0 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="702916000" urn="urn:adsk.eagle:component:30517250/2" prefix="SPACER" library_version="15">
-<description>&lt;b&gt;702916000, WA-SNSR Self-Retaining Spacer, Nylon 66, L=4.5mm, D=2.1mm&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="WA-SPACER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="702916000_WUERTH">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30517229/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-08-25"/>
-<attribute name="CREATED" value="2021-08-25"/>
-<attribute name="MANUFACTURER" value="Wuerth"/>
-<attribute name="MAX_OP_TEMP" value="85 °C"/>
-<attribute name="MIN_OP_TEMP" value="-30 °C"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="supply1">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="01_DT_Fuses" urn="urn:adsk.eagle:library:24371617">
-<packages>
-<package name="0680L_BEL_FUSE" urn="urn:adsk.eagle:footprint:30535715/1" library_version="7">
-<description>from datasheet "Type 0680L"</description>
-<wire x1="-3.51" y1="1.65" x2="3.51" y2="1.65" width="0.15" layer="39"/>
-<wire x1="3.51" y1="1.65" x2="3.51" y2="-1.65" width="0.15" layer="39"/>
-<wire x1="3.51" y1="-1.65" x2="-3.51" y2="-1.65" width="0.15" layer="39"/>
-<wire x1="-3.51" y1="-1.65" x2="-3.51" y2="1.65" width="0.15" layer="39"/>
-<wire x1="-1.5" y1="1.345" x2="1.5" y2="1.345" width="0.1" layer="21"/>
-<wire x1="1.5" y1="-1.345" x2="-1.5" y2="-1.345" width="0.1" layer="21"/>
-<smd name="1" x="-2.455" y="0" dx="1.96" dy="3.15" layer="1"/>
-<smd name="2" x="2.455" y="0" dx="1.96" dy="3.15" layer="1"/>
-<text x="0" y="1.75" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.75" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-3.175" y1="-1.395" x2="-1.4" y2="1.395" layer="51"/>
-<rectangle x1="1.4" y1="-1.395" x2="3.175" y2="1.395" layer="51" rot="R180"/>
-</package>
-<package name="SFJ-XX12_DEXERIALS" urn="urn:adsk.eagle:footprint:30539534/1" library_version="9">
-<smd name="T2" x="-1.9" y="0" dx="1.2" dy="1.6" layer="1"/>
-<smd name="T1" x="0.25" y="1.225" dx="2.4" dy="1.55" layer="1"/>
-<smd name="T3" x="0.25" y="-1.225" dx="2.4" dy="1.55" layer="1"/>
-<wire x1="-2.05" y1="1.55" x2="-2.05" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="-2.05" y1="-1.55" x2="2.05" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="2.05" y1="-1.55" x2="2.05" y2="1.55" width="0.127" layer="21"/>
-<wire x1="2.05" y1="1.55" x2="-2.05" y2="1.55" width="0.127" layer="21"/>
-<wire x1="2.125" y1="1.625" x2="1.525" y2="1.625" width="0.15" layer="39"/>
-<wire x1="1.525" y1="1.625" x2="1.525" y2="2.075" width="0.15" layer="39"/>
-<wire x1="1.525" y1="2.075" x2="-1.025" y2="2.075" width="0.15" layer="39"/>
-<wire x1="-1.025" y1="2.075" x2="-1.025" y2="1.625" width="0.15" layer="39"/>
-<wire x1="-1.025" y1="1.625" x2="-2.125" y2="1.625" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="1.625" x2="-2.125" y2="0.875" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="0.875" x2="-2.6" y2="0.875" width="0.15" layer="39"/>
-<wire x1="2.125" y1="-1.625" x2="1.525" y2="-1.625" width="0.15" layer="39"/>
-<wire x1="1.525" y1="-1.625" x2="1.525" y2="-2.075" width="0.15" layer="39"/>
-<wire x1="1.525" y1="-2.075" x2="-1.025" y2="-2.075" width="0.15" layer="39"/>
-<wire x1="-1.025" y1="-2.075" x2="-1.025" y2="-1.625" width="0.15" layer="39"/>
-<wire x1="-1.025" y1="-1.625" x2="-2.125" y2="-1.625" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="-1.625" x2="-2.125" y2="-0.875" width="0.15" layer="39"/>
-<wire x1="-2.125" y1="-0.875" x2="-2.6" y2="-0.875" width="0.15" layer="39"/>
-<wire x1="-2.6" y1="-0.875" x2="-2.6" y2="0.875" width="0.15" layer="39"/>
-<wire x1="2.125" y1="-1.625" x2="2.125" y2="1.625" width="0.15" layer="39"/>
-<text x="0.2" y="2.175" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.175" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="-1.6" y1="-1" x2="-1.2" y2="0" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="0680L_BEL_FUSE" urn="urn:adsk.eagle:package:30535716/2" type="model" library_version="7">
-<description>from datasheet "Type 0680L"</description>
-<packageinstances>
-<packageinstance name="0680L_BEL_FUSE"/>
-</packageinstances>
-</package3d>
-<package3d name="SFJ-XX12_DEXERIALS" urn="urn:adsk.eagle:package:30539536/2" type="model" library_version="9">
-<description>DFN3, 4.00 X 3.00 X 0.95 mm body
-&lt;p&gt;DFN3 package with body size 4.00 X 3.00 X 0.95 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SFJ-XX12_DEXERIALS"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="FUSE" urn="urn:adsk.eagle:symbol:24371624/1" library_version="7">
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="92.795489"/>
-<wire x1="1.524" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="92.795489"/>
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<text x="-3.81" y="1.397" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="SCP_FUSE" urn="urn:adsk.eagle:symbol:30539535/1" library_version="9">
-<description>fuse with heater connection for external control</description>
-<wire x1="-5.08" y1="2.54" x2="-4.064" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-4.064" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94" curve="92.795489"/>
-<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94" curve="92.795489"/>
-<wire x1="-1.016" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.016" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="92.795489"/>
-<wire x1="4.064" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="4.064" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="92.795489"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.032" x2="-0.762" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-1.524" x2="0.762" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-0.508" x2="0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="-0.762" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0.508" x2="0.762" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="1.016" x2="-0.762" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="1.524" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.032" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="3.556" x2="5.08" y2="3.556" width="0.254" layer="94"/>
-<wire x1="5.08" y1="3.556" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="3.556" width="0.254" layer="94"/>
-<text x="-5.08" y="4.191" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="F1" x="-7.62" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="F2" x="7.62" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="H" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0680L" urn="urn:adsk.eagle:component:30535752/2" prefix="F" library_version="10">
-<description>&lt;b&gt;0680L, SMD slow blow fuse&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0680L_BEL_FUSE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30535716/2"/>
-</package3dinstances>
-<technologies>
-<technology name="9100-0">
-<attribute name="CHANGED" value="2021-08-26"/>
-<attribute name="CREATED" value="2021-08-26"/>
-<attribute name="CURRENT" value="10.0 A"/>
-<attribute name="MANUFACTURER" value="Bel Fuse"/>
-<attribute name="MAX_OP_TEMP" value="125 °C"/>
-<attribute name="MIN_OP_TEMP" value="-55 °C"/>
-<attribute name="PLATING" value="silver"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SFJ-1412" urn="urn:adsk.eagle:component:30539690/2" prefix="F" library_version="10">
-<description>&lt;b&gt;SFJ-1412, self control protector fuse, 12 A, 10.5 to 19.6 V&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="SCP_FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SFJ-XX12_DEXERIALS">
-<connects>
-<connect gate="G$1" pin="F1" pad="T1"/>
-<connect gate="G$1" pin="F2" pad="T3"/>
-<connect gate="G$1" pin="H" pad="T2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539536/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CHANGED" value="2021-08-26"/>
-<attribute name="CREATED" value="2021-08-26"/>
-<attribute name="CURRENT" value="12.0 A"/>
-<attribute name="MANUFACTURER" value="Dexerials"/>
-<attribute name="MAX_OP_TEMP" value="???"/>
-<attribute name="MIN_OP_TEMP" value="???"/>
-<attribute name="ROHS" value="yes"/>
-<attribute name="STATUS" value="active"/>
-<attribute name="VOLTAGE" value="19.6 V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="02_TFH_Discrete_Semiconductors" urn="urn:adsk.eagle:library:33514804">
-<packages>
-<package name="SOT-323_DIODES_INC" urn="urn:adsk.eagle:footprint:33514842/1" library_version="5">
-<description>&lt;b&gt;SOT323&lt;/b&gt;&lt;br/&gt;
-Aus Datenblatt DMG1012UW</description>
-<smd name="1" x="0.95" y="-0.65" dx="0.9" dy="0.7" layer="1"/>
-<smd name="2" x="0.95" y="0.65" dx="0.9" dy="0.7" layer="1"/>
-<smd name="3" x="-0.95" y="0" dx="0.9" dy="0.7" layer="1"/>
-<wire x1="-0.675" y1="-1.1" x2="0.675" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="0.675" y1="-1.1" x2="0.675" y2="1.1" width="0.127" layer="21"/>
-<wire x1="0.675" y1="1.1" x2="-0.675" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.675" y1="1.1" x2="-0.675" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.775" y1="1.175" x2="0.775" y2="1.175" width="0.15" layer="39"/>
-<wire x1="0.775" y1="1.175" x2="0.775" y2="1.075" width="0.15" layer="39"/>
-<wire x1="0.775" y1="1.075" x2="1.475" y2="1.075" width="0.15" layer="39"/>
-<wire x1="1.475" y1="1.075" x2="1.475" y2="-1.075" width="0.15" layer="39"/>
-<wire x1="1.475" y1="-1.075" x2="0.775" y2="-1.075" width="0.15" layer="39"/>
-<wire x1="0.775" y1="-1.075" x2="0.775" y2="-1.175" width="0.15" layer="39"/>
-<wire x1="0.775" y1="-1.175" x2="-0.775" y2="-1.175" width="0.15" layer="39"/>
-<wire x1="-0.775" y1="-1.175" x2="-0.775" y2="-0.425" width="0.15" layer="39"/>
-<wire x1="-0.775" y1="-0.425" x2="-1.475" y2="-0.425" width="0.15" layer="39"/>
-<wire x1="-1.475" y1="-0.425" x2="-1.475" y2="0.425" width="0.15" layer="39"/>
-<wire x1="-1.475" y1="0.425" x2="-0.775" y2="0.425" width="0.15" layer="39"/>
-<wire x1="-0.775" y1="0.425" x2="-0.775" y2="1.175" width="0.15" layer="39"/>
-<text x="0" y="1.275" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.275" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
-<rectangle x1="0.675" y1="0.45" x2="1.1" y2="0.85" layer="27"/>
-<rectangle x1="0.675" y1="-0.85" x2="1.1" y2="-0.45" layer="27"/>
-<rectangle x1="-1.1" y1="-0.2" x2="-0.675" y2="0.2" layer="27" rot="R180"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT-323_DIODES_INC" urn="urn:adsk.eagle:package:33514940/1" type="model" library_version="5">
-<description>&lt;b&gt;SOT323&lt;/b&gt;&lt;br/&gt;
-Aus Datenblatt DMG1012UW</description>
-<packageinstances>
-<packageinstance name="SOT-323_DIODES_INC"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MOSFET_N-CH" urn="urn:adsk.eagle:symbol:33514833/1" library_version="5">
-<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
-<text x="6.35" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="6.35" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="0.508"/>
-<vertex x="3.302" y="-0.254"/>
-<vertex x="4.318" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="1.016" y="0"/>
-<vertex x="2.032" y="0.762"/>
-<vertex x="2.032" y="-0.762"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DMG1012UW-7" urn="urn:adsk.eagle:component:33515124/1" prefix="T" library_version="5">
-<description>&lt;b&gt;DMG1012UW-7&lt;/b&gt;&lt;br /&gt;
-N-CHANNEL ENHANCEMENT MODE MOSFET</description>
-<gates>
-<gate name="G$1" symbol="MOSFET_N-CH" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-323_DIODES_INC">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33514940/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="ALIGNI_PN" value="61-00115"/>
+<attribute name="ALIGNI_PN" value="61-00270"/>
 <attribute name="ALT_1_ALIGNI_PN" value=""/>
 <attribute name="ALT_1_MAN" value=""/>
 <attribute name="ALT_1_MAN_PN" value=""/>
@@ -5995,17 +9129,752 @@ N-CHANNEL ENHANCEMENT MODE MOSFET</description>
 <attribute name="ALT_4_MAN" value=""/>
 <attribute name="ALT_4_MAN_PN" value=""/>
 <attribute name="CHANGED" value="2022-01-11"/>
-<attribute name="CREATED" value="2019-04-10"/>
-<attribute name="I_D" value="1.0 A"/>
-<attribute name="MANUFACTURER" value="Diodes Inc"/>
-<attribute name="MAN_PN" value="DMG1012UW-7"/>
-<attribute name="MAX_OP_TEMP" value="150 °C"/>
+<attribute name="CREATED" value="2021-02-24"/>
+<attribute name="CURRENT" value="50 mA"/>
+<attribute name="MANUFACTURER" value="Wuerth"/>
+<attribute name="MAN_PN" value="430451025836"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="430451025836"/>
+<attribute name="VOLTAGE" value="12.0 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="702916000" urn="urn:adsk.eagle:component:33516901/1" prefix="SPACER" library_version="5">
+<description>&lt;b&gt;702916000, WA-SNSR Self-Retaining Spacer, Nylon 66, L=4.5mm, D=2.1mm&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="WA-SPACER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="702916000_WUERTH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33516847/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00332"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="MANUFACTURER" value="Wuerth"/>
+<attribute name="MAN_PN" value="702916000"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-30 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="702916000"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="00_TFH_Connectors" urn="urn:adsk.eagle:library:33513932">
+<packages>
+<package name="MUSBR-M5C1-XX_AMPHENOL" urn="urn:adsk.eagle:footprint:33514118/1" library_version="8">
+<description>Aus Zeichnung P-MUSBR-M5C1-XX</description>
+<pad name="G1" x="-4.95" y="0" drill="0.53" diameter="0.93"/>
+<pad name="G2" x="-3.85" y="0" drill="0.53" diameter="0.93"/>
+<pad name="G3" x="-2.75" y="0" drill="0.53" diameter="0.93"/>
+<pad name="G4" x="2.75" y="0" drill="0.53" diameter="0.93"/>
+<pad name="G5" x="3.85" y="0" drill="0.53" diameter="0.93"/>
+<pad name="G6" x="4.95" y="0" drill="0.53" diameter="0.93"/>
+<pad name="A5" x="-1.675" y="0.525" drill="0.53" diameter="0.93"/>
+<pad name="B8" x="-1.3" y="-0.525" drill="0.53" diameter="0.93"/>
+<pad name="B5" x="1.3" y="-0.525" drill="0.53" diameter="0.93"/>
+<pad name="A8" x="1.675" y="0.525" drill="0.53" diameter="0.93"/>
+<pad name="A1" x="-5.725" y="1.325" drill="0.53" diameter="0.93"/>
+<pad name="A2" x="-4.625" y="1.325" drill="0.53" diameter="0.93"/>
+<pad name="A3" x="-3.525" y="1.325" drill="0.53" diameter="0.93"/>
+<pad name="A4" x="-2.425" y="1.325" drill="0.53" diameter="0.93"/>
+<pad name="A6" x="-0.925" y="1.325" drill="0.53" diameter="0.93"/>
+<pad name="A12" x="5.725" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
+<pad name="A11" x="4.625" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
+<pad name="A10" x="3.525" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
+<pad name="A9" x="2.425" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
+<pad name="A7" x="0.925" y="1.325" drill="0.53" diameter="0.93" rot="R180"/>
+<pad name="B1" x="5.35" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="B2" x="4.25" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="B3" x="3.15" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="B4" x="2.05" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="B6" x="0.55" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="B7" x="-0.55" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="B9" x="-2.05" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="B10" x="-3.15" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="B11" x="-4.25" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="B12" x="-5.35" y="-1.325" drill="0.53" diameter="0.93"/>
+<pad name="S1" x="8.5" y="1.125" drill="0.65" diameter="1.05"/>
+<pad name="S2" x="8.5" y="-1.125" drill="0.65" diameter="1.05"/>
+<pad name="S3" x="8.5" y="-0.975" drill="0.65" diameter="1.05"/>
+<pad name="S4" x="8.5" y="-0.825" drill="0.65" diameter="1.05"/>
+<pad name="S5" x="8.5" y="-0.675" drill="0.65" diameter="1.05"/>
+<pad name="S6" x="8.5" y="-0.525" drill="0.65" diameter="1.05"/>
+<pad name="S7" x="8.5" y="-0.375" drill="0.65" diameter="1.05"/>
+<pad name="S8" x="8.5" y="-0.225" drill="0.65" diameter="1.05"/>
+<pad name="S9" x="8.5" y="-0.075" drill="0.65" diameter="1.05"/>
+<pad name="S10" x="8.5" y="0.075" drill="0.65" diameter="1.05"/>
+<pad name="S11" x="8.5" y="0.225" drill="0.65" diameter="1.05"/>
+<pad name="S12" x="8.5" y="0.375" drill="0.65" diameter="1.05"/>
+<pad name="S13" x="8.5" y="0.525" drill="0.65" diameter="1.05"/>
+<pad name="S14" x="8.5" y="0.525" drill="0.65" diameter="1.05"/>
+<pad name="S15" x="8.5" y="0.675" drill="0.65" diameter="1.05"/>
+<pad name="S16" x="8.5" y="0.825" drill="0.65" diameter="1.05"/>
+<pad name="S17" x="8.5" y="0.975" drill="0.65" diameter="1.05"/>
+<pad name="S18" x="-8.5" y="1.125" drill="0.65" diameter="1.05"/>
+<pad name="S19" x="-8.5" y="-1.125" drill="0.65" diameter="1.05"/>
+<pad name="S20" x="-8.5" y="-0.975" drill="0.65" diameter="1.05"/>
+<pad name="S21" x="-8.5" y="-0.825" drill="0.65" diameter="1.05"/>
+<pad name="S22" x="-8.5" y="-0.675" drill="0.65" diameter="1.05"/>
+<pad name="S23" x="-8.5" y="-0.525" drill="0.65" diameter="1.05"/>
+<pad name="S24" x="-8.5" y="-0.375" drill="0.65" diameter="1.05"/>
+<pad name="S25" x="-8.5" y="-0.225" drill="0.65" diameter="1.05"/>
+<pad name="S26" x="-8.5" y="-0.075" drill="0.65" diameter="1.05"/>
+<pad name="S27" x="-8.5" y="0.075" drill="0.65" diameter="1.05"/>
+<pad name="S28" x="-8.5" y="0.225" drill="0.65" diameter="1.05"/>
+<pad name="S29" x="-8.5" y="0.375" drill="0.65" diameter="1.05"/>
+<pad name="S30" x="-8.5" y="0.525" drill="0.65" diameter="1.05"/>
+<pad name="S31" x="-8.5" y="0.525" drill="0.65" diameter="1.05"/>
+<pad name="S32" x="-8.5" y="0.675" drill="0.65" diameter="1.05"/>
+<pad name="S33" x="-8.5" y="0.825" drill="0.65" diameter="1.05"/>
+<pad name="S34" x="-8.5" y="0.975" drill="0.65" diameter="1.05"/>
+<wire x1="8.5" y1="1.125" x2="8.5" y2="-1.125" width="0.65" layer="46"/>
+<wire x1="-8.5" y1="1.125" x2="-8.5" y2="-1.125" width="0.65" layer="46"/>
+<wire x1="-11.25" y1="3.015" x2="-11.25" y2="-3.015" width="0.127" layer="21"/>
+<wire x1="-11.25" y1="-3.015" x2="11.25" y2="-3.015" width="0.127" layer="21"/>
+<wire x1="11.25" y1="-3.015" x2="11.25" y2="3.015" width="0.127" layer="21"/>
+<wire x1="11.25" y1="3.015" x2="-11.25" y2="3.015" width="0.127" layer="21"/>
+<wire x1="-8.9" y1="-5.975" x2="-8.9" y2="-3.015" width="0.85" layer="51"/>
+<wire x1="8.9" y1="-5.975" x2="8.9" y2="-3.015" width="0.85" layer="51"/>
+<wire x1="-11.875" y1="4.525" x2="-11.875" y2="-4.525" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-11.875" y1="-4.525" x2="11.875" y2="-4.525" width="0.127" layer="51" style="shortdash"/>
+<wire x1="11.875" y1="-4.525" x2="11.875" y2="4.525" width="0.127" layer="51" style="shortdash"/>
+<wire x1="11.875" y1="4.525" x2="-11.875" y2="4.525" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-11.4" y1="3.165" x2="11.4" y2="3.165" width="0.3" layer="39"/>
+<wire x1="11.4" y1="3.165" x2="11.4" y2="-3.165" width="0.3" layer="39"/>
+<wire x1="11.4" y1="-3.165" x2="-11.4" y2="-3.165" width="0.3" layer="39"/>
+<wire x1="-11.4" y1="-3.165" x2="-11.4" y2="3.165" width="0.3" layer="39"/>
+<wire x1="-6.69" y1="2.29" x2="-6.69" y2="-2.29" width="1" layer="40"/>
+<wire x1="-6.69" y1="-2.29" x2="6.69" y2="-2.29" width="1" layer="40"/>
+<wire x1="6.69" y1="-2.29" x2="6.69" y2="2.29" width="1" layer="40"/>
+<wire x1="6.69" y1="2.29" x2="-6.69" y2="2.29" width="1" layer="40"/>
+<wire x1="-9.525" y1="2.15" x2="-7.475" y2="2.15" width="1" layer="40"/>
+<wire x1="-7.475" y1="2.15" x2="-7.475" y2="-2.15" width="1" layer="40"/>
+<wire x1="-7.475" y1="-2.15" x2="-9.525" y2="-2.15" width="1" layer="40"/>
+<wire x1="-9.525" y1="-2.15" x2="-9.525" y2="2.15" width="1" layer="40"/>
+<wire x1="7.475" y1="2.15" x2="9.525" y2="2.15" width="1" layer="40"/>
+<wire x1="9.525" y1="2.15" x2="9.525" y2="-2.15" width="1" layer="40"/>
+<wire x1="7.475" y1="-2.15" x2="7.475" y2="2.15" width="1" layer="40"/>
+<wire x1="9.525" y1="-2.15" x2="7.475" y2="-2.15" width="1" layer="40"/>
+<wire x1="10.275" y1="3.04" x2="-10.275" y2="3.04" width="2.5" layer="52"/>
+<wire x1="-10.275" y1="3.04" x2="-10.275" y2="-3.04" width="2.5" layer="52"/>
+<wire x1="-10.275" y1="-3.04" x2="10.275" y2="-3.04" width="2.5" layer="52"/>
+<wire x1="10.275" y1="-3.04" x2="10.275" y2="3.04" width="2.5" layer="52"/>
+<text x="0" y="-3.265" size="0.8" layer="25" font="vector" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="3.265" size="0.8" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
+<text x="-7.2" y="1" size="0.8" layer="22" font="vector" rot="MR0" align="bottom-center">A1</text>
+<text x="6.6" y="-1.7" size="0.8" layer="22" font="vector" rot="MR0" align="bottom-center">B1</text>
+</package>
+<package name="665102131822_WURTH" urn="urn:adsk.eagle:footprint:33514087/1" library_version="8">
+<description>aus Datenblatt 665 1xx 131 822</description>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="S1" x="-1.8" y="-3.875" dx="1.2" dy="1.8" layer="1"/>
+<smd name="S2" x="1.8" y="-3.875" dx="1.2" dy="1.8" layer="1"/>
+<text x="0" y="-4.95" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="0.95" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.8" y="-1.9" size="0.8128" layer="21">1</text>
+<wire x1="-2.05" y1="-0.425" x2="2.05" y2="-0.425" width="0.127" layer="21"/>
+<wire x1="2.05" y1="-0.425" x2="2.05" y2="-4.725" width="0.127" layer="21"/>
+<wire x1="2.05" y1="-4.725" x2="-2.05" y2="-4.725" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="-4.725" x2="-2.05" y2="-0.425" width="0.127" layer="21"/>
+<wire x1="-2.475" y1="-4.85" x2="2.475" y2="-4.85" width="0.15" layer="39"/>
+<wire x1="2.475" y1="-4.85" x2="2.475" y2="-2.9" width="0.15" layer="39"/>
+<wire x1="2.475" y1="-2.9" x2="2.125" y2="-2.9" width="0.15" layer="39"/>
+<wire x1="2.125" y1="-2.9" x2="2.125" y2="-0.35" width="0.15" layer="39"/>
+<wire x1="2.125" y1="-0.35" x2="0.875" y2="-0.35" width="0.15" layer="39"/>
+<wire x1="0.875" y1="-0.35" x2="0.875" y2="0.85" width="0.15" layer="39"/>
+<wire x1="0.875" y1="0.85" x2="-0.875" y2="0.85" width="0.15" layer="39"/>
+<wire x1="-0.875" y1="0.85" x2="-0.875" y2="-0.35" width="0.15" layer="39"/>
+<wire x1="-0.875" y1="-0.35" x2="-2.125" y2="-0.35" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="-0.35" x2="-2.125" y2="-2.9" width="0.15" layer="39"/>
+<wire x1="-2.125" y1="-2.9" x2="-2.475" y2="-2.9" width="0.15" layer="39"/>
+<wire x1="-2.475" y1="-2.9" x2="-2.475" y2="-4.85" width="0.15" layer="39"/>
+<circle x="-1.3" y="0" radius="0.3" width="0" layer="21"/>
+<rectangle x1="0.4" y1="-0.425" x2="0.6" y2="0.225" layer="51"/>
+<rectangle x1="-0.6" y1="-0.425" x2="-0.4" y2="0.225" layer="51"/>
+<rectangle x1="-0.2" y1="-0.825" x2="0.2" y2="0.825" layer="41"/>
+</package>
+<package name="TC2030-IDC-FP_TAGCONNECT" urn="urn:adsk.eagle:footprint:33514028/1" library_version="8">
+<description>aus Dokument "Footprint for TC2030-IDC-FP"</description>
+<hole x="0.635" y="2.54" drill="2.4"/>
+<hole x="-2.54" y="2.54" drill="2.4"/>
+<hole x="0.635" y="-2.54" drill="2.4"/>
+<hole x="-2.54" y="-2.54" drill="2.4"/>
+<hole x="-2.54" y="0" drill="1"/>
+<hole x="2.54" y="1.016" drill="1"/>
+<hole x="2.54" y="-1.016" drill="1"/>
+<smd name="2" x="-1.27" y="0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
+<smd name="4" x="0" y="0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
+<smd name="6" x="1.27" y="0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
+<smd name="5" x="1.27" y="-0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="0" y="-0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
+<smd name="1" x="-1.27" y="-0.635" dx="0.787" dy="0.787" layer="1" roundness="100" cream="no"/>
+<polygon width="0.15" layer="41">
+<vertex x="-1.27" y="0.15"/>
+<vertex x="-1.27" y="-0.15"/>
+<vertex x="-0.79" y="-0.15"/>
+<vertex x="-0.79" y="-0.6"/>
+<vertex x="-0.49" y="-0.6"/>
+<vertex x="-0.49" y="-0.15"/>
+<vertex x="0.51" y="-0.15"/>
+<vertex x="0.51" y="-0.6"/>
+<vertex x="0.76" y="-0.6"/>
+<vertex x="0.76" y="-0.15"/>
+<vertex x="1.27" y="-0.15"/>
+<vertex x="1.27" y="0.15"/>
+<vertex x="0.76" y="0.15"/>
+<vertex x="0.76" y="0.6"/>
+<vertex x="0.51" y="0.6"/>
+<vertex x="0.51" y="0.15"/>
+<vertex x="-0.49" y="0.15"/>
+<vertex x="-0.49" y="0.6"/>
+<vertex x="-0.79" y="0.6"/>
+<vertex x="-0.79" y="0.15"/>
+</polygon>
+<polygon width="0.15" layer="43">
+<vertex x="-1.27" y="0.15"/>
+<vertex x="-1.27" y="-0.15"/>
+<vertex x="-0.79" y="-0.15"/>
+<vertex x="-0.79" y="-0.6"/>
+<vertex x="-0.49" y="-0.6"/>
+<vertex x="-0.49" y="-0.15"/>
+<vertex x="0.51" y="-0.15"/>
+<vertex x="0.51" y="-0.6"/>
+<vertex x="0.76" y="-0.6"/>
+<vertex x="0.76" y="-0.15"/>
+<vertex x="1.27" y="-0.15"/>
+<vertex x="1.27" y="0.15"/>
+<vertex x="0.76" y="0.15"/>
+<vertex x="0.76" y="0.6"/>
+<vertex x="0.51" y="0.6"/>
+<vertex x="0.51" y="0.15"/>
+<vertex x="-0.49" y="0.15"/>
+<vertex x="-0.49" y="0.6"/>
+<vertex x="-0.79" y="0.6"/>
+<vertex x="-0.79" y="0.15"/>
+</polygon>
+<text x="-0.94" y="-2" size="0.8" layer="21" font="vector" align="bottom-center">1</text>
+<text x="-0.99" y="1.2" size="0.8" layer="21" font="vector" align="bottom-center">2</text>
+<text x="0" y="4.6" size="0.8" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.6" size="0.8" layer="27" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="-5.215" y1="4.575" x2="5.235" y2="4.575" width="0.15" layer="39"/>
+<wire x1="5.235" y1="4.575" x2="5.235" y2="-4.575" width="0.15" layer="39"/>
+<wire x1="5.235" y1="-4.575" x2="-5.215" y2="-4.575" width="0.15" layer="39"/>
+<wire x1="-5.215" y1="-4.575" x2="-5.215" y2="4.575" width="0.15" layer="39"/>
+<wire x1="-5.14" y1="4.5" x2="5.16" y2="4.5" width="0.127" layer="21"/>
+<wire x1="5.16" y1="4.5" x2="5.16" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="5.16" y1="-4.5" x2="-5.14" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-5.14" y1="-4.5" x2="-5.14" y2="4.5" width="0.127" layer="21"/>
+</package>
+<package name="WIREPAD_0.8X6.5MM" urn="urn:adsk.eagle:footprint:33514097/1" library_version="8">
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$2" x="3.25" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$3" x="-3.25" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$4" x="-0.1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$5" x="-0.2" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$6" x="-0.3" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$7" x="-0.4" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$8" x="-0.5" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$9" x="-0.6" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$10" x="-0.7" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$11" x="-0.8" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$12" x="-0.9" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$13" x="-1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$14" x="-1.1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$15" x="-1.2" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$16" x="-1.3" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$17" x="-1.4" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$18" x="-1.5" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$19" x="-1.6" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$20" x="-1.7" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$21" x="-1.8" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$22" x="-1.9" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$23" x="-2" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$24" x="-2.1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$25" x="-2.2" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$26" x="-2.3" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$27" x="-2.4" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$28" x="-2.5" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$29" x="-2.6" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$30" x="-2.7" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$31" x="-2.8" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$32" x="-2.9" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$33" x="-3" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$34" x="-3.1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$35" x="-3.2" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$36" x="0.1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$37" x="0.2" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$38" x="0.3" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$39" x="0.4" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$40" x="0.5" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$41" x="0.6" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$42" x="0.7" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$43" x="0.8" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$44" x="0.9" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$45" x="1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$46" x="1.1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$47" x="1.2" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$48" x="1.3" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$49" x="1.4" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$50" x="1.5" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$51" x="1.6" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$52" x="1.7" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$53" x="1.8" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$54" x="1.9" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$55" x="2" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$56" x="2.1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$57" x="2.2" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$58" x="2.3" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$59" x="2.4" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$60" x="2.5" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$61" x="2.6" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$62" x="2.7" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$63" x="2.8" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$64" x="2.9" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$65" x="3" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$66" x="3.1" y="0" drill="0.8" diameter="1.8"/>
+<pad name="P$67" x="3.2" y="0" drill="0.8" diameter="1.8"/>
+<text x="0" y="1.4" size="0.8" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4" size="0.8" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="-3.25" y1="0" x2="3.25" y2="0" width="0.8" layer="46"/>
+<wire x1="-3.25" y1="1.4" x2="-4.65" y2="0" width="1" layer="39" curve="90"/>
+<wire x1="-4.65" y1="0" x2="-3.25" y2="-1.4" width="1" layer="39" curve="90"/>
+<wire x1="-3.25" y1="-1.4" x2="3.25" y2="-1.4" width="1" layer="39"/>
+<wire x1="3.25" y1="-1.4" x2="4.65" y2="0" width="1" layer="39" curve="90"/>
+<wire x1="4.65" y1="0" x2="3.25" y2="1.4" width="1" layer="39" curve="90"/>
+<wire x1="3.25" y1="1.4" x2="-3.25" y2="1.4" width="1" layer="39"/>
+<wire x1="-3.25" y1="1.4" x2="-4.65" y2="0" width="1" layer="40" curve="90"/>
+<wire x1="-4.65" y1="0" x2="-3.25" y2="-1.4" width="1" layer="40" curve="90"/>
+<wire x1="-3.25" y1="-1.4" x2="3.25" y2="-1.4" width="1" layer="40"/>
+<wire x1="3.25" y1="-1.4" x2="4.65" y2="0" width="1" layer="40" curve="90"/>
+<wire x1="4.65" y1="0" x2="3.25" y2="1.4" width="1" layer="40" curve="90"/>
+<wire x1="3.25" y1="1.4" x2="-3.25" y2="1.4" width="1" layer="40"/>
+<wire x1="-3.25" y1="2.15" x2="-5.4" y2="0" width="2.5" layer="52" curve="90"/>
+<wire x1="-5.4" y1="0" x2="-3.25" y2="-2.15" width="2.5" layer="52" curve="90"/>
+<wire x1="-3.25" y1="-2.15" x2="3.25" y2="-2.15" width="2.5" layer="52"/>
+<wire x1="3.25" y1="-2.15" x2="5.4" y2="0" width="2.5" layer="52" curve="90"/>
+<wire x1="5.4" y1="0" x2="3.25" y2="2.15" width="2.5" layer="52" curve="90"/>
+<wire x1="3.25" y1="2.15" x2="-3.25" y2="2.15" width="2.5" layer="52"/>
+</package>
+<package name="SSW-110-03-G-S-RA-LL_SAMTEC" urn="urn:adsk.eagle:footprint:33514103/1" library_version="8">
+<description>Samtec drawing SSW-1XX-XX-XXX-X-XX-XXX-XX</description>
+<pad name="1" x="-11.43" y="0" drill="1.04" diameter="1.7"/>
+<pad name="2" x="-8.89" y="0" drill="1.04" diameter="1.7"/>
+<pad name="3" x="-6.35" y="0" drill="1.04" diameter="1.7"/>
+<pad name="4" x="-3.81" y="0" drill="1.04" diameter="1.7"/>
+<pad name="5" x="-1.27" y="0" drill="1.04" diameter="1.7"/>
+<pad name="6" x="1.27" y="0" drill="1.04" diameter="1.7"/>
+<pad name="7" x="3.81" y="0" drill="1.04" diameter="1.7"/>
+<pad name="8" x="6.35" y="0" drill="1.04" diameter="1.7"/>
+<pad name="9" x="8.89" y="0" drill="1.04" diameter="1.7"/>
+<pad name="10" x="11.43" y="0" drill="1.04" diameter="1.7"/>
+<rectangle x1="-1.665" y1="-0.205" x2="-0.875" y2="0.205" layer="51"/>
+<rectangle x1="-6.745" y1="-0.205" x2="-5.955" y2="0.205" layer="51"/>
+<rectangle x1="-9.285" y1="-0.205" x2="-8.495" y2="0.205" layer="51"/>
+<rectangle x1="-11.825" y1="-0.205" x2="-11.035" y2="0.205" layer="51"/>
+<rectangle x1="-4.205" y1="-0.205" x2="-3.415" y2="0.205" layer="51"/>
+<rectangle x1="0.875" y1="-0.205" x2="1.665" y2="0.205" layer="51"/>
+<rectangle x1="3.415" y1="-0.205" x2="4.205" y2="0.205" layer="51"/>
+<rectangle x1="5.955" y1="-0.205" x2="6.745" y2="0.205" layer="51"/>
+<rectangle x1="8.495" y1="-0.205" x2="9.285" y2="0.205" layer="51"/>
+<rectangle x1="11.035" y1="-0.205" x2="11.825" y2="0.205" layer="51"/>
+<rectangle x1="-11.825" y1="0" x2="-11.035" y2="1.524" layer="51"/>
+<rectangle x1="-9.285" y1="0" x2="-8.495" y2="1.524" layer="51"/>
+<rectangle x1="-6.745" y1="0" x2="-5.955" y2="1.524" layer="51"/>
+<rectangle x1="-4.205" y1="0" x2="-3.415" y2="1.524" layer="51"/>
+<rectangle x1="-1.665" y1="0" x2="-0.875" y2="1.524" layer="51"/>
+<rectangle x1="0.875" y1="0" x2="1.665" y2="1.524" layer="51"/>
+<rectangle x1="3.415" y1="0" x2="4.205" y2="1.524" layer="51"/>
+<rectangle x1="5.955" y1="0" x2="6.745" y2="1.524" layer="51"/>
+<rectangle x1="8.495" y1="0" x2="9.285" y2="1.524" layer="51"/>
+<rectangle x1="11.035" y1="0" x2="11.825" y2="1.524" layer="51"/>
+<wire x1="-13.08" y1="10.334" x2="13.08" y2="10.334" width="0.127" layer="21"/>
+<wire x1="13.08" y1="10.334" x2="13.08" y2="1.524" width="0.127" layer="21"/>
+<wire x1="13.08" y1="1.524" x2="-13.08" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-13.08" y1="1.524" x2="-13.08" y2="10.334" width="0.127" layer="21"/>
+<wire x1="-13.23" y1="10.484" x2="13.23" y2="10.484" width="0.3" layer="39"/>
+<wire x1="13.23" y1="10.484" x2="13.23" y2="1.374" width="0.3" layer="39"/>
+<wire x1="13.23" y1="1.374" x2="12.43" y2="1.374" width="0.3" layer="39"/>
+<wire x1="12.43" y1="1.374" x2="12.43" y2="-1" width="0.3" layer="39"/>
+<wire x1="12.43" y1="-1" x2="-12.43" y2="-1" width="0.3" layer="39"/>
+<wire x1="-12.43" y1="-1" x2="-12.43" y2="1.374" width="0.3" layer="39"/>
+<wire x1="-12.43" y1="1.374" x2="-13.23" y2="1.374" width="0.3" layer="39"/>
+<wire x1="-13.23" y1="1.374" x2="-13.23" y2="10.484" width="0.3" layer="39"/>
+<wire x1="-11.43" y1="1.35" x2="11.43" y2="1.35" width="1" layer="40"/>
+<wire x1="11.43" y1="1.35" x2="12.78" y2="0" width="1" layer="40" curve="-90"/>
+<wire x1="12.78" y1="0" x2="11.43" y2="-1.35" width="1" layer="40" curve="-90"/>
+<wire x1="11.43" y1="-1.35" x2="-11.43" y2="-1.35" width="1" layer="40"/>
+<wire x1="-11.43" y1="-1.35" x2="-12.78" y2="0" width="1" layer="40" curve="-90"/>
+<wire x1="-12.78" y1="0" x2="-11.43" y2="1.35" width="1" layer="40" curve="-90"/>
+<wire x1="-11.43" y1="2.1" x2="11.43" y2="2.1" width="2.5" layer="52"/>
+<wire x1="11.43" y1="2.1" x2="13.53" y2="0" width="2.5" layer="52" curve="-90"/>
+<wire x1="13.53" y1="0" x2="11.43" y2="-2.1" width="2.5" layer="52" curve="-90"/>
+<wire x1="11.43" y1="-2.1" x2="-11.43" y2="-2.1" width="2.5" layer="52"/>
+<wire x1="-11.43" y1="-2.1" x2="-13.53" y2="0" width="2.5" layer="52" curve="-90"/>
+<wire x1="-13.53" y1="0" x2="-11.43" y2="2.1" width="2.5" layer="52" curve="-90"/>
+<text x="0" y="-1.1" size="0.8" layer="25" font="vector" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="0" y="2.2" size="0.8" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
+<text x="-11.43" y="2.25" size="0.8" layer="21" font="vector" align="bottom-center">1</text>
+<text x="11.43" y="2.25" size="0.8" layer="21" font="vector" align="bottom-center">10</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="MUSBR-M5C1-XX_AMPHENOL" urn="urn:adsk.eagle:package:33514403/1" type="model" library_version="8">
+<description>Aus Zeichnung P-MUSBR-M5C1-XX</description>
+<packageinstances>
+<packageinstance name="MUSBR-M5C1-XX_AMPHENOL"/>
+</packageinstances>
+</package3d>
+<package3d name="665102131822_WURTH" urn="urn:adsk.eagle:package:33514348/1" type="model" library_version="8">
+<description>aus Datenblatt 665 1xx 131 822</description>
+<packageinstances>
+<packageinstance name="665102131822_WURTH"/>
+</packageinstances>
+</package3d>
+<package3d name="TC2030-IDC-FP_TAGCONNECT" urn="urn:adsk.eagle:package:33514248/1" type="empty" library_version="8">
+<description>aus Dokument "Footprint for TC2030-IDC-FP"</description>
+<packageinstances>
+<packageinstance name="TC2030-IDC-FP_TAGCONNECT"/>
+</packageinstances>
+</package3d>
+<package3d name="WIREPAD_0.8X6.5MM" urn="urn:adsk.eagle:package:33514335/1" type="empty" library_version="8">
+<packageinstances>
+<packageinstance name="WIREPAD_0.8X6.5MM"/>
+</packageinstances>
+</package3d>
+<package3d name="SSW-110-03-G-S-RA-LL_SAMTEC" urn="urn:adsk.eagle:package:33514376/1" type="model" library_version="8">
+<description>Samtec drawing SSW-1XX-XX-XXX-X-XX-XXX-XX</description>
+<packageinstances>
+<packageinstance name="SSW-110-03-G-S-RA-LL_SAMTEC"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="USB_TYPE_C" urn="urn:adsk.eagle:symbol:33513993/1" library_version="8">
+<pin name="GND@A1" x="-17.78" y="12.7" length="short" direction="in"/>
+<pin name="SSTXP1" x="-17.78" y="10.16" length="short"/>
+<pin name="SSTXN1" x="-17.78" y="7.62" length="short"/>
+<pin name="VBUS@A4" x="-17.78" y="5.08" length="short" direction="out"/>
+<pin name="CC1" x="-17.78" y="2.54" length="short"/>
+<pin name="DP1" x="-17.78" y="0" length="short"/>
+<pin name="DN1" x="-17.78" y="-2.54" length="short"/>
+<pin name="SBU1" x="-17.78" y="-5.08" length="short"/>
+<pin name="VBUS@A9" x="-17.78" y="-7.62" length="short" direction="out"/>
+<pin name="SSRXN2" x="-17.78" y="-10.16" length="short"/>
+<pin name="SSRXP2" x="-17.78" y="-12.7" length="short"/>
+<pin name="GND@A12" x="-17.78" y="-15.24" length="short" direction="in"/>
+<pin name="SHIELD" x="0" y="-20.32" length="short" direction="in" rot="R90"/>
+<pin name="GND@B12" x="17.78" y="12.7" length="short" direction="in" rot="R180"/>
+<pin name="SSRXP1" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="SSRXN1" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="VBUS@B9" x="17.78" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="SBU2" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="DN2" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="DP2" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="CC2" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="VBUS@B4" x="17.78" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="SSTXN2" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="SSTXP2" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="GND@B1" x="17.78" y="-15.24" length="short" direction="in" rot="R180"/>
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-17.78" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<text x="-15.24" y="15.748" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-20.32" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="CONNECTOR_1X2_SHIELDED" urn="urn:adsk.eagle:symbol:33513981/1" library_version="8">
+<wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="2.54" visible="pin" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="S" x="0" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="TAG-CONNECT_SWD" urn="urn:adsk.eagle:symbol:33513964/1" library_version="8">
+<pin name="VCC" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="!RST" x="-12.7" y="0" length="short" direction="out"/>
+<pin name="GND" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="SWDIO/TMS" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="SWCLK/TCK" x="15.24" y="0" length="short" direction="out" rot="R180"/>
+<pin name="SWO/TDO" x="15.24" y="-2.54" length="short" direction="in" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="5.588" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="WIREPAD" urn="urn:adsk.eagle:symbol:33513948/1" library_version="8">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="CONNECTOR_1X10" urn="urn:adsk.eagle:symbol:33513988/1" library_version="8">
+<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="10.16" visible="pin" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="7.62" visible="pin" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="5.08" visible="pin" length="short" direction="pas"/>
+<pin name="4" x="-5.08" y="2.54" visible="pin" length="short" direction="pas"/>
+<pin name="5" x="-5.08" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="6" x="-5.08" y="-2.54" visible="pin" length="short" direction="pas"/>
+<pin name="7" x="-5.08" y="-5.08" visible="pin" length="short" direction="pas"/>
+<pin name="8" x="-5.08" y="-7.62" visible="pin" length="short" direction="pas"/>
+<pin name="9" x="-5.08" y="-10.16" visible="pin" length="short" direction="pas"/>
+<pin name="10" x="-5.08" y="-12.7" visible="pin" length="short" direction="pas"/>
+<text x="-2.54" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="13.208" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MUSBR-M5C1" urn="urn:adsk.eagle:component:33514657/2" prefix="X" library_version="8">
+<description>&lt;b&gt;MUSBR-M5C1-XX, USB Type C Receptacle, panel mount, THT&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB_TYPE_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-M0" package="MUSBR-M5C1-XX_AMPHENOL">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="DN1" pad="A7"/>
+<connect gate="G$1" pin="DN2" pad="B7"/>
+<connect gate="G$1" pin="DP1" pad="A6"/>
+<connect gate="G$1" pin="DP2" pad="B6"/>
+<connect gate="G$1" pin="GND@A1" pad="A1"/>
+<connect gate="G$1" pin="GND@A12" pad="A12"/>
+<connect gate="G$1" pin="GND@B1" pad="B1"/>
+<connect gate="G$1" pin="GND@B12" pad="B12"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="SHIELD" pad="G1 G2 G3 G4 G5 G6 S1 S2 S3 S4 S5 S6 S7 S8 S9 S10 S11 S12 S13 S14 S15 S16 S17 S18 S19 S20 S21 S22 S23 S24 S25 S26 S27 S28 S29 S30 S31 S32 S33 S34"/>
+<connect gate="G$1" pin="SSRXN1" pad="B10"/>
+<connect gate="G$1" pin="SSRXN2" pad="A10"/>
+<connect gate="G$1" pin="SSRXP1" pad="B11"/>
+<connect gate="G$1" pin="SSRXP2" pad="A11"/>
+<connect gate="G$1" pin="SSTXN1" pad="A3"/>
+<connect gate="G$1" pin="SSTXN2" pad="B3"/>
+<connect gate="G$1" pin="SSTXP1" pad="A2"/>
+<connect gate="G$1" pin="SSTXP2" pad="B2"/>
+<connect gate="G$1" pin="VBUS@A4" pad="A4"/>
+<connect gate="G$1" pin="VBUS@A9" pad="A9"/>
+<connect gate="G$1" pin="VBUS@B4" pad="B4"/>
+<connect gate="G$1" pin="VBUS@B9" pad="B9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514403/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00011"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-01-27"/>
+<attribute name="CURRENT" value="5.0 A"/>
+<attribute name="MANUFACTURER" value="Amphenol"/>
+<attribute name="MAN_PN" value="MUSBR-M5C1-M0"/>
+<attribute name="MAX_OP_TEMP" value="105 °C"/>
+<attribute name="MIN_OP_TEMP" value="-40 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="THREAD" value="M2.5"/>
+<attribute name="VALUE" value="MUSBR-M5C1-M0"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="665102131822" urn="urn:adsk.eagle:component:33514628/2" prefix="X" library_version="8">
+<description>&lt;b&gt;665102131822, WR-WTB, 1.00 mm, horizontal, 2 pins&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR_1X2_SHIELDED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="665102131822_WURTH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="S" pad="S1 S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514348/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="62-00020"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-03-09"/>
+<attribute name="CURRENT" value="1.0 A"/>
+<attribute name="MANUFACTURER" value="Wuerth"/>
+<attribute name="MAN_PN" value="665102131822"/>
+<attribute name="MAX_OP_TEMP" value="85 °C"/>
+<attribute name="MIN_OP_TEMP" value="-25 °C"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="STATUS" value="active"/>
+<attribute name="VALUE" value="665102131822"/>
+<attribute name="VOLTAGE" value="50.0 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TC2030-CTX" urn="urn:adsk.eagle:component:33514569/1" prefix="X" library_version="8">
+<description>&lt;b&gt;TC2030-CTX&lt;/b&gt;&lt;br /&gt;
+Tag-Connect for ARM CORTEX SWD&lt;br /&gt;</description>
+<gates>
+<gate name="G$1" symbol="TAG-CONNECT_SWD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TC2030-IDC-FP_TAGCONNECT">
+<connects>
+<connect gate="G$1" pin="!RST" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="SWCLK/TCK" pad="4"/>
+<connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
+<connect gate="G$1" pin="SWO/TDO" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514248/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2020-02-28"/>
+<attribute name="CREATED" value="2020-02-28"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WIREPAD_0.8X6.5MM" urn="urn:adsk.eagle:component:33514637/1" prefix="PAD" uservalue="yes" library_version="8">
+<gates>
+<gate name="G$1" symbol="WIREPAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WIREPAD_0.8X6.5MM">
+<connects>
+<connect gate="G$1" pin="P" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30 P$31 P$32 P$33 P$34 P$35 P$36 P$37 P$38 P$39 P$40 P$41 P$42 P$43 P$44 P$45 P$46 P$47 P$48 P$49 P$50 P$51 P$52 P$53 P$54 P$55 P$56 P$57 P$58 P$59 P$60 P$61 P$62 P$63 P$64 P$65 P$66 P$67"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514335/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CHANGED" value="2021-08-25"/>
+<attribute name="CREATED" value="2021-08-25"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SSW-110-03-G-S-RA-LL" urn="urn:adsk.eagle:component:33514642/2" prefix="X" library_version="8">
+<description>&lt;b&gt;SSW-110-03-G-S-RA-LL, THT socket header, right angle, 10 pins&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR_1X10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSW-110-03-G-S-RA-LL_SAMTEC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33514376/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALIGNI_PN" value="61-00340"/>
+<attribute name="ALT_1_ALIGNI_PN" value=""/>
+<attribute name="ALT_1_MAN" value=""/>
+<attribute name="ALT_1_MAN_PN" value=""/>
+<attribute name="ALT_2_ALIGNI_PN" value=""/>
+<attribute name="ALT_2_MAN" value=""/>
+<attribute name="ALT_2_MAN_PN" value=""/>
+<attribute name="ALT_3_ALIGNI_PN" value=""/>
+<attribute name="ALT_3_MAN" value=""/>
+<attribute name="ALT_3_MAN_PN" value=""/>
+<attribute name="ALT_4_ALIGNI_PN" value=""/>
+<attribute name="ALT_4_MAN" value=""/>
+<attribute name="ALT_4_MAN_PN" value=""/>
+<attribute name="CHANGED" value="2022-01-11"/>
+<attribute name="CREATED" value="2021-08-25"/>
+<attribute name="CURRENT" value="4.7 A"/>
+<attribute name="MANUFACTURER" value="Samtec"/>
+<attribute name="MAN_PN" value="SSW-110-03-G-S-RA-LL"/>
+<attribute name="MAX_OP_TEMP" value="125 °C"/>
 <attribute name="MIN_OP_TEMP" value="-55 °C"/>
 <attribute name="ROHS" value="yes"/>
 <attribute name="STATUS" value="active"/>
-<attribute name="VALUE" value="DMG1012UW-7"/>
-<attribute name="V_DS" value="20 V"/>
-<attribute name="V_GS" value="±6 V"/>
+<attribute name="VALUE" value="SSW-110-03-G-S-RA-LL"/>
+<attribute name="VOLTAGE" value="465 VAC"/>
 </technology>
 </technologies>
 </device>
@@ -6028,591 +9897,439 @@ N-CHANNEL ENHANCEMENT MODE MOSFET</description>
 <part name="SHEET3" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
 <part name="SHEET2" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
 <part name="SHEET4" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
-<part name="IC6" library="04_DT_Integrated_Circuits" library_urn="urn:adsk.eagle:library:24365520" deviceset="824001" device="" package3d_urn="urn:adsk.eagle:package:30126118/2" value="824001"/>
-<part name="C21" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
+<part name="IC6" library="04_TFH_Integrated_Circuits" library_urn="urn:adsk.eagle:library:33515332" deviceset="824001" device="" package3d_urn="urn:adsk.eagle:package:33516321/1" value="824001"/>
+<part name="C21" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
 <part name="GND30" library="supply1@1" deviceset="GND" device=""/>
-<part name="R68" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R69" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R67" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="+3V3" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="GND10" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="D1" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="SMA6J" device="A" package3d_urn="urn:adsk.eagle:package:24371482/2" technology="20"/>
+<part name="R68" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R69" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R67" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="+3V3" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="GND10" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="D1" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="SMA6J" device="A" package3d_urn="urn:adsk.eagle:package:33514938/1" technology="20" value="SMA6J20A"/>
 <part name="SHEET5" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
-<part name="C19" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C20" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C22" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C23" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C24" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C25" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C26" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C27" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="GND22" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="C28" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C30" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C31" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C32" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C33" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C34" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="C35" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="GND24" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R35" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R36" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R37" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="LVT12" device="R0050FER" package3d_urn="urn:adsk.eagle:package:24370484/2" value="LVT12R0050FER"/>
-<part name="C36" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C43" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:24370454/2" value="22u 10V">
-<attribute name="VOLTAGE" value="10.0 V"/>
-</part>
-<part name="C44" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:24370454/2" value="1u 25V">
-<attribute name="VOLTAGE" value="25.0 V"/>
-</part>
-<part name="R41" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R42" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
-<part name="GND33" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R44" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R45" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R56" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
-<part name="GND40" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
+<part name="C19" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C20" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C22" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C23" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C24" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C25" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C26" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C27" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="GND22" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="C28" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C30" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C31" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C32" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C33" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C34" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="C35" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="GND24" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R35" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R36" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R37" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="LVT12" device="R0050FER" package3d_urn="urn:adsk.eagle:package:33515227/1" value="LVT12R0050FER"/>
+<part name="C36" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C43" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0805" package3d_urn="urn:adsk.eagle:package:33515237/1" technology="-22U" value="22u 10V"/>
+<part name="C44" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0805" package3d_urn="urn:adsk.eagle:package:33515237/1" technology="-1U" value="1u 25V"/>
+<part name="R41" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R42" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
+<part name="GND33" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R44" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R45" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R56" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
+<part name="GND40" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
 <part name="SHEET6" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
-<part name="L16" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="742792410" device="" package3d_urn="urn:adsk.eagle:package:26001918/2"/>
+<part name="L16" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="742792410" device="" package3d_urn="urn:adsk.eagle:package:33515215/1" value="742792410"/>
 <part name="SHEET1" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
-<part name="C47" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:24370454/2" value="22u 10V">
-<attribute name="VOLTAGE" value="10.0 V"/>
-</part>
-<part name="GND47" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R18" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="+3V11" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="C48" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="GND48" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="GND61" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R19" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="IC4" library="04_DT_Integrated_Circuits" library_urn="urn:adsk.eagle:library:24365520" deviceset="TMP1075" device="DGK" package3d_urn="urn:adsk.eagle:package:24366002/2" value="n.m."/>
-<part name="R29" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="+3V1" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="IC10" library="04_DT_Integrated_Circuits" library_urn="urn:adsk.eagle:library:24365520" deviceset="TPS709" device="33DRV" package3d_urn="urn:adsk.eagle:package:24366057/2" value="TPS70933DRV"/>
-<part name="C52" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:24370454/2" value="22u 10V">
-<attribute name="VOLTAGE" value="10.0 V"/>
-</part>
-<part name="GND53" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R82" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="GND54" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="C53" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R83" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="+3V12" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="GND46" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R92" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="D6" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:24371481/3" value="n.m."/>
-<part name="D7" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:24371481/3"/>
-<part name="R93" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="R94" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="+3V2" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="C8" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="H1" library="09_DT_Holes" library_urn="urn:adsk.eagle:library:24491136" deviceset="MOUNT-PAD-ROUND" device="2.3" package3d_urn="urn:adsk.eagle:package:30519612/2" value="MOUNT-PAD-ROUND2.3"/>
-<part name="H2" library="09_DT_Holes" library_urn="urn:adsk.eagle:library:24491136" deviceset="MOUNT-PAD-ROUND" device="2.3" package3d_urn="urn:adsk.eagle:package:30519612/2" value="MOUNT-PAD-ROUND2.3"/>
-<part name="IC11" library="04_DT_Integrated_Circuits" library_urn="urn:adsk.eagle:library:24365520" deviceset="BQ24780S" device="RUY" package3d_urn="urn:adsk.eagle:package:25538825/2"/>
-<part name="L2" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="744771004" device="" package3d_urn="urn:adsk.eagle:package:24490151/2"/>
-<part name="T8" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="CSD17577Q3A" device="" package3d_urn="urn:adsk.eagle:package:24371487/2"/>
-<part name="T9" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="CSD17308Q3" device="" package3d_urn="urn:adsk.eagle:package:24749434/3"/>
-<part name="R4" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="R5" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="GND4" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R6" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="C9" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C13" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="GND11" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="GND17" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="GND18" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="GND25" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R7" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="LVT12" device="R0050FER" package3d_urn="urn:adsk.eagle:package:24370484/2" value="LVT12R0050FER"/>
-<part name="C17" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C18" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C38" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="GND21" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="GND26" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="T1" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="SISS06DN" device="" package3d_urn="urn:adsk.eagle:package:30540703/2"/>
-<part name="T3" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="SISS06DN" device="" package3d_urn="urn:adsk.eagle:package:30540703/2"/>
-<part name="R10" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="1k"/>
-<part name="R22" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="1k"/>
-<part name="C39" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C40" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100p 25V">
-<attribute name="VOLTAGE" value="25.0 V"/>
-</part>
-<part name="R23" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R24" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="510k"/>
-<part name="R26" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
-<part name="GND27" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R28" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="510k"/>
-<part name="R27" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="GND28" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="GND38" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="GND39" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="GND31" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="D5" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:24371481/3"/>
-<part name="D8" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:24371481/3"/>
+<part name="C47" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0805" package3d_urn="urn:adsk.eagle:package:33515237/1" technology="-22U" value="22u 10V"/>
+<part name="GND47" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R18" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="+3V11" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="C48" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="GND48" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND61" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R19" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="IC4" library="04_TFH_Integrated_Circuits" library_urn="urn:adsk.eagle:library:33515332" deviceset="TMP1075" device="DGK" package3d_urn="urn:adsk.eagle:package:33516348/1" value="n.m."/>
+<part name="R29" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="+3V1" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="IC10" library="04_TFH_Integrated_Circuits" library_urn="urn:adsk.eagle:library:33515332" deviceset="TPS709" device="33DRV" package3d_urn="urn:adsk.eagle:package:33516467/1" value="TPS70933DRV"/>
+<part name="C52" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0805" package3d_urn="urn:adsk.eagle:package:33515237/1" technology="-22U" value="22u 10V"/>
+<part name="GND53" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R82" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="GND54" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="C53" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R83" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="+3V12" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="GND46" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R92" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="D6" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:33515025/1" value="n.m."/>
+<part name="D7" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:33515025/1" value="PMEG6010CEJ"/>
+<part name="R93" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="R94" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="+3V2" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="C8" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="H1" library="09_TFH_Holes" library_urn="urn:adsk.eagle:library:33516994" deviceset="MOUNT-PAD-ROUND" device="2.3" package3d_urn="urn:adsk.eagle:package:33517041/1" value="MOUNT-PAD-ROUND2.3"/>
+<part name="H2" library="09_TFH_Holes" library_urn="urn:adsk.eagle:library:33516994" deviceset="MOUNT-PAD-ROUND" device="2.3" package3d_urn="urn:adsk.eagle:package:33517041/1" value="MOUNT-PAD-ROUND2.3"/>
+<part name="IC11" library="04_TFH_Integrated_Circuits" library_urn="urn:adsk.eagle:library:33515332" deviceset="BQ24780S" device="RUY" package3d_urn="urn:adsk.eagle:package:33516438/1" value="BQ24780SRUY"/>
+<part name="L2" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="744771004" device="" package3d_urn="urn:adsk.eagle:package:33515266/1" value="744771004"/>
+<part name="T8" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="CSD17577Q3A" device="" package3d_urn="urn:adsk.eagle:package:33514973/1" value="CSD17577Q3A"/>
+<part name="T9" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="CSD17308Q3" device="" package3d_urn="urn:adsk.eagle:package:33514998/1" value="CSD17308Q3"/>
+<part name="R4" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="R5" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="GND4" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R6" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="C9" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C13" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="GND11" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND17" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND18" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND25" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R7" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="LVT12" device="R0050FER" package3d_urn="urn:adsk.eagle:package:33515227/1" value="LVT12R0050FER"/>
+<part name="C17" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C18" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C38" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="GND21" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND26" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="T1" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="SISS06DN" device="" package3d_urn="urn:adsk.eagle:package:33515007/1" value="SISS06DN"/>
+<part name="T3" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="SISS06DN" device="" package3d_urn="urn:adsk.eagle:package:33515007/1" value="SISS06DN"/>
+<part name="R10" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-1K" value="1k"/>
+<part name="R22" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-1K" value="1k"/>
+<part name="C39" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C40" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100P" value="100p 50V"/>
+<part name="R23" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R24" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-510K" value="510k"/>
+<part name="R26" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
+<part name="GND27" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R28" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-510K" value="510k"/>
+<part name="R27" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="GND28" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND38" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND39" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND31" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="D5" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:33515025/1" value="PMEG6010CEJ"/>
+<part name="D8" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:33515025/1" value="PMEG6010CEJ"/>
 <part name="SHEET7" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
-<part name="P+6" library="08_DT_Supply" deviceset="+VBAT" device=""/>
+<part name="P+6" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+VBAT" device=""/>
 <part name="SHEET8" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
-<part name="C166" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C167" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C168" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C169" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C170" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="D10" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:24371481/3"/>
-<part name="R189" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="C173" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:24370454/2" value="1u 25V">
-<attribute name="VOLTAGE" value="25.0 V"/>
-</part>
-<part name="C175" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R190" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R191" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R192" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="LVT12" device="R0050FER" package3d_urn="urn:adsk.eagle:package:24370484/2" value="LVT12R0050FER"/>
-<part name="GND32" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="C177" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:24370454/2" value="22u 10V">
-<attribute name="VOLTAGE" value="10.0 V"/>
-</part>
-<part name="GND108" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="GND56" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="R217" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="GND110" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="R218" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="R227" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="R228" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="GND123" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="R229" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R232" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="X8" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:30516391/2"/>
-<part name="X11" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:30516391/2"/>
-<part name="X10" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:30516391/2"/>
-<part name="X9" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:30516391/2"/>
-<part name="X7" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:30516391/2"/>
-<part name="P+8" library="08_DT_Supply" deviceset="+VBAT" device=""/>
-<part name="GND60" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="TP1" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP2" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP3" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP4" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP5" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="R51" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R52" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R53" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R58" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R95" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R96" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="+3V10" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="R97" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="R98" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="X1" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="MUSBR-M5C1" device="-M0" package3d_urn="urn:adsk.eagle:package:26410200/2"/>
-<part name="GND9" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="GND62" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="GND63" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="GND64" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="GND65" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="C234" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100p 25V">
-<attribute name="VOLTAGE" value="25.0 V"/>
-</part>
-<part name="C235" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100p 25V">
-<attribute name="VOLTAGE" value="25.0 V"/>
-</part>
-<part name="GND147" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="C282" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100p 25V">
-<attribute name="VOLTAGE" value="25.0 V"/>
-</part>
-<part name="C283" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100p 25V">
-<attribute name="VOLTAGE" value="25.0 V"/>
-</part>
-<part name="GND100" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="R322" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R337" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="TP7" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="GND5" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="TP8" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP9" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP10" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP11" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP17" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP18" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="GND6" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="C3" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C4" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R9" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="1k"/>
-<part name="R99" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
-<part name="R1" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
-<part name="R2" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="C1" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="GND1" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="C2" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100p 25V">
-<attribute name="VOLTAGE" value="25.0 V"/>
-</part>
-<part name="C5" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100p 25V">
-<attribute name="VOLTAGE" value="25.0 V"/>
-</part>
-<part name="GND2" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R11" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="GND3" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R12" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="C7" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="IC26" library="04_DT_Integrated_Circuits" library_urn="urn:adsk.eagle:library:24365520" deviceset="BQ769X2" device="PFB" package3d_urn="urn:adsk.eagle:package:24366045/2"/>
-<part name="C10" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C11" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C12" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
+<part name="C166" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C167" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C168" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C169" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C170" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="D10" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:33515025/1" value="PMEG6010CEJ"/>
+<part name="R189" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="C173" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0805" package3d_urn="urn:adsk.eagle:package:33515237/1" technology="-1U" value="1u 25V"/>
+<part name="C175" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R190" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R191" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R192" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="LVT12" device="R0050FER" package3d_urn="urn:adsk.eagle:package:33515227/1" value="LVT12R0050FER"/>
+<part name="GND32" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="C177" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0805" package3d_urn="urn:adsk.eagle:package:33515237/1" technology="-22U" value="22u 10V"/>
+<part name="GND108" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND56" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R217" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="GND110" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R218" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="R227" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="R228" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="GND123" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R229" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R232" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="X8" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:33514335/1"/>
+<part name="X11" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:33514335/1"/>
+<part name="X10" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:33514335/1"/>
+<part name="X9" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:33514335/1"/>
+<part name="X7" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="WIREPAD_0.8X6.5MM" device="" package3d_urn="urn:adsk.eagle:package:33514335/1"/>
+<part name="P+8" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+VBAT" device=""/>
+<part name="GND60" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="TP1" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP2" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP3" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP4" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP5" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="R51" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R52" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R53" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R58" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R95" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R96" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="+3V10" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="R97" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="R98" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="X1" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="MUSBR-M5C1" device="-M0" package3d_urn="urn:adsk.eagle:package:33514403/1" value="MUSBR-M5C1-M0"/>
+<part name="GND9" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND62" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND63" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND64" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND65" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="C234" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100P" value="100p 50V"/>
+<part name="C235" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100P" value="100p 50V"/>
+<part name="GND147" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="C282" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100P" value="100p 50V"/>
+<part name="C283" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100P" value="100p 50V"/>
+<part name="GND100" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R322" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R337" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="TP7" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="GND5" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="TP8" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP9" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP10" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP11" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP17" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP18" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="GND6" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="C3" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C4" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R9" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-1K" value="1k"/>
+<part name="R99" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
+<part name="R1" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
+<part name="R2" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="C1" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="GND1" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="C2" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100P" value="100p 50V"/>
+<part name="C5" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100P" value="100p 50V"/>
+<part name="GND2" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R11" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="GND3" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R12" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="C7" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="IC26" library="04_TFH_Integrated_Circuits" library_urn="urn:adsk.eagle:library:33515332" deviceset="BQ769X2" device="PFB" package3d_urn="urn:adsk.eagle:package:33516358/1" value="BQ769X2PFB"/>
+<part name="C10" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C11" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C12" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
 <part name="GND157" library="supply1@1" deviceset="GND" device=""/>
-<part name="Q1" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="TSX-3225" device="" package3d_urn="urn:adsk.eagle:package:24370458/2" technology="_24.0000MF10Z-C"/>
-<part name="C102" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="27p 50V">
-<attribute name="DIELECTRIC" value="C0G/NP0"/>
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C103" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="27p 50V">
-<attribute name="DIELECTRIC" value="C0G/NP0"/>
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R296" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
+<part name="Q1" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="TSX-3225" device="" package3d_urn="urn:adsk.eagle:package:33515336/1" technology="_24.0000MF10Z-C" value="TSX-3225_24.0000MF10Z-C"/>
+<part name="C102" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-27P" value="27p 50V"/>
+<part name="C103" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-27P" value="27p 50V"/>
+<part name="R296" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="X6" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="TC2030-CTX" device="" package3d_urn="urn:adsk.eagle:package:24370039/2"/>
-<part name="X21" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="TC2030-CTX" device="" package3d_urn="urn:adsk.eagle:package:24370039/2"/>
-<part name="+3V4" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="R16" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="S1" library="05_DT_Electromechanic" library_urn="urn:adsk.eagle:library:25339718" deviceset="430451025836" device="" package3d_urn="urn:adsk.eagle:package:27086789/2"/>
-<part name="TP36" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP37" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP38" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="C29" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="GND8" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="X13" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="SSW-110-03-G-S-RA-LL" device="" package3d_urn="urn:adsk.eagle:package:30516241/2" value="n.m."/>
+<part name="X6" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="TC2030-CTX" device="" package3d_urn="urn:adsk.eagle:package:33514248/1"/>
+<part name="X21" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="TC2030-CTX" device="" package3d_urn="urn:adsk.eagle:package:33514248/1"/>
+<part name="+3V4" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="R16" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="S1" library="05_TFH_Electromechanic" library_urn="urn:adsk.eagle:library:33516758" deviceset="430451025836" device="" package3d_urn="urn:adsk.eagle:package:33516855/1" value="430451025836"/>
+<part name="TP36" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP37" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP38" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="C29" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="GND8" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="X13" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="SSW-110-03-G-S-RA-LL" device="" package3d_urn="urn:adsk.eagle:package:33514376/1" value="n.m."/>
 <part name="SHEET9" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
-<part name="SPACER1" library="05_DT_Electromechanic" library_urn="urn:adsk.eagle:library:25339718" deviceset="702916000" device="" package3d_urn="urn:adsk.eagle:package:30517229/2" value="n.m."/>
-<part name="SPACER2" library="05_DT_Electromechanic" library_urn="urn:adsk.eagle:library:25339718" deviceset="702916000" device="" package3d_urn="urn:adsk.eagle:package:30517229/2" value="n.m."/>
-<part name="GND16" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="IC1" library="04_DT_Integrated_Circuits" library_urn="urn:adsk.eagle:library:24365520" deviceset="BQ2947" device="DSG" package3d_urn="urn:adsk.eagle:package:24366054/2" technology="00"/>
-<part name="C37" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R15" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="1k"/>
-<part name="R17" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="1k"/>
-<part name="C42" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R20" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="1k"/>
-<part name="C45" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R21" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="1k"/>
-<part name="C46" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C49" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R25" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="C56" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="F1" library="01_DT_Fuses" library_urn="urn:adsk.eagle:library:24371617" deviceset="0680L" device="" package3d_urn="urn:adsk.eagle:package:30535716/2" technology="9100-0"/>
-<part name="F2" library="01_DT_Fuses" library_urn="urn:adsk.eagle:library:24371617" deviceset="SFJ-1412" device="" package3d_urn="urn:adsk.eagle:package:30539536/2"/>
-<part name="TP39" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="T11" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:24371480/2"/>
-<part name="C59" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R30" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="1k"/>
-<part name="R48" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="T12" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:24371480/2"/>
-<part name="C60" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R49" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="1k"/>
-<part name="R50" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="C61" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="T13" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="SISS06DN" device="" package3d_urn="urn:adsk.eagle:package:30540703/2"/>
-<part name="T14" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="SISS06DN" device="" package3d_urn="urn:adsk.eagle:package:30540703/2"/>
-<part name="D12" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="D2" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="D3" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="D9" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="D13" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="D14" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="D15" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="D16" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="D17" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="D18" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="X2" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="665102131822" device="" package3d_urn="urn:adsk.eagle:package:27358444/2"/>
-<part name="X14" library="00_DT_Connectors" library_urn="urn:adsk.eagle:library:24369824" deviceset="665102131822" device="" package3d_urn="urn:adsk.eagle:package:27358444/2"/>
-<part name="GND41" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="GND42" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="PTC1" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="PRF15BE103RB6RC" device="" package3d_urn="urn:adsk.eagle:package:24370448/2"/>
-<part name="T15" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:24371480/2"/>
-<part name="C62" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="GND44" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="R54" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="+3V5" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="R55" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="510k"/>
-<part name="+3V6" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="R59" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="R60" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="IC14" library="04_DT_Integrated_Circuits" library_urn="urn:adsk.eagle:library:24365520" deviceset="824001" device="" package3d_urn="urn:adsk.eagle:package:30126118/2"/>
-<part name="GND45" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="C63" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="+3V36" library="08_DT_Supply" deviceset="+3V3" device=""/>
-<part name="R61" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R62" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="C64" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="n.m.">
+<part name="SPACER1" library="05_TFH_Electromechanic" library_urn="urn:adsk.eagle:library:33516758" deviceset="702916000" device="" package3d_urn="urn:adsk.eagle:package:33516847/1" value="n.m."/>
+<part name="SPACER2" library="05_TFH_Electromechanic" library_urn="urn:adsk.eagle:library:33516758" deviceset="702916000" device="" package3d_urn="urn:adsk.eagle:package:33516847/1" value="n.m."/>
+<part name="GND16" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="IC1" library="04_TFH_Integrated_Circuits" library_urn="urn:adsk.eagle:library:33515332" deviceset="BQ2947" device="DSG" package3d_urn="urn:adsk.eagle:package:33516368/1" technology="03" value="BQ294703DSG"/>
+<part name="C37" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R15" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-1K" value="1k"/>
+<part name="R17" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-1K" value="1k"/>
+<part name="C42" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R20" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-1K" value="1k"/>
+<part name="C45" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R21" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-1K" value="1k"/>
+<part name="C46" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C49" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R25" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="C56" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="F1" library="01_TFH_Fuses" library_urn="urn:adsk.eagle:library:33514762" deviceset="0680L" device="" package3d_urn="urn:adsk.eagle:package:33514787/1" technology="9100-0" value="0680L9100-0"/>
+<part name="F2" library="01_TFH_Fuses" library_urn="urn:adsk.eagle:library:33514762" deviceset="SFJ-1412" device="" package3d_urn="urn:adsk.eagle:package:33514788/1" value="SFJ-1412"/>
+<part name="TP39" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="T11" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:33514986/1" value="PMV30ENEA"/>
+<part name="C59" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R30" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-1K" value="1k"/>
+<part name="R48" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="T12" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:33514986/1" value="PMV30ENEA"/>
+<part name="C60" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R49" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-1K" value="1k"/>
+<part name="R50" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="C61" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="T13" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="SISS06DN" device="" package3d_urn="urn:adsk.eagle:package:33515007/1" value="SISS06DN"/>
+<part name="T14" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="SISS06DN" device="" package3d_urn="urn:adsk.eagle:package:33515007/1" value="SISS06DN"/>
+<part name="D12" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="D2" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="D3" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="D9" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="D13" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="D14" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="D15" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="D16" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="D17" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="D18" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="X2" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="665102131822" device="" package3d_urn="urn:adsk.eagle:package:33514348/1" value="665102131822"/>
+<part name="X14" library="00_TFH_Connectors" library_urn="urn:adsk.eagle:library:33513932" deviceset="665102131822" device="" package3d_urn="urn:adsk.eagle:package:33514348/1" value="665102131822"/>
+<part name="GND41" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND42" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="PTC1" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="PRF15BE103RB6RC" device="" package3d_urn="urn:adsk.eagle:package:33515300/1" value="PRF15BE103RB6RC"/>
+<part name="T15" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:33514986/1" value="PMV30ENEA"/>
+<part name="C62" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="GND44" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R54" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="+3V5" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="R55" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-510K" value="510k"/>
+<part name="+3V6" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="R59" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="R60" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="IC14" library="04_TFH_Integrated_Circuits" library_urn="urn:adsk.eagle:library:33515332" deviceset="824001" device="" package3d_urn="urn:adsk.eagle:package:33516321/1" value="824001"/>
+<part name="GND45" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="C63" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="+3V36" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="R61" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R62" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="C64" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" value="n.m.">
 <attribute name="VOLTAGE" value="25.0 V"/>
 </part>
-<part name="GND49" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="C65" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="n.m.">
+<part name="GND49" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="C65" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" value="n.m.">
 <attribute name="VOLTAGE" value="25.0 V"/>
 </part>
-<part name="+3V8" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="+3V15" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="R63" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R64" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R65" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R66" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R70" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R71" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R72" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R73" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R74" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R75" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R76" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R77" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R78" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R100" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R101" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R102" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R103" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R104" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R105" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R106" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R107" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R108" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R109" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R110" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R111" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R112" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R113" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R114" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="330R"/>
-<part name="R115" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="R116" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="150R"/>
-<part name="C41" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R43" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="R79" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="R80" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="R81" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="T16" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:24371480/2"/>
-<part name="T17" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:24371480/2"/>
-<part name="R84" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="R85" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="GND19" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="GND43" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="R86" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="R87" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="R117" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R118" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="T4" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:24371480/2"/>
-<part name="R34" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="GND20" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="R46" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R47" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R57" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="T5" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:24371480/2"/>
-<part name="R88" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="GND50" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="T6" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:24371480/2"/>
-<part name="R89" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="GND51" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="D19" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:24371481/3"/>
-<part name="IC8" library="04_DT_Integrated_Circuits" library_urn="urn:adsk.eagle:library:24365520" deviceset="STM32G431C" device="" package3d_urn="urn:adsk.eagle:package:30595045/2" technology="BU6"/>
-<part name="C6" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="R90" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="TP40" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="D11" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="BAS70W-05" device="" package3d_urn="urn:adsk.eagle:package:24371463/2"/>
-<part name="R121" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R122" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R123" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10k"/>
-<part name="+3V16" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="+3V17" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="GND13" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="R124" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="R125" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="C16" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="D20" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:30548209/2"/>
-<part name="C14" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C50" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="100n 50V">
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C171" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:24370452/2" value="4u7 25V">
-<attribute name="VOLTAGE" value="25 V"/>
-</part>
-<part name="R126" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R127" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R128" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R129" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R130" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R131" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R132" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R133" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R134" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R135" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R136" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R137" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R138" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R139" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R140" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R141" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
-<part name="R142" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R143" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R144" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R145" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
+<part name="+3V8" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="+3V15" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="R63" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R64" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R65" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R66" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R70" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R71" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R72" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R73" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R74" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R75" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R76" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R77" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R78" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R100" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R101" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R102" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R103" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R104" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R105" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R106" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R107" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R108" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R109" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R110" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R111" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R112" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R113" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R114" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-330R" value="330R"/>
+<part name="R115" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="R116" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-150R" value="150R"/>
+<part name="C41" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R43" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="R79" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="R80" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="R81" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="T16" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:33514986/1" value="PMV30ENEA"/>
+<part name="T17" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:33514986/1" value="PMV30ENEA"/>
+<part name="R84" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="R85" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="GND19" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="GND43" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R86" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="R87" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="R117" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R118" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="T4" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:33514986/1" value="PMV30ENEA"/>
+<part name="R34" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="GND20" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R46" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R47" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R57" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="T5" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:33514986/1" value="PMV30ENEA"/>
+<part name="R88" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="GND50" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="T6" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMV30ENEA" device="" package3d_urn="urn:adsk.eagle:package:33514986/1" value="PMV30ENEA"/>
+<part name="R89" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="GND51" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="D19" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="PMEG6010CEJ" device="" package3d_urn="urn:adsk.eagle:package:33515025/1" value="PMEG6010CEJ"/>
+<part name="IC8" library="04_TFH_Integrated_Circuits" library_urn="urn:adsk.eagle:library:33515332" deviceset="STM32G431C" device="" package3d_urn="urn:adsk.eagle:package:33516469/1" technology="BU6" value="STM32G431CBU6"/>
+<part name="C6" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="R90" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="TP40" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="D11" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="BAS70W-05" device="" package3d_urn="urn:adsk.eagle:package:33514940/1" value="BAS70W-05"/>
+<part name="R121" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R122" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R123" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10K" value="10k"/>
+<part name="+3V16" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="+3V17" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="GND13" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="R124" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="R125" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="C16" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="D20" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="150044M155260" device="" package3d_urn="urn:adsk.eagle:package:33514967/1" value="150044M155260"/>
+<part name="C14" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C50" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-100N" value="100n 50V"/>
+<part name="C171" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C1210" package3d_urn="urn:adsk.eagle:package:33515217/1" technology="-4U7-25V" value="4u7 25V"/>
+<part name="R126" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R127" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R128" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R129" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R130" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R131" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R132" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R133" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R134" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R135" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R136" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R137" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R138" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R139" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R140" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R141" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
+<part name="R142" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R143" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R144" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R145" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
 <part name="GND14" library="supply1@1" deviceset="GND" device=""/>
-<part name="TP41" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP25" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP26" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP27" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP28" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP29" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP34" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP33" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP23" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP32" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP30" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP31" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="R176" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R177" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="R146" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
-<part name="TP35" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="R147" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="R148" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="0R"/>
-<part name="R149" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
-<part name="+3V18" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="+3V19" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="PS1" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:24370301/2"/>
-<part name="PS2" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:24370301/2"/>
-<part name="PS3" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:24370301/2"/>
-<part name="PS4" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:24370301/2"/>
-<part name="PS5" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:24370301/2"/>
-<part name="PS6" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:24370301/2"/>
-<part name="D4" library="02_DT_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:24371305" deviceset="SMA6J" device="A" package3d_urn="urn:adsk.eagle:package:24371482/2" technology="20"/>
-<part name="GND7" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="TP24" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="TP6" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
-<part name="IC5" library="04_DT_Integrated_Circuits" library_urn="urn:adsk.eagle:library:24365520" deviceset="TMP112" device="DRL" package3d_urn="urn:adsk.eagle:package:24366022/2" technology="NAI"/>
-<part name="GND15" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="TP42" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
+<part name="TP41" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP25" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP26" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP27" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP28" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP29" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP34" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP33" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP23" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP32" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP30" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP31" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="R176" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R177" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="R146" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
+<part name="TP35" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="R147" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="R148" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-0R" value="0R"/>
+<part name="R149" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
+<part name="+3V18" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="+3V19" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="PS1" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:33515805/1"/>
+<part name="PS2" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:33515805/1"/>
+<part name="PS3" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:33515805/1"/>
+<part name="PS4" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:33515805/1"/>
+<part name="PS5" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:33515805/1"/>
+<part name="PS6" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="PASSERMARKE" device="" package3d_urn="urn:adsk.eagle:package:33515805/1"/>
+<part name="D4" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="SMA6J" device="A" package3d_urn="urn:adsk.eagle:package:33514938/1" technology="20" value="SMA6J20A"/>
+<part name="GND7" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="TP24" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="TP6" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
+<part name="IC5" library="04_TFH_Integrated_Circuits" library_urn="urn:adsk.eagle:library:33515332" deviceset="TMP112" device="DRL" package3d_urn="urn:adsk.eagle:package:33516425/1" technology="NAI" value="TMP112NAIDRL"/>
+<part name="GND15" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="TP42" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
 <part name="T2" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="DMG1012UW-7" device="" package3d_urn="urn:adsk.eagle:package:33514940/1" value="DMG1012UW-7"/>
 <part name="T7" library="02_TFH_Discrete_Semiconductors" library_urn="urn:adsk.eagle:library:33514804" deviceset="DMG1012UW-7" device="" package3d_urn="urn:adsk.eagle:package:33514940/1" value="DMG1012UW-7"/>
-<part name="R3" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10R"/>
-<part name="GND23" library="08_DT_Supply" deviceset="GND" device=""/>
-<part name="+3V7" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="+3V3" device=""/>
-<part name="R8" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="100k"/>
-<part name="TP43" library="07_DT_Miscellaneous" library_urn="urn:adsk.eagle:library:24370246" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:24370295/2"/>
+<part name="R3" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10R" value="10R"/>
+<part name="GND23" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="+3V7" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="+3V3" device=""/>
+<part name="R8" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-100K" value="100k"/>
+<part name="TP43" library="07_TFH_Miscellaneous" library_urn="urn:adsk.eagle:library:33515500" deviceset="TESTPOINT_VIA_ROUND_0.8MM" device="" package3d_urn="urn:adsk.eagle:package:33515795/1"/>
 <part name="SHEET10" library="2014_blacbird_eagle_lbr" deviceset="FRAME_TFH" device=""/>
-<part name="GND12" library="08_DT_Supply" library_urn="urn:adsk.eagle:library:25408263" deviceset="GND" device=""/>
-<part name="Q2" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="ECS-.327-12.5-12R" device="" package3d_urn="urn:adsk.eagle:package:32146333/2"/>
-<part name="C295" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="27p 50V">
-<attribute name="DIELECTRIC" value="C0G/NP0"/>
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
-<part name="C296" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:24370455/2" value="27p 50V">
-<attribute name="DIELECTRIC" value="C0G/NP0"/>
-<attribute name="VOLTAGE" value="50.0 V"/>
-</part>
+<part name="GND12" library="08_TFH_Supply" library_urn="urn:adsk.eagle:library:33516923" deviceset="GND" device=""/>
+<part name="Q2" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="ECS-.327-12.5-12R" device="" package3d_urn="urn:adsk.eagle:package:33515338/1" value="ECS-.327-12.5-12R"/>
+<part name="C295" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-27P" value="27p 50V"/>
+<part name="C296" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="C-EU" device="-C0603" package3d_urn="urn:adsk.eagle:package:33515231/1" technology="-27P" value="27p 50V"/>
 <part name="GND333" library="supply1@1" deviceset="GND" device=""/>
 <part name="GND334" library="supply1@1" deviceset="GND" device=""/>
-<part name="R13" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
-<part name="R14" library="03_DT_Passive_Components" library_urn="urn:adsk.eagle:library:24370348" deviceset="R-EU" device="R0603" package3d_urn="urn:adsk.eagle:package:24370447/2" value="10M"/>
+<part name="R13" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
+<part name="R14" library="03_TFH_Passive_Components" library_urn="urn:adsk.eagle:library:33514896" deviceset="R-EU" device="-R0603" package3d_urn="urn:adsk.eagle:package:33515295/1" technology="-10M" value="10M"/>
 </parts>
 <sheets>
 <sheet>
@@ -6828,10 +10545,10 @@ Can be removed for testing</text>
 <wire x1="373.38" y1="721.36" x2="196.85" y2="721.36" width="0.1524" layer="94" style="longdash"/>
 <text x="533.4" y="40.64" size="1.778" layer="97">f_CLK = 1 ... 2850 kHz</text>
 <text x="533.4" y="38.1" size="1.778" layer="97">address: 1001000b</text>
-<text x="132.08" y="101.6" size="1.778" layer="97">hardware versions:
+<text x="127" y="93.98" size="1.778" layer="97">hardware versions:
 6.0: R125 = 0R; R124 = n.m.
-6.1: R125 = n.m.; R124 = 0R
-6.2: R125 = 10M; R124 = 10M</text>
+6.1 / 6.2: R125 = n.m.; R124 = 0R
+6.3: R125 = 10M; R124 = 10M</text>
 <text x="42.672" y="454.152" size="1.27" layer="163">wkup</text>
 <text x="7.62" y="1076.96" size="2.54" layer="97">Changelog 3/3</text>
 <text x="7.62" y="1071.88" size="1.778" layer="97" align="top-left">Changelog:
