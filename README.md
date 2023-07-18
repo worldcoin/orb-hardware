@@ -43,7 +43,7 @@ We will expand the scope of this repository as new products mature. We expect pr
 
 ### Tamper detection system not disclosed 
 
-For obvious reasons, these files do not including the PCBs and sensors related to the Orb's tamper detection system. 
+For obvious reasons, these files do not include the PCBs and sensors related to the Orb's tamper detection system. 
 
 ### Components pending licenses for disclosure
 
