@@ -12,7 +12,7 @@ If you see any issues with the design, we encourage you to create an issue to he
 
 The goal of the hardware team at Tools for Humanity is to provide products that on a high level meet the following requirements:
 
-* Validate humanness & create a unique code to verify uniqueness in a privacy perserving manner, as seamlessly as possible
+* Validate humanness & create a unique code to verify uniqueness in a privacy-preserving manner, as seamlessly as possible
 * Ready for mobile and outdoor use (think camera equipment)
 * Continuous mobile use throughout the day without significant downtime
 * Enable detection of internal attacks (physical manipulation of the device) and external fraud attempts (presentation attacks) by using additional sensors that are not needed for the calculation of the unique code
