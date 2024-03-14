@@ -21,7 +21,7 @@ You can download the .stp-files [here](mechanics/download.sh).
 Preview STP-File:
 
 <p align="center">
-    <img src="Pearl_Orb_front_side_view.png" width="700" >
+    <img src="Pearl_Orb_front_side_view.png" width="600" >
 </p>
 
 ## Electronics
@@ -34,13 +34,13 @@ Block diagram electronics:
 Preview Mainboard:
 
 <p align="center">
-    <img src="Preview_Mainboard_Bot.png" width="700" >
+    <img src="MainboardTop.png" width="500" >
 </p>
 
 Preview Frontunit:
 
 <p align="center">
-    <img src="Preview_Frontunit_Top.png" width="700" >
+    <img src="FrontUnitTop.png" width="500" >
 </p>
 
 ## Bill of material structure
