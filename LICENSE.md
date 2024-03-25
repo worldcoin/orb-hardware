@@ -38,7 +38,7 @@ This License does not grant the right to, and you must not, use the Licensed Mat
 
 2. for mass surveillance of individuals or for unlawful individual surveillance or other unlawful targeted actions, including on the basis on race, gender, sexual orientation, or religion; or
 
-3. in any activity or manner that violates, or supports, assists, facilitates, enables, constitutes or is otherwise deemed to be a violation of the Universal Declaration of Human Rights (https://www.un.org/en/universaldeclaration-human-rights/), the International Covenant on Civil and Political Rights (https://www.ohchr.org/en/professionalinterest/pages/ccpr.aspx), and the International Labor Organization Declaration on Fundamental Principles and Rights at Work (https://www.ilo.org/declaration/thedeclaration/textdeclaration/lang--en/index.htm), or any local laws implementing those instruments.
+3. in any activity or manner that violates, or supports, assists, facilitates, enables, constitutes or is otherwise deemed to be a violation of the Universal Declaration of Human Rights (https://www.un.org/en/universal-declaration-human-rights/), the International Covenant on Civil and Political Rights (https://www.ohchr.org/en/professionalinterest/pages/ccpr.aspx), and the International Labor Organization Declaration on Fundamental Principles and Rights at Work (https://www.ilo.org/declaration/thedeclaration/textdeclaration/lang--en/index.htm), or any local laws implementing those instruments.
 
 III. Removal of Restrictions in Section II.1.
 
