@@ -13,7 +13,7 @@ You can download the .stp-files [here](mechanics/download.sh).
 
 Preview STP-File:
 <p align="center">
-    <img src="Battery_back_side_view.png" width="500" >
+    <img src="Battery_back_side_view.png" width="550" >
 </p>
 
 ## Electronics
@@ -21,7 +21,7 @@ Preview STP-File:
 Preview battery circuit board:
 
 <p align="center">
-    <img src="Preview_BatteryPCB_top.png" width="700" >
+    <img src="BatteryPCB.png" width="550" >
 </p>
 
 ## Bill of material structure
