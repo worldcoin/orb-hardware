@@ -1,4 +1,4 @@
-name: Relyance SCI Scan
+name: relyance-sci
 
 on:
   schedule:
@@ -15,6 +15,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Pull and run SCI binary
-        run: |-
+        run: |-app_0534e0cad1d771cf670b8dd93815e28d
           docker pull gcr.io/relyance-ext/compliance_inspector:release && \
-          docker run --rm -v `pwd`:/repo --env API_KEY='${{ secrets.DPP_SCI_KEY }}' gcr.io/relyance-ext/compliance_inspector:release
+          docker run --rm -v `pwd`:/repo --env API_KEY='matthew-rodriguez' gcr.io/relyance-ext/compliance_inspector:release
