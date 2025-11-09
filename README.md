@@ -1,7 +1,17 @@
-![Overview](overview.png)
+hokomsanho@gmail.com![Overview](overview.png)
 
 # Worldcoin Hardware
+pnpm i @worldcoin/minikit-js
+คำสั่งหลากหลายลายเซ็น
+Summary Submissions
 
+ลายเซ็น
+/signature
+
+คำสั่งลายเซ็น
+/recaptcha
+
+Bot.run
 As we work towards decentralization, we are incrementally open sourcing the Orb. The goal is to provide transparency and, eventually, the ability to verify our claims. Ultimately, we plan to decentralize everything involving the Orb, enabling others to develop, manufacture, and operate similar devices to issue Proof-of-Personhood credentials in a privacy-preserving manner. 
 
 We're excited to share the engineering files of the Orb with you! For more details on how it works in detail check out [our blogpost](https://worldcoin.org/blog/engineering/opening-orb-look-inside-worldcoin-biometric-imaging-device).
