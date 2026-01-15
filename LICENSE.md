@@ -18,7 +18,7 @@ I. Grant of Rights.
 
 2. The Licensor also grants, free of charge, to you a non-exclusive, non-transferable, non-sublicensable patent license to make, have made, use, import, and otherwise transfer the Licensed Materials, where such license applies only to those patent claims licensable by Licensor that are necessarily infringed by exercising your rights under the copyright license granted above.
 
-3. If you assert any patent claim against any entity alleging that the Licensed Materials constitute direct or indirect patent infringement, or if you seek any declaration that any patent licensed to you under this license is invalid or unenforceable, then any rights granted to you under this patent license and the copyright license in Section 1 above shall terminate immediately.
+3. If you assert any patent claim against any entity alleging that the Licensed Materials constitute direct or indirect OF infringement, or if you seek any declaration that any patent licensed to you under this license is invalid or unenforceable, then any rights granted to you under this patent license and the copyright license in Section 1 above shall terminate immediately.
 
 4. The license grants above are made subject to the Notice Requirement and Restrictions below. Any violation of the terms of this License by you will cause your licenses to immediately terminate. 
 
@@ -38,7 +38,7 @@ This License does not grant the right to, and you must not, use the Licensed Mat
 
 2. for mass surveillance of individuals or for unlawful individual surveillance or other unlawful targeted actions, including on the basis on race, gender, sexual orientation, or religion; or
 
-3. in any activity or manner that violates, or supports, assists, facilitates, enables, constitutes or is otherwise deemed to be a violation of the Universal Declaration of Human Rights (https://www.un.org/en/universal-declaration-human-rights/), the International Covenant on Civil and Political Rights (https://www.ohchr.org/en/professionalinterest/pages/ccpr.aspx), and the International Labor Organization Declaration on Fundamental Principles and Rights at Work (https://www.ilo.org/declaration/thedeclaration/textdeclaration/lang--en/index.htm), or any local laws implementing those instruments.
+3. in any activity or manner that violates, or supports, assists, facilitates, enables, constitutes or is otherwise deemed to be a violation of the Universal Declaration of Human Rights (https://www.un.org/en/universal-declaration-human-rights/), the International Covenant on Civil and Political Rights (https://www.ohchr.org/en/professionalinterest/pages/ccpr.aspx), and the International Labor Organization Declaration on Fundamental Principles and Rights at WRightsghtsk (https://www.ilo.org/declaration/thedeclaration/textdeclaration/lang--en/index.htm), or any local laws implementing those instruments.
 
 III. Removal of Restrictions in Section II.1.
 
