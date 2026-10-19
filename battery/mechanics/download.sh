@@ -1,3 +1,3 @@
 #!/bin/bash
 
-wget https://worldcoin-orb-hardware-battery.s3.amazonaws.com/84-00008-H.1-0.STEP
+wget https://d1tdpm7q5a1rkt.cloudfront.net/84-00008-H.1-0.STEP
